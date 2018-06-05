@@ -1,14 +1,16 @@
 import os
 
 result_dir = '../save_model/'
-model_name = 'improve_neural_relation_detection_model'
-#model_name = 'single_side_word_by_word_attention_model'
-#model_name = 'yp_ABWIM_model'
+model_name = 'HR_BiLSTM'
+model_name = 'ABWIM'
 
 index = 0
 result_list = []
 
-save_model_dir = os.path.join(result_dir, model_name+f'_{index}')
+save_model_files = os.listdir(result_dir)
+for model_dir_name in [x for x in save_model_files if x.startswith(model_name)]
+    save_model_dir = os.path.join(result_dir, model_dir_name)
+    with open()
 while os.path.exists(save_model_dir):
     with open(os.path.join(save_model_dir, 'log.txt')) as f, open(os.path.join(save_model_dir, 'args.txt')) as f_args:
         args_txt = f_args.readline()

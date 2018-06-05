@@ -34,8 +34,9 @@ def make_rela2id(data_path, output_path):
 if __name__ == '__main__':
     make_word2id_from_w2v(300, '/corpus/glove/pretrained_vector/english/glove.6B.300d.txt', 
             '../data/glove.300d.word2id.json', '../data/glove.300d.word_emb.npy')
-    make_word2id_from_w2v(50, '/corpus/glove/pretrained_vector/english/glove.6B.50d.txt', 
-            '../data/glove.50d.word2id.json', '../data/glove.50d.word_emb.npy')
-    make_rela2id('../data/SQ/train_data.txt', '../data/SQ/rela2id.json')
-    make_rela2id('../data/WQ/main_exp/train_data.txt', '../data/WQ/main_exp/rela2id.json')
+    #make_word2id_from_w2v(50, '/corpus/glove/pretrained_vector/english/glove.6B.50d.txt', 
+    #        '../data/glove.50d.word2id.json', '../data/glove.50d.word_emb.npy')
+    #make_rela2id('../data/SQ/train_data.txt', '../data/SQ/rela2id.json')
+    #make_rela2id('../data/WQ/main_exp/train_data.txt', '../data/WQ/main_exp/rela2id.json')
+    #make_rela2id('../data/WQ/train1test2_exp/train_data.txt', '../data/WQ/train1test2_exp/rela2id.json')
 

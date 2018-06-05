@@ -27,7 +27,7 @@ parser.add_argument('--train_step_1_only', action='store', type=bool, default=Fa
 parser.add_argument('--train_rela_choose_only', action='store', type=bool, default=False)
 parser.add_argument('--show_result', action='store', type=bool, default=False)
 parser.add_argument('--train_embedding', action='store', type=bool, default=False)
-parser.add_argument('--dataset', action='store', type=str) #sq, wq
+parser.add_argument('--dataset', action='store', type=str) #sq, wq, wq_train1_test2
 
 args = parser.parse_args()
 print(f'args: {args}')
@@ -42,6 +42,9 @@ if args.dataset == 'wq' or args.dataset == 'WQ':
         rela2id =json.load(f)
 elif args.dataset == 'sq' or args.dataset == 'SQ':
     with open('../data/SQ/rela2id.json', 'r') as f:
+        rela2id =json.load(f)
+elif args.dataset.lower() == 'wq_train1test2':
+    with open('../data/WQ/train1test2_exp/rela2id.json', 'r') as f:
         rela2id =json.load(f)
 else:
     raise ValueError('Unknown dataset.')
@@ -59,7 +62,8 @@ uhop = UHop(args, word2id, rela2id)
 model = Model(args).cuda()
 if args.train == True:
     uhop.train(model)
-    uhop.eval(model=None, mode='test', dataset=None)
+    model, loss, acc = uhop.eval(model=None, mode='test', dataset=None)
+    utility.save_model_with_result(model, loss, acc, args.path)
 if args.test == True:
     uhop.eval(model=None, mode='test', dataset=None)
 

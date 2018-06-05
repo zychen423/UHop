@@ -2,12 +2,13 @@ import torch
 import torch.nn as nn
 import numpy
 import math
-from data_utility import PerQuestionDataset, random_split
+from data_utility import PerQuestionDataset, random_split, quick_collate
 from torch.utils.data import DataLoader 
 import torch.nn as nn
 from torch.optim import lr_scheduler
 from utility import save_model, load_model 
 import random
+from datetime import datetime
 
 class UHop():
     def __init__(self, args, word2id, rela2id):
@@ -49,9 +50,9 @@ class UHop():
         if len(pos_tuples) > 1:
             print('mutiple positive tuples!')
         if len(neg_tuples) > self.args.neg_sample:
-            neg_tuples = neg_tuples[:self.args.neg_samples]
-        pos_rela, pos_rela_text, _, _, _ = zip(*pos_tuples) # those are states
-        neg_rela, neg_rela_text, _, _, _ = zip(*neg_tuples)
+            neg_tuples = neg_tuples[:self.args.neg_sample]
+        pos_rela, pos_rela_text, _ = zip(*pos_tuples)
+        neg_rela, neg_rela_text, _ = zip(*neg_tuples)
         maxlen = max([len(x) for x in pos_rela+neg_rela])
         pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
         neg_rela = self._padding(neg_rela, maxlen, 'prepend', self.rela2id['PADDING'])
@@ -83,9 +84,9 @@ class UHop():
         if len(pos_tuples) > 1:
             print('mutiple positive tuples!')
         if len(neg_tuples) > self.args.neg_sample:
-            neg_tuples = neg_tuples[:self.args.neg_samples]
-        pos_rela, pos_rela_text, _, _, _ = zip(*pos_tuples)
-        neg_rela, neg_rela_text, _, _, _ = zip(*neg_tuples)
+            neg_tuples = neg_tuples[:self.args.neg_sample]
+        pos_rela, pos_rela_text, _ = zip(*pos_tuples)
+        neg_rela, neg_rela_text, _ = zip(*neg_tuples)
         maxlen = max([len(x) for x in pos_rela+neg_rela])
         pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
         neg_rela = self._padding(neg_rela, maxlen, 'prepend', self.rela2id['PADDING'])
@@ -108,12 +109,13 @@ class UHop():
         train 1 batch / question
         '''
         dataset = PerQuestionDataset(self.args, 'train', self.word2id, self.rela2id)
-        if self.args.dataset.lower() == 'wq':
+        if self.args.dataset.lower() == 'wq' or self.args.dataset.lower() == 'wq_train1test2':
             train_dataset, valid_dataset = random_split(dataset, 0.9, 0.1)
         else:
             train_dataset = dataset
             valid_dataset = PerQuestionDataset(self.args, 'valid', self.word2id, self.rela2id)
-        datas = DataLoader(dataset=train_dataset, batch_size=1, shuffle=True, num_workers=0, pin_memory=False)
+        datas = DataLoader(dataset=train_dataset, batch_size=1, shuffle=True, num_workers=0, 
+                pin_memory=False, collate_fn=quick_collate)
         optimizer = self.get_optimizer(model)
         earlystop_counter, min_valid_metric = 0, 100
         for epoch in range(0, self.args.epoch_num):
@@ -156,7 +158,7 @@ class UHop():
                 total_td_acc += acc; td_count += 1
                 acc = 1 if all([x == 1 for x in acc_list]) else 0
                 total_acc += acc; acc_count += 1
-                print(f'\rEpoch {epoch}/{self.args.epoch_num} {trained_num}/{len(datas)} Loss:{total_loss/loss_count:.4f} Acc:{total_acc/acc_count:.4f} RC Acc:{total_rc_acc/rc_count:.4f} TD Acc:{total_td_acc/td_count:.4f}', end='')
+                print(f'\r{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Epoch {epoch} {trained_num}/{len(datas)} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f} RC_Acc:{total_rc_acc/rc_count:.2f} TD_Acc:{total_td_acc/td_count:.2f}', end='')
             _, valid_loss, valid_acc = self.eval(model, 'valid', valid_dataset)
             if valid_loss < min_valid_metric:
                 min_valid_metric = valid_loss
@@ -181,7 +183,8 @@ class UHop():
         model = model.eval().cuda()
         if dataset == None:
             dataset = PerQuestionDataset(self.args, mode, self.word2id, self.rela2id)
-        datas = DataLoader(dataset=dataset, batch_size=1, shuffle=False, num_workers=0, pin_memory=False)
+        datas = DataLoader(dataset=dataset, batch_size=1, shuffle=False, num_workers=0, 
+                pin_memory=False, collate_fn=quick_collate)
         total_loss, total_acc, total_rc_acc, total_td_acc = 0.0, 0.0, 0.0, 0.0
         loss_count, acc_count, rc_count, td_count = 0, 0, 0, 0
         for num, (_, ques, step_list) in enumerate(datas):
@@ -215,6 +218,6 @@ class UHop():
             total_td_acc += acc; td_count += 1
             acc = 1 if all(acc_list) else 0
             total_acc += acc; acc_count += 1
-        print(f' Eval {num}/{len(datas)} Loss:{total_loss/loss_count:.4f} Acc:{total_acc/acc_count:.4f} RC Acc:{total_rc_acc/rc_count:.4f} TD Acc:{total_td_acc/td_count:.4f}', end='')
+        print(f' Eval {num} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f} RC_Acc:{total_rc_acc/rc_count:.2f} TD_Acc:{total_td_acc/td_count:.2f}', end='')
         print('')
         return model, total_loss / loss_count, total_acc / acc_count

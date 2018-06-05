@@ -16,6 +16,11 @@ def save_model(model, path):
     torch.save(model.state_dict(), path)
     print(f'save model at {path}')
 
+def save_model_with_result(model, loss, acc, path):
+    path = os.path.join(path, f'model_{loss:.4f}_{acc:.4f}.pth')
+    torch.save(model.state_dict(), path)
+    print(f'save model at {path}')
+
 def load_model(model, path):
     path = os.path.join(path, 'model.pth')
     print(f'load model from: {path}')

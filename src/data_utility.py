@@ -12,10 +12,13 @@ import numpy as np
 
 PATH = {}
 PATH['wq'] = '../data/WQ/main_exp'
+PATH['wq_train1test2'] = '../data/WQ/train1test2_exp'
 PATH['sq'] = '../data/SQ'
 
 from itertools import accumulate
 
+def quick_collate(batch):
+    return batch[0]
 
 def random_split(dataset, train_p, valid_p):
     random.shuffle(dataset.data_objs)
@@ -49,18 +52,9 @@ class PerQuestionDataset(Dataset):
         for step in step_list:
             new_step = []
             for t in step:
-                if len(t[1]) == 0:
-                    new_step.append((self._numericalize_str(t[0], rela2id, ['.']), 
-                            self._numericalize_str(t[0], word2id, ['.', '_']), 
-                            [], 
-                            [], 
-                            t[2]))
-                else:
-                    new_step.append((self._numericalize_str(t[0], rela2id, ['.']), 
-                            self._numericalize_str(t[0], word2id, ['.', '_']), 
-                            reduce(lambda x, y: x + y, [self._numericalize_str(x, rela2id, ['.']) for x in t[1]]), 
-                            reduce(lambda x, y: x + y, [self._numericalize_str(x, word2id, ['.', '_']) for x in t[1]]), 
-                            t[2]))
+                new_step.append((self._numericalize_str(t[0], rela2id, ['.']), 
+                        self._numericalize_str(t[0], word2id, ['.', '_']), 
+                        t[2]))
             new_step_list.append(new_step)
         return index, ques, new_step_list
     def _numericalize_str(self, string, map2id, dilemeter):
@@ -75,23 +69,6 @@ class PerQuestionDataset(Dataset):
     def __getitem__(self, index):
         return self.data_objs[index]
 
-def load_train_data():
-    with open(train_pkl_path, 'rb') as f:
-        data_list = pickle.load(f)
-    return data_list
-def load_test_data():
-    with open(test_pkl_path, 'rb') as f:
-        data_list = pickle.load(f)
-    return data_list
-
-def load_train1test2_test_data():
-    with open(train1test2_test_pkl_path, 'rb') as f:
-        data_list = pickle.load(f)
-    return data_list
-def load_train1test2_train_data():
-    with open(train1test2_train_pkl_path, 'rb') as f:
-        data_list = pickle.load(f)
-    return data_list
 
 if __name__ == '__main__':
     with open('../data/WQ/main_exp/rela2id.json', 'r') as f:
