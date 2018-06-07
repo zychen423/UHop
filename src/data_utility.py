@@ -48,6 +48,8 @@ class PerQuestionDataset(Dataset):
     def _numericalize(self, data, word2id, rela2id):
         index, ques, step_list = data[0], data[1], data[2]
         ques = self._numericalize_str(ques, word2id, [' '])
+        if len(ques) < 5:
+            ques = [word2id['PADDING']] * (5-len(ques)) + ques
         new_step_list = []
         for step in step_list:
             new_step = []

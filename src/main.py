@@ -17,6 +17,7 @@ parser.add_argument('--emb_size', action='store', type=int)
 parser.add_argument('--path', action='store', type=str, default=None) # for test mode, specify model path
 parser.add_argument('--epoch_num', action='store', type=int, default=1000)
 parser.add_argument('--hidden_size', action='store', type=int, default=256)
+parser.add_argument('--num_filters', action='store', type=int, default=150)
 parser.add_argument('--neg_sample', action='store', type=int, default=2048)
 parser.add_argument('--dropout_rate', action='store', type=float, default=0.0)
 parser.add_argument('--learning_rate', action='store', type=float, default=0.0001)

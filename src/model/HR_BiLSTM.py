@@ -27,7 +27,8 @@ class Model(nn.Module):
         self.tanh = nn.Tanh()
         return
 
-    def forward(self, ques_x, rela_text_x, rela_x):
+    def forward(self, *inputs):
+        ques_x, rela_text_x, rela_x = inputs[0], inputs[1], inputs[2]
         ques_x = th.transpose(ques_x, 0, 1)
         rela_text_x = th.transpose(rela_text_x, 0, 1)
         rela_x = th.transpose(rela_x, 0, 1)
