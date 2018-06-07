@@ -1,6 +1,33 @@
 import torch
 import os
 
+def log_result(num, ques, relas, rela_texts, scores, acc, path, word2id, rela2id):
+    id2word = {v: k for k, v in word2id.items()}
+    id2rela = {v: k for k, v in rela2id.items()}
+    with open(os.path.join(path, 'error.log'), 'a') as f:
+        f.write(f'\n{num} ==============================\n')
+        q = [id2word[x] for x in ques[0].data.cpu().numpy()]
+        f.write(' '.join(q)+'\n') 
+        f.write('Correct:\n')
+        t = [id2word[x] for x in rela_texts[0].data.cpu().numpy()]
+        f.write(' '.join(t)+'\n') 
+        r = [id2rela[x] for x in relas[0].data.cpu().numpy()]
+        f.write(' '.join(r)+'\n') 
+        c_s = scores[0]
+        f.write(str(c_s.data.cpu().numpy())+'\n') 
+        if acc == 1:
+            f.write('Result:Correct!\n')
+        else:
+            f.write('Result:Incorrect! ====================\n\n')
+            for q, r, t, s in zip(ques[1:], relas[1:], rela_texts[1:], scores[1:]):
+                if s > c_s:
+                    t = [id2word[x] for x in t.data.cpu().numpy()]
+                    f.write(' '.join(t)+'\n') 
+                    r = [id2rela[x] for x in r.data.cpu().numpy()]
+                    f.write(' '.join(r)+'\n') 
+                    f.write(str(s.data.cpu().numpy())+'\n') 
+        f.write('\n====================================\n')
+
 def find_save_dir(model_name):
     counter = 0
     save_dir = f'../save_model/{model_name}_{counter}'
