@@ -10,6 +10,10 @@ from utility import save_model, load_model
 import random
 from datetime import datetime
 
+total_rank = 0
+rank_count = 0
+total_all = 0
+
 class UHop():
     def __init__(self, args, word2id, rela2id):
         self.loss_function = nn.MarginRankingLoss(margin=args.margin)
@@ -51,13 +55,16 @@ class UHop():
             print('mutiple positive tuples!')
         if len(neg_tuples) > self.args.neg_sample:
             neg_tuples = neg_tuples[:self.args.neg_sample]
+        #print(pos_tuples)
         pos_rela, pos_rela_text, _ = zip(*pos_tuples)
         neg_rela, neg_rela_text, _ = zip(*neg_tuples)
         maxlen = max([len(x) for x in pos_rela+neg_rela])
         pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
+        #print(pos_rela)
         neg_rela = self._padding(neg_rela, maxlen, 'prepend', self.rela2id['PADDING'])
         maxlen = max([len(x) for x in pos_rela_text+neg_rela_text])
         pos_rela_text = self._padding(pos_rela_text, maxlen, 'prepend', self.word2id['PADDING'])
+        #print(pos_rela_text)
         neg_rela_text = self._padding(neg_rela_text, maxlen, 'prepend', self.word2id['PADDING'])
         ques = torch.LongTensor([ques]*(len(pos_rela)+len(neg_rela))).cuda()
         relas = torch.LongTensor(pos_rela+neg_rela).cuda()
@@ -68,6 +75,23 @@ class UHop():
         ones = torch.ones(len(neg_scores)).cuda()
         loss = self.loss_function(pos_scores, neg_scores, ones)
         acc = 1 if all([x > y for x, y in zip(pos_scores, neg_scores)]) else 0
+        '''
+        scores = scores.data.cpu().numpy()
+        pos_score = scores[0]
+        print('pos', pos_score)
+        scores = sorted(scores, reverse=True)
+        print(scores)
+        rank = scores.index(pos_score) + 1
+        global total_rank
+        global rank_count
+        global total_all
+        total_rank += rank
+        total_all += len(scores)
+        rank_count += 1
+        print('average_rank', total_rank / rank_count)
+        print('average_all', total_all / rank_count)
+        input()
+        '''
         return loss, acc
 
     def _termination_decision(self, model, ques, tuples, next_tuples, movement):
@@ -97,6 +121,15 @@ class UHop():
         relas = torch.LongTensor(pos_rela+neg_rela).cuda()
         rela_texts = torch.LongTensor(pos_rela_text+neg_rela_text).cuda()
         scores = model(ques, rela_texts, relas)
+        '''
+        for q, r, t, s in zip(ques, relas, rela_texts, scores):
+            print()
+            print('q', q.data.cpu().numpy())
+            print('r', r.data.cpu().numpy())
+            print('t', t.data.cpu().numpy()) 
+            print('s', s.data.cpu().numpy())
+        input()
+        '''
         pos_scores = scores[0].repeat(len(scores)-1)
         neg_scores = scores[1:]
         ones = torch.ones(len(neg_scores)).cuda()
@@ -114,7 +147,7 @@ class UHop():
         else:
             train_dataset = dataset
             valid_dataset = PerQuestionDataset(self.args, 'valid', self.word2id, self.rela2id)
-        datas = DataLoader(dataset=train_dataset, batch_size=1, shuffle=True, num_workers=0, 
+        datas = DataLoader(dataset=train_dataset, batch_size=1, shuffle=True, num_workers=12, 
                 pin_memory=False, collate_fn=quick_collate)
         optimizer = self.get_optimizer(model)
         earlystop_counter, min_valid_metric = 0, 100
@@ -183,7 +216,7 @@ class UHop():
         model = model.eval().cuda()
         if dataset == None:
             dataset = PerQuestionDataset(self.args, mode, self.word2id, self.rela2id)
-        datas = DataLoader(dataset=dataset, batch_size=1, shuffle=False, num_workers=0, 
+        datas = DataLoader(dataset=dataset, batch_size=1, shuffle=False, num_workers=12, 
                 pin_memory=False, collate_fn=quick_collate)
         total_loss, total_acc, total_rc_acc, total_td_acc = 0.0, 0.0, 0.0, 0.0
         loss_count, acc_count, rc_count, td_count = 0, 0, 0, 0

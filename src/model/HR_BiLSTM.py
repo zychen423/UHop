@@ -33,7 +33,10 @@ class Model(nn.Module):
         rela_text_x = th.transpose(rela_text_x, 0, 1)
         rela_x = th.transpose(rela_x, 0, 1)
 
-
+       
+        #print(ques_x)
+        #print(rela_text_x)
+        #print(rela_x)
         ques_x = self.word_embedding(ques_x)
         rela_text_x = self.word_embedding(rela_text_x)
         rela_x = self.rela_embedding(rela_x)

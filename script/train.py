@@ -1,28 +1,32 @@
 from sklearn.model_selection import ParameterGrid
 import subprocess
+import os
 
 param_dict = {
-        #'--model': ['improve_neural_relation_detection_model'], 
-        '--model': ['yp_ABWIM_model'], 
-        '--train': [True],  
-        '--epoch_num': [1000], 
-        '--emb_size': [300], 
-        '--hidden_size': [128], 
-        '--num_layers': [1], 
-        '--bidirectional': [True], 
-        '--dropout_rate': [0.3, 0.35], 
-        '--learning_rate': [0.00001, 0.000005, 0.000001], 
-        '--optimizer': ['rmsprop'], 
-        '--sample_num': [1024], 
-        '--weight_decay': [0], 
-        '--margin': [0.1], 
+        # Traing Setting:
+        '--model': ['ABWIM'], 
+        '--dataset': ['wq'], 
+        '--framework': ['UHop'], 
+        '--train': [' '],  
+        #'--train1test2': [True],
         '--stop_when_err': [True],  
         '--earlystop_tolerance': [20], 
+        
+        # HyperParameter:
+        '--epoch_num': [1000], 
+        '--emb_size': [300], 
+        '--hidden_size': [100, 150], 
+        '--dropout_rate': [0.0, 0.2, 0.4], 
+        '--learning_rate': [0.1], 
+        '--optimizer': ['adadelta'], 
+        '--neg_sample': [1024], 
+        '--l2_norm': [0.0, 0.00000001, 0.000000001], 
+        '--margin': [0.1, 0.3, 0.5, 0.7, 1.0], 
         #'--train_embedding': [True], 
-        #'--train1test2': [True],
         }
 
-process_str = 'python3.6 TBRE.py'
+os.chdir('../src/')
+process_str = 'python3.6 main.py'
 
 ################################ NEED TO CONFIGURE ABOVE ####################################################
 

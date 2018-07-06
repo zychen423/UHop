@@ -54,17 +54,19 @@ class PerQuestionDataset(Dataset):
         for step in step_list:
             new_step = []
             for t in step:
-                new_step.append((self._numericalize_str(t[0], rela2id, ['.']), 
-                        self._numericalize_str(t[0], word2id, ['.', '_']), 
-                        t[2]))
+                num_rela = self._numericalize_str(t[0], rela2id, ['.'])
+                num_rela_text = self._numericalize_str(t[0], word2id, ['.', '_'])
+                new_step.append((num_rela, num_rela_text, t[2]))
             new_step_list.append(new_step)
         return index, ques, new_step_list
     def _numericalize_str(self, string, map2id, dilemeter):
+        #print('original str:', string)
         if len(dilemeter) == 2:
             string = string.replace(dilemeter[1], dilemeter[0])
         dilemeter = dilemeter[0]
         tokens = string.strip().split(dilemeter)
         tokens = [map2id[x] if x in map2id else map2id['<unk>'] for x in tokens]
+        #print('tokens:', tokens)
         return tokens
     def __len__(self):
         return len(self.data_objs)

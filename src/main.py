@@ -1,4 +1,5 @@
 import argparse
+import os
 from UHop import UHop
 from Baseline import Baseline
 import utility
@@ -23,7 +24,7 @@ parser.add_argument('--dropout_rate', action='store', type=float, default=0.0)
 parser.add_argument('--learning_rate', action='store', type=float, default=0.0001)
 parser.add_argument('--optimizer', action='store', type=str, default='adam')
 parser.add_argument('--l2_norm', action='store', type=float, default=0.0)
-parser.add_argument('--earlystop_tolerance', action='store', type=int, default=20)
+parser.add_argument('--earlystop_tolerance', action='store', type=int, default=10)
 parser.add_argument('--margin', action='store', type=float, default=0.5)
 parser.add_argument('--stop_when_err', action='store', type=bool, default=False)
 parser.add_argument('--train_step_1_only', action='store', type=bool, default=False)
@@ -38,10 +39,12 @@ print(f'args: {args}')
 
 import_model_str = 'from model.{} import Model as Model'.format(args.model)
 exec(import_model_str)
-args.Model = Model
 if args.train == True:
     args.path = utility.find_save_dir(args.model) if args.path == None else args.path
+with open(os.path.join(args.path, 'args.txt'), 'w') as f:
+    json.dump(vars(args), f, indent=4, ensure_ascii=False)
 
+args.Model = Model
 if args.framework == 'baseline':
     if args.dataset.lower() == 'wq':
         with open('../data/baseline/KBQA_RE_data/webqsp_relations/rela2id.json', 'r') as f:
@@ -68,6 +71,9 @@ elif args.framework == 'UHop':
     else:
         raise ValueError('Unknown dataset.')
 
+#print(rela2id)
+#print(rela2id['scientist'])
+#exit()
 word2id_path = '../data/glove.300d.word2id.json' if args.emb_size == 300 else '../data/glove.50d.word2id.json' 
 word_emb_path = '../data/glove.300d.word_emb.npy' if args.emb_size == 300 else '../data/glove.50d.word_emb.npy'
 with open(word2id_path, 'r') as f:
