@@ -16,9 +16,13 @@ class PQ_Parser():
         for idx, data in enumerate(raw_data):
             path = data[2].split('#<end>')[0].split('#')
             steplist = []
+            prev_step = []
             for i in range(0,hop_num*2,2):
                 relas = list(set([k[1] for k in kb if k[0] == path[i]]))
-                steplist.append([[self._format(rela),[],int(len(path)>i+1 and rela==path[i+1])] for rela in relas])
+                cands = [[self._format(rela), prev_step[:], int(len(path)>i+1 and rela==path[i+1])] for rela in relas]
+                steplist.append(cands)
+                if len(path)>i+1:
+                    prev_step.append(self._format(path[i+1]))
 #                for k in kb:
 #                    if k[0] == path[i]:
 #                        step = [self._format(k[1]), [], int(len(path)>i+1 and k[1]==path[i+1])]
@@ -93,31 +97,31 @@ def main():
     print('dumping PQ2...')
     pq_2h = PQ_Parser('PQ-2H.txt', '2H-kb.txt', 3)
     print(pq_2h.count_candidate())
-    #pq_2h.dump('PQ2')
-    #pq_2h.dump2('PQ', 'train')
+    pq_2h.dump('PQ2')
+    pq_2h.dump2('PQ', 'train')
     print('dumping PQ3...')
     pq_3h = PQ_Parser('PQ-3H.txt', '3H-kb.txt', 4)
     print(pq_3h.count_candidate())
-    #pq_3h.dump('PQ3')
-    #pq_3h.dump2('PQ', 'test')
+    pq_3h.dump('PQ3')
+    pq_3h.dump2('PQ', 'test')
     print(len(list(set(pq_2h.all_rela()+pq_3h.all_rela()))))
     print(len(list(set(pq_2h.count_rela()+pq_3h.count_rela()))))
-    #pq_2h.merge(pq_3h)
-    #pq_2h.dump('PQ1')
+    pq_2h.merge(pq_3h)
+    pq_2h.dump('PQ1')
     print('dumping PQL2...')
     pql_2h = PQ_Parser('PQL-2H.txt', 'PQL2-KB.txt', 3)
     print(pql_2h.count_candidate())
-    #pql_2h.dump('PQL2')
-    #pql_2h.dump2('PQL', 'train')
+    pql_2h.dump('PQL2')
+    pql_2h.dump2('PQL', 'train')
     print('dumping PQL3...')
     pql_3hm = PQ_Parser('PQL-3H_more.txt', 'PQL3-KB.txt', 4)
     print(pql_3hm.count_candidate())
-    #pql_3hm.dump('PQL3m')
-    #pql_3hm.dump2('PQL', 'test')
+    pql_3hm.dump('PQL3m')
+    pql_3hm.dump2('PQL', 'test')
     print(len(list(set(pql_2h.all_rela()+pql_3hm.all_rela()))))
     print(len(list(set(pql_2h.count_rela()+pql_3hm.count_rela()))))
-    #pql_2h.merge(pql_3hm)
-    #pql_2h.dump('PQL1')
+    pql_2h.merge(pql_3hm)
+    pql_2h.dump('PQL1')
 
 if __name__ == "__main__":
     main()
