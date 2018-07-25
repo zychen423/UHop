@@ -66,6 +66,9 @@ class Baseline():
                 rela_texts = [ans[1]] + [x[1] for x in candidates]
                 maxlen = max([len(x) for x in rela_texts])
                 rela_texts = self._padding(rela_texts, maxlen, 'prepend', self.word2id['PADDING'])
+                # j'ai fait padding pour assurer la convolution marche
+                if len(ques)<5:
+                    ques = self._padding([ques], 5, 'prepend', self.word2id['PADDING'])[0]
                 ques = torch.LongTensor([ques]*len(relas)).cuda()
                 relas = torch.LongTensor(relas).cuda()
                 rela_texts = torch.LongTensor(rela_texts).cuda()
@@ -117,6 +120,9 @@ class Baseline():
             rela_texts = [ans[1]] + [x[1] for x in candidates]
             maxlen = max([len(x) for x in rela_texts])
             rela_texts = self._padding(rela_texts, maxlen, 'prepend', self.word2id['PADDING'])
+            # padding in order to achieve size of filter
+            if len(ques)<5:
+                ques = self._padding([ques], 5, 'prepend', self.word2id['PADDING'])[0]
             ques = torch.LongTensor([ques]*len(relas)).cuda()
             relas = torch.LongTensor(relas).cuda()
             rela_texts = torch.LongTensor(rela_texts).cuda()

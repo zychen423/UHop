@@ -4,8 +4,8 @@ import os
 
 param_dict = {
         # Traing Setting:
-        '--model': ['ABWIM'], 
-        '--dataset': ['wq'], 
+        '--model': ['HR_BiLSTM'], 
+        '--dataset': ['pq2'], 
         '--framework': ['UHop'], 
         '--train': [' '],  
         #'--train1test2': [True],
@@ -16,11 +16,11 @@ param_dict = {
         '--epoch_num': [1000], 
         '--emb_size': [300], 
         '--hidden_size': [100, 150], 
-        '--dropout_rate': [0.0, 0.2, 0.4], 
+        '--dropout_rate': [0.0, 0.3, 0.5],#0.2, 0.3, 0.4], 
         '--learning_rate': [0.1], 
-        '--optimizer': ['adadelta'], 
+        '--optimizer': ['rmsprop'], 
         '--neg_sample': [1024], 
-        '--l2_norm': [0.0, 0.00000001, 0.000000001], 
+        '--l2_norm': [0.0],#0.0, 0.00000001, 0.000000001], 
         '--margin': [0.1, 0.3, 0.5, 0.7, 1.0], 
         #'--train_embedding': [True], 
         }

@@ -68,6 +68,30 @@ elif args.framework == 'UHop':
     elif args.dataset.lower() == 'wq_train1test2':
         with open('../data/WQ/train1test2_exp/rela2id.json', 'r') as f:
             rela2id =json.load(f)
+    elif args.dataset.lower() == 'pq':
+        with open('../data/PQ/PQ/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pq1':
+        with open('../data/PQ/PQ1/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pq2':
+        with open('../data/PQ/PQ2/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pq3':
+        with open('../data/PQ/PQ3/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pql':
+        with open('../data/PQ/PQL/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pql1':
+        with open('../data/PQ/PQL1/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pql2':
+        with open('../data/PQ/PQL2/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
+    elif args.dataset.lower() == 'pql3':
+        with open('../data/PQ/PQL3m/rela2id.json', 'r') as f:
+            rela2id =json.load(f)
     else:
         raise ValueError('Unknown dataset.')
 
@@ -87,12 +111,12 @@ if args.framework == 'baseline':
 
 # Should introduce UHop here!
 if args.framework == 'UHop':
-    uhop = UHop(args, word2id, rela2id)
+    uhop = UHop(args, word2id, rela2id, args.dataset.lower())
     model = Model(args).cuda()
     if args.train == True:
         uhop.train(model)
-        model, loss, acc = uhop.eval(model=None, mode='test', dataset=None)
-        utility.save_model_with_result(model, loss, acc, args.path)
+        model, loss, acc, rc, td = uhop.eval(model=None, mode='test', dataset=None, path=args.path)
+        utility.save_model_with_result(model, loss, acc, rc, td, args.path)
     if args.test == True:
         uhop.eval(model=None, mode='test', dataset=None)
 elif args.framework == 'baseline':

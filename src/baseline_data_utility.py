@@ -38,8 +38,10 @@ class PerQuestionDataset(Dataset):
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')
                 anses, candidates, question = line.strip().split('\t')
-                candidates = [id2rela[int(x)] for x in candidates.split() if x not in anses.split()]
-                ques = question.replace('$ARG1', '').replace('$ARG2', '').replace('<e>', 'TOPIC_ENTITY').strip()
+                # modify because of 'noNegativeAnswer' in sq data
+                candidates = [id2rela[int(x)] for x in candidates.split() if x not in anses.split() and x!='noNegativeAnswer']
+                # modify for "#head_entity#" label in sq dataset
+                ques = question.replace('$ARG1', '').replace('$ARG2', '').replace('<e>', 'TOPIC_ENTITY').replace('#head_entity#', 'TOPIC_ENTITY').strip()
                 for ans in anses.split():
                     ans = id2rela[int(ans)]
                     data = self._numericalize((i, ques, ans, candidates), word2id, rela_token2id)

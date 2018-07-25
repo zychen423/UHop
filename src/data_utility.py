@@ -14,6 +14,14 @@ PATH = {}
 PATH['wq'] = '../data/WQ/main_exp'
 PATH['wq_train1test2'] = '../data/WQ/train1test2_exp'
 PATH['sq'] = '../data/SQ'
+PATH['pq'] = '../data/PQ/PQ'
+PATH['pq1'] = '../data/PQ/PQ1'
+PATH['pq2'] = '../data/PQ/PQ2'
+PATH['pq3'] = '../data/PQ/PQ3'
+PATH['pql'] = '../data/PQ/PQL'
+PATH['pql1'] = '../data/PQ/PQL1'
+PATH['pql2'] = '../data/PQ/PQL2'
+PATH['pql3'] = '../data/PQ/PQL3m'
 
 from itertools import accumulate
 

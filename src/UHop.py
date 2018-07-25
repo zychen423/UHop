@@ -15,11 +15,13 @@ rank_count = 0
 total_all = 0
 
 class UHop():
-    def __init__(self, args, word2id, rela2id):
+    def __init__(self, args, word2id, rela2id, score):
         self.loss_function = nn.MarginRankingLoss(margin=args.margin)
         self.args = args
         self.word2id = word2id
         self.rela2id = rela2id
+        self.id2rela = {v:k for k,v in rela2id.items()}
+        self.score = score
     def train_batch(self, model):
         '''
         Making batching, so cannot get acc/question
@@ -46,7 +48,7 @@ class UHop():
             new_lists.append(new_list)
         return new_lists
 
-    def _single_step_rela_choose(self, model, ques, tuples):
+    def _single_step_rela_choose(self, model, ques, tuples, path=False):
         pos_tuples = [t for t in tuples if t[-1] == 1]
         neg_tuples = [t for t in tuples if t[-1] == 0]
         if len(pos_tuples) == 0 or len(neg_tuples) == 0:
@@ -58,6 +60,7 @@ class UHop():
         #print(pos_tuples)
         pos_rela, pos_rela_text, _ = zip(*pos_tuples)
         neg_rela, neg_rela_text, _ = zip(*neg_tuples)
+        rev_rela = [[self.id2rela[r] for r in rela] for rela in pos_rela+neg_rela]
         maxlen = max([len(x) for x in pos_rela+neg_rela])
         pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
         #print(pos_rela)
@@ -70,6 +73,10 @@ class UHop():
         relas = torch.LongTensor(pos_rela+neg_rela).cuda()
         rela_texts = torch.LongTensor(pos_rela_text+neg_rela_text).cuda()
         scores = model(ques, rela_texts, relas)
+        if path:
+            rela_score=list(zip(scores.detach().cpu().numpy().tolist()[:], rev_rela[:]))
+            with open(path+'/rc_scores.txt', 'a+') as f:
+                f.write(str(rela_score)+'\n')
         pos_scores = scores[0].repeat(len(scores)-1)
         neg_scores = scores[1:]
         ones = torch.ones(len(neg_scores)).cuda()
@@ -94,7 +101,7 @@ class UHop():
         '''
         return loss, acc
 
-    def _termination_decision(self, model, ques, tuples, next_tuples, movement):
+    def _termination_decision(self, model, ques, tuples, next_tuples, movement, path=False):
         if movement == 'continue':
             pos_tuples = [t for t in next_tuples if t[-1] == 1]
             neg_tuples = [t for t in tuples if t[-1] == 1]
@@ -111,6 +118,7 @@ class UHop():
             neg_tuples = neg_tuples[:self.args.neg_sample]
         pos_rela, pos_rela_text, _ = zip(*pos_tuples)
         neg_rela, neg_rela_text, _ = zip(*neg_tuples)
+        rev_rela = [[self.id2rela[r] for r in rela] for rela in pos_rela+neg_rela]
         maxlen = max([len(x) for x in pos_rela+neg_rela])
         pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
         neg_rela = self._padding(neg_rela, maxlen, 'prepend', self.rela2id['PADDING'])
@@ -121,6 +129,10 @@ class UHop():
         relas = torch.LongTensor(pos_rela+neg_rela).cuda()
         rela_texts = torch.LongTensor(pos_rela_text+neg_rela_text).cuda()
         scores = model(ques, rela_texts, relas)
+        if path:
+            rela_score=list(zip(scores.detach().cpu().numpy().tolist()[:], rev_rela[:]))
+            with open(path+'/td_scores.txt', 'a+') as f:
+                f.write(str(rela_score)+'\n')
         '''
         for q, r, t, s in zip(ques, relas, rela_texts, scores):
             print()
@@ -159,7 +171,7 @@ class UHop():
                 acc_list = []
                 for i in range(len(step_list)-1):
                     optimizer.zero_grad();model.zero_grad(); 
-                    loss, acc = self._single_step_rela_choose(model, ques, step_list[i])
+                    loss, acc = self._single_step_rela_choose(model, ques, step_list[i]) 
                     if loss != 0:
                         loss.backward(); optimizer.step()
                         total_loss += loss.data; loss_count += 1
@@ -192,7 +204,7 @@ class UHop():
                 acc = 1 if all([x == 1 for x in acc_list]) else 0
                 total_acc += acc; acc_count += 1
                 print(f'\r{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Epoch {epoch} {trained_num}/{len(datas)} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f} RC_Acc:{total_rc_acc/rc_count:.2f} TD_Acc:{total_td_acc/td_count:.2f}', end='')
-            _, valid_loss, valid_acc = self.eval(model, 'valid', valid_dataset)
+            _, valid_loss, valid_acc, _, _ = self.eval(model, 'valid', valid_dataset)
             if valid_loss < min_valid_metric:
                 min_valid_metric = valid_loss
                 earlystop_counter = 0
@@ -204,7 +216,7 @@ class UHop():
         return model, total_loss / loss_count, total_acc / acc_count
             
 
-    def eval(self, model, mode, dataset):
+    def eval(self, model, mode, dataset, path=None):
         '''
         For test and validation
         mode: valid | test
@@ -221,9 +233,14 @@ class UHop():
         total_loss, total_acc, total_rc_acc, total_td_acc = 0.0, 0.0, 0.0, 0.0
         loss_count, acc_count, rc_count, td_count = 0, 0, 0, 0
         for num, (_, ques, step_list) in enumerate(datas):
+            if path:
+                with open(path+'/rc_scores.txt', 'a+') as f:
+                    f.write(str(num)+'\n')
+                with open(path+'/td_scores.txt', 'a+') as f:
+                    f.write(str(num)+'\n')
             acc_list = []
             for i in range(len(step_list)-1):
-                loss, acc = self._single_step_rela_choose(model, ques, step_list[i])
+                loss, acc = self._single_step_rela_choose(model, ques, step_list[i], path)
                 acc_list.append(acc)
                 if loss != 0:
                     total_loss += loss.data; loss_count += 1
@@ -234,14 +251,14 @@ class UHop():
                     break
                 if i + 2 < len(step_list):
                     # do continue
-                    loss, acc = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'continue')
+                    loss, acc = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'continue', path)
                     acc_list.append(acc)
                     if loss != 0:
                         total_loss += loss.data; loss_count += 1
                     else:
                         loss_count += 1
                         total_td_acc += acc; td_count += 1
-            loss, acc = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'terminate')
+            loss, acc = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'terminate', path)
             acc_list.append(acc)
             if loss != 0:
                 total_loss += loss.data; loss_count += 1
@@ -253,4 +270,4 @@ class UHop():
             total_acc += acc; acc_count += 1
         print(f' Eval {num} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f} RC_Acc:{total_rc_acc/rc_count:.2f} TD_Acc:{total_td_acc/td_count:.2f}', end='')
         print('')
-        return model, total_loss / loss_count, total_acc / acc_count
+        return model, total_loss / loss_count, total_acc / acc_count, total_rc_acc/rc_count, total_td_acc/td_count
