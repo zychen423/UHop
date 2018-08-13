@@ -1,0 +1,160 @@
+132	176 207	 what is the parents of TOPIC_ENTITY 's award_nominations ?
+132	176 207	 what is the TOPIC_ENTITY 's award_nominations 's parents ?
+253	4	 what is the recording of TOPIC_ENTITY 's recording ?
+253	4	 what is the TOPIC_ENTITY 's recording 's recording ?
+118	253 56 4	 what is the artist of TOPIC_ENTITY 's recording ?
+118	253 56 4	 what is the TOPIC_ENTITY 's recording 's artist ?
+253	56 118 4	 what is the recording of TOPIC_ENTITY 's recording ?
+253	56 118 4	 what is the TOPIC_ENTITY 's recording 's recording ?
+290	98	 what is the teams of TOPIC_ENTITY 's place_of_birth ?
+290	98	 what is the TOPIC_ENTITY 's place_of_birth 's teams ?
+290	98	 what is the teams of TOPIC_ENTITY 's place_of_birth ?
+290	98	 what is the TOPIC_ENTITY 's place_of_birth 's teams ?
+16	150	 what is the editions of TOPIC_ENTITY 's editions ?
+16	150	 what is the TOPIC_ENTITY 's editions 's editions ?
+16	150	 what is the editions of TOPIC_ENTITY 's editions ?
+16	150	 what is the TOPIC_ENTITY 's editions 's editions ?
+264	151	 what is the teams of TOPIC_ENTITY 's country ?
+264	151	 what is the TOPIC_ENTITY 's country 's teams ?
+264	151	 what is the teams of TOPIC_ENTITY 's country ?
+264	151	 what is the TOPIC_ENTITY 's country 's teams ?
+67	25	 what is the tracks of TOPIC_ENTITY 's tracks ?
+67	25	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+67	25	 what is the tracks of TOPIC_ENTITY 's tracks ?
+67	25	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+109	221	 what is the tracks of TOPIC_ENTITY 's how_to_get_here ?
+109	221	 what is the TOPIC_ENTITY 's how_to_get_here 's tracks ?
+188	76	 what is the artist of TOPIC_ENTITY 's genre ?
+188	76	 what is the TOPIC_ENTITY 's genre 's artist ?
+249	253 268 4	 what is the releases of TOPIC_ENTITY 's recording ?
+249	253 268 4	 what is the TOPIC_ENTITY 's recording 's releases ?
+253	249 268 4	 what is the recording of TOPIC_ENTITY 's recording ?
+253	249 268 4	 what is the TOPIC_ENTITY 's recording 's recording ?
+253	4	 what is the recording of TOPIC_ENTITY 's recording ?
+253	4	 what is the TOPIC_ENTITY 's recording 's recording ?
+320	135 202	 what is the genre of TOPIC_ENTITY 's track_list ?
+320	135 202	 what is the TOPIC_ENTITY 's track_list 's genre ?
+135	320 202	 what is the release of TOPIC_ENTITY 's track_list ?
+135	320 202	 what is the TOPIC_ENTITY 's track_list 's release ?
+219	105	 what is the releases of TOPIC_ENTITY 's releases ?
+219	105	 what is the TOPIC_ENTITY 's releases 's releases ?
+29	183	 what is the costume_design_for_film of TOPIC_ENTITY 's founders ?
+29	183	 what is the TOPIC_ENTITY 's founders 's costume_design_for_film ?
+29	183	 what is the costume_design_for_film of TOPIC_ENTITY 's founders ?
+29	183	 what is the TOPIC_ENTITY 's founders 's costume_design_for_film ?
+29	183	 what is the costume_design_for_film of TOPIC_ENTITY 's founders ?
+29	183	 what is the TOPIC_ENTITY 's founders 's costume_design_for_film ?
+67	25	 what is the tracks of TOPIC_ENTITY 's tracks ?
+67	25	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+58	125	 what is the album of TOPIC_ENTITY 's artist ?
+58	125	 what is the TOPIC_ENTITY 's artist 's album ?
+161	242	 what is the artist of TOPIC_ENTITY 's disciplines_or_subjects ?
+161	242	 what is the TOPIC_ENTITY 's disciplines_or_subjects 's artist ?
+327	301	 what is the works of TOPIC_ENTITY 's organism_type ?
+327	301	 what is the TOPIC_ENTITY 's organism_type 's works ?
+327	301	 what is the works of TOPIC_ENTITY 's organism_type ?
+327	301	 what is the TOPIC_ENTITY 's organism_type 's works ?
+327	301	 what is the works of TOPIC_ENTITY 's organism_type ?
+327	301	 what is the TOPIC_ENTITY 's organism_type 's works ?
+327	301	 what is the works of TOPIC_ENTITY 's organism_type ?
+327	301	 what is the TOPIC_ENTITY 's organism_type 's works ?
+245	43	 what is the tracks of TOPIC_ENTITY 's place_of_death ?
+245	43	 what is the TOPIC_ENTITY 's place_of_death 's tracks ?
+18	121	 what is the song of TOPIC_ENTITY 's containedby ?
+18	121	 what is the TOPIC_ENTITY 's containedby 's song ?
+83	78	 what is the recording of TOPIC_ENTITY 's releases_produced ?
+83	78	 what is the TOPIC_ENTITY 's releases_produced 's recording ?
+222	25 255 62 60 167 103 67 233	 what is the notable_types of TOPIC_ENTITY 's tracks ?
+222	25 255 62 60 167 103 67 233	 what is the TOPIC_ENTITY 's tracks 's notable_types ?
+67	25 255 222 62 60 167 103 233	 what is the tracks of TOPIC_ENTITY 's tracks ?
+67	25 255 222 62 60 167 103 233	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+103	25 255 222 62 60 167 67 233	 what is the canonical_version of TOPIC_ENTITY 's tracks ?
+103	25 255 222 62 60 167 67 233	 what is the TOPIC_ENTITY 's tracks 's canonical_version ?
+62	25 255 222 60 167 103 67 233	 what is the notable_types of TOPIC_ENTITY 's canonical_version ?
+62	25 255 222 60 167 103 67 233	 what is the TOPIC_ENTITY 's canonical_version 's notable_types ?
+255	25 222 62 60 167 103 67 233	 what is the tracks of TOPIC_ENTITY 's canonical_version ?
+255	25 222 62 60 167 103 67 233	 what is the TOPIC_ENTITY 's canonical_version 's tracks ?
+167	25 255 222 62 60 103 67 233	 what is the canonical_version of TOPIC_ENTITY 's canonical_version ?
+167	25 255 222 62 60 103 67 233	 what is the TOPIC_ENTITY 's canonical_version 's canonical_version ?
+82	19 173 184	 what is the notable_types of TOPIC_ENTITY 's album ?
+82	19 173 184	 what is the TOPIC_ENTITY 's album 's notable_types ?
+184	19 173 82	 what is the release of TOPIC_ENTITY 's album ?
+184	19 173 82	 what is the TOPIC_ENTITY 's album 's release ?
+19	173 184 82	 what is the artist of TOPIC_ENTITY 's album ?
+19	173 184 82	 what is the TOPIC_ENTITY 's album 's artist ?
+251	107 253 4 159 56 282 118 137 285 80 216	 what is the releases of TOPIC_ENTITY 's artist ?
+251	107 253 4 159 56 282 118 137 285 80 216	 what is the TOPIC_ENTITY 's artist 's releases ?
+137	107 253 4 159 56 282 118 285 80 251 216	 what is the release of TOPIC_ENTITY 's artist ?
+137	107 253 4 159 56 282 118 285 80 251 216	 what is the TOPIC_ENTITY 's artist 's release ?
+285	107 253 4 159 56 282 118 137 80 251 216	 what is the recording of TOPIC_ENTITY 's artist ?
+285	107 253 4 159 56 282 118 137 80 251 216	 what is the TOPIC_ENTITY 's artist 's recording ?
+118	107 253 4 159 56 282 137 285 80 251 216	 what is the artist of TOPIC_ENTITY 's recording ?
+118	107 253 4 159 56 282 137 285 80 251 216	 what is the TOPIC_ENTITY 's recording 's artist ?
+253	107 4 159 56 282 118 137 285 80 251 216	 what is the recording of TOPIC_ENTITY 's recording ?
+253	107 4 159 56 282 118 137 285 80 251 216	 what is the TOPIC_ENTITY 's recording 's recording ?
+159	107 253 4 56 282 118 137 285 80 251 216	 what is the song of TOPIC_ENTITY 's recording ?
+159	107 253 4 56 282 118 137 285 80 251 216	 what is the TOPIC_ENTITY 's recording 's song ?
+107	253 4 159 56 282 118 137 285 80 251 216	 what is the artist of TOPIC_ENTITY 's song ?
+107	253 4 159 56 282 118 137 285 80 251 216	 what is the TOPIC_ENTITY 's song 's artist ?
+80	107 253 4 159 56 282 118 137 285 251 216	 what is the recording of TOPIC_ENTITY 's song ?
+80	107 253 4 159 56 282 118 137 285 251 216	 what is the TOPIC_ENTITY 's song 's recording ?
+282	107 253 4 159 56 118 137 285 80 251 216	 what is the song of TOPIC_ENTITY 's song ?
+282	107 253 4 159 56 118 137 285 80 251 216	 what is the TOPIC_ENTITY 's song 's song ?
+158	295	 what is the releases of TOPIC_ENTITY 's track ?
+158	295	 what is the TOPIC_ENTITY 's track 's releases ?
+93	230	 what is the recording of TOPIC_ENTITY 's nationality ?
+93	230	 what is the TOPIC_ENTITY 's nationality 's recording ?
+264	151	 what is the teams of TOPIC_ENTITY 's country ?
+264	151	 what is the TOPIC_ENTITY 's country 's teams ?
+264	151	 what is the teams of TOPIC_ENTITY 's country ?
+264	151	 what is the TOPIC_ENTITY 's country 's teams ?
+253	4	 what is the recording of TOPIC_ENTITY 's recording ?
+253	4	 what is the TOPIC_ENTITY 's recording 's recording ?
+282	216	 what is the song of TOPIC_ENTITY 's song ?
+282	216	 what is the TOPIC_ENTITY 's song 's song ?
+42	121	 what is the next_episode of TOPIC_ENTITY 's containedby ?
+42	121	 what is the TOPIC_ENTITY 's containedby 's next_episode ?
+224	48 194 296	 what is the versions of TOPIC_ENTITY 's versions ?
+224	48 194 296	 what is the TOPIC_ENTITY 's versions 's versions ?
+296	48 194 224	 what is the release_type of TOPIC_ENTITY 's versions ?
+296	48 194 224	 what is the TOPIC_ENTITY 's versions 's release_type ?
+323	151	 what is the recording of TOPIC_ENTITY 's country ?
+323	151	 what is the TOPIC_ENTITY 's country 's recording ?

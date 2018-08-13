@@ -1,0 +1,1440 @@
+412	1627 1450 1883 1781	the sex of wife of TOPIC_ENTITY ?
+835	1485 331 1602	what is the nation of son of TOPIC_ENTITY ?
+412	1485 1627 1602	is TOPIC_ENTITY 's darling a man or a woman ?
+235	1332 325 1390 868 1745	TOPIC_ENTITY 's dad 's sex ?
+1450	1627	what did TOPIC_ENTITY 's darling die from ?
+1602	1485	what sex is TOPIC_ENTITY 's child  ?
+565	325 1627 554 868 412	the profession of husband of TOPIC_ENTITY ?
+67	1627 1390 1450 1245 1088	what is the TOPIC_ENTITY 's wife 's mother ?
+508	1485	what is the son of offspring of TOPIC_ENTITY ?
+1241	1332	the cause of death of dad of TOPIC_ENTITY ?
+210	1485 835	what is the cause of death of daughter of TOPIC_ENTITY ?
+817	1332 1390 3 383 1289	the wife of TOPIC_ENTITY 's dad ?
+508	1485 331	TOPIC_ENTITY 's offspring 's child ?
+1602	1485 678	what is the gender of offspring of TOPIC_ENTITY ?
+1505	1485 1332 508 678 1962 243 1180	who is the mother of TOPIC_ENTITY 's parents ?
+508	1485 1332 835 1602 243 3 235	who is the granddaughter of TOPIC_ENTITY ?
+243	1332	who is the daughter of TOPIC_ENTITY 's mom ?
+58	325 1627 1913 733 1386	what is the TOPIC_ENTITY 's darling 's nationality ?
+1323	1332 1390 243 235 1678 1325 1745	the place of death of parents of TOPIC_ENTITY ?
+313	1627 412	TOPIC_ENTITY 's wife 's ethnicity ?
+817	1332	what is the TOPIC_ENTITY 's mom 's spouse ?
+1180	1332	the place of birth of TOPIC_ENTITY 's dad ?
+412	1627	TOPIC_ENTITY 's other half 's gender ?
+412	1627	what is the gender of TOPIC_ENTITY 's husband ?
+58	1627	TOPIC_ENTITY 's other half 's nationality ?
+1602	1485 1805 508 311 63	is TOPIC_ENTITY 's kid a man or a woman ?
+678	1485	the parent of son of TOPIC_ENTITY ?
+210	1485 150 1011 1560 106 1607 951	what is the TOPIC_ENTITY 's son 's cause of death ?
+243	150 1332 1225 1390 1922 806 1678	what is the heir of mother of TOPIC_ENTITY ?
+331	1485 1805 940	where did TOPIC_ENTITY 's daughter die ?
+235	1332 1390 243 1678 1745	the gender of mother of TOPIC_ENTITY ?
+1883	1627 58 1778	what is the name of the couple of TOPIC_ENTITY 's couple ?
+67	1627	what is the father of TOPIC_ENTITY 's other half ?
+1602	1485 1805 835 1902 63	what gender is TOPIC_ENTITY 's kid  ?
+412	1485 1627 1602	the sex of TOPIC_ENTITY 's darling ?
+1241	1332	what is the reason of TOPIC_ENTITY 's dad's death ?
+1602	1485 678	the gender of child of TOPIC_ENTITY ?
+3	1332 1390 383	what is the nation of parent of TOPIC_ENTITY ?
+440	1332	what religious belief does TOPIC_ENTITY 's parents follow ?
+835	1485	what is the TOPIC_ENTITY 's child 's nation ?
+68	1485 1602	the wife of TOPIC_ENTITY 's heir ?
+1450	1627	what killed the TOPIC_ENTITY 's darling ?
+1386	1627	which city did TOPIC_ENTITY 's darling born ?
+835	1485 1390 1429 383 644	what is the TOPIC_ENTITY 's daughter 's nation ?
+412	1627	what sex is TOPIC_ENTITY 's couple  ?
+1602	1485 1390 835 383 1745	the gender of daughter of TOPIC_ENTITY ?
+1355	1332	what line of business is TOPIC_ENTITY 's dad in ?
+3	1332 1390 383	the nation of TOPIC_ENTITY 's parent ?
+440	1332 325 1390 1241 1831 556 1731 1840 1618 903 1245 166 644 352	the religion of TOPIC_ENTITY 's father ?
+1011	1485	what does TOPIC_ENTITY 's children do for a living?
+235	1332	is TOPIC_ENTITY 's parent a man or a woman ?
+58	1627	which nationality is TOPIC_ENTITY 's couple ?
+1602	1485 508	is TOPIC_ENTITY 's child a man or a woman ?
+440	1332	what religious belief does TOPIC_ENTITY 's parents practice ?
+1602	1485 25 1332 212 235	what is the sex of TOPIC_ENTITY 's daughter ?
+1011	1485 1390 574	what is the TOPIC_ENTITY 's child 's occupation ?
+1883	1805 1627 1225 703 699	what is the wife of couple of TOPIC_ENTITY ?
+1602	1485 1627 412	what gender is TOPIC_ENTITY 's kid  ?
+235	1332	what is the gender of dad of TOPIC_ENTITY ?
+508	1485 1390 1678	the heir of daughter of TOPIC_ENTITY ?
+835	1485 1805 1902	TOPIC_ENTITY 's kid 's nationality ?
+235	1332	what is the TOPIC_ENTITY 's dad 's gender ?
+556	1332 243	where does TOPIC_ENTITY 's parent work for ?
+1500	1805 1627 1390 311 1110 1778 1678 644	what is the son of husband of TOPIC_ENTITY ?
+1778	1627 1390 644	the organization of TOPIC_ENTITY 's other half ?
+412	1805 325 1627 490 1110 63 554 1618 868 565 1778	what sex is TOPIC_ENTITY 's darling  ?
+58	1627	what is the TOPIC_ENTITY 's darling 's nation ?
+1962	1485 835 1602	the place of birth of TOPIC_ENTITY 's children ?
+412	1485 1805 1627 508 1602 311 63 1500	what is the gender of couple of TOPIC_ENTITY ?
+1560	1485 1709 618	what is TOPIC_ENTITY 's heir 's race about ?
+67	1627 412	what is the parents of wife of TOPIC_ENTITY ?
+1386	325 1627 1913 1731 1450	which city did TOPIC_ENTITY 's wife born ?
+556	1805 1332 1110	what is the organization of father of TOPIC_ENTITY ?
+1386	1627	the place of birth of TOPIC_ENTITY 's wife ?
+1355	1332	what is the occupation of father of TOPIC_ENTITY ?
+235	1332 1118 1041	what is the gender of TOPIC_ENTITY 's parents ?
+67	1627 1883	what is the TOPIC_ENTITY 's wife 's father ?
+210	1485 678 1429 1602	what is the TOPIC_ENTITY 's son 's cause of death ?
+1429	1485 150 409	which institution does TOPIC_ENTITY 's child work for ?
+235	1709 1332 325 410 353 556 1618 868	TOPIC_ENTITY 's mother 's sex ?
+67	1627 1500 313	TOPIC_ENTITY 's couple 's parent ?
+1883	150 1627 1870	what is the darling of husband of TOPIC_ENTITY ?
+1781	1805 1627 912	what religion is TOPIC_ENTITY 's wife ?
+3	1709 1332 1627 1857 353 235 58 412	what is the nationality of TOPIC_ENTITY 's parents ?
+508	1485	what is the daughter of TOPIC_ENTITY 's daughter ?
+1323	150 1332 1225 1922 481 1763 243 235 806 1797 761	what is the TOPIC_ENTITY 's mom 's place of death ?
+1962	1485 1390 508 210 1678 1245 787	which city did TOPIC_ENTITY 's child born ?
+1602	1485 25 1332 1390 212 235 1745	what is the gender of TOPIC_ENTITY 's kid ?
+313	1627	what is the ethnicity of TOPIC_ENTITY 's darling ?
+1323	1332 1805 1505 587 940	what is the place of death of mother of TOPIC_ENTITY ?
+412	1485 1805 1627 508 1602 311 63 1500	what is the TOPIC_ENTITY 's couple 's gender ?
+1883	1627 1450 412 1781	what is the TOPIC_ENTITY 's husband 's husband ?
+412	1627 1781	what is the TOPIC_ENTITY 's other half 's gender ?
+508	1485 1708 210 707 11	what is the name of the child of TOPIC_ENTITY 's child ?
+3	1332 1805 1390 243 311 1902 1678 383	what is the nationality of TOPIC_ENTITY 's mom ?
+835	1485 1805 1902	the nationality of TOPIC_ENTITY 's daughter ?
+412	1627 1390 1745	TOPIC_ENTITY 's darling 's sex ?
+1500	1627	what is the child of wife of TOPIC_ENTITY ?
+243	1332 1390 1678	who is the kid of TOPIC_ENTITY 's dad ?
+3	1332 1805 1390 243 311 1902 1678 383	what is the nationality of mom of TOPIC_ENTITY ?
+58	325 1627 1731 733 238 1450 240	what is the nation of TOPIC_ENTITY 's wife ?
+1011	1485	what is the job of children of TOPIC_ENTITY ?
+556	1709 1332 410	which institution does TOPIC_ENTITY 's dad work for ?
+565	150 1627 106 1607 1450	what is TOPIC_ENTITY 's spouse working on ?
+235	1332	what is the TOPIC_ENTITY 's father 's gender ?
+678	1485 210 1429 1602	what is the TOPIC_ENTITY 's child 's parents ?
+1323	1332 1805 1505 587 940	the place of death of mother of TOPIC_ENTITY ?
+835	1709 1805 1485 1857 1536 1902 490 1011	what is the TOPIC_ENTITY 's daughter 's nation ?
+1323	150 1332 1390 481 1325	what city did TOPIC_ENTITY 's mom die ?
+67	1627 1883	what is the father of wife of TOPIC_ENTITY ?
+412	1627 1450 1883 1781	what sex is TOPIC_ENTITY 's wife  ?
+412	1627	what is the gender of TOPIC_ENTITY 's spouse ?
+835	1485 210	what is the TOPIC_ENTITY 's children 's nation ?
+210	1485 150 1602 106 1763	what made the TOPIC_ENTITY 's kiddead ?
+3	1332	what is the TOPIC_ENTITY 's mother 's nation ?
+1781	325 1627 1390 733 903 58 383 352	the faith of husband of TOPIC_ENTITY ?
+1450	1627	what is the cause of death of couple of TOPIC_ENTITY ?
+440	1332 243	what religious belief is TOPIC_ENTITY 's parent ?
+1781	1627 412	TOPIC_ENTITY 's husband 's religious belief ?
+1011	1485	what is the TOPIC_ENTITY 's offspring 's work ?
+412	1627 313	what gender is TOPIC_ENTITY 's spouse  ?
+243	1332 1390 1678	what is the TOPIC_ENTITY 's father 's son ?
+3	1332 325 1241 1831 1731 733 1840	TOPIC_ENTITY 's dad 's nationality ?
+3	1332	what is the nation of TOPIC_ENTITY 's mother ?
+1602	1485	the sex of child of TOPIC_ENTITY ?
+381	1485 1805 1602 1570 63	TOPIC_ENTITY 's children 's address ?
+678	1485	the dad of TOPIC_ENTITY 's kid ?
+243	1332	TOPIC_ENTITY 's parent 's daughter ?
+565	1485 1627 1011 1602 412	what is the occupation of other half of TOPIC_ENTITY ?
+1011	1485 1390 574	what line of business is TOPIC_ENTITY 's child in ?
+235	1332 325 1390 3 733 868 383 1745	what is the gender of TOPIC_ENTITY 's mom ?
+556	1332 1241 1505	where does TOPIC_ENTITY 's mom work for ?
+235	1332	what is the sex of mother of TOPIC_ENTITY ?
+235	1332 325 243 3 1665 733 868	the sex of TOPIC_ENTITY 's mother ?
+412	1485 1627 1602	TOPIC_ENTITY 's husband 's sex ?
+1560	1485 1709 618	what is TOPIC_ENTITY 's child 's ethnicity about ?
+1602	1485 835	the sex of child of TOPIC_ENTITY ?
+1602	1485 835 331	what is the gender of TOPIC_ENTITY 's children ?
+67	1627 412	what is the TOPIC_ENTITY 's darling 's mom ?
+243	1485 25 1332 508 1078	the kid of TOPIC_ENTITY 's parents ?
+67	1627 412	what is the mom of TOPIC_ENTITY 's darling ?
+508	1485 1602	who is the heir of TOPIC_ENTITY 's children ?
+556	1805 1332 1110	the organization of TOPIC_ENTITY 's father ?
+412	1627 1450 1883 1781	what is the sex of TOPIC_ENTITY 's wife ?
+235	150 1332 1225 1922 481 1763 243 1323 806 1797 761	what is the sex of TOPIC_ENTITY 's dad ?
+412	1485 1627 1602	what is the gender of TOPIC_ENTITY 's couple ?
+235	1332	what sex is TOPIC_ENTITY 's parent  ?
+565	1627	TOPIC_ENTITY 's couple 's work ?
+1241	1485 25 1332 1390 210 331 795 994 1323 1245 1325	the cause of death of father of TOPIC_ENTITY ?
+1602	1485 1332 508 835 243 3 235	what is the sex of children of TOPIC_ENTITY ?
+1355	150 1332 1607 1763 235	what is the work of TOPIC_ENTITY 's parents ?
+1450	1627	why TOPIC_ENTITY 's couple died ?
+243	1332 1390 1678	what is the son of TOPIC_ENTITY 's father ?
+3	1332	what is the TOPIC_ENTITY 's mom 's nation ?
+678	1485 1805 835 1902 587	TOPIC_ENTITY 's son 's mother ?
+508	1485 1560 678	what is the name of the kid of TOPIC_ENTITY 's offspring ?
+240	325 1627 1731 733 238 1450 58	what is the TOPIC_ENTITY 's darling 's place of death ?
+3	1332	where does TOPIC_ENTITY 's parent come from ?
+508	1485 1708 210 707 11	who is the grandchild of TOPIC_ENTITY ?
+599	1332	the race of parent of TOPIC_ENTITY ?
+381	1485	the address of children of TOPIC_ENTITY ?
+835	1485 1332 508 1602 243 3 235	where does TOPIC_ENTITY 's children come from ?
+243	1332 1805 1390 3 311 1902 1678 383	the heir of TOPIC_ENTITY 's mother ?
+210	1485	what is the cause of death of TOPIC_ENTITY 's children ?
+58	1211 1627 1390 724 1917 1450 1245 383	TOPIC_ENTITY 's darling 's nationality ?
+1355	1332	what is TOPIC_ENTITY 's father ?
+58	1627	TOPIC_ENTITY 's wife 's nationality ?
+313	1627	what is TOPIC_ENTITY 's spouse 's race like ?
+235	1332 1390 1745	is TOPIC_ENTITY 's parents a man or a woman ?
+331	1485	where did TOPIC_ENTITY 's daughter die ?
+235	1332	the sex of TOPIC_ENTITY 's mother ?
+565	1627 1883	what is TOPIC_ENTITY 's other half ?
+235	1332 1390 3 383 1745	the sex of dad of TOPIC_ENTITY ?
+508	1485 1211 1118 331 609 749 1095 544	what is the TOPIC_ENTITY 's daughter 's children ?
+331	1485 508	where did the son of TOPIC_ENTITY die ?
+835	1485 1390 383	what is the TOPIC_ENTITY 's son 's nation ?
+3	1332 325 1241 1831 1731 733 1840	the nationality of dad of TOPIC_ENTITY ?
+1241	1332 1505 556	what caused the TOPIC_ENTITY 's father's death ?
+412	1627 240	what is the sex of TOPIC_ENTITY 's darling ?
+243	1332 1390 1678	the son of TOPIC_ENTITY 's father ?
+508	1485 892	what is the name of the grandheir of TOPIC_ENTITY ?
+243	1332	the children of TOPIC_ENTITY 's parents ?
+508	1485 1118 1095	who is the grandheir of TOPIC_ENTITY ?
+1962	1485 1211 331 1602 819 749 526	the place of birth of TOPIC_ENTITY 's children ?
+67	1627 412	TOPIC_ENTITY 's wife 's parents ?
+210	1485 1390 508 1962 1678 1245 787	TOPIC_ENTITY 's offspring 's cause of death ?
+3	150 1332 325 1218 733	what is the nation of TOPIC_ENTITY 's mother ?
+3	1332	TOPIC_ENTITY 's parent 's nation ?
+1602	1485	the gender of TOPIC_ENTITY 's children ?
+835	1485 1332 508 1602 243 3 235	what is the nationality of children of TOPIC_ENTITY ?
+1505	1332 1390 1088	what is the mom of TOPIC_ENTITY 's father ?
+381	1485 1805 1602 1570 63	what is the address of TOPIC_ENTITY 's children ?
+556	1332 1225 1211 150 325 651 803 409 1618	the organization of parent of TOPIC_ENTITY ?
+235	1332	what sex is TOPIC_ENTITY 's dad  ?
+3	1332	what is the nation of mom of TOPIC_ENTITY ?
+243	1332	what is the offspring of dad of TOPIC_ENTITY ?
+1602	1485 150 210 106 1763	TOPIC_ENTITY 's children 's gender ?
+67	1627 1883	who is the father of TOPIC_ENTITY 's wife ?
+235	1332 1805 243 1505 311 587 63	the sex of parents of TOPIC_ENTITY ?
+1602	1485 25 1332 212 235	what sex is TOPIC_ENTITY 's daughter  ?
+1355	1332 325 3 733 554	TOPIC_ENTITY 's mom 's profession ?
+1602	1485 68	the sex of offspring of TOPIC_ENTITY ?
+313	1627 1390 58 585 383	the race of TOPIC_ENTITY 's darling ?
+243	1332 1390 1678	TOPIC_ENTITY 's dad 's kid ?
+1505	1332 325 1180 1913 216	what is the name of the parents of TOPIC_ENTITY 's father ?
+508	1485 1390 210 1962 1678 1245 787	what is the TOPIC_ENTITY 's child 's daughter ?
+835	1485 1805 1902	TOPIC_ENTITY 's offspring 's nation ?
+1602	1485 1211 1390 526 1745	TOPIC_ENTITY 's offspring 's gender ?
+678	1485 1602	what is the name of the parents of TOPIC_ENTITY 's heir ?
+1450	325 1627 1731 733 238 58 240	how TOPIC_ENTITY 's couple died ?
+835	1485 508 68	the nation of offspring of TOPIC_ENTITY ?
+1323	150 1332 1225 1922 481 1763 243 235 806 1797 761	the place of death of mom of TOPIC_ENTITY ?
+1450	1627 1390 67 1245 1088	what is the cause of death of other half of TOPIC_ENTITY ?
+210	1485 1708 508 707 11	what did TOPIC_ENTITY 's daughter die from ?
+1355	1332 1390 150 325 1708 440 574 352 1607 981 554 903 982 989	the profession of TOPIC_ENTITY 's parents ?
+235	150 1332 1390 1763 1745	what sex is TOPIC_ENTITY 's parents  ?
+599	1332 1390 585	what is the ethnicity of TOPIC_ENTITY 's mom ?
+68	1485 1390 1118 1289 1878	what is the darling of children of TOPIC_ENTITY ?
+243	1332 1390 1678	what is the TOPIC_ENTITY 's dad 's kid ?
+412	1485 1627 1602	the sex of TOPIC_ENTITY 's husband ?
+1180	1332 325 1505 1913 216	which city did TOPIC_ENTITY 's mom born ?
+1602	1485 210 678 1429	is TOPIC_ENTITY 's kid a man or a woman ?
+412	1627 1781	TOPIC_ENTITY 's other half 's gender ?
+1450	1211 1627 1390 724 1917 58 1245 383	the cause of death of TOPIC_ENTITY 's couple ?
+235	1332 1118 1041	TOPIC_ENTITY 's parents 's gender ?
+1450	325 1627 1731 1618 1778	TOPIC_ENTITY 's husband 's cause of death ?
+1011	1485 325 554	what is the profession of daughter of TOPIC_ENTITY ?
+313	1627	what is TOPIC_ENTITY 's spouse 's race about ?
+1450	1627 1883	what is the cause of death of darling of TOPIC_ENTITY ?
+556	1709 1332 325 410 353 235 1618 868	the institution of mom of TOPIC_ENTITY ?
+1602	1485 892	the sex of child of TOPIC_ENTITY ?
+331	1485 835 1602	where did the kid of TOPIC_ENTITY die ?
+1011	1485 1211 1390 1429 963 803 574 644	TOPIC_ENTITY 's son 's job ?
+58	1627	the nationality of TOPIC_ENTITY 's other half ?
+68	1485 1805 703	TOPIC_ENTITY 's child 's darling ?
+331	1485 508	where did TOPIC_ENTITY 's son die ?
+892	1485 1805 1118 1602 63 912 1041 1906	what is the religion of heir of TOPIC_ENTITY ?
+235	1332 1627 412	what is the TOPIC_ENTITY 's mom 's gender ?
+1602	1485 1118 1041	what sex is TOPIC_ENTITY 's kid  ?
+58	1211 1627 1390 724 1917 1450 1245 383	the nationality of darling of TOPIC_ENTITY ?
+243	1332 1708 707	what is the TOPIC_ENTITY 's mom 's daughter ?
+1180	1332 1225 1805 150 325 1241 1355 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	TOPIC_ENTITY 's mom 's place of birth ?
+243	1332 1390 1323 235 1678 1325 1745	the son of TOPIC_ENTITY 's parent ?
+235	1332	what is the gender of TOPIC_ENTITY 's mom ?
+235	1332	what is the TOPIC_ENTITY 's mother 's gender ?
+412	25 1805 1627 1390 212 63 1745	what is the TOPIC_ENTITY 's darling 's gender ?
+565	1485 1627 1011 1602 412	the occupation of other half of TOPIC_ENTITY ?
+235	150 1332 1390 1763 1745	is TOPIC_ENTITY 's parents a man or a woman ?
+1602	1485 1390 835 383 1745	the gender of TOPIC_ENTITY 's daughter ?
+1429	1485 210 678 1602	the institution of TOPIC_ENTITY 's kid ?
+1602	1485 1627 412	is TOPIC_ENTITY 's daughter a man or a woman ?
+210	1485	what caused the TOPIC_ENTITY 's child's death ?
+1429	1485 150 409	where does TOPIC_ENTITY 's child work for ?
+3	1332	the nationality of parent of TOPIC_ENTITY ?
+235	1805 1332 63	what sex is TOPIC_ENTITY 's parents  ?
+1602	1485 835	what is the sex of TOPIC_ENTITY 's offspring ?
+243	1332	the daughter of TOPIC_ENTITY 's mom ?
+3	1332 1805 243 311 1902	where does TOPIC_ENTITY 's mom come from ?
+3	1709 1332 1627 1857 353 235 58 412	TOPIC_ENTITY 's parents 's nationality ?
+412	1627	what is the TOPIC_ENTITY 's spouse 's sex ?
+243	1332 556	what is the name of the offspring of TOPIC_ENTITY 's mom ?
+1450	325 1627 1731 1618 1778	what is the TOPIC_ENTITY 's husband 's cause of death ?
+1781	325 1627 1390 733 903 58 383 352	what faith does TOPIC_ENTITY 's husband follow ?
+508	1485 1560 678	the kid of TOPIC_ENTITY 's offspring ?
+412	1627	what gender is TOPIC_ENTITY 's husband  ?
+599	1332 1390 585	what is the TOPIC_ENTITY 's mom 's ethnicity ?
+1355	1332 1225 1805 150 325 1180 1241 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	what line of business is TOPIC_ENTITY 's dad in ?
+412	1805 325 1627 490 1110 63 554 1618 868 565 1778	the sex of darling of TOPIC_ENTITY ?
+210	1485 150 1602 106 1763	the cause of death of TOPIC_ENTITY 's kid ?
+331	1485	the place of death of children of TOPIC_ENTITY ?
+235	1332 1805 63	TOPIC_ENTITY 's mother 's sex ?
+235	1332 1390 1745	the gender of TOPIC_ENTITY 's father ?
+243	1332 1390 235 1678 1745	what is the child of parents of TOPIC_ENTITY ?
+235	1332 325 243 3 1665 733 868	is TOPIC_ENTITY 's mother a man or a woman ?
+678	1485	TOPIC_ENTITY 's son 's father ?
+1429	1485 1211 1390 1011 963 803 574 644	which organization does TOPIC_ENTITY 's son work for ?
+678	1485	the mom of TOPIC_ENTITY 's daughter ?
+58	325 1627 1731 733 238 1450 240	what is the nation of wife of TOPIC_ENTITY ?
+835	1485 508 68	what is the nation of TOPIC_ENTITY 's offspring ?
+243	1332	what is the child of TOPIC_ENTITY 's mom ?
+1602	1485 835	what sex is TOPIC_ENTITY 's child  ?
+243	1332	what is the heir of mom of TOPIC_ENTITY ?
+381	1485	what is the TOPIC_ENTITY 's daughter 's address ?
+1602	1485 25 1332 1390 212 235 1745	what is the TOPIC_ENTITY 's kid 's gender ?
+1450	1627 1883	TOPIC_ENTITY 's darling 's cause of death ?
+412	1225 1390 150 325 1627 1293 761 383 1745 1218 1763 733 868 58	the sex of TOPIC_ENTITY 's wife ?
+1450	1627 565	what made the TOPIC_ENTITY 's husbanddead ?
+835	1485 210	the nation of children of TOPIC_ENTITY ?
+412	1627 1390 1781 352 1745	is TOPIC_ENTITY 's husband a man or a woman ?
+508	1485 1708 210 707 11	the child of children of TOPIC_ENTITY ?
+835	1485 1118 1602 377 1041	what is the nation of children of TOPIC_ENTITY ?
+58	1627 565 412	which nationality is TOPIC_ENTITY 's spouse ?
+58	1709 1211 1627 1857 1917	the nationality of spouse of TOPIC_ENTITY ?
+68	1485 1602	what is the name of the wife of TOPIC_ENTITY 's heir ?
+678	1485 1118 1259	what is the name of the dad of TOPIC_ENTITY 's children ?
+817	1332 1390 1118 1355 574 1289 598 1878	what is the darling of TOPIC_ENTITY 's father ?
+412	1627 58 565	the gender of TOPIC_ENTITY 's darling ?
+412	1225 1390 150 325 1627 1293 761 383 1745 1218 1763 733 868 58	TOPIC_ENTITY 's wife 's sex ?
+1241	1332 1505 556	what did TOPIC_ENTITY 's father die from ?
+556	1332 243	what is the TOPIC_ENTITY 's parent 's institution ?
+235	150 1332 1390 1763 1745	is TOPIC_ENTITY 's mother a man or a woman ?
+66	25 1627 1307	what is the TOPIC_ENTITY 's couple 's address ?
+1602	1485 1225 761	is TOPIC_ENTITY 's offspring a man or a woman ?
+1560	1485 1709 618	what is TOPIC_ENTITY 's child 's ethnicity like ?
+508	1485 1560 678	what is the TOPIC_ENTITY 's offspring 's kid ?
+235	1332	TOPIC_ENTITY 's parents 's sex ?
+235	1332 1390 1745	what is the gender of father of TOPIC_ENTITY ?
+235	1332	what gender is TOPIC_ENTITY 's parent  ?
+678	1485 1602	the father of TOPIC_ENTITY 's children ?
+1602	1485 1211 1390 526 1745	what is the TOPIC_ENTITY 's offspring 's gender ?
+58	1627	the nationality of couple of TOPIC_ENTITY ?
+235	150 1332 1607 1763 1355	what gender is TOPIC_ENTITY 's parents  ?
+1450	1627	how TOPIC_ENTITY 's darling died ?
+210	1485	what did TOPIC_ENTITY 's children die from ?
+1778	1627 1390 644	which educational institution does TOPIC_ENTITY 's darling work for ?
+1450	325 1627 1913 1731 1386	what killed the TOPIC_ENTITY 's other half ?
+412	1627	the sex of TOPIC_ENTITY 's wife ?
+412	1627	TOPIC_ENTITY 's husband 's gender ?
+1241	1332 325 3 1831 1731 733 1840	what did TOPIC_ENTITY 's dad die from ?
+1602	1485 678	the sex of offspring of TOPIC_ENTITY ?
+412	1627	what gender is TOPIC_ENTITY 's other half  ?
+1241	1332 1225 1805 150 325 1180 1355 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	what is the TOPIC_ENTITY 's parent 's cause of death ?
+58	325 1627 1731 733 238 1450 240	where does TOPIC_ENTITY 's other half come from ?
+1602	1485	what sex is TOPIC_ENTITY 's children  ?
+508	1485	who is the son of TOPIC_ENTITY 's offspring ?
+508	1485 1602	what is the children of TOPIC_ENTITY 's daughter ?
+835	1485 1390 1602 383 1745	what is the nationality of TOPIC_ENTITY 's kid ?
+1386	325 1627 1913 733 58	the place of birth of TOPIC_ENTITY 's spouse ?
+835	1485 1332 1709 3 1857	what is the nation of TOPIC_ENTITY 's children ?
+412	1485 1627 1011 1602 565	the gender of TOPIC_ENTITY 's couple ?
+508	1485	what is the TOPIC_ENTITY 's son 's child ?
+412	1627	the gender of couple of TOPIC_ENTITY ?
+1602	1485 678	what is the TOPIC_ENTITY 's offspring 's sex ?
+1355	1332 325 1627 1390 554 565 574	what is TOPIC_ENTITY 's parent working on ?
+3	1332 1390 817 383 1289	what is the nation of dad of TOPIC_ENTITY ?
+243	1332	what is the daughter of TOPIC_ENTITY 's parent ?
+565	1627 1450	what is the work of other half of TOPIC_ENTITY ?
+412	1225 1390 150 325 1627 1293 761 383 1745 1218 1763 733 868 58	what is the sex of wife of TOPIC_ENTITY ?
+235	1332 1241	what sex is TOPIC_ENTITY 's mother  ?
+243	1332	what is the heir of TOPIC_ENTITY 's mom ?
+1602	1485 678	TOPIC_ENTITY 's offspring 's sex ?
+1011	1485 325 554	TOPIC_ENTITY 's daughter 's profession ?
+243	1332	what is the name of the daughter of TOPIC_ENTITY 's mom ?
+412	1709 1332 1627 353 235	the sex of TOPIC_ENTITY 's husband ?
+58	1118 1627 1390 377 383	what is the nationality of other half of TOPIC_ENTITY ?
+58	1627	which nationality is TOPIC_ENTITY 's other half ?
+1450	1627 412 1883 1781	what killed the TOPIC_ENTITY 's couple ?
+58	1627	TOPIC_ENTITY 's wife 's nationality ?
+235	1332	the sex of dad of TOPIC_ENTITY ?
+835	1485 1390 68 383 1289	the nationality of TOPIC_ENTITY 's heir ?
+67	1627 1500 313	what is the parent of couple of TOPIC_ENTITY ?
+1883	1627 67	what is the name of the spouse of TOPIC_ENTITY 's husband ?
+243	1332	what is the TOPIC_ENTITY 's parents 's children ?
+1505	1332	who is the grandmother of TOPIC_ENTITY ?
+1602	1485 150 210 106 1763	what is the gender of TOPIC_ENTITY 's children ?
+1450	1627 412 1883 1781	the cause of death of TOPIC_ENTITY 's couple ?
+68	1485 1390 1118 1289 1878	who is the couple of TOPIC_ENTITY 's kid ?
+1429	1485 1390 835 383 644	TOPIC_ENTITY 's children 's institution ?
+678	1485 1225 1941	what is the TOPIC_ENTITY 's son 's mother ?
+331	1485	what is the TOPIC_ENTITY 's daughter 's place of death ?
+331	1485 1805 325 1390 940 238 1325	the place of death of TOPIC_ENTITY 's daughter ?
+565	1627	what is the TOPIC_ENTITY 's darling 's job ?
+678	1485	what is the mom of TOPIC_ENTITY 's daughter ?
+412	1805 325 1627 490 1110 63 554 1618 868 565 1778	what is the sex of TOPIC_ENTITY 's darling ?
+412	150 1627 1763	the gender of TOPIC_ENTITY 's other half ?
+3	1332 556	TOPIC_ENTITY 's parents 's nationality ?
+412	1627	what is the gender of TOPIC_ENTITY 's couple ?
+331	1709 1485 32	TOPIC_ENTITY 's offspring 's place of death ?
+243	1332 1390 1678	the son of father of TOPIC_ENTITY ?
+835	1485 1602	where does TOPIC_ENTITY 's child come from ?
+835	1485 1805 1902	the nation of offspring of TOPIC_ENTITY ?
+58	325 1627 1390 733 903 1781 383 352	TOPIC_ENTITY 's wife 's nationality ?
+1602	1485 25 1390 1560 892 1275 212 1401 585 1745 352	what is the gender of TOPIC_ENTITY 's daughter ?
+235	1332	is TOPIC_ENTITY 's mom a man or a woman ?
+1011	1485 150 1211 1607 963	TOPIC_ENTITY 's daughter 's work ?
+243	1332 1390 235 1678 1745	the child of TOPIC_ENTITY 's parents ?
+235	1332 1627 412	what gender is TOPIC_ENTITY 's mom  ?
+508	1485 1708 210 707 11	what is the child of children of TOPIC_ENTITY ?
+243	1332	what is the TOPIC_ENTITY 's mom 's heir ?
+508	1485 1805 1602 311 63	what is the son of TOPIC_ENTITY 's kid ?
+58	325 1627 1390 733 903 1781 383 352	which nationality is TOPIC_ENTITY 's wife ?
+1781	1627	what religious belief does TOPIC_ENTITY 's other half have ?
+235	1332 1390 3 383 1745	what is the sex of TOPIC_ENTITY 's dad ?
+1323	1485 25 1332 1390 210 331 795 994 1241 1245 1325	where did the parents of TOPIC_ENTITY die ?
+1602	1485 678	what sex is TOPIC_ENTITY 's offspring  ?
+1602	1485 508	what is the sex of child of TOPIC_ENTITY ?
+235	1485 1332 68 1602 817	what is the sex of dad of TOPIC_ENTITY ?
+508	1485 835 68	what is the TOPIC_ENTITY 's offspring 's offspring ?
+243	1485 25 1332 508 1078	what is the kid of TOPIC_ENTITY 's parents ?
+1602	1485	TOPIC_ENTITY 's child 's gender ?
+556	1709 1332 410	the institution of TOPIC_ENTITY 's dad ?
+1602	1485	what is the gender of TOPIC_ENTITY 's heir ?
+1011	1485 325 554	what does TOPIC_ENTITY 's daughter do for a living?
+412	150 1627 481 1763 240	what is the sex of darling of TOPIC_ENTITY ?
+1505	1485 1332 508 678 1962 243 1180	what is the name of the grandmother of TOPIC_ENTITY ?
+1602	1485 835	TOPIC_ENTITY 's offspring 's sex ?
+1011	1485	what does TOPIC_ENTITY 's offspring do for a living?
+331	1485	the place of death of TOPIC_ENTITY 's child ?
+58	1627 1390 313 585 383	the nation of TOPIC_ENTITY 's spouse ?
+331	1485 1211 1962 1602 819 749 526	TOPIC_ENTITY 's offspring 's place of death ?
+68	1485 1390 1118 1289 1878	what is the name of the couple of TOPIC_ENTITY 's kid ?
+1602	1485	TOPIC_ENTITY 's child 's sex ?
+3	1332	what is the nation of TOPIC_ENTITY 's mom ?
+1450	325 1627 1731 733 238 58 240	what made the TOPIC_ENTITY 's coupledead ?
+331	1485 1390 1325	what city did TOPIC_ENTITY 's offspring die ?
+1778	1627 1390 644	what is the organization of other half of TOPIC_ENTITY ?
+1429	1485 1011	where does TOPIC_ENTITY 's son work ?
+1962	1485	what is the TOPIC_ENTITY 's son 's place of birth ?
+1011	1485 1211 1390 1429 963 803 574 644	the job of son of TOPIC_ENTITY ?
+412	1627 1390 58 383 1745	TOPIC_ENTITY 's couple 's sex ?
+1602	1485 1805 835 1902 63	what is the TOPIC_ENTITY 's kid 's gender ?
+210	1485 150 1011 1560 106 1607 951	TOPIC_ENTITY 's son 's cause of death ?
+678	1485 1805 835 1902 587	what is the father of TOPIC_ENTITY 's kid ?
+1505	1332 1805 1323 587 940	the parent of parents of TOPIC_ENTITY ?
+235	1332	is TOPIC_ENTITY 's dad a man or a woman ?
+1602	1485 1118 835 377 1041	is TOPIC_ENTITY 's kid a man or a woman ?
+1602	1485 1390 1745	the sex of children of TOPIC_ENTITY ?
+235	1332	what is the sex of TOPIC_ENTITY 's father ?
+1500	1627	who is the heir of TOPIC_ENTITY 's other half ?
+440	1332	what type of religion does TOPIC_ENTITY 's mom practice ?
+892	1485 1805 1118 1602 63 912 1041 1906	what is the TOPIC_ENTITY 's heir 's religion ?
+1323	150 1332 1390 481 1325	where did TOPIC_ENTITY 's mom die ?
+565	1627	what does TOPIC_ENTITY 's couple do ?
+1011	1485 1211 963	the occupation of TOPIC_ENTITY 's heir ?
+1602	1485 331	what is the sex of offspring of TOPIC_ENTITY ?
+412	150 1627 1763	what is the TOPIC_ENTITY 's other half 's gender ?
+1602	1485 1390 1118 1745 1041	TOPIC_ENTITY 's children 's sex ?
+58	1627	what is the TOPIC_ENTITY 's wife 's nation ?
+1429	1485 1390 835 383 644	which institution does TOPIC_ENTITY 's children work for ?
+817	1332	what is the name of the spouse of TOPIC_ENTITY 's mom ?
+835	1485 331 1602	what is the nation of TOPIC_ENTITY 's son ?
+3	1805 1332 1902	what is the nationality of TOPIC_ENTITY 's parent ?
+892	1485 1602	what faith does TOPIC_ENTITY 's heir have ?
+835	1485 1602	the nation of child of TOPIC_ENTITY ?
+412	1485 1627 1602	what is the sex of TOPIC_ENTITY 's darling ?
+235	150 1332 1763	TOPIC_ENTITY 's mother 's sex ?
+412	1627	the gender of TOPIC_ENTITY 's darling ?
+1602	1485 68	what is the sex of TOPIC_ENTITY 's offspring ?
+556	1332 325 1390 1241 1831 440 1731 1840 1618 903 1245 166 644 352	where does TOPIC_ENTITY 's dad work ?
+3	1332 556	where does TOPIC_ENTITY 's parents come from ?
+1602	1485 1390 1118 1745 1041	the sex of TOPIC_ENTITY 's children ?
+565	1627 1883	what is the TOPIC_ENTITY 's wife 's profession ?
+1241	1332 1505 556	what is the TOPIC_ENTITY 's father 's cause of death ?
+1355	1332 1390 150 325 1708 440 574 352 1607 981 554 903 982 989	what does TOPIC_ENTITY 's parents do ?
+235	1332	the gender of TOPIC_ENTITY 's parent ?
+1011	1485 1211 963	what does TOPIC_ENTITY 's heir do for a living?
+1560	1485 25 1390 1602 892 1275 212 1401 585 1745 352	what is the TOPIC_ENTITY 's heir 's ethnicity ?
+412	150 1627 1763	what is the TOPIC_ENTITY 's other half 's gender ?
+68	1485	TOPIC_ENTITY 's kid 's couple ?
+1602	1485 1627 412	TOPIC_ENTITY 's kid 's gender ?
+678	1485 835	who is the mother of TOPIC_ENTITY 's son ?
+1011	1485 1429	the occupation of TOPIC_ENTITY 's daughter ?
+412	1627 1781	TOPIC_ENTITY 's darling 's sex ?
+235	1332 1805 243 1505 311 587 63	what is the TOPIC_ENTITY 's parents 's sex ?
+235	150 1332 1607 1763 1355	the gender of TOPIC_ENTITY 's parents ?
+412	1627 1781	is TOPIC_ENTITY 's darling a man or a woman ?
+508	1485 1708 210 707 11	what is the name of the child of TOPIC_ENTITY 's children ?
+1450	1627 565	what is the cause of death of husband of TOPIC_ENTITY ?
+678	1485	what is the father of TOPIC_ENTITY 's daughter ?
+412	1627	what is the TOPIC_ENTITY 's wife 's sex ?
+243	1332	TOPIC_ENTITY 's mom 's heir ?
+331	1485	what is the TOPIC_ENTITY 's children 's place of death ?
+412	1627	the sex of TOPIC_ENTITY 's couple ?
+1386	325 1627 1913 1731 1450	what is TOPIC_ENTITY 's wife 's birthplace ?
+235	1332 1241	the sex of mother of TOPIC_ENTITY ?
+331	1485 1118 544	the place of death of TOPIC_ENTITY 's offspring ?
+1778	1627 1390 644	the organization of other half of TOPIC_ENTITY ?
+412	1485 1627 1011 1602 565	what gender is TOPIC_ENTITY 's couple  ?
+1180	1332	what is the TOPIC_ENTITY 's dad 's place of birth ?
+68	1485 508 835	what is the TOPIC_ENTITY 's daughter 's other half ?
+565	1627 1883	what does TOPIC_ENTITY 's other half do for a living?
+1355	1332	what does TOPIC_ENTITY 's dad do for a living?
+210	1485	what made the TOPIC_ENTITY 's childrendead ?
+3	1332 1390 383	the nationality of TOPIC_ENTITY 's mother ?
+243	1332	who is the daughter of TOPIC_ENTITY 's mom ?
+440	1332	what faith does TOPIC_ENTITY 's father practice ?
+817	1332 1390 1289	what is the couple of mom of TOPIC_ENTITY ?
+1602	1485 1627 412	what is the TOPIC_ENTITY 's daughter 's gender ?
+1831	1332	where is TOPIC_ENTITY 's mother living ?
+243	1332	who is the children of TOPIC_ENTITY 's parents ?
+58	150 1627 1218	the nation of spouse of TOPIC_ENTITY ?
+1011	1485	what is TOPIC_ENTITY 's heir working on ?
+1011	1485	what is TOPIC_ENTITY 's kid working on ?
+1602	1485 1805 63	what is the gender of TOPIC_ENTITY 's kid ?
+243	1332 1355	what is the name of the daughter of TOPIC_ENTITY 's parent ?
+1241	1332	why TOPIC_ENTITY 's dad died ?
+243	1332 1805 1505 235 311 587 63	TOPIC_ENTITY 's dad 's daughter ?
+1011	1485 1390 574	TOPIC_ENTITY 's offspring 's occupation ?
+243	1332	what is the daughter of TOPIC_ENTITY 's mom ?
+835	1485	TOPIC_ENTITY 's child 's nationality ?
+1831	1332	where is TOPIC_ENTITY 's father living ?
+58	1627	the nation of TOPIC_ENTITY 's couple ?
+210	1485 835	what killed the TOPIC_ENTITY 's daughter ?
+235	1332	the gender of TOPIC_ENTITY 's mother ?
+243	1332 440	what is the name of the child of TOPIC_ENTITY 's parent ?
+412	1627	is TOPIC_ENTITY 's spouse a man or a woman ?
+381	1485 1805 1602 1570 63	please tell me TOPIC_ENTITY 's children present address ?
+835	1485 678	the nation of TOPIC_ENTITY 's offspring ?
+235	1332	the sex of mother of TOPIC_ENTITY ?
+1602	1485 1805 381 1570 63	TOPIC_ENTITY 's child 's gender ?
+678	1485	what is the TOPIC_ENTITY 's daughter 's parents ?
+1883	1627 58 1778	the couple of TOPIC_ENTITY 's couple ?
+235	1332 1627 412	the gender of TOPIC_ENTITY 's mom ?
+1883	1627 1390 1289	the wife of TOPIC_ENTITY 's darling ?
+412	1627	TOPIC_ENTITY 's spouse 's sex ?
+1602	1485	what is the TOPIC_ENTITY 's kid 's gender ?
+1500	1485 1805 1627 508 1602 311 63 412	who is the heir of TOPIC_ENTITY 's couple ?
+1500	1485 1805 1627 508 1602 311 63 412	what is the TOPIC_ENTITY 's couple 's heir ?
+678	1485	what is the father of TOPIC_ENTITY 's son ?
+243	1332	who is the child of TOPIC_ENTITY 's parent ?
+1011	1485 150 1211 1607 963	what does TOPIC_ENTITY 's daughter do ?
+1355	150 1332 325 1218 1607 3 733 554	what does TOPIC_ENTITY 's parents do ?
+243	1332 1390 1678	what is the TOPIC_ENTITY 's parent 's daughter ?
+412	1627	TOPIC_ENTITY 's wife 's sex ?
+1602	1485	what sex is TOPIC_ENTITY 's offspring  ?
+1602	1485	is TOPIC_ENTITY 's children a man or a woman ?
+235	1332	what gender is TOPIC_ENTITY 's dad  ?
+1011	1485 1429	what does TOPIC_ENTITY 's daughter do for a living?
+243	1332 1805 311	the child of TOPIC_ENTITY 's mom ?
+58	1627 565 412	where does TOPIC_ENTITY 's spouse come from ?
+58	1627	TOPIC_ENTITY 's couple 's nationality ?
+835	1485 1602	TOPIC_ENTITY 's child 's nation ?
+210	1485 1708 508 707 11	how TOPIC_ENTITY 's daughter died ?
+235	1332 1390 243 1678 1745	what is the gender of TOPIC_ENTITY 's mother ?
+678	1485 835	the mother of TOPIC_ENTITY 's son ?
+243	150 1332 1225 1390 1922 806 1678	what is the heir of TOPIC_ENTITY 's mother ?
+1011	1485 150 210 1560 106 1607 951	what is the TOPIC_ENTITY 's kid 's profession ?
+440	1332	what religious belief does TOPIC_ENTITY 's parents have ?
+892	1485 1118 1906	what faith is TOPIC_ENTITY 's child ?
+243	1332 325 1665	what is the son of parent of TOPIC_ENTITY ?
+1450	325 1627 1731 1618 1778	the cause of death of husband of TOPIC_ENTITY ?
+412	1627	what is the gender of darling of TOPIC_ENTITY ?
+210	1485 678 1429 1602	what is the cause of death of son of TOPIC_ENTITY ?
+3	1332 1390 383	what is the nation of TOPIC_ENTITY 's father ?
+565	1709 1805 1627 1536 490	the job of spouse of TOPIC_ENTITY ?
+556	1332 3	the educational institution of TOPIC_ENTITY 's parents ?
+235	1332	what is the gender of parents of TOPIC_ENTITY ?
+243	1332 325 3 235 1665 733 868	what is the son of TOPIC_ENTITY 's parents ?
+243	150 1332 1922 656 1870 1505 817	who is the children of TOPIC_ENTITY 's mother ?
+1883	1627 565	what is the wife of darling of TOPIC_ENTITY ?
+892	1485 1708 989	the type of religion of TOPIC_ENTITY 's daughter ?
+58	1118 1627 1390 377 383	the nationality of other half of TOPIC_ENTITY ?
+235	1332 1390 3 383 1745	what is the TOPIC_ENTITY 's dad 's sex ?
+1602	1485 1211 1390 526 1745	what is the TOPIC_ENTITY 's heir 's sex ?
+210	1485 1390 508 1962 1678 1245 787	the cause of death of offspring of TOPIC_ENTITY ?
+1602	1485 508	what is the sex of child of TOPIC_ENTITY ?
+412	1485 1627 1602	what sex is TOPIC_ENTITY 's husband  ?
+243	1332 1390 1678	what is the TOPIC_ENTITY 's mother 's heir ?
+235	1332 1118 1041	what is the gender of parents of TOPIC_ENTITY ?
+243	1332 1355	the daughter of parent of TOPIC_ENTITY ?
+565	1627 1118 412 598 1041	TOPIC_ENTITY 's other half 's occupation ?
+1602	1485 508	what is the TOPIC_ENTITY 's child 's sex ?
+235	1332 1241	what is the sex of TOPIC_ENTITY 's mother ?
+565	1709 1805 1627 1536 490	what is TOPIC_ENTITY 's spouse ?
+892	1485 508	what faith is TOPIC_ENTITY 's son ?
+835	1485 1962 1602	what is the nationality of TOPIC_ENTITY 's son ?
+1323	1332 1708 178	what is the place of death of TOPIC_ENTITY 's father ?
+412	1627	the gender of spouse of TOPIC_ENTITY ?
+817	1332 1390 3 383 1289	what is the wife of dad of TOPIC_ENTITY ?
+235	1332	the gender of dad of TOPIC_ENTITY ?
+440	1332 243	what religious belief does TOPIC_ENTITY 's parent practice ?
+412	1627 313	is TOPIC_ENTITY 's spouse a man or a woman ?
+678	1485	what is the father of daughter of TOPIC_ENTITY ?
+835	1485 1602	what is the TOPIC_ENTITY 's child 's nationality ?
+1602	1485 1805 508 311 63	what is the gender of kid of TOPIC_ENTITY ?
+1602	1485	the gender of daughter of TOPIC_ENTITY ?
+1355	1332 1118 598	the work of TOPIC_ENTITY 's mother ?
+67	1627	TOPIC_ENTITY 's other half 's father ?
+1962	1485 1211 331 1602 819 749 526	what is the TOPIC_ENTITY 's children 's place of birth ?
+508	1485	TOPIC_ENTITY 's children 's children ?
+835	1485 1390 1602 383 1745	where does TOPIC_ENTITY 's kid come from ?
+1505	1332 1241 556	what is the dad of TOPIC_ENTITY 's parents ?
+1781	1627	the religious belief of TOPIC_ENTITY 's other half ?
+1883	1627 1450 412 1781	what is the husband of TOPIC_ENTITY 's husband ?
+3	150 1332 325 1218 733	where does TOPIC_ENTITY 's mother come from ?
+412	1709 1332 1627 353 235	the sex of husband of TOPIC_ENTITY ?
+1781	1627 1450 412 1883	what type of religion does TOPIC_ENTITY 's wife follow ?
+1355	150 1332 325 1218 1607 3 733 554	TOPIC_ENTITY 's parents 's occupation ?
+243	1332 1390 1678	TOPIC_ENTITY 's mother 's child ?
+58	1627	what is the nationality of couple of TOPIC_ENTITY ?
+1602	1485	what sex is TOPIC_ENTITY 's kid  ?
+1778	325 1627 1731 1618 1450	what is the educational institution of spouse of TOPIC_ENTITY ?
+235	1332	what is the TOPIC_ENTITY 's parents 's gender ?
+235	1332	the gender of father of TOPIC_ENTITY ?
+817	150 1332 1922 656 1870 243 1505	what is the spouse of mom of TOPIC_ENTITY ?
+1602	1485	the gender of TOPIC_ENTITY 's kid ?
+1241	1332 325 1355 1831 1731 554 1840	what killed the TOPIC_ENTITY 's mother ?
+313	1627 412	what is the ethnicity of wife of TOPIC_ENTITY ?
+68	1485 1390 1118 1289 1878	TOPIC_ENTITY 's children 's darling ?
+1011	1485	what is TOPIC_ENTITY 's offspring working on ?
+1831	1332 325 1241 1355 1731 554 1840	what is the TOPIC_ENTITY 's parents 's address ?
+556	1332 1225 1211 150 325 651 803 409 1618	the organization of dad of TOPIC_ENTITY ?
+235	1805 1332 1902 63 3	is TOPIC_ENTITY 's mother a man or a woman ?
+1011	1485 150 210 1560 106 1607 951	what is TOPIC_ENTITY 's son working on ?
+240	150 1627 481 1763 412	what is the place of death of TOPIC_ENTITY 's husband ?
+1602	1485 1225 761	the sex of offspring of TOPIC_ENTITY ?
+235	150 1332 1390 1763 1745	what is the TOPIC_ENTITY 's mother 's gender ?
+508	1485 1390 1678	the heir of TOPIC_ENTITY 's daughter ?
+835	1485 1225 1293	what is the nation of children of TOPIC_ENTITY ?
+1602	1485	the sex of TOPIC_ENTITY 's heir ?
+1602	1485 835	what is the sex of TOPIC_ENTITY 's child ?
+817	150 1332 1922 656 1870 243 1505	what is the name of the spouse of TOPIC_ENTITY 's mom ?
+243	1332 1390 1678	TOPIC_ENTITY 's parent 's child ?
+58	325 1627 1913 733 1386	where does TOPIC_ENTITY 's darling come from ?
+313	1627	what is TOPIC_ENTITY 's couple 's ethnicity about ?
+835	1485 1225 1293	the nation of children of TOPIC_ENTITY ?
+235	150 1332 1607 1763 1355	what is the gender of TOPIC_ENTITY 's parents ?
+556	1332 1241 1505	what is the organization of mom of TOPIC_ENTITY ?
+565	150 1627 106 1607 1450	what is the TOPIC_ENTITY 's spouse 's job ?
+835	1485 1118 1602 377 1041	the nation of children of TOPIC_ENTITY ?
+210	1485	the cause of death of TOPIC_ENTITY 's heir ?
+1883	1627 565	TOPIC_ENTITY 's darling 's wife ?
+565	1627 58 412	TOPIC_ENTITY 's husband 's profession ?
+67	1627 1390 1450 1245 1088	what is the mother of TOPIC_ENTITY 's wife ?
+1602	1485 892	the sex of TOPIC_ENTITY 's child ?
+243	1332	what is the heir of parent of TOPIC_ENTITY ?
+235	1332	what is the sex of TOPIC_ENTITY 's mother ?
+1500	1627	what is the heir of other half of TOPIC_ENTITY ?
+599	1332	what is TOPIC_ENTITY 's parent 's race about ?
+1602	1485	the sex of offspring of TOPIC_ENTITY ?
+3	1332 1805 1390 243 311 1902 1678 383	the nationality of mom of TOPIC_ENTITY ?
+565	1805 1627 490	what is the TOPIC_ENTITY 's wife 's work ?
+565	1627 58 412	what is the profession of husband of TOPIC_ENTITY ?
+565	1805 325 1627 490 1110 63 554 1618 868 1778 412	what does TOPIC_ENTITY 's husband do for a living?
+1011	1485 1390 574	what is the occupation of offspring of TOPIC_ENTITY ?
+1180	1485 1332 508 678 1962 243 1505	what is the TOPIC_ENTITY 's mother 's place of birth ?
+599	1332	the race of parent of TOPIC_ENTITY ?
+678	1485	what is the TOPIC_ENTITY 's son 's parent ?
+1883	1332 1627 817	who is the darling of TOPIC_ENTITY 's darling ?
+440	1332 325 1390 1241 1831 556 1731 1840 1618 903 1245 166 644 352	what is the religious belief of TOPIC_ENTITY 's father ?
+1831	1332 325 1241 1355 1731 554 1840	what is the address of parents of TOPIC_ENTITY ?
+243	1805 1332 311 1902 3	what is the son of parent of TOPIC_ENTITY ?
+235	1332 1390 243 1323 1678 1325 1745	the gender of parent of TOPIC_ENTITY ?
+412	1485 1627 1602	what is the TOPIC_ENTITY 's husband 's sex ?
+565	1627 1118 412 598 1041	what is TOPIC_ENTITY 's other half working on ?
+1011	1485	what is the TOPIC_ENTITY 's kid 's work ?
+412	1627	what is the TOPIC_ENTITY 's spouse 's gender ?
+412	1485 1627 1602	what is the TOPIC_ENTITY 's couple 's gender ?
+243	1332 1355	who is the daughter of TOPIC_ENTITY 's parent ?
+3	1709 1332 1627 1857 353 235 58 412	what is the nationality of parents of TOPIC_ENTITY ?
+835	1485 1332 1709 3 1857	which nationality is TOPIC_ENTITY 's children ?
+1355	1332 1118 598	what does TOPIC_ENTITY 's mother do ?
+1602	1485 1560	TOPIC_ENTITY 's offspring 's gender ?
+1778	1627 58 1883	the organization of TOPIC_ENTITY 's husband ?
+835	1485 508 68	which nationality is TOPIC_ENTITY 's offspring ?
+508	1485 1211 1118 331 609 749 1095 544	who is the children of TOPIC_ENTITY 's daughter ?
+68	1485 1390 1118 1289 1878	what is the TOPIC_ENTITY 's children 's darling ?
+1241	1332 1225 1805 150 325 1180 1355 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	the cause of death of TOPIC_ENTITY 's parent ?
+1505	1332 1805 243 235 311 587 63	TOPIC_ENTITY 's parents 's parents ?
+1778	1805 325 1627 490 1110 63 554 1618 868 565 412	where does TOPIC_ENTITY 's spouse work for ?
+243	1332 1390 1678	the son of father of TOPIC_ENTITY ?
+440	1332	the faith of parent of TOPIC_ENTITY ?
+1505	150 1332 1922 656 1870 243 817	what is the dad of TOPIC_ENTITY 's mother ?
+599	1332 1390 585	the ethnicity of TOPIC_ENTITY 's mom ?
+1883	1627 1390 1289	what is the TOPIC_ENTITY 's darling 's wife ?
+1560	1485 150 210 1011 106 1607 951	what is TOPIC_ENTITY 's daughter 's race about ?
+235	1332	is TOPIC_ENTITY 's parents a man or a woman ?
+835	1485 1962 1602	which nationality is TOPIC_ENTITY 's son ?
+1602	1485 678	what is the TOPIC_ENTITY 's child 's gender ?
+68	1485 1602	the wife of heir of TOPIC_ENTITY ?
+678	1485 1602	what is the father of children of TOPIC_ENTITY ?
+835	1709 1805 1485 1857 1536 1902 490 1011	what is the nation of daughter of TOPIC_ENTITY ?
+58	1627 1390 412 383 1745	what is the nationality of darling of TOPIC_ENTITY ?
+3	1332 556	which nationality is TOPIC_ENTITY 's parents ?
+565	1627 412	what is TOPIC_ENTITY 's wife ?
+210	1485 835	the cause of death of daughter of TOPIC_ENTITY ?
+412	1627	TOPIC_ENTITY 's other half 's gender ?
+1429	1485 1011	where does TOPIC_ENTITY 's son work for ?
+1781	1627 412	what is the religious belief of TOPIC_ENTITY 's husband ?
+3	1332	the nation of parent of TOPIC_ENTITY ?
+556	1332 1241 1505	what is the TOPIC_ENTITY 's mom 's organization ?
+1323	1485 25 1332 1390 210 331 795 994 1241 1245 1325	what is the place of death of TOPIC_ENTITY 's parents ?
+1386	1627	what is the place of birth of wife of TOPIC_ENTITY ?
+240	150 1627 481 1763 412	what city did TOPIC_ENTITY 's husband die ?
+1781	1805 1627 912	what type of religion is TOPIC_ENTITY 's other half ?
+412	1211 1627 526	the gender of TOPIC_ENTITY 's couple ?
+243	1485 25 1332 508 1078	what is the kid of parents of TOPIC_ENTITY ?
+1241	1332 235	what is the cause of death of TOPIC_ENTITY 's dad ?
+58	325 1627 1913 733 1386	the nationality of darling of TOPIC_ENTITY ?
+678	1485	what is the parent of son of TOPIC_ENTITY ?
+3	1332 1390 235 383 1745	the nation of TOPIC_ENTITY 's mother ?
+331	1485 1211 1962 1602 819 749 526	where did TOPIC_ENTITY 's offspring die ?
+235	150 1332 1390 1763 1745	TOPIC_ENTITY 's mother 's gender ?
+1355	1332 1390 574	the profession of TOPIC_ENTITY 's parent ?
+210	1485	what is the cause of death of heir of TOPIC_ENTITY ?
+412	150 1627 1763	TOPIC_ENTITY 's other half 's gender ?
+1355	1332 1390 574	what is TOPIC_ENTITY 's parent ?
+3	150 1332 325 1218 1607 1355 733 554	what is the nation of TOPIC_ENTITY 's parent ?
+331	1485 1390 1325	where did the offspring of TOPIC_ENTITY die ?
+565	1627	what does TOPIC_ENTITY 's couple do for a living?
+243	1332	what is the TOPIC_ENTITY 's dad 's offspring ?
+1011	1485 1211 1390 1429 963 803 574 644	what is TOPIC_ENTITY 's son working on ?
+235	1332	what is the gender of mother of TOPIC_ENTITY ?
+1500	1627 313 67	what is the daughter of spouse of TOPIC_ENTITY ?
+412	1485 1627 1602	the gender of couple of TOPIC_ENTITY ?
+1602	1485	what is the gender of child of TOPIC_ENTITY ?
+835	1485 1118 377	the nationality of son of TOPIC_ENTITY ?
+1602	1485 1962 835	what is the TOPIC_ENTITY 's child 's sex ?
+508	1485 1708 210 707 11	who is the child of TOPIC_ENTITY 's child ?
+508	1485 325 1011 1665 554	the son of child of TOPIC_ENTITY ?
+68	1485 1390 835 383 1289	TOPIC_ENTITY 's heir 's husband ?
+1602	1485	the sex of heir of TOPIC_ENTITY ?
+412	1627 67	the sex of TOPIC_ENTITY 's other half ?
+1505	150 1332 1922 656 1870 243 817	what is the TOPIC_ENTITY 's mother 's dad ?
+1831	1332 325 1390 1241 556 440 1731 1840 1618 903 1245 166 644 352	the location of parent of TOPIC_ENTITY ?
+678	1485 1225 1941	the mother of TOPIC_ENTITY 's son ?
+1011	1485	what is TOPIC_ENTITY 's child ?
+235	150 1332 1763	what is the sex of TOPIC_ENTITY 's mother ?
+210	1485 150 1011 1560 106 1607 951	the cause of death of TOPIC_ENTITY 's son ?
+1505	1332 325 1180 1913 216	what is the TOPIC_ENTITY 's father 's parents ?
+1602	1485	the sex of TOPIC_ENTITY 's kid ?
+1241	1332	how TOPIC_ENTITY 's dad died ?
+235	1805 1332 1902 63 3	the gender of TOPIC_ENTITY 's mother ?
+412	1627 565	is TOPIC_ENTITY 's wife a man or a woman ?
+1386	1627	what is the hometown of TOPIC_ENTITY 's darling ?
+1241	1332	what made the TOPIC_ENTITY 's daddead ?
+243	1332 440	what is the child of parent of TOPIC_ENTITY ?
+678	1485	TOPIC_ENTITY 's daughter 's parents ?
+243	1332 440	the son of mom of TOPIC_ENTITY ?
+243	1332 325 3 235 1665 733 868	what is the son of parents of TOPIC_ENTITY ?
+892	1485 1602	what is the faith of TOPIC_ENTITY 's heir ?
+235	1332 1390 1745	what gender is TOPIC_ENTITY 's father  ?
+1602	1485 1390 1118 1745 1041	the sex of children of TOPIC_ENTITY ?
+1011	1485 1429	what line of business is TOPIC_ENTITY 's children in ?
+58	1627	TOPIC_ENTITY 's darling 's nation ?
+1883	325 1627 771	the other half of wife of TOPIC_ENTITY ?
+440	1332 1390 352	what faith does TOPIC_ENTITY 's mom practice ?
+1355	1332 1390 150 325 1708 440 574 352 1607 981 554 903 982 989	what line of business is TOPIC_ENTITY 's parents in ?
+1602	1485 1805 381 1570 63	the gender of child of TOPIC_ENTITY ?
+565	1627 412	what is the TOPIC_ENTITY 's wife 's occupation ?
+58	1627	the nationality of spouse of TOPIC_ENTITY ?
+3	1332	where does TOPIC_ENTITY 's mom come from ?
+1386	1627	where did TOPIC_ENTITY 's darling born ?
+235	1485 1332 68 1602 817	what sex is TOPIC_ENTITY 's dad  ?
+243	1332 1390 1678	who is the child of TOPIC_ENTITY 's parent ?
+240	150 1627 481 1763 412	the place of death of TOPIC_ENTITY 's husband ?
+412	1627	what is the gender of husband of TOPIC_ENTITY ?
+313	1627 1500 67	the ethnicity of TOPIC_ENTITY 's wife ?
+678	1485 1118 1259	what is the dad of children of TOPIC_ENTITY ?
+1831	1332	where is TOPIC_ENTITY 's mother staying ?
+412	1627 565	the gender of wife of TOPIC_ENTITY ?
+412	1211 1627 526	what gender is TOPIC_ENTITY 's couple  ?
+599	1332	what is TOPIC_ENTITY 's parent 's race like ?
+412	1627 240	is TOPIC_ENTITY 's darling a man or a woman ?
+565	1627 1450	the work of TOPIC_ENTITY 's other half ?
+1560	1485 508 678	what is the TOPIC_ENTITY 's child 's ethnicity ?
+235	1332	the gender of TOPIC_ENTITY 's mother ?
+1778	1627 1390 644	where does TOPIC_ENTITY 's husband work for ?
+313	1627	what is the ethnicity of darling of TOPIC_ENTITY ?
+381	1485 1708 205	please tell me TOPIC_ENTITY 's daughter present address ?
+1778	1627 58 1883	where does TOPIC_ENTITY 's husband work for ?
+3	1805 1332 311 1902 243	the nationality of parent of TOPIC_ENTITY ?
+3	1805 1332 311 1902 243	where does TOPIC_ENTITY 's parent come from ?
+1011	1485 1429	what does TOPIC_ENTITY 's children do for a living?
+1602	1485 150 210 106 1763	what is the gender of children of TOPIC_ENTITY ?
+1602	1485 210 678 1429	TOPIC_ENTITY 's kid 's gender ?
+235	1332 1390 1745	is TOPIC_ENTITY 's dad a man or a woman ?
+1602	1485 508	the sex of child of TOPIC_ENTITY ?
+1429	1485 210 678 1602	what is the institution of TOPIC_ENTITY 's kid ?
+1602	1485 1211 1390 526 1745	is TOPIC_ENTITY 's offspring a man or a woman ?
+243	1805 1332 311 1902 3	what is the son of TOPIC_ENTITY 's parent ?
+565	1805 1627 490	what is TOPIC_ENTITY 's wife working on ?
+3	1805 1332 1902	where does TOPIC_ENTITY 's parent come from ?
+1883	1627 1390 1289	what is the name of the wife of TOPIC_ENTITY 's darling ?
+412	25 1805 1627 1390 212 63 1745	what gender is TOPIC_ENTITY 's darling  ?
+1241	150 1332 106	the cause of death of TOPIC_ENTITY 's mom ?
+678	1485 1225 1941	TOPIC_ENTITY 's son 's mother ?
+412	1627	what is the sex of wife of TOPIC_ENTITY ?
+1355	1332 325 1241 1831 1731 554 1840	what is TOPIC_ENTITY 's parents ?
+817	1485 1332 68 1602 235	what is the husband of TOPIC_ENTITY 's mother ?
+243	1332 1708 707	what is the name of the daughter of TOPIC_ENTITY 's mom ?
+1602	1485 210 678 1429	what gender is TOPIC_ENTITY 's kid  ?
+1602	1485	the gender of heir of TOPIC_ENTITY ?
+1500	1627	the child of TOPIC_ENTITY 's wife ?
+892	1485 1602	what faith does TOPIC_ENTITY 's heir practice ?
+210	1485 150 1602 106 1763	what is the cause of death of TOPIC_ENTITY 's kid ?
+1241	1332 1211 1627 724 1450	what is the cause of death of TOPIC_ENTITY 's dad ?
+3	1332 325 243 235 1665 733 868	what is the nationality of dad of TOPIC_ENTITY ?
+892	1485 1708 989	what type of religion does TOPIC_ENTITY 's daughter have ?
+678	1485 1602	what is the dad of TOPIC_ENTITY 's children ?
+1602	1485	what is the gender of kid of TOPIC_ENTITY ?
+835	1485 1390 68 383 1289	TOPIC_ENTITY 's heir 's nationality ?
+1011	1485	what is TOPIC_ENTITY 's kid working on ?
+835	1485 1962 1602	the nationality of son of TOPIC_ENTITY ?
+1602	1485 25 1390 1560 892 1275 212 1401 585 1745 352	is TOPIC_ENTITY 's daughter a man or a woman ?
+1602	1485 1390 1745	TOPIC_ENTITY 's children 's sex ?
+68	1485 1390 835 383 1289	what is the name of the husband of TOPIC_ENTITY 's heir ?
+1778	1805 1627 1390 311 1110 1500 1678 644	where does TOPIC_ENTITY 's other half work ?
+1831	1332 325 1241 3 1731 733 1840	please tell me TOPIC_ENTITY 's mother present address ?
+1781	325 1627 1390 733 903 58 383 352	the faith of TOPIC_ENTITY 's husband ?
+817	150 1332 1922 656 1870 243 1505	what is the spouse of TOPIC_ENTITY 's mom ?
+1180	1332 325 1505 1913 216	what is TOPIC_ENTITY 's mom 's birthplace ?
+1602	1485	what is the TOPIC_ENTITY 's heir 's sex ?
+1883	1332 1627 817	what is the name of the darling of TOPIC_ENTITY 's darling ?
+508	1485 835 68	what is the name of the offspring of TOPIC_ENTITY 's offspring ?
+235	1332	what sex is TOPIC_ENTITY 's mother  ?
+835	1485 1805 678 1902 587	the nation of TOPIC_ENTITY 's son ?
+1011	1485 150 1211 1607 963	what is TOPIC_ENTITY 's daughter working on ?
+3	1805 1332 311 1902 243	what is the TOPIC_ENTITY 's parent 's nationality ?
+58	1627 565 412	what is the nationality of spouse of TOPIC_ENTITY ?
+1450	325 1627 1913 1731 1386	how TOPIC_ENTITY 's spouse died ?
+1241	1332 325 3 1831 1731 733 1840	the cause of death of dad of TOPIC_ENTITY ?
+3	150 1332 325 1218 1607 1355 733 554	what is the TOPIC_ENTITY 's parent 's nation ?
+58	1709 1211 1627 1857 1917	which nationality is TOPIC_ENTITY 's spouse ?
+817	1332 1390 1289	what is the couple of TOPIC_ENTITY 's mom ?
+1883	1627 565	what is the TOPIC_ENTITY 's darling 's wife ?
+508	1485 331	the child of TOPIC_ENTITY 's offspring ?
+678	1485 1602	what is the TOPIC_ENTITY 's child 's dad ?
+1505	1332 1805 1323 587 940	what is the name of the grandparent of TOPIC_ENTITY ?
+1180	1332 1225 1805 150 325 1241 1355 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	the place of birth of mom of TOPIC_ENTITY ?
+58	1627	what is the nationality of TOPIC_ENTITY 's wife ?
+412	1627	what is the TOPIC_ENTITY 's husband 's gender ?
+1355	1332 325 1627 1390 554 565 574	what line of business is TOPIC_ENTITY 's parent in ?
+1011	1485 150 210 1560 106 1607 951	what is TOPIC_ENTITY 's son ?
+508	1485 331	what is the name of the grandchild of TOPIC_ENTITY ?
+1602	1485 1332 508 835 243 3 235	what is the TOPIC_ENTITY 's children 's sex ?
+313	1627	what is the TOPIC_ENTITY 's darling 's ethnicity ?
+565	1627 1883	the profession of TOPIC_ENTITY 's wife ?
+243	1332	what is the name of the heir of TOPIC_ENTITY 's parent ?
+3	1332 1390 817 383 1289	TOPIC_ENTITY 's dad 's nation ?
+1355	1332 325 1241 1831 1731 554 1840	what is the profession of TOPIC_ENTITY 's parents ?
+1781	1627 1390 412 352 1745	what religious belief does TOPIC_ENTITY 's spouse have ?
+3	1332	what is the nationality of parent of TOPIC_ENTITY ?
+3	1332	what is the TOPIC_ENTITY 's parent 's nation ?
+678	1485	what is the TOPIC_ENTITY 's son 's father ?
+210	1485 1390 1245	TOPIC_ENTITY 's child 's cause of death ?
+243	150 1332 1922 656 1870 1505 817	what is the TOPIC_ENTITY 's mother 's children ?
+1241	1332 1211 1627 724 1450	the cause of death of dad of TOPIC_ENTITY ?
+68	1485 1390 1118 1289 1878	what is the couple of TOPIC_ENTITY 's kid ?
+243	1332 1390 235 1678 1745	what is the TOPIC_ENTITY 's parents 's child ?
+678	1485	who is the parent of TOPIC_ENTITY 's son ?
+1450	1627	how TOPIC_ENTITY 's couple died ?
+835	1485 1805 678 1902 587	the nationality of TOPIC_ENTITY 's child ?
+678	1485	who is the parent of TOPIC_ENTITY 's son ?
+1602	1485	is TOPIC_ENTITY 's heir a man or a woman ?
+1602	1485 1805 63	is TOPIC_ENTITY 's kid a man or a woman ?
+1831	1332 325 1241 3 1731 733 1840	what is the address of mother of TOPIC_ENTITY ?
+331	1485 1390 1325	where did TOPIC_ENTITY 's offspring die ?
+3	1332 1390 383	TOPIC_ENTITY 's father 's nation ?
+331	1485 1805 325 1390 940 238 1325	what is the place of death of daughter of TOPIC_ENTITY ?
+1500	1805 1627 1390 311 1110 1778 1678 644	TOPIC_ENTITY 's husband 's son ?
+3	150 1332 325 1218 733	what is the nation of mother of TOPIC_ENTITY ?
+1602	1485 835 331	is TOPIC_ENTITY 's children a man or a woman ?
+508	1485 892	what is the heir of TOPIC_ENTITY 's daughter ?
+1602	1485	what is the sex of TOPIC_ENTITY 's children ?
+58	1627	TOPIC_ENTITY 's spouse 's nationality ?
+412	1485 1627 1602	TOPIC_ENTITY 's husband 's sex ?
+835	1485 1118 377	what is the nationality of son of TOPIC_ENTITY ?
+508	1485 325 1011 1665 554	who is the grandson of TOPIC_ENTITY ?
+440	1332	the faith of TOPIC_ENTITY 's parent ?
+1323	1485 25 1332 1390 210 331 795 994 1241 1245 1325	TOPIC_ENTITY 's parents 's place of death ?
+508	1485 835 68	the offspring of offspring of TOPIC_ENTITY ?
+1011	1485 1429	what is TOPIC_ENTITY 's daughter ?
+1011	1709 1805 1485 1857 1536 1902 490 835	what is the TOPIC_ENTITY 's son 's profession ?
+1323	1332 1390 243 235 1678 1325 1745	what is the TOPIC_ENTITY 's parents 's place of death ?
+331	1485 1211 1962 1602 819 749 526	what city did TOPIC_ENTITY 's offspring die ?
+235	1332	what is the TOPIC_ENTITY 's parents 's sex ?
+1505	1332 1118 1259	what is the name of the mom of TOPIC_ENTITY 's mom ?
+1883	1332 1627 817	the darling of TOPIC_ENTITY 's darling ?
+1778	1627 1390 644	what is the educational institution of TOPIC_ENTITY 's husband ?
+235	1332	is TOPIC_ENTITY 's dad a man or a woman ?
+1560	1485 1709 618	the ethnicity of child of TOPIC_ENTITY ?
+835	1485 1390 383	what is the nation of TOPIC_ENTITY 's son ?
+1011	1485	what is the work of kid of TOPIC_ENTITY ?
+1602	1485	what is the sex of offspring of TOPIC_ENTITY ?
+58	1627 1883 1778	what is the nation of TOPIC_ENTITY 's couple ?
+1386	325 1627 1913 1731 1450	the place of birth of TOPIC_ENTITY 's wife ?
+412	1485 1627 1602	what is the sex of husband of TOPIC_ENTITY ?
+835	1485 1390 1429 383 644	the nation of TOPIC_ENTITY 's daughter ?
+240	1627 412	TOPIC_ENTITY 's darling 's place of death ?
+835	1485 1805 1902	what is the TOPIC_ENTITY 's kid 's nationality ?
+331	1485 835 1602	the place of death of TOPIC_ENTITY 's kid ?
+235	150 1332 1390 1763 1745	what is the sex of parents of TOPIC_ENTITY ?
+1011	1485 150 210 1560 106 1607 951	what does TOPIC_ENTITY 's kid do ?
+58	1627	the nationality of TOPIC_ENTITY 's wife ?
+1781	1627 1450 412 1883	TOPIC_ENTITY 's wife 's type of religion ?
+412	325 1627 1390 554 868 565 574 1745	TOPIC_ENTITY 's darling 's gender ?
+1450	325 1627 1913 1731 1386	the cause of death of TOPIC_ENTITY 's spouse ?
+1386	325 1627 1913 733 58	what is the hometown of TOPIC_ENTITY 's spouse ?
+235	1805 1332 63	the sex of TOPIC_ENTITY 's parents ?
+1241	1332	what is the TOPIC_ENTITY 's dad 's cause of death ?
+412	1627 1781	the gender of TOPIC_ENTITY 's other half ?
+235	1709 1332 1627 1857 353 3 58 412	TOPIC_ENTITY 's parent 's sex ?
+1241	1485 25 1332 1390 210 331 795 994 1323 1245 1325	what is the cause of death of father of TOPIC_ENTITY ?
+412	1627 67	what sex is TOPIC_ENTITY 's other half  ?
+66	25 1627 1307	what is the address of TOPIC_ENTITY 's couple ?
+235	1332	what is the TOPIC_ENTITY 's dad 's gender ?
+58	1627	where does TOPIC_ENTITY 's wife come from ?
+565	1627	what is the job of TOPIC_ENTITY 's darling ?
+1241	150 1332 106	how TOPIC_ENTITY 's mom died ?
+817	1485 1332 68 1602 235	what is the name of the husband of TOPIC_ENTITY 's mother ?
+1355	1332	what is the TOPIC_ENTITY 's father 's occupation ?
+235	1332	the gender of mom of TOPIC_ENTITY ?
+243	1805 1332 311 1902 3	the son of parent of TOPIC_ENTITY ?
+58	1225 1390 150 325 1627 1293 761 383 1745 1218 1763 733 868 412	what is the nation of husband of TOPIC_ENTITY ?
+412	1627 1225 761	what gender is TOPIC_ENTITY 's other half  ?
+1560	1485 1602	TOPIC_ENTITY 's offspring 's race ?
+412	1627 67	the sex of other half of TOPIC_ENTITY ?
+235	150 1332 1225 1922 481 1763 243 1323 806 1797 761	what sex is TOPIC_ENTITY 's dad  ?
+58	1627	what is the nationality of other half of TOPIC_ENTITY ?
+3	1332 325 243 235 1665 733 868	TOPIC_ENTITY 's dad 's nationality ?
+243	1332	what is the daughter of parents of TOPIC_ENTITY ?
+556	1332 243	where does TOPIC_ENTITY 's parent work ?
+1355	150 1332 325 1218 1607 3 733 554	what is the TOPIC_ENTITY 's parents 's occupation ?
+1602	1485 835 331	the gender of children of TOPIC_ENTITY ?
+331	1485	the place of death of TOPIC_ENTITY 's daughter ?
+235	1805 1332 63	what is the gender of TOPIC_ENTITY 's parents ?
+412	1627 240	what is the TOPIC_ENTITY 's darling 's gender ?
+412	1332 1211 1627 235 526	what is the gender of TOPIC_ENTITY 's darling ?
+412	325 1627 1390 554 868 565 574 1745	what is the gender of TOPIC_ENTITY 's darling ?
+1505	1332 1390 1088	the mom of father of TOPIC_ENTITY ?
+1386	325 1627 1913 733 58	TOPIC_ENTITY 's spouse 's place of birth ?
+1602	1485 1560	what is the gender of offspring of TOPIC_ENTITY ?
+235	1332 1390 1745	TOPIC_ENTITY 's parents 's gender ?
+1781	1805 1627 912	what religion does TOPIC_ENTITY 's wife have ?
+1241	1332 1225 1805 150 325 1180 1355 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	TOPIC_ENTITY 's parent 's cause of death ?
+508	1485 1805 1602 311 63	what is the name of the grandson of TOPIC_ENTITY ?
+1778	325 1627 1731 1618 1450	where does TOPIC_ENTITY 's spouse work for ?
+1778	1627 1390 644	the educational institution of TOPIC_ENTITY 's darling ?
+508	1485 325 1011 1665 554	the son of TOPIC_ENTITY 's child ?
+556	1709 1332 410	where does TOPIC_ENTITY 's dad work ?
+240	325 1627 1731 733 238 1450 58	the place of death of TOPIC_ENTITY 's darling ?
+1883	1627 67	what is the TOPIC_ENTITY 's husband 's spouse ?
+210	1485 678 1429 1602	TOPIC_ENTITY 's son 's cause of death ?
+58	1627	what is the nation of TOPIC_ENTITY 's husband ?
+1602	1485 1390 1745	the gender of daughter of TOPIC_ENTITY ?
+412	1627 240	is TOPIC_ENTITY 's darling a man or a woman ?
+67	1627 412	what is the mom of darling of TOPIC_ENTITY ?
+892	1485 1708 989	the type of religion of daughter of TOPIC_ENTITY ?
+1602	1485	what is the sex of TOPIC_ENTITY 's kid ?
+1505	1332 1118 1259	who is the grandmom of TOPIC_ENTITY ?
+412	325 1627 554 868 565	what is the TOPIC_ENTITY 's other half 's sex ?
+1011	1485	the work of kid of TOPIC_ENTITY ?
+440	1332 1390 150 325 1708 1355 574 352 1607 981 554 903 982 989	the type of religion of dad of TOPIC_ENTITY ?
+1241	1332 1211 1627 724 1450	how TOPIC_ENTITY 's father died ?
+440	1332 1390 352	the faith of mom of TOPIC_ENTITY ?
+1602	1485 508	what is the sex of TOPIC_ENTITY 's child ?
+556	1332 1225 1211 150 325 651 803 409 1618	what is the organization of TOPIC_ENTITY 's parent ?
+1602	1485	what is the sex of TOPIC_ENTITY 's kid ?
+556	1805 1332 1110	what is the TOPIC_ENTITY 's father 's organization ?
+835	1485 1805 1902	what is the nationality of TOPIC_ENTITY 's daughter ?
+1602	1485 25 1332 212 235	TOPIC_ENTITY 's daughter 's sex ?
+565	1627 412	what is the occupation of TOPIC_ENTITY 's wife ?
+1602	1485 678	is TOPIC_ENTITY 's offspring a man or a woman ?
+58	1225 1390 150 325 1627 1293 761 383 1745 1218 1763 733 868 412	what is the nation of TOPIC_ENTITY 's husband ?
+66	25 1627 1307	what is the address of couple of TOPIC_ENTITY ?
+440	1332 243	what is the faith of TOPIC_ENTITY 's dad ?
+1505	1332	what is the mother of parents of TOPIC_ENTITY ?
+240	1627 412	what is the TOPIC_ENTITY 's husband 's place of death ?
+565	1627 1883	what is the work of other half of TOPIC_ENTITY ?
+1011	1485 1211 963	what line of business is TOPIC_ENTITY 's heir in ?
+58	1118 1627 1390 377 383	what is the TOPIC_ENTITY 's other half 's nationality ?
+1011	1485	what is TOPIC_ENTITY 's kid working on ?
+3	1332 1390 235 383 1745	the nation of mother of TOPIC_ENTITY ?
+556	1332 1225 1211 150 325 651 803 409 1618	what is the organization of TOPIC_ENTITY 's dad ?
+556	1332 1225 1211 150 325 651 803 409 1618	which organization does TOPIC_ENTITY 's parent work for ?
+440	1332	what religious belief does TOPIC_ENTITY 's mother have ?
+835	1485 1332 508 1602 243 3 235	the nationality of TOPIC_ENTITY 's children ?
+817	1332 1390 1289	TOPIC_ENTITY 's mom 's couple ?
+235	1332	what is the TOPIC_ENTITY 's mother 's sex ?
+1602	1485 678	what is the TOPIC_ENTITY 's offspring 's gender ?
+412	325 1627 554 868 565	TOPIC_ENTITY 's other half 's sex ?
+892	1485 1805 1118 1602 63 912 1041 1906	what religion is TOPIC_ENTITY 's heir ?
+1011	1485	what is the profession of TOPIC_ENTITY 's child ?
+1602	1485 892	is TOPIC_ENTITY 's child a man or a woman ?
+67	1627	what is the TOPIC_ENTITY 's other half 's father ?
+1602	1485	what is the TOPIC_ENTITY 's children 's gender ?
+1602	1485	is TOPIC_ENTITY 's heir a man or a woman ?
+1831	1332	the location of TOPIC_ENTITY 's father ?
+508	1485 1390 1678	TOPIC_ENTITY 's daughter 's heir ?
+331	1485 1805 940	where did the daughter of TOPIC_ENTITY die ?
+1602	1485	TOPIC_ENTITY 's kid 's sex ?
+235	1332	what gender is TOPIC_ENTITY 's parents  ?
+565	1805 1627 490	the work of wife of TOPIC_ENTITY ?
+1241	1332 325 1390 1831 556 440 1731 1840 1618 903 1245 166 644 352	what did TOPIC_ENTITY 's father die from ?
+243	150 1332 1225 1922 481 1763 1323 235 806 1797 761	TOPIC_ENTITY 's dad 's offspring ?
+235	1805 325 1332 63 868	the sex of parents of TOPIC_ENTITY ?
+3	150 1332 325 1218 1607 1355 733 554	where does TOPIC_ENTITY 's parent come from ?
+1602	1485	the sex of kid of TOPIC_ENTITY ?
+210	1485	what did TOPIC_ENTITY 's child die from ?
+440	1332 325 1390 1241 1831 556 1731 1840 1618 903 1245 166 644 352	what religious belief does TOPIC_ENTITY 's father practice ?
+1602	1485	TOPIC_ENTITY 's children 's gender ?
+1429	1485 1011	what is the institution of son of TOPIC_ENTITY ?
+508	1485 1602	the children of daughter of TOPIC_ENTITY ?
+1602	1485	TOPIC_ENTITY 's heir 's sex ?
+412	1627	the gender of TOPIC_ENTITY 's couple ?
+1011	1485	the work of kid of TOPIC_ENTITY ?
+1500	1627 313 67	what is the daughter of TOPIC_ENTITY 's spouse ?
+678	1485 1390 1088	what is the name of the father of TOPIC_ENTITY 's daughter ?
+67	1627 1390 1088	the parents of TOPIC_ENTITY 's spouse ?
+1355	1332 1390 574	what is the work of father of TOPIC_ENTITY ?
+565	325 1627 1390 554 868 412 574 1745	what is TOPIC_ENTITY 's spouse ?
+1011	1485	what is the work of TOPIC_ENTITY 's kid ?
+412	1627	what is the gender of TOPIC_ENTITY 's couple ?
+412	1627 1118 565 598 1041	what is the TOPIC_ENTITY 's darling 's sex ?
+3	1805 1332 1902 63 235	where does TOPIC_ENTITY 's parent come from ?
+412	1485 1627 1602	is TOPIC_ENTITY 's husband a man or a woman ?
+3	1332 1390 817 383 1289	the nation of dad of TOPIC_ENTITY ?
+243	1332 1805 3 311 1902	what is the name of the offspring of TOPIC_ENTITY 's parent ?
+565	1627	what is TOPIC_ENTITY 's darling working on ?
+235	1709 1332 1627 1857 353 3 58 412	what is the TOPIC_ENTITY 's parent 's sex ?
+412	150 1627 1763	what is the gender of other half of TOPIC_ENTITY ?
+1602	1485	what is the TOPIC_ENTITY 's child 's gender ?
+243	1332 1390 1678	what is the kid of father of TOPIC_ENTITY ?
+678	1485 1602	what is the name of the dad of TOPIC_ENTITY 's children ?
+235	1332 325 1390 868 1745	is TOPIC_ENTITY 's dad a man or a woman ?
+3	1332 1390 383	what is the nationality of TOPIC_ENTITY 's mother ?
+1883	1627 67	who is the spouse of TOPIC_ENTITY 's husband ?
+440	1332	what is the type of religion of mom of TOPIC_ENTITY ?
+3	1332 1390 383	the nation of TOPIC_ENTITY 's parent ?
+1180	1485 1332 508 678 1962 243 1505	which city did TOPIC_ENTITY 's mother born ?
+412	1627	is TOPIC_ENTITY 's husband a man or a woman ?
+381	1485	where is TOPIC_ENTITY 's daughter staying ?
+835	1485 1805 1902	what is the nationality of daughter of TOPIC_ENTITY ?
+1602	1485 68	TOPIC_ENTITY 's offspring 's sex ?
+1883	1627 1450 412 1781	what is the husband of husband of TOPIC_ENTITY ?
+243	150 1332 1225 1922 481 1763 1323 235 806 1797 761	who is the offspring of TOPIC_ENTITY 's dad ?
+68	1485 1390 835 383 1289	what is the husband of heir of TOPIC_ENTITY ?
+331	1485 1211 1118 508 609 749 1095 544	the place of death of TOPIC_ENTITY 's heir ?
+565	1805 325 1627 490 1110 63 554 1618 868 1778 412	what is the job of husband of TOPIC_ENTITY ?
+1602	1485 678	is TOPIC_ENTITY 's offspring a man or a woman ?
+892	1485 1118 1906	what faith does TOPIC_ENTITY 's child follow ?
+58	325 1627 1390 733 903 1781 383 352	the nation of TOPIC_ENTITY 's other half ?
+1781	1627 412	what is the religious belief of husband of TOPIC_ENTITY ?
+68	1485 508 835	what is the other half of TOPIC_ENTITY 's daughter ?
+1180	1485 1332 508 678 1962 243 1505	the place of birth of TOPIC_ENTITY 's mother ?
+1450	1627 1390 67 1245 1088	why TOPIC_ENTITY 's other half died ?
+817	1485 1332 68 1602 235	TOPIC_ENTITY 's mother 's husband ?
+58	1627	where does TOPIC_ENTITY 's darling come from ?
+1011	1485	what is the work of kid of TOPIC_ENTITY ?
+1505	1332 1241 556	who is the granddad of TOPIC_ENTITY ?
+1180	1332 1225 1805 150 325 1241 1355 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	what is the place of birth of mom of TOPIC_ENTITY ?
+556	1332 325 1390 1241 1831 440 1731 1840 1618 903 1245 166 644 352	the educational institution of dad of TOPIC_ENTITY ?
+58	325 1627 1390 733 903 1781 383 352	what is the nation of TOPIC_ENTITY 's other half ?
+508	1485 1602	the heir of TOPIC_ENTITY 's children ?
+1602	1485 1211 1390 526 1745	the sex of heir of TOPIC_ENTITY ?
+58	1627	where does TOPIC_ENTITY 's wife come from ?
+243	1332 325 1665	TOPIC_ENTITY 's parent 's son ?
+892	1485 508	what faith does TOPIC_ENTITY 's son practice ?
+678	1485 508 1560	the father of TOPIC_ENTITY 's child ?
+440	1332 243	what faith does TOPIC_ENTITY 's dad have ?
+1781	1627	the religious belief of other half of TOPIC_ENTITY ?
+210	1485	what is the reason of TOPIC_ENTITY 's child's death ?
+331	1485 1118 544	the place of death of offspring of TOPIC_ENTITY ?
+243	1332	what is the daughter of TOPIC_ENTITY 's parents ?
+1778	1627 1390 644	the educational institution of husband of TOPIC_ENTITY ?
+1883	325 1627 771	who is the other half of TOPIC_ENTITY 's wife ?
+508	1485 1805 1602 311 63	what is the son of kid of TOPIC_ENTITY ?
+440	1332 243	TOPIC_ENTITY 's parent 's religious belief ?
+1602	1485 1962 835	is TOPIC_ENTITY 's child a man or a woman ?
+678	1485 1602	what is the parents of TOPIC_ENTITY 's heir ?
+1962	1485	what is the place of birth of son of TOPIC_ENTITY ?
+243	1332	TOPIC_ENTITY 's mom 's child ?
+565	1627 58 412	what does TOPIC_ENTITY 's husband do ?
+58	1627	where does TOPIC_ENTITY 's husband come from ?
+235	1805 1332 1902 63 3	what is the gender of TOPIC_ENTITY 's mother ?
+331	1485 835 1602	what is the place of death of TOPIC_ENTITY 's kid ?
+440	1332 1390 352	what is the TOPIC_ENTITY 's mom 's faith ?
+412	1627 313	the gender of TOPIC_ENTITY 's spouse ?
+412	1627 1390 1745	what is the sex of TOPIC_ENTITY 's darling ?
+412	25 1805 1627 1390 212 63 1745	what is the gender of TOPIC_ENTITY 's darling ?
+1602	1485 1332 508 835 243 3 235	what is the sex of TOPIC_ENTITY 's children ?
+313	1627	what is TOPIC_ENTITY 's couple 's ethnicity like ?
+235	150 1332 1225 1922 481 1763 243 1323 806 1797 761	TOPIC_ENTITY 's dad 's sex ?
+1011	1485 1390 574	what is TOPIC_ENTITY 's child working on ?
+835	1485 678	what is the nation of TOPIC_ENTITY 's offspring ?
+412	1627	is TOPIC_ENTITY 's husband a man or a woman ?
+440	1332	what faith does TOPIC_ENTITY 's parent have ?
+508	1485 1332 835 1602 243 3 235	TOPIC_ENTITY 's kid 's daughter ?
+235	1332	what is the TOPIC_ENTITY 's father 's sex ?
+412	1627 1390 1781 352 1745	what is the gender of TOPIC_ENTITY 's husband ?
+313	1627 412	the ethnicity of TOPIC_ENTITY 's wife ?
+1560	1485 508 678	the ethnicity of TOPIC_ENTITY 's child ?
+235	1332 1805 243 1505 311 587 63	TOPIC_ENTITY 's parents 's sex ?
+313	1627 1500 67	TOPIC_ENTITY 's wife 's ethnicity ?
+331	1485 1602	what is the place of death of son of TOPIC_ENTITY ?
+412	1627	is TOPIC_ENTITY 's couple a man or a woman ?
+678	1485 508 1560	what is the father of TOPIC_ENTITY 's child ?
+3	1332 325 1390 235 733 868 383 1745	TOPIC_ENTITY 's mom 's nationality ?
+235	1332	what is the gender of TOPIC_ENTITY 's dad ?
+556	1332 325 1390 1241 1831 440 1731 1840 1618 903 1245 166 644 352	what is the TOPIC_ENTITY 's dad 's educational institution ?
+235	1332	what sex is TOPIC_ENTITY 's father  ?
+1778	1805 325 1627 490 1110 63 554 1618 868 565 412	what is the organization of TOPIC_ENTITY 's spouse ?
+235	1709 1332 1627 1857 353 3 58 412	the sex of parent of TOPIC_ENTITY ?
+1560	1485 1709 618	what is the TOPIC_ENTITY 's heir 's race ?
+243	1332 1390 1678	the kid of father of TOPIC_ENTITY ?
+243	1332	TOPIC_ENTITY 's parents 's daughter ?
+243	1332 1805 1390 3 311 1902 1678 383	the heir of mother of TOPIC_ENTITY ?
+1241	1332 325 1390 1831 556 440 1731 1840 1618 903 1245 166 644 352	what is the TOPIC_ENTITY 's father 's cause of death ?
+243	1332	what is the TOPIC_ENTITY 's mom 's heir ?
+243	1332 1390 1678	the son of TOPIC_ENTITY 's parent ?
+1781	1627 1390 412 352 1745	what is the religious belief of TOPIC_ENTITY 's spouse ?
+1883	150 1627 1870	what is the darling of TOPIC_ENTITY 's husband ?
+3	1332	which nationality is TOPIC_ENTITY 's mom ?
+3	1332 1805 243 311 1902	the nation of mom of TOPIC_ENTITY ?
+243	1332	who is the offspring of TOPIC_ENTITY 's dad ?
+817	1332 1390 1118 1355 574 1289 598 1878	the darling of TOPIC_ENTITY 's father ?
+243	1332 1390 1678	who is the kid of TOPIC_ENTITY 's father ?
+313	1627	what is the ethnicity of TOPIC_ENTITY 's couple ?
+331	1485 1118 544	TOPIC_ENTITY 's offspring 's place of death ?
+440	1332	TOPIC_ENTITY 's mom 's type of religion ?
+1781	1627 1450 412 1883	what type of religion is TOPIC_ENTITY 's wife ?
+67	1627 1390 1088	the parents of spouse of TOPIC_ENTITY ?
+565	325 1627 1390 554 868 412 574 1745	what is the job of TOPIC_ENTITY 's spouse ?
+1602	1485	what gender is TOPIC_ENTITY 's daughter  ?
+1500	1485 1805 1627 508 1602 311 63 412	what is the name of the heir of TOPIC_ENTITY 's couple ?
+235	1332	what is the sex of mother of TOPIC_ENTITY ?
+1241	1332 1211 1627 724 1450	what made the TOPIC_ENTITY 's fatherdead ?
+565	1709 1805 1627 1536 490	the job of TOPIC_ENTITY 's spouse ?
+412	1627	is TOPIC_ENTITY 's wife a man or a woman ?
+1602	1485 1560	what is the gender of TOPIC_ENTITY 's offspring ?
+565	1627 1883	TOPIC_ENTITY 's wife 's profession ?
+678	1485 1602	TOPIC_ENTITY 's children 's dad ?
+1883	1805 1627 1225 703 699	TOPIC_ENTITY 's couple 's wife ?
+331	1709 1485 32	the place of death of offspring of TOPIC_ENTITY ?
+243	1332	what is the name of the child of TOPIC_ENTITY 's parent ?
+331	1485 1805 325 1390 940 238 1325	where did TOPIC_ENTITY 's daughter die ?
+1560	1485 25 1390 1602 892 1275 212 1401 585 1745 352	what is the ethnicity of TOPIC_ENTITY 's heir ?
+1602	1485 1390 1745	what gender is TOPIC_ENTITY 's daughter  ?
+1831	1332 325 1241 3 1731 733 1840	what is the TOPIC_ENTITY 's mother 's address ?
+1011	1485	the occupation of heir of TOPIC_ENTITY ?
+892	1485 25 1390 1560 1602 1275 212 1401 585 1745 352	what type of religion is TOPIC_ENTITY 's heir ?
+1778	325 1627 1731 1618 1450	where does TOPIC_ENTITY 's spouse work ?
+235	1332 1390 1745	the sex of dad of TOPIC_ENTITY ?
+565	1805 325 1627 490 1110 63 554 1618 868 1778 412	what does TOPIC_ENTITY 's husband do ?
+68	1485	what is the couple of TOPIC_ENTITY 's kid ?
+235	1332 1390 243 1323 1678 1325 1745	the gender of TOPIC_ENTITY 's parent ?
+678	1485	the dad of kid of TOPIC_ENTITY ?
+58	325 1627 1731 733 238 1450 240	the nation of other half of TOPIC_ENTITY ?
+1323	150 1332 1225 1922 481 1763 243 235 806 1797 761	the place of death of TOPIC_ENTITY 's mom ?
+1602	1485 1805 63	TOPIC_ENTITY 's kid 's gender ?
+1450	1627 1390 67 1245 1088	how TOPIC_ENTITY 's other half died ?
+243	1332 440	the child of TOPIC_ENTITY 's parent ?
+1831	1332 325 1390 1241 556 440 1731 1840 1618 903 1245 166 644 352	TOPIC_ENTITY 's parent 's location ?
+3	1805 1332 1902	what is the TOPIC_ENTITY 's parent 's nationality ?
+678	1485 508 1560	TOPIC_ENTITY 's child 's father ?
+508	1485 1602	what is the TOPIC_ENTITY 's children 's heir ?
+1962	1485	what is TOPIC_ENTITY 's son 's birthplace ?
+1355	1332 1390 574	what is TOPIC_ENTITY 's father working on ?
+1602	1485 678	TOPIC_ENTITY 's heir 's gender ?
+1602	1485	what is the sex of kid of TOPIC_ENTITY ?
+243	1332	what is the TOPIC_ENTITY 's mom 's child ?
+835	1485 1602	which nationality is TOPIC_ENTITY 's child ?
+235	1332	what is the TOPIC_ENTITY 's dad 's gender ?
+1429	1485 210 678 1602	where does TOPIC_ENTITY 's kid work for ?
+412	325 1627 1390 554 868 565 574 1745	what is the TOPIC_ENTITY 's darling 's gender ?
+565	1485 1627 1011 1602 412	what is TOPIC_ENTITY 's other half working on ?
+835	1485 678	what is the nation of offspring of TOPIC_ENTITY ?
+381	1485	where is TOPIC_ENTITY 's daughter staying ?
+412	1627	what is the sex of TOPIC_ENTITY 's wife ?
+1962	1485 1211 331 1602 819 749 526	what is the hometown of TOPIC_ENTITY 's children ?
+1180	1332	what is the place of birth of dad of TOPIC_ENTITY ?
+1781	1805 1627 912	what is the type of religion of other half of TOPIC_ENTITY ?
+1241	1332 325 1355 1831 1731 554 1840	why TOPIC_ENTITY 's mother died ?
+678	1485 1602	what is the father of TOPIC_ENTITY 's children ?
+508	1485 1118 1095	who is the heir of TOPIC_ENTITY 's child ?
+412	325 1627 1225 868 761	what is the sex of TOPIC_ENTITY 's wife ?
+68	1485 1805 703	what is the darling of TOPIC_ENTITY 's child ?
+835	1485 1805 1602 1902 63	TOPIC_ENTITY 's offspring 's nation ?
+1355	1332 1390 574	what is the work of TOPIC_ENTITY 's father ?
+235	1332 1390 1745	what is the sex of TOPIC_ENTITY 's dad ?
+235	1332	TOPIC_ENTITY 's parent 's gender ?
+678	1485 835	what is the name of the mother of TOPIC_ENTITY 's son ?
+243	1332	the heir of mom of TOPIC_ENTITY ?
+412	1627	what is the gender of TOPIC_ENTITY 's darling ?
+835	1485 1805 1902	where does TOPIC_ENTITY 's offspring come from ?
+1355	1332 325 1241 1831 1731 554 1840	what does TOPIC_ENTITY 's parents do ?
+235	1332	what is the sex of TOPIC_ENTITY 's mother ?
+412	1627 58 565	the gender of darling of TOPIC_ENTITY ?
+1429	1485 1390 835 383 644	where does TOPIC_ENTITY 's children work ?
+556	1709 1332 325 410 353 235 1618 868	the institution of TOPIC_ENTITY 's mom ?
+1355	1332 1390 1118 817 574 1289 598 1878	what line of business is TOPIC_ENTITY 's father in ?
+412	325 1627 1225 868 761	the sex of wife of TOPIC_ENTITY ?
+1323	1332 1708 178	the place of death of father of TOPIC_ENTITY ?
+556	1332 1225 1211 150 325 651 803 409 1618	where does TOPIC_ENTITY 's dad work ?
+565	150 1627 106 1607 1450	what is TOPIC_ENTITY 's spouse ?
+3	1332	the nation of parent of TOPIC_ENTITY ?
+240	1627 412	the place of death of TOPIC_ENTITY 's darling ?
+1500	1805 1627 1390 311 1110 1778 1678 644	what is the name of the son of TOPIC_ENTITY 's husband ?
+235	1332 325 1390 3 733 868 383 1745	the gender of mom of TOPIC_ENTITY ?
+440	1332	what religious belief does TOPIC_ENTITY 's mother practice ?
+1602	1485	what is the TOPIC_ENTITY 's kid 's sex ?
+381	1485	where is TOPIC_ENTITY 's daughter living ?
+243	1332 1390 1678	what is the TOPIC_ENTITY 's parent 's son ?
+1778	1627 58 1883	TOPIC_ENTITY 's husband 's organization ?
+1560	1485 1709 618	TOPIC_ENTITY 's heir 's race ?
+58	325 1627 1390 733 903 1781 383 352	what is the nationality of wife of TOPIC_ENTITY ?
+835	1485	the nation of child of TOPIC_ENTITY ?
+1505	1332 1390 1088	the mom of TOPIC_ENTITY 's father ?
+412	1627 67	what is the sex of TOPIC_ENTITY 's other half ?
+412	1627 1225 761	the gender of other half of TOPIC_ENTITY ?
+1602	1485 1118 835 377 1041	what is the gender of kid of TOPIC_ENTITY ?
+243	1332 1805 3 311 1902	the offspring of parent of TOPIC_ENTITY ?
+1602	1485 835	what is the TOPIC_ENTITY 's offspring 's sex ?
+508	1485 1211 1118 331 609 749 1095 544	what is the children of daughter of TOPIC_ENTITY ?
+556	1709 1332 325 410 353 235 1618 868	what is the TOPIC_ENTITY 's mom 's institution ?
+235	1332 1390 1745	the gender of TOPIC_ENTITY 's mom ?
+412	1627 1390 1745	what is the TOPIC_ENTITY 's darling 's sex ?
+412	1627 1781	what is the sex of darling of TOPIC_ENTITY ?
+1560	1485 1602	what is the race of TOPIC_ENTITY 's offspring ?
+1602	1485 1211 1390 526 1745	what is the sex of heir of TOPIC_ENTITY ?
+1781	1805 1627 912	what is the TOPIC_ENTITY 's other half 's type of religion ?
+381	1485	the location of daughter of TOPIC_ENTITY ?
+1241	1332 1211 1627 724 1450	why TOPIC_ENTITY 's dad died ?
+235	1805 1332 63	what is the TOPIC_ENTITY 's parents 's sex ?
+58	325 1627 1731 733 238 1450 240	what is the nation of TOPIC_ENTITY 's other half ?
+243	1332 440	the son of TOPIC_ENTITY 's mom ?
+243	1332 1390 1678	the daughter of parent of TOPIC_ENTITY ?
+235	1805 325 1332 63 868	TOPIC_ENTITY 's parents 's sex ?
+835	1485 1805 1902	the nationality of kid of TOPIC_ENTITY ?
+835	1485 1805 678 1902 587	which nationality is TOPIC_ENTITY 's son ?
+240	1627 412	where did TOPIC_ENTITY 's husband die ?
+1602	1485 1211 1962 331 819 749 526	what is the sex of TOPIC_ENTITY 's son ?
+67	1627 1390 1450 1245 1088	TOPIC_ENTITY 's wife 's mother ?
+331	1485 1211 1118 508 609 749 1095 544	what is the place of death of heir of TOPIC_ENTITY ?
+1011	1485 325 508 1665 554	what is the TOPIC_ENTITY 's children 's work ?
+1883	1627 565	the other half of TOPIC_ENTITY 's other half ?
+58	1225 1390 150 325 1627 1293 761 383 1745 1218 1763 733 868 412	TOPIC_ENTITY 's husband 's nation ?
+243	1332	the heir of parent of TOPIC_ENTITY ?
+243	1332	TOPIC_ENTITY 's mom 's daughter ?
+243	1332 1805 3 311 1902	TOPIC_ENTITY 's parent 's offspring ?
+1450	325 1627 1913 1731 1386	what caused the TOPIC_ENTITY 's other half's death ?
+66	1627 1390 166	where is TOPIC_ENTITY 's other half staying ?
+1602	1485 1805 835 1902 63	what is the gender of kid of TOPIC_ENTITY ?
+835	1485 1805 678 1902 587	what is the nation of TOPIC_ENTITY 's son ?
+1602	1485 678	is TOPIC_ENTITY 's heir a man or a woman ?
+412	1627	what gender is TOPIC_ENTITY 's spouse  ?
+1831	1332	TOPIC_ENTITY 's mother 's location ?
+235	1332 1805 63	what is the sex of TOPIC_ENTITY 's mother ?
+835	1485 1805 1602 1902 63	what is the nation of offspring of TOPIC_ENTITY ?
+58	1627	TOPIC_ENTITY 's other half 's nationality ?
+58	150 1627 1218	what is the TOPIC_ENTITY 's spouse 's nation ?
+508	1485	the daughter of TOPIC_ENTITY 's daughter ?
+412	1627	is TOPIC_ENTITY 's darling a man or a woman ?
+508	1485 1390 210 1962 1678 1245 787	who is the granddaughter of TOPIC_ENTITY ?
+235	1332 1390 243 1678 1745	is TOPIC_ENTITY 's mother a man or a woman ?
+243	1332 325 3 235 1665 733 868	who is the son of TOPIC_ENTITY 's parents ?
+331	1485 1805 940	the place of death of daughter of TOPIC_ENTITY ?
+1241	1332 235	why TOPIC_ENTITY 's dad died ?
+412	150 1627 481 1763 240	what sex is TOPIC_ENTITY 's darling  ?
+331	1485 1602	what is the TOPIC_ENTITY 's son 's place of death ?
+508	1485 1118 1095	what is the heir of child of TOPIC_ENTITY ?
+1883	1627 565	TOPIC_ENTITY 's other half 's other half ?
+1505	1332 1118 1259	the mom of TOPIC_ENTITY 's mom ?
+1781	1627 1118 1906	what is the type of religion of TOPIC_ENTITY 's couple ?
+235	1332	what is the TOPIC_ENTITY 's dad 's sex ?
+243	1332	what is the child of parent of TOPIC_ENTITY ?
+58	1627 1883 1778	the nation of couple of TOPIC_ENTITY ?
+412	1627	TOPIC_ENTITY 's couple 's sex ?
+58	1627	what is the nation of TOPIC_ENTITY 's couple ?
+1602	1485 25 1390 1560 892 1275 212 1401 585 1745 352	the gender of TOPIC_ENTITY 's daughter ?
+1355	1332 1225 1805 150 325 1180 1241 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	the job of dad of TOPIC_ENTITY ?
+1883	1805 1627 1225 703 699	what is the name of the wife of TOPIC_ENTITY 's couple ?
+58	325 1627 1390 733 903 1781 383 352	what is the TOPIC_ENTITY 's other half 's nation ?
+599	1332	what is the TOPIC_ENTITY 's parent 's race ?
+1883	1627 1450	what is the name of the spouse of TOPIC_ENTITY 's husband ?
+412	1627 1390 1781 352 1745	what gender is TOPIC_ENTITY 's husband  ?
+243	150 1332 1225 1922 481 1763 1323 235 806 1797 761	what is the TOPIC_ENTITY 's dad 's offspring ?
+1450	1627 1883	what is the cause of death of TOPIC_ENTITY 's darling ?
+58	1627 1390 313 585 383	what is the TOPIC_ENTITY 's spouse 's nation ?
+235	1332	the sex of TOPIC_ENTITY 's mother ?
+331	1485	what is the place of death of child of TOPIC_ENTITY ?
+235	1332 1390 1745	TOPIC_ENTITY 's mom 's gender ?
+1602	1485 1118 1041	TOPIC_ENTITY 's kid 's sex ?
+678	1485 1602	what is the dad of TOPIC_ENTITY 's child ?
+67	1627 412	who is the parents of TOPIC_ENTITY 's wife ?
+68	1485 1805 703	the darling of TOPIC_ENTITY 's child ?
+1560	1485 25 1390 1602 892 1275 212 1401 585 1745 352	what is the ethnicity of heir of TOPIC_ENTITY ?
+240	325 1627 1731 733 238 1450 58	what city did TOPIC_ENTITY 's darling die ?
+1355	1332 1225 1805 150 325 1180 1241 648 1577 957 1825 623 490 784 106 1607 1913 1731 554	what is TOPIC_ENTITY 's dad working on ?
+243	1332 1390 1323 235 1678 1325 1745	what is the name of the son of TOPIC_ENTITY 's parent ?
+1602	1485 1211 1962 331 819 749 526	is TOPIC_ENTITY 's son a man or a woman ?
+235	1805 1332 63	what gender is TOPIC_ENTITY 's parents  ?
+235	1332	TOPIC_ENTITY 's parent 's gender ?
+235	1332	what gender is TOPIC_ENTITY 's dad  ?
+210	1485 1390 1245	how TOPIC_ENTITY 's child died ?
+1883	1627 1450	who is the spouse of TOPIC_ENTITY 's husband ?
+1323	1332 1390 243 235 1678 1325 1745	where did TOPIC_ENTITY 's parents die ?
+240	1627 412	what is the place of death of TOPIC_ENTITY 's darling ?
+3	1332 1390 383	what is the nation of TOPIC_ENTITY 's parent ?
+235	1709 1332 325 410 353 556 1618 868	what is the sex of TOPIC_ENTITY 's mother ?
+235	1805 1332 63	what is the gender of parents of TOPIC_ENTITY ?
+1323	1332 1805 1505 587 940	the place of death of TOPIC_ENTITY 's mother ?
+599	1332	what is the race of TOPIC_ENTITY 's parent ?
+235	1332	what is the TOPIC_ENTITY 's parents 's gender ?
+235	1332	what is the gender of TOPIC_ENTITY 's mother ?
+1602	1485 1225 761	TOPIC_ENTITY 's offspring 's sex ?
+565	325 1627 554 868 412	TOPIC_ENTITY 's husband 's profession ?
+1011	1485	what is the TOPIC_ENTITY 's children 's job ?
+440	1332 1390 150 325 1708 1355 574 352 1607 981 554 903 982 989	what type of religion does TOPIC_ENTITY 's dad practice ?
+3	1332 325 1390 235 733 868 383 1745	which nationality is TOPIC_ENTITY 's mom ?
+1450	150 1627 106 1607 565	TOPIC_ENTITY 's husband 's cause of death ?
+412	1332 1211 1627 235 526	the gender of TOPIC_ENTITY 's darling ?
+1450	325 1627 1913 1731 1386	why TOPIC_ENTITY 's spouse died ?
+678	1485	what is the name of the mom of TOPIC_ENTITY 's daughter ?
+1602	1485 1805 381 1570 63	the gender of TOPIC_ENTITY 's child ?
+3	1332	where does TOPIC_ENTITY 's mom come from ?
+508	1485 892	what is the TOPIC_ENTITY 's daughter 's heir ?
+556	1332 3	the educational institution of parents of TOPIC_ENTITY ?
+835	1485 1390 68 383 1289	which nationality is TOPIC_ENTITY 's heir ?
+412	1627 1390 58 383 1745	what is the TOPIC_ENTITY 's couple 's sex ?
+58	1709 1211 1627 1857 1917	the nationality of TOPIC_ENTITY 's spouse ?
+678	1485	what is the dad of TOPIC_ENTITY 's kid ?
+835	1485 331 1602	where does TOPIC_ENTITY 's son come from ?
+235	1332	what is the sex of parents of TOPIC_ENTITY ?
+1602	1485 1805 508 311 63	what is the TOPIC_ENTITY 's kid 's gender ?
+1450	1211 1627 1390 724 1917 58 1245 383	why TOPIC_ENTITY 's couple died ?
+508	1485 1390 210 1962 1678 1245 787	the daughter of TOPIC_ENTITY 's child ?
+1602	1485 1118 1041	the sex of TOPIC_ENTITY 's kid ?
+817	1332 1390 3 383 1289	the wife of dad of TOPIC_ENTITY ?
+1560	1485 1602	what is the race of offspring of TOPIC_ENTITY ?
+1011	1485 1429	what is the TOPIC_ENTITY 's children 's profession ?
+1355	1332 1118 598	what is TOPIC_ENTITY 's mother ?
+243	1332 1805 1505 235 311 587 63	what is the TOPIC_ENTITY 's dad 's daughter ?
+835	1485 210	the nation of TOPIC_ENTITY 's children ?
+1505	1332	what is the name of the mother of TOPIC_ENTITY 's parents ?
+412	1627 1118 565 598 1041	what is the sex of darling of TOPIC_ENTITY ?
+1011	1485	the profession of child of TOPIC_ENTITY ?
+1011	1485 325 508 1665 554	what is the work of TOPIC_ENTITY 's children ?
+1602	1485 1211 1962 331 819 749 526	the sex of TOPIC_ENTITY 's son ?
+835	1485 1390 383	the nation of son of TOPIC_ENTITY ?
+412	1627 58 565	what is the gender of TOPIC_ENTITY 's darling ?
+817	1332 1390 1118 1355 574 1289 598 1878	what is the TOPIC_ENTITY 's father 's darling ?
+66	1627 1390 166	what is the location of other half of TOPIC_ENTITY ?
+243	1332 1390 1323 235 1678 1325 1745	what is the TOPIC_ENTITY 's parent 's son ?
+210	1485 150 1602 106 1763	what is the reason of TOPIC_ENTITY 's daughter's death ?
+1602	1485 331	the sex of offspring of TOPIC_ENTITY ?
+1429	1485 150 409	TOPIC_ENTITY 's child 's institution ?
+243	1332 556	what is the TOPIC_ENTITY 's mom 's offspring ?
+210	1485 150 1602 106 1763	the cause of death of daughter of TOPIC_ENTITY ?
+1602	1485 1962 835	the sex of child of TOPIC_ENTITY ?
+1011	1485	what is TOPIC_ENTITY 's kid ?
+412	1709 1332 1627 353 235	is TOPIC_ENTITY 's husband a man or a woman ?
+243	1332 1805 1505 235 311 587 63	what is the daughter of TOPIC_ENTITY 's dad ?
+412	1211 1627 526	the gender of couple of TOPIC_ENTITY ?
+243	1332 1390 1678	the son of TOPIC_ENTITY 's father ?
+892	1485 508	what faith does TOPIC_ENTITY 's son have ?
+565	1627 1118 412 598 1041	what is the occupation of other half of TOPIC_ENTITY ?
+3	1332 325 1390 235 733 868 383 1745	the nationality of TOPIC_ENTITY 's mom ?
+1505	1332 325 1180 1913 216	what is the name of the grandparents of TOPIC_ENTITY ?
+412	1627 67	TOPIC_ENTITY 's other half 's sex ?
+235	1805 325 1332 63 868	what is the TOPIC_ENTITY 's parents 's sex ?
+1505	1332 1241 556	TOPIC_ENTITY 's parents 's dad ?
+1355	1332 1390 1118 817 574 1289 598 1878	what is TOPIC_ENTITY 's father ?
+1355	1332 325 1627 1390 554 565 574	what does TOPIC_ENTITY 's parent do for a living?
+678	1485 1602	what is the dad of child of TOPIC_ENTITY ?
+243	1332 1805 311	who is the child of TOPIC_ENTITY 's mom ?
+313	1627	what is the race of TOPIC_ENTITY 's spouse ?
+1429	1485 1211 1390 1011 963 803 574 644	where does TOPIC_ENTITY 's son work for ?
+3	1332 325 1241 1831 1731 733 1840	what is the nationality of dad of TOPIC_ENTITY ?
+1778	1627 1390 644	what is the TOPIC_ENTITY 's darling 's educational institution ?
+3	1332 1390 383	the nation of father of TOPIC_ENTITY ?
+508	1485	who is the children of TOPIC_ENTITY 's children ?
+1323	150 1332 1390 481 1325	TOPIC_ENTITY 's mom 's place of death ?
+1386	1627	where did TOPIC_ENTITY 's wife born ?
+440	1332 325 1390 1241 1831 556 1731 1840 1618 903 1245 166 644 352	what religion does TOPIC_ENTITY 's father have ?
+381	1485 1708 205	the location of daughter of TOPIC_ENTITY ?
+835	1485 1805 678 1902 587	the nationality of child of TOPIC_ENTITY ?
+835	1485	which nationality is TOPIC_ENTITY 's child ?
+243	1332 1390 1678	what is the child of TOPIC_ENTITY 's parent ?
+1011	1485 325 508 1665 554	TOPIC_ENTITY 's children 's work ?
+3	1332 1390 383	where does TOPIC_ENTITY 's mother come from ?
+235	1332	the gender of TOPIC_ENTITY 's parent ?
+1602	1485 678	what is the gender of TOPIC_ENTITY 's child ?
+440	1332 1390 150 325 1708 1355 574 352 1607 981 554 903 982 989	what type of religion does TOPIC_ENTITY 's dad have ?
+243	1332	the daughter of TOPIC_ENTITY 's parent ?
+1602	1485 678	what gender is TOPIC_ENTITY 's heir  ?
+243	1332 440	what is the son of mom of TOPIC_ENTITY ?
+1602	1485 1390 1745	is TOPIC_ENTITY 's children a man or a woman ?
+1241	150 1332 106	the cause of death of mom of TOPIC_ENTITY ?
+1560	1485 150 210 1011 106 1607 951	what is the TOPIC_ENTITY 's daughter 's race ?
+235	1332 1390 1745	what is the gender of mom of TOPIC_ENTITY ?
+3	1805 1332 1902 63 235	what is the nation of TOPIC_ENTITY 's parent ?
+1450	1211 1627 1390 724 1917 58 1245 383	what is the cause of death of TOPIC_ENTITY 's couple ?
+1883	1627 1450	what is the spouse of TOPIC_ENTITY 's husband ?
+58	1627	where does TOPIC_ENTITY 's other half come from ?
+678	1485 1805 835 1902 587	what is the TOPIC_ENTITY 's son 's mother ?
+1778	1805 325 1627 490 1110 63 554 1618 868 565 412	the organization of spouse of TOPIC_ENTITY ?
+1602	1485 1390 835 383 1745	TOPIC_ENTITY 's daughter 's gender ?
+3	1332	the nation of TOPIC_ENTITY 's parent ?
+1355	1332	what is the profession of TOPIC_ENTITY 's dad ?
+1602	1485 1627 412	what is the TOPIC_ENTITY 's kid 's gender ?
+1781	1627 1118 1906	what type of religion is TOPIC_ENTITY 's couple ?
+331	1485 508	what is the place of death of son of TOPIC_ENTITY ?
+508	1485	TOPIC_ENTITY 's offspring 's son ?
+1505	1332 1805 1323 587 940	who is the grandparent of TOPIC_ENTITY ?
+381	1485 1708 205	TOPIC_ENTITY 's daughter 's location ?
+678	1485	the father of TOPIC_ENTITY 's daughter ?
+58	1627	where does TOPIC_ENTITY 's wife come from ?
+3	1332 1390 383	where does TOPIC_ENTITY 's parent come from ?
+1450	325 1627 1731 733 238 58 240	what killed the TOPIC_ENTITY 's couple ?
+1831	1332 325 1241 1355 1731 554 1840	the address of parents of TOPIC_ENTITY ?
+1450	325 1627 1913 1731 1386	what is the cause of death of other half of TOPIC_ENTITY ?
+892	1485 25 1390 1560 1602 1275 212 1401 585 1745 352	what type of religion does TOPIC_ENTITY 's heir have ?
+58	1211 1627 1390 724 1917 1450 1245 383	what is the nationality of darling of TOPIC_ENTITY ?
+58	1627 1390 412 383 1745	where does TOPIC_ENTITY 's darling come from ?
+1450	1627 412 1883 1781	what is the TOPIC_ENTITY 's couple 's cause of death ?
+1241	1485 25 1332 1390 210 331 795 994 1323 1245 1325	what is the cause of death of TOPIC_ENTITY 's father ?
+835	1485	which nationality is TOPIC_ENTITY 's child ?
+1500	1627	the heir of TOPIC_ENTITY 's other half ?
+1602	1485 1805 1118 892 63 912 1041 1906	what is the gender of TOPIC_ENTITY 's children ?
+678	1485 1390 1088	the father of daughter of TOPIC_ENTITY ?
+1355	1332 243	what does TOPIC_ENTITY 's father do for a living?
+412	150 1627 481 1763 240	what is the TOPIC_ENTITY 's darling 's sex ?
+1505	150 1332 1922 656 1870 243 817	TOPIC_ENTITY 's mother 's dad ?
+243	1332 556	who is the offspring of TOPIC_ENTITY 's mom ?
+1883	1627 58 1778	what is the couple of TOPIC_ENTITY 's couple ?
+243	150 1332 1922 656 1870 1505 817	what is the children of mother of TOPIC_ENTITY ?
+508	1485 1332 835 1602 243 3 235	who is the daughter of TOPIC_ENTITY 's kid ?
+331	1485 1602	what city did TOPIC_ENTITY 's son die ?
+1602	1485 1805 1118 892 63 912 1041 1906	what is the TOPIC_ENTITY 's children 's gender ?
+1602	1485 331	what is the TOPIC_ENTITY 's offspring 's sex ?
+235	1332	the sex of TOPIC_ENTITY 's parent ?
+3	1332 1390 235 383 1745	what is the nation of mother of TOPIC_ENTITY ?
+1962	1485 1390 508 210 1678 1245 787	the place of birth of child of TOPIC_ENTITY ?
+243	1485 1332 508 678 1962 1505 1180	the heir of TOPIC_ENTITY 's mother ?
+1355	1332 243	what is the TOPIC_ENTITY 's father 's job ?
+1602	1485 678	what is the sex of offspring of TOPIC_ENTITY ?
+412	1627 240	the sex of TOPIC_ENTITY 's darling ?
+1011	1485	what is the occupation of heir of TOPIC_ENTITY ?
+331	1485	TOPIC_ENTITY 's children 's place of death ?
+235	1332 325 1390 3 733 868 383 1745	what is the TOPIC_ENTITY 's mom 's gender ?
+3	1332 1805 243 311 1902	what is the TOPIC_ENTITY 's mom 's nation ?
+1602	1485 1627 412	what is the gender of daughter of TOPIC_ENTITY ?
+1355	150 1332 1607 1763 235	the work of parents of TOPIC_ENTITY ?
+243	1332 1708 707	the daughter of mom of TOPIC_ENTITY ?
+1781	1805 1627 912	the religion of TOPIC_ENTITY 's wife ?
+58	1627	what is the nationality of TOPIC_ENTITY 's spouse ?
+1450	150 1627 106 1607 565	what is the TOPIC_ENTITY 's husband 's cause of death ?
+1241	1332 325 1390 1831 556 440 1731 1840 1618 903 1245 166 644 352	what killed the TOPIC_ENTITY 's father ?
+1883	325 1627 771	what is the TOPIC_ENTITY 's wife 's other half ?
+235	1332	what is the gender of father of TOPIC_ENTITY ?
+1500	1627 313 67	what is the TOPIC_ENTITY 's spouse 's daughter ?
+1241	1332 1211 1627 724 1450	what killed the TOPIC_ENTITY 's father ?
+235	1332 325 1390 868 1745	what is the sex of dad of TOPIC_ENTITY ?
+1323	1332 1708 178	where did the father of TOPIC_ENTITY die ?
+1355	1332 1390 574	what does TOPIC_ENTITY 's parent do ?
+313	1627 1500 67	what ethnicity is TOPIC_ENTITY 's wife ?
+1781	1627 1390 412 352 1745	what is the religious belief of spouse of TOPIC_ENTITY ?
+68	1485	what is the couple of kid of TOPIC_ENTITY ?

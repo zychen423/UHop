@@ -1,0 +1,191 @@
+53	13 24 15	what is the nationality of TOPIC_ENTITY 's son ?
+43	31 37	the educational institution of husband of TOPIC_ENTITY ?
+43	31 37	where does TOPIC_ENTITY 's husband work for ?
+43	31 37	what is the educational institution of TOPIC_ENTITY 's husband ?
+43	31 37	the organization of TOPIC_ENTITY 's other half ?
+43	31 37	what is the organization of other half of TOPIC_ENTITY ?
+43	31 37	the organization of other half of TOPIC_ENTITY ?
+36	23	what is the daughter of TOPIC_ENTITY 's parents ?
+36	23	TOPIC_ENTITY 's parents 's daughter ?
+36	23	what is the daughter of parents of TOPIC_ENTITY ?
+11	4 40 13 37	what is the TOPIC_ENTITY 's couple 's heir ?
+11	4 40 13 37	who is the heir of TOPIC_ENTITY 's couple ?
+11	4 40 13 37	what is the name of the heir of TOPIC_ENTITY 's couple ?
+4	40 11 13 37	what is the gender of couple of TOPIC_ENTITY ?
+4	40 11 13 37	what is the TOPIC_ENTITY 's couple 's gender ?
+4	40 11 13 37	the gender of TOPIC_ENTITY 's couple ?
+35	31 23	where does TOPIC_ENTITY 's parent come from ?
+35	31 23	what is the nation of TOPIC_ENTITY 's parent ?
+35	31 23	the nation of TOPIC_ENTITY 's parent ?
+36	33 23	the son of mom of TOPIC_ENTITY ?
+36	33 23	the son of TOPIC_ENTITY 's mom ?
+36	33 23	what is the son of mom of TOPIC_ENTITY ?
+33	36 23	what is the TOPIC_ENTITY 's dad 's faith ?
+33	36 23	what is the faith of TOPIC_ENTITY 's dad ?
+33	36 23	what faith does TOPIC_ENTITY 's dad have ?
+51	31 37 10	how TOPIC_ENTITY 's other half died ?
+51	31 37 10	what is the cause of death of other half of TOPIC_ENTITY ?
+51	31 37 10	why TOPIC_ENTITY 's other half died ?
+10	31 51 37	TOPIC_ENTITY 's wife 's mother ?
+10	31 51 37	what is the mother of TOPIC_ENTITY 's wife ?
+10	31 51 37	what is the TOPIC_ENTITY 's wife 's mother ?
+9	37 10	who is the spouse of TOPIC_ENTITY 's husband ?
+9	37 10	what is the name of the spouse of TOPIC_ENTITY 's husband ?
+9	37 10	what is the TOPIC_ENTITY 's husband 's spouse ?
+10	9 37	what is the TOPIC_ENTITY 's wife 's father ?
+10	9 37	who is the father of TOPIC_ENTITY 's wife ?
+10	9 37	what is the father of wife of TOPIC_ENTITY ?
+42	40 23 46	what is the place of death of mother of TOPIC_ENTITY ?
+42	40 23 46	the place of death of mother of TOPIC_ENTITY ?
+42	40 23 46	the place of death of TOPIC_ENTITY 's mother ?
+46	40 42 23	who is the grandparent of TOPIC_ENTITY ?
+46	40 42 23	the parent of parents of TOPIC_ENTITY ?
+46	40 42 23	what is the name of the grandparent of TOPIC_ENTITY ?
+53	31 13	what is the TOPIC_ENTITY 's son 's nation ?
+53	31 13	what is the nation of TOPIC_ENTITY 's son ?
+53	31 13	the nation of son of TOPIC_ENTITY ?
+42	31 5 23	where did TOPIC_ENTITY 's mom die ?
+42	31 5 23	what city did TOPIC_ENTITY 's mom die ?
+42	31 5 23	TOPIC_ENTITY 's mom 's place of death ?
+4	37	TOPIC_ENTITY 's wife 's sex ?
+4	37	the sex of TOPIC_ENTITY 's wife ?
+4	37	what is the sex of wife of TOPIC_ENTITY ?
+33	36 23	what religious belief is TOPIC_ENTITY 's parent ?
+33	36 23	TOPIC_ENTITY 's parent 's religious belief ?
+33	36 23	what religious belief does TOPIC_ENTITY 's parent practice ?
+36	33 23	the child of TOPIC_ENTITY 's parent ?
+36	33 23	what is the child of parent of TOPIC_ENTITY ?
+36	33 23	what is the name of the child of TOPIC_ENTITY 's parent ?
+15	31 13	TOPIC_ENTITY 's children 's sex ?
+15	31 13	is TOPIC_ENTITY 's children a man or a woman ?
+15	31 13	the sex of children of TOPIC_ENTITY ?
+36	23	who is the daughter of TOPIC_ENTITY 's mom ?
+36	23	what is the daughter of TOPIC_ENTITY 's mom ?
+36	23	TOPIC_ENTITY 's mom 's daughter ?
+46	14 23	who is the grandmom of TOPIC_ENTITY ?
+46	14 23	the mom of TOPIC_ENTITY 's mom ?
+46	14 23	what is the name of the mom of TOPIC_ENTITY 's mom ?
+27	13	what is the dad of TOPIC_ENTITY 's kid ?
+27	13	the dad of kid of TOPIC_ENTITY ?
+27	13	the dad of TOPIC_ENTITY 's kid ?
+53	13	what is the TOPIC_ENTITY 's child 's nation ?
+53	13	the nation of child of TOPIC_ENTITY ?
+53	13	which nationality is TOPIC_ENTITY 's child ?
+19	23 35 16	TOPIC_ENTITY 's mom 's profession ?
+19	23 35 16	the profession of mom of TOPIC_ENTITY ?
+19	23 35 16	what is TOPIC_ENTITY 's mom working on ?
+35	23 19 16	where does TOPIC_ENTITY 's dad come from ?
+35	23 19 16	the nation of TOPIC_ENTITY 's dad ?
+35	23 19 16	what is the nation of TOPIC_ENTITY 's dad ?
+19	23 35 16	what is the work of father of TOPIC_ENTITY ?
+19	23 35 16	what does TOPIC_ENTITY 's father do ?
+19	23 35 16	what does TOPIC_ENTITY 's father do for a living?
+15	13	what is the gender of TOPIC_ENTITY 's son ?
+15	13	what gender is TOPIC_ENTITY 's son  ?
+15	13	is TOPIC_ENTITY 's son a man or a woman ?
+10	31 22 47 37	what is the name of the parents of TOPIC_ENTITY 's spouse ?
+10	31 22 47 37	what is the TOPIC_ENTITY 's spouse 's parents ?
+10	31 22 47 37	TOPIC_ENTITY 's spouse 's parents ?
+22	31 10 47 37	TOPIC_ENTITY 's darling 's nation ?
+22	31 10 47 37	the nation of TOPIC_ENTITY 's darling ?
+22	31 10 47 37	which nationality is TOPIC_ENTITY 's darling ?
+35	42 23	what is the TOPIC_ENTITY 's dad 's nationality ?
+35	42 23	the nationality of TOPIC_ENTITY 's dad ?
+35	42 23	what is the nationality of TOPIC_ENTITY 's dad ?
+42	35 23	where did TOPIC_ENTITY 's father die ?
+42	35 23	the place of death of father of TOPIC_ENTITY ?
+42	35 23	what is the TOPIC_ENTITY 's father 's place of death ?
+22	37	the nationality of TOPIC_ENTITY 's wife ?
+22	37	the nationality of wife of TOPIC_ENTITY ?
+22	37	which nationality is TOPIC_ENTITY 's wife ?
+24	34 12 13 16	what is the TOPIC_ENTITY 's heir 's place of birth ?
+24	34 12 13 16	what is TOPIC_ENTITY 's heir 's birthplace ?
+24	34 12 13 16	the place of birth of TOPIC_ENTITY 's heir ?
+12	24 34 13 16	what does TOPIC_ENTITY 's children do ?
+12	24 34 13 16	the job of children of TOPIC_ENTITY ?
+12	24 34 13 16	the job of TOPIC_ENTITY 's children ?
+34	24 12 13 16	what is the TOPIC_ENTITY 's heir 's faith ?
+34	24 12 13 16	what faith does TOPIC_ENTITY 's heir follow ?
+34	24 12 13 16	what faith does TOPIC_ENTITY 's heir have ?
+15	41 13	what is the gender of TOPIC_ENTITY 's heir ?
+15	41 13	the gender of TOPIC_ENTITY 's heir ?
+15	41 13	TOPIC_ENTITY 's heir 's gender ?
+41	13 15	the children of offspring of TOPIC_ENTITY ?
+41	13 15	TOPIC_ENTITY 's offspring 's children ?
+41	13 15	the children of TOPIC_ENTITY 's offspring ?
+15	13 17	the gender of heir of TOPIC_ENTITY ?
+15	13 17	the gender of TOPIC_ENTITY 's heir ?
+15	13 17	TOPIC_ENTITY 's heir 's gender ?
+8	51 45 37	what is TOPIC_ENTITY 's couple working on ?
+8	51 45 37	TOPIC_ENTITY 's couple 's profession ?
+8	51 45 37	what is the TOPIC_ENTITY 's couple 's profession ?
+45	51 8 37	what religion does TOPIC_ENTITY 's other half follow ?
+45	51 8 37	the religion of TOPIC_ENTITY 's other half ?
+45	51 8 37	what religion does TOPIC_ENTITY 's other half have ?
+51	8 45 37	what caused the TOPIC_ENTITY 's couple's death ?
+51	8 45 37	what is the cause of death of couple of TOPIC_ENTITY ?
+51	8 45 37	what killed the TOPIC_ENTITY 's couple ?
+4	8 23 37 16	what is the sex of darling of TOPIC_ENTITY ?
+4	8 23 37 16	the sex of darling of TOPIC_ENTITY ?
+4	8 23 37 16	TOPIC_ENTITY 's darling 's sex ?
+8	4 23 37 16	what is TOPIC_ENTITY 's husband working on ?
+8	4 23 37 16	the occupation of husband of TOPIC_ENTITY ?
+8	4 23 37 16	the occupation of TOPIC_ENTITY 's husband ?
+53	13 21	TOPIC_ENTITY 's son 's nation ?
+53	13 21	what is the nation of TOPIC_ENTITY 's son ?
+53	13 21	what is the nation of son of TOPIC_ENTITY ?
+21	13 53	the place of death of TOPIC_ENTITY 's offspring ?
+21	13 53	TOPIC_ENTITY 's offspring 's place of death ?
+21	13 53	what city did TOPIC_ENTITY 's offspring die ?
+41	13	what is the name of the grandson of TOPIC_ENTITY ?
+41	13	what is the son of TOPIC_ENTITY 's kid ?
+41	13	what is the son of kid of TOPIC_ENTITY ?
+3	23	the place of birth of TOPIC_ENTITY 's mom ?
+3	23	what is the place of birth of TOPIC_ENTITY 's mom ?
+3	23	TOPIC_ENTITY 's mom 's place of birth ?
+46	26 23	what is the name of the parents of TOPIC_ENTITY 's mom ?
+46	26 23	what is the parents of TOPIC_ENTITY 's mom ?
+46	26 23	what is the parents of mom of TOPIC_ENTITY ?
+26	23 46	the sex of parent of TOPIC_ENTITY ?
+26	23 46	TOPIC_ENTITY 's parent 's sex ?
+26	23 46	what sex is TOPIC_ENTITY 's parent  ?
+53	31 5 40 39 13 16	TOPIC_ENTITY 's child 's nationality ?
+53	31 5 40 39 13 16	what is the TOPIC_ENTITY 's child 's nationality ?
+53	31 5 40 39 13 16	the nationality of TOPIC_ENTITY 's child ?
+39	31 5 40 13 53 16	how TOPIC_ENTITY 's kid died ?
+39	31 5 40 13 53 16	what is the cause of death of kid of TOPIC_ENTITY ?
+39	31 5 40 13 53 16	what did TOPIC_ENTITY 's kid die from ?
+20	31 23	the cause of death of TOPIC_ENTITY 's father ?
+20	31 23	what caused the TOPIC_ENTITY 's father's death ?
+20	31 23	what is the cause of death of TOPIC_ENTITY 's father ?
+4	37	what is the sex of TOPIC_ENTITY 's other half ?
+4	37	is TOPIC_ENTITY 's other half a man or a woman ?
+4	37	what is the sex of other half of TOPIC_ENTITY ?
+4	37	the gender of TOPIC_ENTITY 's couple ?
+4	37	is TOPIC_ENTITY 's couple a man or a woman ?
+4	37	TOPIC_ENTITY 's couple 's gender ?
+15	13	is TOPIC_ENTITY 's child a man or a woman ?
+15	13	TOPIC_ENTITY 's child 's gender ?
+15	13	the gender of TOPIC_ENTITY 's child ?
+10	37 14 18	what is the mother of couple of TOPIC_ENTITY ?
+10	37 14 18	who is the mother of TOPIC_ENTITY 's couple ?
+10	37 14 18	TOPIC_ENTITY 's couple 's mother ?
+18	37 10 14	the place of birth of spouse of TOPIC_ENTITY ?
+18	37 10 14	TOPIC_ENTITY 's spouse 's place of birth ?
+18	37 10 14	what is the place of birth of TOPIC_ENTITY 's spouse ?
+50	6 23 30	please tell me TOPIC_ENTITY 's parents present address ?
+50	6 23 30	the location of TOPIC_ENTITY 's parents ?
+50	6 23 30	where is TOPIC_ENTITY 's parents staying ?
+7	19 20 23 36 26	the race of TOPIC_ENTITY 's father ?
+7	19 20 23 36 26	what is the TOPIC_ENTITY 's father 's race ?
+7	19 20 23 36 26	what is the race of father of TOPIC_ENTITY ?
+26	19 20 23 36 7	the gender of father of TOPIC_ENTITY ?
+26	19 20 23 36 7	what gender is TOPIC_ENTITY 's father  ?
+26	19 20 23 36 7	what is the TOPIC_ENTITY 's father 's gender ?
+19	20 23 36 26 7	what does TOPIC_ENTITY 's parent do ?
+19	20 23 36 26 7	what is the occupation of parent of TOPIC_ENTITY ?
+19	20 23 36 26 7	what is TOPIC_ENTITY 's parent ?
+36	19 20 23 26 7	what is the kid of TOPIC_ENTITY 's father ?
+36	19 20 23 26 7	the kid of father of TOPIC_ENTITY ?
+36	19 20 23 26 7	what is the TOPIC_ENTITY 's father 's kid ?
+20	19 23 36 26 7	what made the TOPIC_ENTITY 's momdead ?

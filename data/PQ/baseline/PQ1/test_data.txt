@@ -1,0 +1,711 @@
+149	114 64 142 29 106	what killed the TOPIC_ENTITY 's mom ?
+149	114 64 142 29 106	the cause of death of TOPIC_ENTITY 's mom ?
+51	118 48 32	what is the TOPIC_ENTITY 's wife 's cause of death ?
+51	118 48 32	TOPIC_ENTITY 's wife 's cause of death ?
+51	118 48 32	how TOPIC_ENTITY 's wife died ?
+118	48 51 32	the gender of darling of TOPIC_ENTITY ?
+118	48 51 32	the gender of TOPIC_ENTITY 's darling ?
+118	48 51 32	TOPIC_ENTITY 's darling 's gender ?
+160	29 44	what is the place of birth of TOPIC_ENTITY 's mom ?
+160	29 44	the place of birth of TOPIC_ENTITY 's mom ?
+160	29 44	which city did TOPIC_ENTITY 's mom born ?
+64	29	is TOPIC_ENTITY 's father a man or a woman ?
+64	29	TOPIC_ENTITY 's father 's sex ?
+64	29	the sex of father of TOPIC_ENTITY ?
+120	10 45 32 88 150 105 53	what is the TOPIC_ENTITY 's other half 's nationality ?
+120	10 45 32 88 150 105 53	which nationality is TOPIC_ENTITY 's other half ?
+120	10 45 32 88 150 105 53	the nationality of TOPIC_ENTITY 's other half ?
+150	10 45 120 32 88 105 53	the faith of TOPIC_ENTITY 's offspring ?
+150	10 45 120 32 88 105 53	TOPIC_ENTITY 's offspring 's faith ?
+150	10 45 120 32 88 105 53	what faith is TOPIC_ENTITY 's offspring ?
+105	10 45 120 32 88 150 53	where is TOPIC_ENTITY 's heir living ?
+105	10 45 120 32 88 150 53	where is TOPIC_ENTITY 's heir staying ?
+105	10 45 120 32 88 150 53	what is the address of heir of TOPIC_ENTITY ?
+10	45 120 32 88 150 105 53	what is the job of TOPIC_ENTITY 's kid ?
+10	45 120 32 88 150 105 53	what does TOPIC_ENTITY 's kid do for a living?
+10	45 120 32 88 150 105 53	what is TOPIC_ENTITY 's kid ?
+53	10 45 120 32 88 150 105	what is the sex of offspring of TOPIC_ENTITY ?
+53	10 45 120 32 88 150 105	the sex of TOPIC_ENTITY 's offspring ?
+53	10 45 120 32 88 150 105	what sex is TOPIC_ENTITY 's offspring  ?
+78	29	what is the mom of parents of TOPIC_ENTITY ?
+78	29	who is the grandmom of TOPIC_ENTITY ?
+78	29	TOPIC_ENTITY 's parents 's mom ?
+75	69 39 32	what does TOPIC_ENTITY 's husband do for a living?
+75	69 39 32	what is TOPIC_ENTITY 's husband ?
+75	69 39 32	what is the job of husband of TOPIC_ENTITY ?
+69	75 39 32	what city did TOPIC_ENTITY 's darling die ?
+69	75 39 32	TOPIC_ENTITY 's darling 's place of death ?
+69	75 39 32	where did the darling of TOPIC_ENTITY die ?
+120	32	the nation of TOPIC_ENTITY 's spouse ?
+120	32	the nation of spouse of TOPIC_ENTITY ?
+120	32	what is the nation of TOPIC_ENTITY 's spouse ?
+118	157 32 87	the sex of TOPIC_ENTITY 's darling ?
+118	157 32 87	is TOPIC_ENTITY 's darling a man or a woman ?
+118	157 32 87	what is the sex of TOPIC_ENTITY 's darling ?
+87	157 32 118	who is the darling of TOPIC_ENTITY 's other half ?
+87	157 32 118	what is the darling of other half of TOPIC_ENTITY ?
+87	157 32 118	what is the name of the darling of TOPIC_ENTITY 's other half ?
+10	136 45 148	what does TOPIC_ENTITY 's kid do for a living?
+10	136 45 148	TOPIC_ENTITY 's kid 's job ?
+10	136 45 148	the job of TOPIC_ENTITY 's kid ?
+136	10 45 148	who is the parents of TOPIC_ENTITY 's daughter ?
+136	10 45 148	the parents of daughter of TOPIC_ENTITY ?
+136	10 45 148	what is the name of the parents of TOPIC_ENTITY 's daughter ?
+131	126 32 88 39	what is the location of husband of TOPIC_ENTITY ?
+131	126 32 88 39	the location of husband of TOPIC_ENTITY ?
+131	126 32 88 39	please tell me TOPIC_ENTITY 's husband present address ?
+126	32 88 39 131	what is the religion of TOPIC_ENTITY 's wife ?
+126	32 88 39 131	TOPIC_ENTITY 's wife 's religion ?
+126	32 88 39 131	what religion does TOPIC_ENTITY 's wife have ?
+133	44 29 119	what is the organization of TOPIC_ENTITY 's parent ?
+133	44 29 119	the organization of parent of TOPIC_ENTITY ?
+133	44 29 119	which organization does TOPIC_ENTITY 's parent work for ?
+118	45 32 88 39	the sex of TOPIC_ENTITY 's husband ?
+118	45 32 88 39	the sex of husband of TOPIC_ENTITY ?
+118	45 32 88 39	TOPIC_ENTITY 's husband 's sex ?
+120	126 32	what is the TOPIC_ENTITY 's darling 's nation ?
+120	126 32	where does TOPIC_ENTITY 's darling come from ?
+120	126 32	TOPIC_ENTITY 's darling 's nation ?
+126	120 32	the religion of TOPIC_ENTITY 's spouse ?
+126	120 32	what religion does TOPIC_ENTITY 's spouse practice ?
+126	120 32	what religion is TOPIC_ENTITY 's spouse ?
+56	45	where does TOPIC_ENTITY 's offspring come from ?
+56	45	what is the nation of TOPIC_ENTITY 's offspring ?
+56	45	what is the TOPIC_ENTITY 's offspring 's nation ?
+105	56 39 45	what is the address of TOPIC_ENTITY 's son ?
+105	56 39 45	please tell me TOPIC_ENTITY 's son present address ?
+105	56 39 45	the address of TOPIC_ENTITY 's son ?
+56	105 39 45	what is the nationality of son of TOPIC_ENTITY ?
+56	105 39 45	what is the TOPIC_ENTITY 's son 's nationality ?
+56	105 39 45	what is the nationality of TOPIC_ENTITY 's son ?
+56	45	what is the TOPIC_ENTITY 's heir 's nationality ?
+56	45	TOPIC_ENTITY 's heir 's nationality ?
+56	45	which nationality is TOPIC_ENTITY 's heir ?
+53	45 85 88	the sex of son of TOPIC_ENTITY ?
+53	45 85 88	what is the sex of son of TOPIC_ENTITY ?
+53	45 85 88	is TOPIC_ENTITY 's son a man or a woman ?
+118	32	the gender of TOPIC_ENTITY 's couple ?
+118	32	what is the TOPIC_ENTITY 's couple 's gender ?
+118	32	is TOPIC_ENTITY 's couple a man or a woman ?
+53	39 45 56	what is the gender of child of TOPIC_ENTITY ?
+53	39 45 56	what is the TOPIC_ENTITY 's child 's gender ?
+53	39 45 56	TOPIC_ENTITY 's child 's gender ?
+56	39 45 53	what is the nationality of child of TOPIC_ENTITY ?
+56	39 45 53	what is the nationality of TOPIC_ENTITY 's child ?
+56	39 45 53	the nationality of child of TOPIC_ENTITY ?
+133	64 29	TOPIC_ENTITY 's father 's institution ?
+133	64 29	the institution of father of TOPIC_ENTITY ?
+133	64 29	where does TOPIC_ENTITY 's father work ?
+64	29 133	the gender of TOPIC_ENTITY 's mom ?
+64	29 133	what is the gender of TOPIC_ENTITY 's mom ?
+64	29 133	what is the TOPIC_ENTITY 's mom 's gender ?
+56	45	where does TOPIC_ENTITY 's kid come from ?
+56	45	TOPIC_ENTITY 's kid 's nation ?
+56	45	what is the nation of TOPIC_ENTITY 's kid ?
+155	149 91 29	who is the other half of TOPIC_ENTITY 's father ?
+155	149 91 29	the other half of father of TOPIC_ENTITY ?
+155	149 91 29	the other half of TOPIC_ENTITY 's father ?
+149	91 29 155	what did TOPIC_ENTITY 's dad die from ?
+149	91 29 155	what is the cause of death of TOPIC_ENTITY 's dad ?
+149	91 29 155	how TOPIC_ENTITY 's dad died ?
+152	32	where does TOPIC_ENTITY 's darling work for ?
+152	32	what is the institution of TOPIC_ENTITY 's darling ?
+152	32	what is the institution of darling of TOPIC_ENTITY ?
+152	44 118 120 32 88	the educational institution of TOPIC_ENTITY 's couple ?
+152	44 118 120 32 88	what is the TOPIC_ENTITY 's couple 's educational institution ?
+152	44 118 120 32 88	where does TOPIC_ENTITY 's couple work for ?
+118	44 120 32 88 152	what is the sex of spouse of TOPIC_ENTITY ?
+118	44 120 32 88 152	TOPIC_ENTITY 's spouse 's sex ?
+118	44 120 32 88 152	what is the sex of TOPIC_ENTITY 's spouse ?
+120	44 118 32 88 152	what is the TOPIC_ENTITY 's husband 's nation ?
+120	44 118 32 88 152	which nationality is TOPIC_ENTITY 's husband ?
+120	44 118 32 88 152	what is the nation of TOPIC_ENTITY 's husband ?
+64	29 85	what is the sex of dad of TOPIC_ENTITY ?
+64	29 85	the sex of dad of TOPIC_ENTITY ?
+64	29 85	what is the sex of TOPIC_ENTITY 's dad ?
+78	29	the parents of TOPIC_ENTITY 's mom ?
+78	29	what is the TOPIC_ENTITY 's mom 's parents ?
+78	29	TOPIC_ENTITY 's mom 's parents ?
+10	45 44	the profession of kid of TOPIC_ENTITY ?
+10	45 44	TOPIC_ENTITY 's kid 's profession ?
+10	45 44	the profession of TOPIC_ENTITY 's kid ?
+10	45 44	what is the TOPIC_ENTITY 's child 's job ?
+10	45 44	what is the job of TOPIC_ENTITY 's child ?
+10	45 44	what line of business is TOPIC_ENTITY 's child in ?
+90	29 44	the nation of TOPIC_ENTITY 's dad ?
+90	29 44	what is the nation of TOPIC_ENTITY 's dad ?
+90	29 44	TOPIC_ENTITY 's dad 's nation ?
+10	45	what is the job of TOPIC_ENTITY 's kid ?
+10	45	the job of TOPIC_ENTITY 's kid ?
+10	45	what is the job of kid of TOPIC_ENTITY ?
+120	39 32 88	what is the nation of TOPIC_ENTITY 's wife ?
+120	39 32 88	where does TOPIC_ENTITY 's wife come from ?
+120	39 32 88	the nation of TOPIC_ENTITY 's wife ?
+118	39 32	the gender of darling of TOPIC_ENTITY ?
+118	39 32	what gender is TOPIC_ENTITY 's darling  ?
+118	39 32	TOPIC_ENTITY 's darling 's gender ?
+20	45 44	the educational institution of TOPIC_ENTITY 's child ?
+20	45 44	what is the educational institution of TOPIC_ENTITY 's child ?
+20	45 44	where does TOPIC_ENTITY 's child work ?
+87	44 157 32 112	TOPIC_ENTITY 's other half 's wife ?
+87	44 157 32 112	the wife of other half of TOPIC_ENTITY ?
+87	44 157 32 112	the wife of TOPIC_ENTITY 's other half ?
+64	149 29 88	the sex of TOPIC_ENTITY 's parent ?
+64	149 29 88	what is the sex of parent of TOPIC_ENTITY ?
+64	149 29 88	TOPIC_ENTITY 's parent 's sex ?
+149	64 29 88	why TOPIC_ENTITY 's mom died ?
+149	64 29 88	what is the cause of death of mom of TOPIC_ENTITY ?
+149	64 29 88	what killed the TOPIC_ENTITY 's mom ?
+53	45	the gender of child of TOPIC_ENTITY ?
+53	45	the gender of TOPIC_ENTITY 's child ?
+53	45	what gender is TOPIC_ENTITY 's child  ?
+90	29	where does TOPIC_ENTITY 's parent come from ?
+90	29	what is the nation of TOPIC_ENTITY 's parent ?
+90	29	the nation of TOPIC_ENTITY 's parent ?
+51	118 120 32 88	what made the TOPIC_ENTITY 's spousedead ?
+51	118 120 32 88	how TOPIC_ENTITY 's spouse died ?
+51	118 120 32 88	the cause of death of spouse of TOPIC_ENTITY ?
+118	51 120 32 88	what is the gender of couple of TOPIC_ENTITY ?
+118	51 120 32 88	is TOPIC_ENTITY 's couple a man or a woman ?
+118	51 120 32 88	TOPIC_ENTITY 's couple 's gender ?
+120	118 51 32 88	what is the nation of husband of TOPIC_ENTITY ?
+120	118 51 32 88	what is the nation of TOPIC_ENTITY 's husband ?
+120	118 51 32 88	TOPIC_ENTITY 's husband 's nation ?
+133	90 29 64	what is the organization of TOPIC_ENTITY 's father ?
+133	90 29 64	where does TOPIC_ENTITY 's father work ?
+133	90 29 64	what is the organization of father of TOPIC_ENTITY ?
+64	90 29 133	what is the gender of parents of TOPIC_ENTITY ?
+64	90 29 133	what is the gender of TOPIC_ENTITY 's parents ?
+64	90 29 133	what is the TOPIC_ENTITY 's parents 's gender ?
+90	29 64 133	where does TOPIC_ENTITY 's parents come from ?
+90	29 64 133	TOPIC_ENTITY 's parents 's nation ?
+90	29 64 133	which nationality is TOPIC_ENTITY 's parents ?
+53	45	what is the sex of daughter of TOPIC_ENTITY ?
+53	45	the sex of TOPIC_ENTITY 's daughter ?
+53	45	what is the TOPIC_ENTITY 's daughter 's sex ?
+80	153 44 45 48 53	what is the name of the husband of TOPIC_ENTITY 's son ?
+80	153 44 45 48 53	what is the husband of TOPIC_ENTITY 's son ?
+80	153 44 45 48 53	the husband of TOPIC_ENTITY 's son ?
+53	153 44 45 80 48	the gender of kid of TOPIC_ENTITY ?
+53	153 44 45 80 48	TOPIC_ENTITY 's kid 's gender ?
+53	153 44 45 80 48	what gender is TOPIC_ENTITY 's kid  ?
+147	78 16 68 29	TOPIC_ENTITY 's father 's father 's sex ?
+147	78 16 68 29	the sex of TOPIC_ENTITY 's father 's father ?
+16	78 68 29 147	what is the place of death of TOPIC_ENTITY 's parent 's father ?
+16	78 68 29 147	who is the place of death of father of TOPIC_ENTITY 's parent ?
+146	115 157 85 87 32 88	what is the TOPIC_ENTITY 's spouse 's spouse 's nationality ?
+146	115 157 85 87 32 88	TOPIC_ENTITY 's spouse 's spouse 's nationality ?
+157	115 146 85 87 32 88	TOPIC_ENTITY 's husband 's darling 's spouse ?
+157	115 146 85 87 32 88	what is the TOPIC_ENTITY 's husband 's darling 's spouse ?
+115	157 146 85 87 32 88	who is the place of birth of wife of TOPIC_ENTITY 's couple ?
+115	157 146 85 87 32 88	TOPIC_ENTITY 's couple 's wife 's place of birth ?
+24	79 48 118 100 51 32 131	what is the offspring of TOPIC_ENTITY 's other half 's father ?
+24	79 48 118 100 51 32 131	the offspring of father of TOPIC_ENTITY 's other half ?
+42	26 68 162 29 106	what is the sex of TOPIC_ENTITY 's dad 's kid ?
+42	26 68 162 29 106	who is the sex of kid of TOPIC_ENTITY 's dad ?
+26	42 68 162 29 106	who is the faith of son of TOPIC_ENTITY 's mother ?
+26	42 68 162 29 106	the faith of TOPIC_ENTITY 's mother 's son ?
+54	64 42 44 160 29 101 88 165 90 39 106	who is the work of child of TOPIC_ENTITY 's father ?
+54	64 42 44 160 29 101 88 165 90 39 106	TOPIC_ENTITY 's father 's child 's work ?
+101	54 64 42 44 160 29 88 165 90 39 106	the mom of TOPIC_ENTITY 's mother 's daughter ?
+101	54 64 42 44 160 29 88 165 90 39 106	what is the name of the mom of daughter of TOPIC_ENTITY 's mother ?
+42	54 64 44 160 29 101 88 165 90 39 106	what is the TOPIC_ENTITY 's parent 's offspring 's gender ?
+42	54 64 44 160 29 101 88 165 90 39 106	the gender of offspring of TOPIC_ENTITY 's parent ?
+165	54 64 42 44 160 29 101 88 90 39 106	what is the nationality of TOPIC_ENTITY 's father 's son ?
+165	54 64 42 44 160 29 101 88 90 39 106	TOPIC_ENTITY 's father 's son 's nationality ?
+22	64 78 29 39	who is the grandethnicity of TOPIC_ENTITY 's parent ?
+22	64 78 29 39	TOPIC_ENTITY 's parent 's parents 's ethnicity ?
+165	64 106 29 85 101 88 90 107	TOPIC_ENTITY 's mom 's heir 's nationality ?
+165	64 106 29 85 101 88 90 107	the nationality of heir of TOPIC_ENTITY 's mom ?
+101	64 106 29 85 88 165 90 107	the mother of heir of TOPIC_ENTITY 's dad ?
+101	64 106 29 85 88 165 90 107	what is the mother of heir of TOPIC_ENTITY 's dad ?
+107	64 106 29 85 101 88 165 90	what is the place of birth of TOPIC_ENTITY 's mom 's heir ?
+107	64 106 29 85 101 88 165 90	the place of birth of heir of TOPIC_ENTITY 's mom ?
+38	10 45 56 148 136 93 53	who is the work of father of TOPIC_ENTITY 's child ?
+38	10 45 56 148 136 93 53	what is the TOPIC_ENTITY 's child 's father 's work ?
+93	10 45 56 38 148 136 53	the wife of dad of TOPIC_ENTITY 's son ?
+93	10 45 56 38 148 136 53	TOPIC_ENTITY 's son 's dad 's wife ?
+148	10 45 56 38 136 93 53	who is the daughter of mom of TOPIC_ENTITY 's child ?
+148	10 45 56 38 136 93 53	the daughter of TOPIC_ENTITY 's child 's mom ?
+151	45 79 39 48 159 120 88 92 32 20	who is the place of death of kid of TOPIC_ENTITY 's other half ?
+151	45 79 39 48 159 120 88 92 32 20	the place of death of TOPIC_ENTITY 's other half 's kid ?
+92	45 79 39 48 159 120 88 32 151 20	who is the educational institution of kid of TOPIC_ENTITY 's spouse ?
+92	45 79 39 48 159 120 88 32 151 20	the educational institution of TOPIC_ENTITY 's spouse 's kid ?
+61	34 45 136 148 39	the sex of parents of TOPIC_ENTITY 's offspring ?
+61	34 45 136 148 39	what is the name of the sex of parents of TOPIC_ENTITY 's offspring ?
+148	34 45 136 61 39	what is the child of TOPIC_ENTITY 's daughter 's parents ?
+148	34 45 136 61 39	what is the child of parents of TOPIC_ENTITY 's daughter ?
+42	64 29 101 88 165 39 106	what is the gender of kid of TOPIC_ENTITY 's father ?
+42	64 29 101 88 165 39 106	the gender of kid of TOPIC_ENTITY 's father ?
+165	64 42 29 101 88 39 106	what is the nation of TOPIC_ENTITY 's dad 's heir ?
+165	64 42 29 101 88 39 106	what is the nation of heir of TOPIC_ENTITY 's dad ?
+101	64 42 29 88 165 39 106	what is the name of the dad of kid of TOPIC_ENTITY 's mom ?
+101	64 42 29 88 165 39 106	what is the TOPIC_ENTITY 's mom 's kid 's dad ?
+25	154 79 121 32 39 129	the occupation of child of TOPIC_ENTITY 's couple ?
+25	154 79 121 32 39 129	the occupation of TOPIC_ENTITY 's couple 's child ?
+154	25 79 121 32 39 129	what is the spouse of TOPIC_ENTITY 's spouse 's kid ?
+154	25 79 121 32 39 129	who is the spouse of kid of TOPIC_ENTITY 's spouse ?
+129	25 154 79 121 32 39	what is the place of birth of TOPIC_ENTITY 's darling 's child ?
+129	25 154 79 121 32 39	what is the place of birth of child of TOPIC_ENTITY 's darling ?
+113	45 68 161 127 88 164	who is the grandchildren of TOPIC_ENTITY 's children ?
+113	45 68 161 127 88 164	the children of TOPIC_ENTITY 's children 's daughter ?
+127	45 68 161 88 164 113	what is the parent of children of TOPIC_ENTITY 's daughter ?
+127	45 68 161 88 164 113	what is the name of the parent of children of TOPIC_ENTITY 's daughter ?
+161	45 68 127 88 164 113	what is the name of the wife of kid of TOPIC_ENTITY 's daughter ?
+161	45 68 127 88 164 113	what is the wife of kid of TOPIC_ENTITY 's daughter ?
+148	45 36 88 136	the heir of TOPIC_ENTITY 's child 's dad ?
+148	45 36 88 136	what is the heir of dad of TOPIC_ENTITY 's child ?
+36	45 148 88 136	the nation of TOPIC_ENTITY 's kid 's dad ?
+36	45 148 88 136	what is the TOPIC_ENTITY 's kid 's dad 's nation ?
+101	29 106	what is the TOPIC_ENTITY 's parent 's daughter 's father ?
+101	29 106	the father of daughter of TOPIC_ENTITY 's parent ?
+148	41 45 56 68 136	what is the children of TOPIC_ENTITY 's child 's parent ?
+148	41 45 56 68 136	what is the children of parent of TOPIC_ENTITY 's child ?
+41	45 56 68 148 136	the place of death of parent of TOPIC_ENTITY 's children ?
+41	45 56 68 148 136	what is the place of death of parent of TOPIC_ENTITY 's children ?
+134	106 78 29 110 101 85 107	the place of birth of TOPIC_ENTITY 's mother 's parents ?
+134	106 78 29 110 101 85 107	what is the place of birth of TOPIC_ENTITY 's mother 's parents ?
+101	106 78 134 29 110 85 107	what is the TOPIC_ENTITY 's father 's child 's mom ?
+101	106 78 134 29 110 85 107	what is the mom of TOPIC_ENTITY 's father 's child ?
+107	106 78 134 29 110 101 85	TOPIC_ENTITY 's father 's daughter 's place of birth ?
+107	106 78 134 29 110 101 85	what is the place of birth of daughter of TOPIC_ENTITY 's father ?
+168	75 77 66 79 14 118 120 32 39 103 91	what is the nation of kid of TOPIC_ENTITY 's spouse ?
+168	75 77 66 79 14 118 120 32 39 103 91	TOPIC_ENTITY 's spouse 's kid 's nation ?
+103	75 77 66 79 14 118 120 32 39 91 168	what is the type of religion of son of TOPIC_ENTITY 's spouse ?
+103	75 77 66 79 14 118 120 32 39 91 168	the type of religion of TOPIC_ENTITY 's spouse 's son ?
+77	75 66 79 14 118 120 32 39 103 91 168	the location of TOPIC_ENTITY 's husband 's child ?
+77	75 66 79 14 118 120 32 39 103 91 168	what is the name of the location of child of TOPIC_ENTITY 's husband ?
+14	75 77 66 79 118 120 32 39 103 91 168	the parent of TOPIC_ENTITY 's couple 's offspring ?
+14	75 77 66 79 118 120 32 39 103 91 168	what is the TOPIC_ENTITY 's couple 's offspring 's parent ?
+66	75 77 79 14 118 120 32 39 103 91 168	what is the cause of death of kid of TOPIC_ENTITY 's darling ?
+66	75 77 79 14 118 120 32 39 103 91 168	what is the TOPIC_ENTITY 's darling 's kid 's cause of death ?
+148	136 45	what is the heir of TOPIC_ENTITY 's child 's mother ?
+148	136 45	who is the heir of mother of TOPIC_ENTITY 's child ?
+146	157 99 119 128 122 39 87 91 32 140 121 88	what is the nation of darling of TOPIC_ENTITY 's other half ?
+146	157 99 119 128 122 39 87 91 32 140 121 88	TOPIC_ENTITY 's other half 's darling 's nation ?
+140	157 99 119 146 128 122 39 87 91 32 121 88	the race of TOPIC_ENTITY 's other half 's husband ?
+140	157 99 119 146 128 122 39 87 91 32 121 88	who is the race of husband of TOPIC_ENTITY 's other half ?
+99	157 119 146 128 122 39 87 91 32 140 121 88	who is the sex of other half of TOPIC_ENTITY 's spouse ?
+99	157 119 146 128 122 39 87 91 32 140 121 88	what is the TOPIC_ENTITY 's spouse 's other half 's sex ?
+140	157 99 119 146 128 122 39 87 91 32 121 88	what is the name of the ethnicity of husband of TOPIC_ENTITY 's darling ?
+140	157 99 119 146 128 122 39 87 91 32 121 88	who is the ethnicity of husband of TOPIC_ENTITY 's darling ?
+122	157 99 119 146 128 39 87 91 32 140 121 88	what is the cause of death of wife of TOPIC_ENTITY 's couple ?
+122	157 99 119 146 128 39 87 91 32 140 121 88	the cause of death of TOPIC_ENTITY 's couple 's wife ?
+140	157 99 119 146 128 122 39 87 91 32 121 88	the ethnicity of TOPIC_ENTITY 's wife 's wife ?
+140	157 99 119 146 128 122 39 87 91 32 121 88	who is the ethnicity of wife of TOPIC_ENTITY 's wife ?
+122	157 99 119 146 128 39 87 91 32 140 121 88	the cause of death of TOPIC_ENTITY 's couple 's wife ?
+122	157 99 119 146 128 39 87 91 32 140 121 88	what is the TOPIC_ENTITY 's couple 's wife 's cause of death ?
+128	157 99 119 146 122 39 87 91 32 140 121 88	TOPIC_ENTITY 's other half 's other half 's address ?
+128	157 99 119 146 122 39 87 91 32 140 121 88	what is the address of other half of TOPIC_ENTITY 's other half ?
+157	99 119 146 128 122 39 87 91 32 140 121 88	what is the TOPIC_ENTITY 's other half 's other half 's couple ?
+157	99 119 146 128 122 39 87 91 32 140 121 88	what is the couple of other half of TOPIC_ENTITY 's other half ?
+103	10 77 25 45 79 126 81 118 105 120 32 88 150 53	who is the type of religion of daughter of TOPIC_ENTITY 's other half ?
+103	10 77 25 45 79 126 81 118 105 120 32 88 150 53	the type of religion of TOPIC_ENTITY 's other half 's daughter ?
+25	10 77 45 79 126 81 118 105 120 32 88 103 150 53	what is the profession of daughter of TOPIC_ENTITY 's darling ?
+25	10 77 45 79 126 81 118 105 120 32 88 103 150 53	what is the TOPIC_ENTITY 's darling 's daughter 's profession ?
+77	10 25 45 79 126 81 118 105 120 32 88 103 150 53	what is the TOPIC_ENTITY 's darling 's heir 's location ?
+77	10 25 45 79 126 81 118 105 120 32 88 103 150 53	TOPIC_ENTITY 's darling 's heir 's location ?
+81	10 77 25 45 79 126 118 105 120 32 88 103 150 53	TOPIC_ENTITY 's husband 's son 's sex ?
+81	10 77 25 45 79 126 118 105 120 32 88 103 150 53	what is the name of the sex of son of TOPIC_ENTITY 's husband ?
+107	42 106 162 29 4 101 165 90	what is the TOPIC_ENTITY 's parent 's children 's place of birth ?
+107	42 106 162 29 4 101 165 90	what is the place of birth of TOPIC_ENTITY 's parent 's children ?
+42	106 162 29 4 101 165 90 107	what is the gender of kid of TOPIC_ENTITY 's parent ?
+42	106 162 29 4 101 165 90 107	the gender of TOPIC_ENTITY 's parent 's kid ?
+4	42 106 162 29 101 165 90 107	what is the daughter of daughter of TOPIC_ENTITY 's mother ?
+4	42 106 162 29 101 165 90 107	who is the daughter of daughter of TOPIC_ENTITY 's mother ?
+165	42 106 162 29 4 101 90 107	what is the TOPIC_ENTITY 's parent 's child 's nation ?
+165	42 106 162 29 4 101 90 107	what is the nation of TOPIC_ENTITY 's parent 's child ?
+101	42 106 162 29 4 165 90 107	what is the TOPIC_ENTITY 's dad 's child 's parents ?
+101	42 106 162 29 4 165 90 107	what is the name of the parents of child of TOPIC_ENTITY 's dad ?
+61	136 45 53	what is the TOPIC_ENTITY 's son 's mom 's gender ?
+61	136 45 53	the gender of mom of TOPIC_ENTITY 's son ?
+165	64 109 29 110 39 106	what is the TOPIC_ENTITY 's dad 's daughter 's nationality ?
+165	64 109 29 110 39 106	the nationality of TOPIC_ENTITY 's dad 's daughter ?
+109	64 29 110 165 39 106	what is the address of son of TOPIC_ENTITY 's parents ?
+109	64 29 110 165 39 106	who is the address of son of TOPIC_ENTITY 's parents ?
+157	126 99 120 87 32 39	who is the spouse of spouse of TOPIC_ENTITY 's spouse ?
+157	126 99 120 87 32 39	the spouse of TOPIC_ENTITY 's spouse 's spouse ?
+99	157 126 120 87 32 39	TOPIC_ENTITY 's couple 's spouse 's sex ?
+99	157 126 120 87 32 39	who is the sex of spouse of TOPIC_ENTITY 's couple ?
+4	42 78 155 17 162 29 62 101 71 106	what is the name of the daughter of heir of TOPIC_ENTITY 's father ?
+4	42 78 155 17 162 29 62 101 71 106	what is the daughter of TOPIC_ENTITY 's father 's heir ?
+4	42 78 155 17 162 29 62 101 71 106	what is the heir of TOPIC_ENTITY 's parents 's children ?
+4	42 78 155 17 162 29 62 101 71 106	what is the TOPIC_ENTITY 's parents 's children 's heir ?
+4	42 78 155 17 162 29 62 101 71 106	what is the TOPIC_ENTITY 's mother 's heir 's child ?
+4	42 78 155 17 162 29 62 101 71 106	who is the child of heir of TOPIC_ENTITY 's mother ?
+62	42 78 155 17 162 29 4 101 71 106	what is the wife of daughter of TOPIC_ENTITY 's dad ?
+62	42 78 155 17 162 29 4 101 71 106	TOPIC_ENTITY 's dad 's daughter 's wife ?
+4	42 78 155 17 162 29 62 101 71 106	who is the child of kid of TOPIC_ENTITY 's father ?
+4	42 78 155 17 162 29 62 101 71 106	the child of kid of TOPIC_ENTITY 's father ?
+4	42 78 155 17 162 29 62 101 71 106	the heir of TOPIC_ENTITY 's mother 's heir ?
+4	42 78 155 17 162 29 62 101 71 106	TOPIC_ENTITY 's mother 's heir 's heir ?
+101	42 78 155 17 162 29 4 62 71 106	what is the name of the father of daughter of TOPIC_ENTITY 's dad ?
+101	42 78 155 17 162 29 4 62 71 106	the father of TOPIC_ENTITY 's dad 's daughter ?
+42	78 155 17 162 29 4 62 101 71 106	what is the TOPIC_ENTITY 's dad 's children 's sex ?
+42	78 155 17 162 29 4 62 101 71 106	the sex of TOPIC_ENTITY 's dad 's children ?
+17	42 78 155 162 29 4 62 101 71 106	what is the TOPIC_ENTITY 's dad 's other half 's husband ?
+17	42 78 155 162 29 4 62 101 71 106	the husband of other half of TOPIC_ENTITY 's dad ?
+71	42 78 155 17 162 29 4 62 101 106	what is the name of the sex of darling of TOPIC_ENTITY 's parents ?
+71	42 78 155 17 162 29 4 62 101 106	the sex of TOPIC_ENTITY 's parents 's darling ?
+148	136 45	the daughter of father of TOPIC_ENTITY 's son ?
+148	136 45	what is the TOPIC_ENTITY 's son 's father 's daughter ?
+148	41 45 68 136 53	what is the child of parent of TOPIC_ENTITY 's daughter ?
+148	41 45 68 136 53	TOPIC_ENTITY 's daughter 's parent 's child ?
+148	41 45 68 136 53	who is the kid of mother of TOPIC_ENTITY 's offspring ?
+148	41 45 68 136 53	what is the kid of mother of TOPIC_ENTITY 's offspring ?
+41	45 68 148 136 53	what is the place of death of parent of TOPIC_ENTITY 's heir ?
+41	45 68 148 136 53	what is the TOPIC_ENTITY 's heir 's parent 's place of death ?
+61	34 45 36 56 136 148 39 88	what is the name of the gender of mom of TOPIC_ENTITY 's kid ?
+61	34 45 36 56 136 148 39 88	what is the gender of mom of TOPIC_ENTITY 's kid ?
+36	34 45 56 136 148 61 39 88	what is the nation of parent of TOPIC_ENTITY 's kid ?
+36	34 45 56 136 148 61 39 88	the nation of TOPIC_ENTITY 's kid 's parent ?
+148	34 45 36 56 136 61 39 88	what is the offspring of TOPIC_ENTITY 's kid 's parent ?
+148	34 45 36 56 136 61 39 88	TOPIC_ENTITY 's kid 's parent 's offspring ?
+148	136 45	the offspring of parent of TOPIC_ENTITY 's offspring ?
+148	136 45	what is the name of the offspring of parent of TOPIC_ENTITY 's offspring ?
+42	64 45 29 106	who is the sex of daughter of TOPIC_ENTITY 's mother ?
+42	64 45 29 106	what is the TOPIC_ENTITY 's mother 's daughter 's sex ?
+103	75 77 79 126 14 156 88 32 39 131	what is the faith of TOPIC_ENTITY 's wife 's daughter ?
+103	75 77 79 126 14 156 88 32 39 131	the faith of daughter of TOPIC_ENTITY 's wife ?
+14	75 77 79 126 156 88 32 103 39 131	what is the TOPIC_ENTITY 's darling 's children 's dad ?
+14	75 77 79 126 156 88 32 103 39 131	what is the dad of TOPIC_ENTITY 's darling 's children ?
+77	75 79 126 14 156 88 32 103 39 131	what is the address of heir of TOPIC_ENTITY 's other half ?
+77	75 79 126 14 156 88 32 103 39 131	the address of TOPIC_ENTITY 's other half 's heir ?
+156	75 77 79 126 14 88 32 103 39 131	the offspring of children of TOPIC_ENTITY 's wife ?
+156	75 77 79 126 14 88 32 103 39 131	what is the offspring of children of TOPIC_ENTITY 's wife ?
+156	75 77 79 126 14 88 32 103 39 131	what is the son of daughter of TOPIC_ENTITY 's couple ?
+156	75 77 79 126 14 88 32 103 39 131	who is the son of daughter of TOPIC_ENTITY 's couple ?
+127	45 118 100 120 32 164 88 39 113 53	who is the mom of kid of TOPIC_ENTITY 's daughter ?
+127	45 118 100 120 32 164 88 39 113 53	the mom of TOPIC_ENTITY 's daughter 's kid ?
+127	45 118 100 120 32 164 88 39 113 53	the dad of TOPIC_ENTITY 's daughter 's children ?
+127	45 118 100 120 32 164 88 39 113 53	the dad of children of TOPIC_ENTITY 's daughter ?
+113	45 118 100 127 120 32 164 88 39 53	what is the offspring of child of TOPIC_ENTITY 's son ?
+113	45 118 100 127 120 32 164 88 39 53	what is the offspring of TOPIC_ENTITY 's son 's child ?
+95	45 85 121 164	who is the grandsex of TOPIC_ENTITY 's child ?
+95	45 85 121 164	what is the name of the sex of children of TOPIC_ENTITY 's child ?
+71	155 29 86 39	who is the sex of darling of TOPIC_ENTITY 's dad ?
+71	155 29 86 39	what is the TOPIC_ENTITY 's dad 's darling 's sex ?
+86	155 29 71 39	TOPIC_ENTITY 's mother 's husband 's place of death ?
+86	155 29 71 39	who is the place of death of husband of TOPIC_ENTITY 's mother ?
+42	29 107 101 85 165 39 106	TOPIC_ENTITY 's mother 's daughter 's sex ?
+42	29 107 101 85 165 39 106	what is the TOPIC_ENTITY 's mother 's daughter 's sex ?
+107	42 29 101 85 165 39 106	the place of birth of daughter of TOPIC_ENTITY 's parents ?
+107	42 29 101 85 165 39 106	who is the place of birth of daughter of TOPIC_ENTITY 's parents ?
+101	42 29 107 85 165 39 106	the parents of child of TOPIC_ENTITY 's dad ?
+101	42 29 107 85 165 39 106	TOPIC_ENTITY 's dad 's child 's parents ?
+107	42 29 101 85 165 39 106	the place of birth of children of TOPIC_ENTITY 's parent ?
+107	42 29 101 85 165 39 106	the place of birth of TOPIC_ENTITY 's parent 's children ?
+165	42 29 107 101 85 39 106	the nation of children of TOPIC_ENTITY 's father ?
+165	42 29 107 101 85 39 106	the nation of TOPIC_ENTITY 's father 's children ?
+101	54 64 106 149 125 165 29 4 62 141 107	what is the mom of TOPIC_ENTITY 's father 's children ?
+101	54 64 106 149 125 165 29 4 62 141 107	the mom of children of TOPIC_ENTITY 's father ?
+4	54 64 106 149 125 165 29 101 62 141 107	what is the son of kid of TOPIC_ENTITY 's father ?
+4	54 64 106 149 125 165 29 101 62 141 107	the son of TOPIC_ENTITY 's father 's kid ?
+4	54 64 106 149 125 165 29 101 62 141 107	what is the name of the daughter of child of TOPIC_ENTITY 's parent ?
+4	54 64 106 149 125 165 29 101 62 141 107	the daughter of TOPIC_ENTITY 's parent 's child ?
+101	54 64 106 149 125 165 29 4 62 141 107	what is the TOPIC_ENTITY 's parents 's children 's parents ?
+101	54 64 106 149 125 165 29 4 62 141 107	TOPIC_ENTITY 's parents 's children 's parents ?
+101	54 64 106 149 125 165 29 4 62 141 107	what is the name of the parent of child of TOPIC_ENTITY 's dad ?
+101	54 64 106 149 125 165 29 4 62 141 107	what is the parent of TOPIC_ENTITY 's dad 's child ?
+107	54 64 106 149 125 165 29 4 101 62 141	what is the TOPIC_ENTITY 's parent 's children 's place of birth ?
+107	54 64 106 149 125 165 29 4 101 62 141	TOPIC_ENTITY 's parent 's children 's place of birth ?
+125	54 64 106 149 165 29 4 101 62 141 107	who is the cause of death of son of TOPIC_ENTITY 's mother ?
+125	54 64 106 149 165 29 4 101 62 141 107	the cause of death of son of TOPIC_ENTITY 's mother ?
+107	54 64 106 149 125 165 29 4 101 62 141	what is the TOPIC_ENTITY 's mom 's offspring 's place of birth ?
+107	54 64 106 149 125 165 29 4 101 62 141	the place of birth of TOPIC_ENTITY 's mom 's offspring ?
+4	54 64 106 149 125 165 29 101 62 141 107	what is the daughter of kid of TOPIC_ENTITY 's parent ?
+4	54 64 106 149 125 165 29 101 62 141 107	who is the daughter of kid of TOPIC_ENTITY 's parent ?
+54	64 106 149 125 165 29 4 101 62 141 107	what is the TOPIC_ENTITY 's dad 's heir 's occupation ?
+54	64 106 149 125 165 29 4 101 62 141 107	what is the occupation of TOPIC_ENTITY 's dad 's heir ?
+101	54 64 106 149 125 165 29 4 62 141 107	what is the dad of child of TOPIC_ENTITY 's mom ?
+101	54 64 106 149 125 165 29 4 62 141 107	TOPIC_ENTITY 's mom 's child 's dad ?
+165	54 64 106 149 125 29 4 101 62 141 107	who is the nationality of kid of TOPIC_ENTITY 's father ?
+165	54 64 106 149 125 29 4 101 62 141 107	what is the TOPIC_ENTITY 's father 's kid 's nationality ?
+62	54 64 106 149 125 165 29 4 101 141 107	what is the TOPIC_ENTITY 's parent 's daughter 's wife ?
+62	54 64 106 149 125 165 29 4 101 141 107	what is the wife of TOPIC_ENTITY 's parent 's daughter ?
+148	136 45 159	the children of mom of TOPIC_ENTITY 's offspring ?
+148	136 45 159	TOPIC_ENTITY 's offspring 's mom 's children ?
+101	64 160 29 110 90 106	what is the name of the mom of heir of TOPIC_ENTITY 's mom ?
+101	64 160 29 110 90 106	what is the mom of TOPIC_ENTITY 's mom 's heir ?
+42	29 106	what is the TOPIC_ENTITY 's dad 's offspring 's sex ?
+42	29 106	the sex of TOPIC_ENTITY 's dad 's offspring ?
+165	64 42 29 101 39 106	the nation of children of TOPIC_ENTITY 's dad ?
+165	64 42 29 101 39 106	what is the nation of children of TOPIC_ENTITY 's dad ?
+42	64 165 29 101 39 106	the gender of TOPIC_ENTITY 's dad 's kid ?
+42	64 165 29 101 39 106	the gender of kid of TOPIC_ENTITY 's dad ?
+101	64 42 165 29 39 106	what is the name of the dad of children of TOPIC_ENTITY 's dad ?
+101	64 42 165 29 39 106	TOPIC_ENTITY 's dad 's children 's dad ?
+151	34 44 45 79 157 48 159 58 146 31 88 87 156 112 129 40 32	the place of death of children of TOPIC_ENTITY 's couple ?
+151	34 44 45 79 157 48 159 58 146 31 88 87 156 112 129 40 32	what is the name of the place of death of children of TOPIC_ENTITY 's couple ?
+129	34 44 45 79 157 48 159 58 146 31 88 87 156 112 151 40 32	TOPIC_ENTITY 's darling 's daughter 's place of birth ?
+129	34 44 45 79 157 48 159 58 146 31 88 87 156 112 151 40 32	what is the place of birth of TOPIC_ENTITY 's darling 's daughter ?
+112	34 44 45 79 157 48 159 58 146 31 88 87 156 151 129 40 32	TOPIC_ENTITY 's other half 's couple 's job ?
+112	34 44 45 79 157 48 159 58 146 31 88 87 156 151 129 40 32	what is the job of couple of TOPIC_ENTITY 's other half ?
+31	34 44 45 79 157 48 159 58 146 88 87 156 112 151 129 40 32	what is the name of the son of husband of TOPIC_ENTITY 's couple ?
+31	34 44 45 79 157 48 159 58 146 88 87 156 112 151 129 40 32	what is the TOPIC_ENTITY 's couple 's husband 's son ?
+157	34 44 45 79 48 159 58 146 31 88 87 156 112 151 129 40 32	TOPIC_ENTITY 's wife 's other half 's other half ?
+157	34 44 45 79 48 159 58 146 31 88 87 156 112 151 129 40 32	what is the other half of other half of TOPIC_ENTITY 's wife ?
+31	34 44 45 79 157 48 159 58 146 88 87 156 112 151 129 40 32	the daughter of TOPIC_ENTITY 's husband 's couple ?
+31	34 44 45 79 157 48 159 58 146 88 87 156 112 151 129 40 32	what is the TOPIC_ENTITY 's husband 's couple 's daughter ?
+58	34 44 45 79 157 48 159 146 31 88 87 156 112 151 129 40 32	what is the religious belief of couple of TOPIC_ENTITY 's other half ?
+58	34 44 45 79 157 48 159 146 31 88 87 156 112 151 129 40 32	who is the religious belief of couple of TOPIC_ENTITY 's other half ?
+146	34 44 45 79 157 48 159 58 31 88 87 156 112 151 129 40 32	the nationality of TOPIC_ENTITY 's darling 's wife ?
+146	34 44 45 79 157 48 159 58 31 88 87 156 112 151 129 40 32	what is the nationality of wife of TOPIC_ENTITY 's darling ?
+156	34 44 45 79 157 48 159 58 146 31 88 87 112 151 129 40 32	TOPIC_ENTITY 's couple 's kid 's son ?
+156	34 44 45 79 157 48 159 58 146 31 88 87 112 151 129 40 32	what is the son of kid of TOPIC_ENTITY 's couple ?
+156	34 44 45 79 157 48 159 58 146 31 88 87 112 151 129 40 32	the daughter of daughter of TOPIC_ENTITY 's wife ?
+156	34 44 45 79 157 48 159 58 146 31 88 87 112 151 129 40 32	what is the name of the daughter of daughter of TOPIC_ENTITY 's wife ?
+101	29 106	who is the parent of offspring of TOPIC_ENTITY 's father ?
+101	29 106	what is the parent of offspring of TOPIC_ENTITY 's father ?
+101	29 88 106	what is the TOPIC_ENTITY 's mom 's daughter 's father ?
+101	29 88 106	TOPIC_ENTITY 's mom 's daughter 's father ?
+6	45 85 148 136 20	the place of birth of mother of TOPIC_ENTITY 's kid ?
+6	45 85 148 136 20	TOPIC_ENTITY 's kid 's mother 's place of birth ?
+148	45 85 136 6 20	what is the TOPIC_ENTITY 's daughter 's dad 's children ?
+148	45 85 136 6 20	what is the children of dad of TOPIC_ENTITY 's daughter ?
+156	154 79 120 32	TOPIC_ENTITY 's spouse 's heir 's child ?
+156	154 79 120 32	the child of TOPIC_ENTITY 's spouse 's heir ?
+156	154 79 120 32	what is the children of TOPIC_ENTITY 's husband 's son ?
+156	154 79 120 32	what is the TOPIC_ENTITY 's husband 's son 's children ?
+154	79 120 32 156	who is the couple of kid of TOPIC_ENTITY 's darling ?
+154	79 120 32 156	what is the couple of TOPIC_ENTITY 's darling 's kid ?
+124	45 85 32 164 88 40 53	the educational institution of TOPIC_ENTITY 's heir 's child ?
+124	45 85 32 164 88 40 53	who is the grandeducational institution of TOPIC_ENTITY 's heir ?
+62	64 118 29 101 32 106	the couple of TOPIC_ENTITY 's father 's son ?
+62	64 118 29 101 32 106	what is the TOPIC_ENTITY 's father 's son 's couple ?
+101	64 118 29 62 32 106	what is the TOPIC_ENTITY 's mother 's child 's parents ?
+101	64 118 29 62 32 106	what is the parents of TOPIC_ENTITY 's mother 's child ?
+143	45 80 53	the nationality of spouse of TOPIC_ENTITY 's son ?
+143	45 80 53	who is the nationality of spouse of TOPIC_ENTITY 's son ?
+148	136 45	what is the TOPIC_ENTITY 's child 's mom 's daughter ?
+148	136 45	what is the name of the daughter of mom of TOPIC_ENTITY 's child ?
+28	45 79 118 127 32 164	the nation of TOPIC_ENTITY 's daughter 's kid ?
+28	45 79 118 127 32 164	what is the nation of TOPIC_ENTITY 's daughter 's kid ?
+127	45 79 118 28 32 164	the mom of son of TOPIC_ENTITY 's offspring ?
+127	45 79 118 28 32 164	what is the name of the mom of son of TOPIC_ENTITY 's offspring ?
+50	48 155 68 29 71 88 63 74 106	who is the place of birth of other half of TOPIC_ENTITY 's mom ?
+50	48 155 68 29 71 88 63 74 106	what is the name of the place of birth of other half of TOPIC_ENTITY 's mom ?
+74	48 155 50 68 29 71 88 63 106	what is the children of couple of TOPIC_ENTITY 's father ?
+74	48 155 50 68 29 71 88 63 106	what is the children of TOPIC_ENTITY 's father 's couple ?
+71	48 155 50 68 29 88 63 74 106	what is the TOPIC_ENTITY 's mother 's spouse 's sex ?
+71	48 155 50 68 29 88 63 74 106	the sex of TOPIC_ENTITY 's mother 's spouse ?
+63	48 155 50 68 29 71 88 74 106	who is the parents of darling of TOPIC_ENTITY 's father ?
+63	48 155 50 68 29 71 88 74 106	the parents of TOPIC_ENTITY 's father 's darling ?
+81	157 79 118 99 87 32 39	what is the gender of TOPIC_ENTITY 's couple 's offspring ?
+81	157 79 118 99 87 32 39	what is the gender of offspring of TOPIC_ENTITY 's couple ?
+99	157 79 81 118 87 32 39	TOPIC_ENTITY 's wife 's other half 's gender ?
+99	157 79 81 118 87 32 39	what is the gender of TOPIC_ENTITY 's wife 's other half ?
+157	79 81 118 99 87 32 39	what is the wife of TOPIC_ENTITY 's spouse 's wife ?
+157	79 81 118 99 87 32 39	what is the wife of wife of TOPIC_ENTITY 's spouse ?
+42	125 29 101 121 39 106	who is the gender of daughter of TOPIC_ENTITY 's father ?
+42	125 29 101 121 39 106	what is the gender of daughter of TOPIC_ENTITY 's father ?
+125	42 29 101 121 39 106	the cause of death of child of TOPIC_ENTITY 's mom ?
+125	42 29 101 121 39 106	what is the TOPIC_ENTITY 's mom 's child 's cause of death ?
+101	42 125 29 121 39 106	who is the parent of kid of TOPIC_ENTITY 's parents ?
+101	42 125 29 121 39 106	what is the parent of TOPIC_ENTITY 's parents 's kid ?
+28	45 80 56 29 164 90 21 113 53	what is the TOPIC_ENTITY 's daughter 's children 's nation ?
+28	45 80 56 29 164 90 21 113 53	what is the nation of TOPIC_ENTITY 's daughter 's children ?
+113	45 80 56 28 29 164 90 21 53	the heir of TOPIC_ENTITY 's kid 's daughter ?
+113	45 80 56 28 29 164 90 21 53	what is the name of the grandheir of TOPIC_ENTITY 's kid ?
+21	45 80 56 28 29 164 90 113 53	what is the job of husband of TOPIC_ENTITY 's daughter ?
+21	45 80 56 28 29 164 90 113 53	the job of husband of TOPIC_ENTITY 's daughter ?
+4	64 42 29 101 39 106	what is the offspring of TOPIC_ENTITY 's mother 's daughter ?
+4	64 42 29 101 39 106	the offspring of daughter of TOPIC_ENTITY 's mother ?
+101	64 42 29 4 39 106	what is the TOPIC_ENTITY 's dad 's daughter 's parents ?
+101	64 42 29 4 39 106	what is the name of the parents of daughter of TOPIC_ENTITY 's dad ?
+42	64 29 4 101 39 106	what is the sex of TOPIC_ENTITY 's mother 's kid ?
+42	64 29 4 101 39 106	who is the sex of kid of TOPIC_ENTITY 's mother ?
+4	64 42 29 101 39 106	what is the TOPIC_ENTITY 's dad 's son 's heir ?
+4	64 42 29 101 39 106	what is the heir of TOPIC_ENTITY 's dad 's son ?
+61	45 83 136 148 39 91	who is the gender of parent of TOPIC_ENTITY 's son ?
+61	45 83 136 148 39 91	what is the name of the gender of parent of TOPIC_ENTITY 's son ?
+148	45 83 136 61 39 91	the children of father of TOPIC_ENTITY 's son ?
+148	45 83 136 61 39 91	who is the children of father of TOPIC_ENTITY 's son ?
+83	45 136 148 61 39 91	TOPIC_ENTITY 's children 's parent 's address ?
+83	45 136 148 61 39 91	the address of parent of TOPIC_ENTITY 's children ?
+82	78 29	who is the son of parents of TOPIC_ENTITY 's parent ?
+82	78 29	what is the TOPIC_ENTITY 's parent 's parents 's son ?
+146	157 69 32 87 88	the nation of TOPIC_ENTITY 's couple 's other half ?
+146	157 69 32 87 88	what is the nation of TOPIC_ENTITY 's couple 's other half ?
+157	69 146 32 87 88	TOPIC_ENTITY 's other half 's wife 's couple ?
+157	69 146 32 87 88	what is the name of the couple of wife of TOPIC_ENTITY 's other half ?
+42	29 110 90 7 106	what is the TOPIC_ENTITY 's father 's daughter 's sex ?
+42	29 110 90 7 106	who is the sex of daughter of TOPIC_ENTITY 's father ?
+7	42 29 110 90 106	what is the name of the place of death of son of TOPIC_ENTITY 's father ?
+7	42 29 110 90 106	the place of death of son of TOPIC_ENTITY 's father ?
+156	66 79 14 69 118 120 32 129	what is the TOPIC_ENTITY 's darling 's kid 's son ?
+156	66 79 14 69 118 120 32 129	what is the name of the son of kid of TOPIC_ENTITY 's darling ?
+66	79 14 69 118 120 156 32 129	what is the cause of death of TOPIC_ENTITY 's couple 's kid ?
+66	79 14 69 118 120 156 32 129	who is the cause of death of kid of TOPIC_ENTITY 's couple ?
+129	66 79 14 69 118 120 156 32	the place of birth of daughter of TOPIC_ENTITY 's husband ?
+129	66 79 14 69 118 120 156 32	what is the name of the place of birth of daughter of TOPIC_ENTITY 's husband ?
+14	66 79 69 118 120 156 32 129	TOPIC_ENTITY 's husband 's heir 's mother ?
+14	66 79 69 118 120 156 32 129	what is the TOPIC_ENTITY 's husband 's heir 's mother ?
+14	66 79 69 118 120 156 32 129	what is the parent of TOPIC_ENTITY 's spouse 's kid ?
+14	66 79 69 118 120 156 32 129	who is the parent of kid of TOPIC_ENTITY 's spouse ?
+7	42 29 4 106	who is the place of death of daughter of TOPIC_ENTITY 's father ?
+7	42 29 4 106	what is the place of death of daughter of TOPIC_ENTITY 's father ?
+4	42 29 7 106	TOPIC_ENTITY 's mom 's child 's offspring ?
+4	42 29 7 106	who is the offspring of child of TOPIC_ENTITY 's mom ?
+4	42 29 7 106	the kid of TOPIC_ENTITY 's dad 's offspring ?
+4	42 29 7 106	what is the kid of TOPIC_ENTITY 's dad 's offspring ?
+4	42 29 7 106	TOPIC_ENTITY 's parent 's heir 's son ?
+4	42 29 7 106	what is the son of heir of TOPIC_ENTITY 's parent ?
+42	29 4 7 106	the sex of TOPIC_ENTITY 's parents 's child ?
+42	29 4 7 106	what is the name of the sex of child of TOPIC_ENTITY 's parents ?
+28	45 88 164	what is the nation of TOPIC_ENTITY 's heir 's son ?
+28	45 88 164	what is the name of the nation of son of TOPIC_ENTITY 's heir ?
+167	45 80 148 88 136 53	what is the TOPIC_ENTITY 's heir 's spouse 's offspring ?
+167	45 80 148 88 136 53	what is the offspring of TOPIC_ENTITY 's heir 's spouse ?
+148	45 80 88 136 167 53	the son of TOPIC_ENTITY 's daughter 's dad ?
+148	45 80 88 136 167 53	who is the son of dad of TOPIC_ENTITY 's daughter ?
+37	78 29 147 39	what is the TOPIC_ENTITY 's mom 's mother 's wife ?
+37	78 29 147 39	who is the grandwife of TOPIC_ENTITY 's mom ?
+147	78 37 29 39	the sex of parents of TOPIC_ENTITY 's dad ?
+147	78 37 29 39	what is the name of the grandsex of TOPIC_ENTITY 's dad ?
+98	114 64 133 44 78 117 16 68 160 29 121 88 149 39	what is the TOPIC_ENTITY 's mom 's parents 's nation ?
+98	114 64 133 44 78 117 16 68 160 29 121 88 149 39	what is the nation of TOPIC_ENTITY 's mom 's parents ?
+16	114 64 133 44 78 117 68 160 98 29 121 88 149 39	the place of death of TOPIC_ENTITY 's father 's father ?
+16	114 64 133 44 78 117 68 160 98 29 121 88 149 39	who is the place of death of father of TOPIC_ENTITY 's father ?
+112	75 44 157 99 87 32 39	what is the name of the occupation of other half of TOPIC_ENTITY 's husband ?
+112	75 44 157 99 87 32 39	what is the occupation of other half of TOPIC_ENTITY 's husband ?
+99	75 44 157 87 32 39 112	what is the gender of TOPIC_ENTITY 's couple 's wife ?
+99	75 44 157 87 32 39 112	TOPIC_ENTITY 's couple 's wife 's gender ?
+112	75 44 157 99 87 32 39	what is the TOPIC_ENTITY 's couple 's spouse 's job ?
+112	75 44 157 99 87 32 39	the job of TOPIC_ENTITY 's couple 's spouse ?
+157	75 44 99 87 32 39 112	TOPIC_ENTITY 's wife 's darling 's couple ?
+157	75 44 99 87 32 39 112	the couple of darling of TOPIC_ENTITY 's wife ?
+148	136 10 45	what is the name of the offspring of father of TOPIC_ENTITY 's children ?
+148	136 10 45	who is the offspring of father of TOPIC_ENTITY 's children ?
+101	64 78 155 82 98 29 90 104 74 106	what is the mother of child of TOPIC_ENTITY 's parents ?
+101	64 78 155 82 98 29 90 104 74 106	TOPIC_ENTITY 's parents 's child 's mother ?
+74	64 78 155 82 98 29 101 90 104 106	TOPIC_ENTITY 's father 's wife 's son ?
+74	64 78 155 82 98 29 101 90 104 106	what is the name of the son of wife of TOPIC_ENTITY 's father ?
+101	64 78 155 82 98 29 90 104 74 106	the father of TOPIC_ENTITY 's dad 's son ?
+101	64 78 155 82 98 29 90 104 74 106	the father of son of TOPIC_ENTITY 's dad ?
+98	64 78 155 82 29 101 90 104 74 106	what is the name of the nation of parents of TOPIC_ENTITY 's dad ?
+98	64 78 155 82 29 101 90 104 74 106	what is the name of the grandnation of TOPIC_ENTITY 's dad ?
+82	64 78 155 98 29 101 90 104 74 106	what is the heir of TOPIC_ENTITY 's parent 's mom ?
+82	64 78 155 98 29 101 90 104 74 106	what is the name of the grandheir of TOPIC_ENTITY 's parent ?
+104	64 78 155 82 98 29 101 90 74 106	what is the name of the mom of parents of TOPIC_ENTITY 's mother ?
+104	64 78 155 82 98 29 101 90 74 106	who is the mom of parents of TOPIC_ENTITY 's mother ?
+108	143 97 6 45 80 29 85 148 136 138	the dad of dad of TOPIC_ENTITY 's offspring ?
+108	143 97 6 45 80 29 85 148 136 138	what is the dad of dad of TOPIC_ENTITY 's offspring ?
+6	143 97 45 80 108 29 85 148 136 138	the place of birth of TOPIC_ENTITY 's kid 's parent ?
+6	143 97 45 80 108 29 85 148 136 138	what is the TOPIC_ENTITY 's kid 's parent 's place of birth ?
+148	143 97 6 45 80 108 29 85 136 138	the heir of dad of TOPIC_ENTITY 's child ?
+148	143 97 6 45 80 108 29 85 136 138	what is the name of the heir of dad of TOPIC_ENTITY 's child ?
+138	143 97 6 45 80 108 29 85 148 136	TOPIC_ENTITY 's children 's couple 's parents ?
+138	143 97 6 45 80 108 29 85 148 136	what is the name of the parents of couple of TOPIC_ENTITY 's children ?
+97	143 6 45 80 108 29 85 148 136 138	who is the place of birth of couple of TOPIC_ENTITY 's kid ?
+97	143 6 45 80 108 29 85 148 136 138	the place of birth of couple of TOPIC_ENTITY 's kid ?
+143	97 6 45 80 108 29 85 148 136 138	TOPIC_ENTITY 's daughter 's darling 's nationality ?
+143	97 6 45 80 108 29 85 148 136 138	the nationality of darling of TOPIC_ENTITY 's daughter ?
+154	79 118 100 163 32 39	what is the spouse of child of TOPIC_ENTITY 's husband ?
+154	79 118 100 163 32 39	TOPIC_ENTITY 's husband 's child 's spouse ?
+163	154 79 118 100 32 39	what is the TOPIC_ENTITY 's couple 's parent 's type of religion ?
+163	154 79 118 100 32 39	what is the type of religion of parent of TOPIC_ENTITY 's couple ?
+101	64 160 162 29 106	TOPIC_ENTITY 's mother 's daughter 's father ?
+101	64 160 162 29 106	what is the father of daughter of TOPIC_ENTITY 's mother ?
+30	41 95 67 45 68 127 148 164 136 121 53	what is the name of the cause of death of parents of TOPIC_ENTITY 's daughter ?
+30	41 95 67 45 68 127 148 164 136 121 53	the cause of death of parents of TOPIC_ENTITY 's daughter ?
+41	95 67 45 68 30 127 148 164 136 121 53	what is the place of death of TOPIC_ENTITY 's heir 's father ?
+41	95 67 45 68 30 127 148 164 136 121 53	who is the place of death of father of TOPIC_ENTITY 's heir ?
+148	41 95 67 45 68 30 127 164 136 121 53	what is the TOPIC_ENTITY 's offspring 's father 's offspring ?
+148	41 95 67 45 68 30 127 164 136 121 53	who is the offspring of father of TOPIC_ENTITY 's offspring ?
+148	41 95 67 45 68 30 127 164 136 121 53	TOPIC_ENTITY 's daughter 's parents 's daughter ?
+148	41 95 67 45 68 30 127 164 136 121 53	what is the daughter of parents of TOPIC_ENTITY 's daughter ?
+95	41 67 45 68 30 127 148 164 136 121 53	TOPIC_ENTITY 's daughter 's daughter 's gender ?
+95	41 67 45 68 30 127 148 164 136 121 53	what is the TOPIC_ENTITY 's daughter 's daughter 's gender ?
+127	41 95 67 45 68 30 148 164 136 121 53	what is the parents of children of TOPIC_ENTITY 's kid ?
+127	41 95 67 45 68 30 148 164 136 121 53	who is the grandparents of TOPIC_ENTITY 's kid ?
+112	44 157 32 87	what is the name of the profession of darling of TOPIC_ENTITY 's spouse ?
+112	44 157 32 87	what is the profession of TOPIC_ENTITY 's spouse 's darling ?
+157	44 32 87 112	what is the name of the wife of other half of TOPIC_ENTITY 's couple ?
+157	44 32 87 112	who is the wife of other half of TOPIC_ENTITY 's couple ?
+7	114 155 50 17 162 107 29 39 90 74 106	the place of death of child of TOPIC_ENTITY 's parents ?
+7	114 155 50 17 162 107 29 39 90 74 106	TOPIC_ENTITY 's parents 's child 's place of death ?
+107	114 155 50 17 162 29 39 90 7 74 106	the place of birth of TOPIC_ENTITY 's mother 's kid ?
+107	114 155 50 17 162 29 39 90 7 74 106	what is the TOPIC_ENTITY 's mother 's kid 's place of birth ?
+74	114 155 50 17 162 107 29 39 90 7 106	the child of husband of TOPIC_ENTITY 's parent ?
+74	114 155 50 17 162 107 29 39 90 7 106	TOPIC_ENTITY 's parent 's husband 's child ?
+50	114 155 17 162 107 29 39 90 7 74 106	the place of birth of TOPIC_ENTITY 's dad 's couple ?
+50	114 155 17 162 107 29 39 90 7 74 106	what is the place of birth of TOPIC_ENTITY 's dad 's couple ?
+17	114 155 50 162 107 29 39 90 7 74 106	what is the TOPIC_ENTITY 's parent 's other half 's husband ?
+17	114 155 50 162 107 29 39 90 7 74 106	TOPIC_ENTITY 's parent 's other half 's husband ?
+74	114 155 50 17 162 107 29 39 90 7 106	what is the son of husband of TOPIC_ENTITY 's dad ?
+74	114 155 50 17 162 107 29 39 90 7 106	who is the son of husband of TOPIC_ENTITY 's dad ?
+7	114 155 50 17 162 107 29 39 90 74 106	TOPIC_ENTITY 's parents 's offspring 's place of death ?
+7	114 155 50 17 162 107 29 39 90 74 106	the place of death of TOPIC_ENTITY 's parents 's offspring ?
+107	114 155 50 17 162 29 39 90 7 74 106	what is the place of birth of children of TOPIC_ENTITY 's parent ?
+107	114 155 50 17 162 29 39 90 7 74 106	the place of birth of children of TOPIC_ENTITY 's parent ?
+148	10 67 45 56 136	what is the children of TOPIC_ENTITY 's kid 's dad ?
+148	10 67 45 56 136	who is the children of dad of TOPIC_ENTITY 's kid ?
+38	136 45 61	what is the profession of TOPIC_ENTITY 's children 's parent ?
+38	136 45 61	what is the TOPIC_ENTITY 's children 's parent 's profession ?
+61	136 38 45	the sex of dad of TOPIC_ENTITY 's child ?
+61	136 38 45	what is the sex of TOPIC_ENTITY 's child 's dad ?
+58	157 45 126 48 31 87 32	what is the faith of darling of TOPIC_ENTITY 's spouse ?
+58	157 45 126 48 31 87 32	what is the faith of TOPIC_ENTITY 's spouse 's darling ?
+31	157 45 126 48 58 87 32	what is the offspring of TOPIC_ENTITY 's husband 's husband ?
+31	157 45 126 48 58 87 32	what is the TOPIC_ENTITY 's husband 's husband 's offspring ?
+157	45 126 48 58 31 87 32	what is the name of the husband of darling of TOPIC_ENTITY 's other half ?
+157	45 126 48 58 31 87 32	the husband of TOPIC_ENTITY 's other half 's darling ?
+101	29 106	the mother of son of TOPIC_ENTITY 's parents ?
+101	29 106	what is the mother of TOPIC_ENTITY 's parents 's son ?
+147	78 16 29 90	the sex of parent of TOPIC_ENTITY 's parent ?
+147	78 16 29 90	the sex of TOPIC_ENTITY 's parent 's parent ?
+16	78 29 147 90	the place of death of TOPIC_ENTITY 's parents 's parents ?
+16	78 29 147 90	what is the TOPIC_ENTITY 's parents 's parents 's place of death ?
+3	157 118 146 99 120 87 51 32 112 88 40	TOPIC_ENTITY 's other half 's husband 's organization ?
+3	157 118 146 99 120 87 51 32 112 88 40	what is the TOPIC_ENTITY 's other half 's husband 's organization ?
+99	157 3 118 146 120 87 51 32 112 88 40	who is the gender of husband of TOPIC_ENTITY 's couple ?
+99	157 3 118 146 120 87 51 32 112 88 40	the gender of TOPIC_ENTITY 's couple 's husband ?
+112	157 3 118 146 99 120 87 51 32 88 40	what is the TOPIC_ENTITY 's husband 's other half 's occupation ?
+112	157 3 118 146 99 120 87 51 32 88 40	what is the occupation of other half of TOPIC_ENTITY 's husband ?
+146	157 3 118 99 120 87 51 32 112 88 40	who is the nationality of husband of TOPIC_ENTITY 's couple ?
+146	157 3 118 99 120 87 51 32 112 88 40	what is the TOPIC_ENTITY 's couple 's husband 's nationality ?
+157	3 118 146 99 120 87 51 32 112 88 40	what is the name of the couple of darling of TOPIC_ENTITY 's other half ?
+157	3 118 146 99 120 87 51 32 112 88 40	what is the couple of darling of TOPIC_ENTITY 's other half ?
+24	2 132 154 79 81 100 32 33	TOPIC_ENTITY 's husband 's mom 's offspring ?
+24	2 132 154 79 81 100 32 33	what is the name of the offspring of mom of TOPIC_ENTITY 's husband ?
+33	2 132 24 154 79 81 100 32	TOPIC_ENTITY 's wife 's parents 's place of death ?
+33	2 132 24 154 79 81 100 32	what is the place of death of parents of TOPIC_ENTITY 's wife ?
+132	2 24 154 79 81 100 32 33	TOPIC_ENTITY 's husband 's parent 's race ?
+132	2 24 154 79 81 100 32 33	who is the race of parent of TOPIC_ENTITY 's husband ?
+81	2 132 24 154 79 100 32 33	what is the sex of children of TOPIC_ENTITY 's darling ?
+81	2 132 24 154 79 100 32 33	who is the sex of children of TOPIC_ENTITY 's darling ?
+154	2 132 24 79 81 100 32 33	the husband of children of TOPIC_ENTITY 's darling ?
+154	2 132 24 79 81 100 32 33	what is the husband of TOPIC_ENTITY 's darling 's children ?
+82	45 98 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 36 88 165 90	the heir of father of TOPIC_ENTITY 's parents ?
+82	45 98 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 36 88 165 90	what is the TOPIC_ENTITY 's parents 's father 's heir ?
+98	45 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the name of the grandnationality of TOPIC_ENTITY 's parents ?
+98	45 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the nationality of TOPIC_ENTITY 's parents 's father ?
+74	45 98 136 106 108 56 148 61 64 155 30 29 121 39 34 78 36 82 88 165 90	what is the TOPIC_ENTITY 's dad 's other half 's kid ?
+74	45 98 136 106 108 56 148 61 64 155 30 29 121 39 34 78 36 82 88 165 90	the kid of other half of TOPIC_ENTITY 's dad ?
+30	45 98 136 106 108 56 148 61 64 155 29 121 74 39 34 78 36 82 88 165 90	the cause of death of TOPIC_ENTITY 's heir 's parents ?
+30	45 98 136 106 108 56 148 61 64 155 29 121 74 39 34 78 36 82 88 165 90	TOPIC_ENTITY 's heir 's parents 's cause of death ?
+36	45 98 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 82 88 165 90	what is the name of the nationality of parents of TOPIC_ENTITY 's child ?
+36	45 98 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 82 88 165 90	who is the nationality of parents of TOPIC_ENTITY 's child ?
+61	45 98 136 106 108 56 148 64 155 30 29 121 74 39 34 78 36 82 88 165 90	who is the gender of mom of TOPIC_ENTITY 's heir ?
+61	45 98 136 106 108 56 148 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the TOPIC_ENTITY 's heir 's mom 's gender ?
+108	45 98 136 106 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the parent of TOPIC_ENTITY 's son 's mother ?
+108	45 98 136 106 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	the parent of TOPIC_ENTITY 's son 's mother ?
+148	45 98 136 106 108 56 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	the children of mom of TOPIC_ENTITY 's children ?
+148	45 98 136 106 108 56 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the name of the children of mom of TOPIC_ENTITY 's children ?
+148	45 98 136 106 108 56 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	who is the son of dad of TOPIC_ENTITY 's kid ?
+148	45 98 136 106 108 56 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the son of dad of TOPIC_ENTITY 's kid ?
+108	45 98 136 106 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	who is the mom of father of TOPIC_ENTITY 's heir ?
+108	45 98 136 106 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 165 90	what is the mom of father of TOPIC_ENTITY 's heir ?
+165	45 98 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 90	the nationality of child of TOPIC_ENTITY 's mother ?
+165	45 98 136 106 108 56 148 61 64 155 30 29 121 74 39 34 78 36 82 88 90	who is the nationality of child of TOPIC_ENTITY 's mother ?
+153	53 44 45 48 80 159 29 141	what is the gender of TOPIC_ENTITY 's son 's other half ?
+153	53 44 45 48 80 159 29 141	the gender of other half of TOPIC_ENTITY 's son ?
+127	97 45 80 164 73 113	what is the name of the grandmother of TOPIC_ENTITY 's daughter ?
+127	97 45 80 164 73 113	who is the grandmother of TOPIC_ENTITY 's daughter ?
+73	97 45 80 127 164 113	what is the name of the place of death of offspring of TOPIC_ENTITY 's heir ?
+73	97 45 80 127 164 113	who is the place of death of offspring of TOPIC_ENTITY 's heir ?
+113	97 45 80 127 164 73	what is the TOPIC_ENTITY 's children 's offspring 's child ?
+113	97 45 80 127 164 73	what is the child of offspring of TOPIC_ENTITY 's children ?
+97	45 80 127 164 73 113	the place of birth of TOPIC_ENTITY 's heir 's husband ?
+97	45 80 127 164 73 113	what is the name of the place of birth of husband of TOPIC_ENTITY 's heir ?

@@ -1,0 +1,1440 @@
+1877	1686 963	the cause of death of dad of TOPIC_ENTITY ?
+861	noNegativeAnswer	who is the children of TOPIC_ENTITY 's children ?
+1031	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's spouse ?
+1890	296	what is the gender of parents of TOPIC_ENTITY ?
+1031	noNegativeAnswer	TOPIC_ENTITY 's wife 's sex ?
+1588	111	the educational institution of TOPIC_ENTITY 's parents ?
+159	noNegativeAnswer	what did TOPIC_ENTITY 's child die from ?
+897	458 1750 749	what is the TOPIC_ENTITY 's father 's parents ?
+1031	noNegativeAnswer	what gender is TOPIC_ENTITY 's husband  ?
+1031	861 1124 1196 296 1036	the gender of TOPIC_ENTITY 's couple ?
+903	noNegativeAnswer	what is the work of kid of TOPIC_ENTITY ?
+963	noNegativeAnswer	why TOPIC_ENTITY 's couple died ?
+1124	1210 1364 456	TOPIC_ENTITY 's daughter 's gender ?
+963	noNegativeAnswer	what is the cause of death of couple of TOPIC_ENTITY ?
+446	258 165 2 1669 1832	what is the darling of TOPIC_ENTITY 's father ?
+159	8 76 762 903 1546	TOPIC_ENTITY 's son 's cause of death ?
+1031	noNegativeAnswer	TOPIC_ENTITY 's husband 's gender ?
+460	noNegativeAnswer	what is the name of the mom of TOPIC_ENTITY 's daughter ?
+1031	861 1124 1196 296 1036	what is the gender of couple of TOPIC_ENTITY ?
+861	noNegativeAnswer	what is the name of the grandchildren of TOPIC_ENTITY ?
+460	1124	what is the dad of TOPIC_ENTITY 's children ?
+1489	noNegativeAnswer	where is TOPIC_ENTITY 's daughter staying ?
+1650	637 485 897	the place of death of mother of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what is the TOPIC_ENTITY 's heir 's sex ?
+456	1124 1296	what is the nation of son of TOPIC_ENTITY ?
+1877	1686 963	how TOPIC_ENTITY 's father died ?
+1416	1583 8 1236 1773 189 1250 1806 2 1832	what type of religion does TOPIC_ENTITY 's dad have ?
+1031	408 82	the sex of wife of TOPIC_ENTITY ?
+963	458 118 982	how TOPIC_ENTITY 's spouse died ?
+446	1124 1192 1890	what is the name of the husband of TOPIC_ENTITY 's mother ?
+1124	1196 296 861	is TOPIC_ENTITY 's kid a man or a woman ?
+159	1591 709 861	what made the TOPIC_ENTITY 's daughterdead ?
+1031	1806 1210 1009	what gender is TOPIC_ENTITY 's husband  ?
+1416	1806	what faith does TOPIC_ENTITY 's mom practice ?
+1546	861 460	what is the ethnicity of child of TOPIC_ENTITY ?
+1031	noNegativeAnswer	TOPIC_ENTITY 's other half 's gender ?
+564	noNegativeAnswer	TOPIC_ENTITY 's couple 's nationality ?
+1296	noNegativeAnswer	the place of death of TOPIC_ENTITY 's child ?
+564	1806 1364 1236 452 1009	the nation of TOPIC_ENTITY 's other half ?
+1832	2	the profession of TOPIC_ENTITY 's parent ?
+737	1196	the child of TOPIC_ENTITY 's mom ?
+684	1080	who is the spouse of TOPIC_ENTITY 's husband ?
+1124	861	what is the sex of child of TOPIC_ENTITY ?
+1009	1488	what type of religion is TOPIC_ENTITY 's other half ?
+159	490 460 1124	what is the cause of death of son of TOPIC_ENTITY ?
+1832	2	what is TOPIC_ENTITY 's father working on ?
+1031	noNegativeAnswer	is TOPIC_ENTITY 's husband a man or a woman ?
+1031	noNegativeAnswer	the gender of TOPIC_ENTITY 's couple ?
+1489	274 296 1124	what is the address of TOPIC_ENTITY 's children ?
+111	noNegativeAnswer	what is the nation of mom of TOPIC_ENTITY ?
+1877	8 787 762 622 249 1381 1773 458 118 1895 992 77 1832 749	TOPIC_ENTITY 's parent 's cause of death ?
+111	8 841 1773 452 1832	what is the TOPIC_ENTITY 's parent 's nation ?
+111	1459	where does TOPIC_ENTITY 's parent come from ?
+1031	1166 1890	is TOPIC_ENTITY 's husband a man or a woman ?
+159	456	what is the cause of death of daughter of TOPIC_ENTITY ?
+564	noNegativeAnswer	what is the nationality of couple of TOPIC_ENTITY ?
+1031	noNegativeAnswer	what gender is TOPIC_ENTITY 's spouse  ?
+356	116 1895	what is TOPIC_ENTITY 's spouse ?
+1890	1196 296 485 737 897	what is the TOPIC_ENTITY 's parents 's sex ?
+1877	1296 159 1770 419 1348 1350 1650	the cause of death of father of TOPIC_ENTITY ?
+963	1496 419 1080	what is the cause of death of other half of TOPIC_ENTITY ?
+302	1036 1080	TOPIC_ENTITY 's wife 's ethnicity ?
+1031	1425	the sex of TOPIC_ENTITY 's darling ?
+1031	126 258 356	what is the sex of darling of TOPIC_ENTITY ?
+1890	noNegativeAnswer	TOPIC_ENTITY 's parents 's sex ?
+963	904 118 631	TOPIC_ENTITY 's husband 's cause of death ?
+564	noNegativeAnswer	which nationality is TOPIC_ENTITY 's couple ?
+737	1673 1364 1196 1459 111	the heir of TOPIC_ENTITY 's mother ?
+1877	1588 897	what is the TOPIC_ENTITY 's father 's cause of death ?
+564	1210 1364 1031	where does TOPIC_ENTITY 's darling come from ?
+1031	1210 959 296	what is the TOPIC_ENTITY 's darling 's gender ?
+356	noNegativeAnswer	TOPIC_ENTITY 's couple 's work ?
+1031	502 1890	what is the gender of darling of TOPIC_ENTITY ?
+1080	1031	what is the parents of wife of TOPIC_ENTITY ?
+737	1673	what is the son of parent of TOPIC_ENTITY ?
+1080	1031	what is the mom of TOPIC_ENTITY 's darling ?
+737	noNegativeAnswer	what is the daughter of TOPIC_ENTITY 's parents ?
+737	1416	the son of mom of TOPIC_ENTITY ?
+456	1364 1669 1192	which nationality is TOPIC_ENTITY 's heir ?
+111	1364 1669 446	the nation of dad of TOPIC_ENTITY ?
+1124	142	the sex of child of TOPIC_ENTITY ?
+1124	noNegativeAnswer	the gender of TOPIC_ENTITY 's kid ?
+1031	1124	what is the sex of husband of TOPIC_ENTITY ?
+1463	noNegativeAnswer	what is TOPIC_ENTITY 's parent 's race like ?
+456	noNegativeAnswer	what is the TOPIC_ENTITY 's child 's nation ?
+456	116 1209 1895 1459 903	what is the nation of daughter of TOPIC_ENTITY ?
+456	1364 1669 1192	TOPIC_ENTITY 's heir 's nationality ?
+456	126 802 1124	what is the nation of children of TOPIC_ENTITY ?
+356	684	what is the TOPIC_ENTITY 's wife 's profession ?
+111	691 82 452 737 1890	TOPIC_ENTITY 's dad 's nationality ?
+982	noNegativeAnswer	the place of birth of TOPIC_ENTITY 's wife ?
+142	189	the type of religion of daughter of TOPIC_ENTITY ?
+1877	noNegativeAnswer	the cause of death of dad of TOPIC_ENTITY ?
+1031	1124	is TOPIC_ENTITY 's husband a man or a woman ?
+737	1673	who is the kid of TOPIC_ENTITY 's father ?
+111	8 841 1773 452 1832	what is the nation of TOPIC_ENTITY 's parent ?
+1031	1080	what sex is TOPIC_ENTITY 's other half  ?
+1890	noNegativeAnswer	the gender of TOPIC_ENTITY 's mother ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's heir working on ?
+1890	noNegativeAnswer	what is the gender of mother of TOPIC_ENTITY ?
+1031	408	the gender of other half of TOPIC_ENTITY ?
+737	1714 1673 1875	what is the name of the heir of TOPIC_ENTITY 's mother ?
+1416	1932 889 1806 419 904 727 1236 118 1588 1057 1877	what religion does TOPIC_ENTITY 's father have ?
+111	1364 1669 446	TOPIC_ENTITY 's dad 's nation ?
+737	noNegativeAnswer	what is the name of the child of TOPIC_ENTITY 's parent ?
+1031	1806 1210 1009	what is the gender of TOPIC_ENTITY 's husband ?
+356	1895	the work of wife of TOPIC_ENTITY ?
+1546	1806 1210 1213 180 959 1044 142 1124	what is the ethnicity of heir of TOPIC_ENTITY ?
+1832	2	what is TOPIC_ENTITY 's parent ?
+861	142	what is the name of the grandheir of TOPIC_ENTITY ?
+446	1124 1192 1890	TOPIC_ENTITY 's mother 's husband ?
+111	1588	which nationality is TOPIC_ENTITY 's parents ?
+1425	1031	the place of death of TOPIC_ENTITY 's husband ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's kid working on ?
+1890	1283 1210	TOPIC_ENTITY 's mother 's gender ?
+1832	noNegativeAnswer	what is TOPIC_ENTITY 's father ?
+159	1283 762 1124	what is the cause of death of TOPIC_ENTITY 's kid ?
+1890	1210	is TOPIC_ENTITY 's parents a man or a woman ?
+903	1030 8	what is TOPIC_ENTITY 's daughter working on ?
+1031	356 564	the gender of darling of TOPIC_ENTITY ?
+1031	noNegativeAnswer	TOPIC_ENTITY 's other half 's gender ?
+1832	258 165 2 1669 446	what does TOPIC_ENTITY 's father do ?
+456	159	what is the TOPIC_ENTITY 's children 's nation ?
+684	356	TOPIC_ENTITY 's other half 's other half ?
+1124	1210 959 1890	what gender is TOPIC_ENTITY 's kid  ?
+1890	noNegativeAnswer	the sex of mother of TOPIC_ENTITY ?
+903	1030	what does TOPIC_ENTITY 's heir do for a living?
+1036	861 1124 1196 296 1031	what is the TOPIC_ENTITY 's couple 's heir ?
+446	258 165 2 1669 1832	the darling of TOPIC_ENTITY 's father ?
+356	1210 2 82 1773 1031	what is TOPIC_ENTITY 's spouse ?
+1124	1196 296 861	what is the gender of kid of TOPIC_ENTITY ?
+1031	1210 1364 564	what is the sex of TOPIC_ENTITY 's couple ?
+1890	1283 1210	what sex is TOPIC_ENTITY 's parents  ?
+1890	296 1459 111	is TOPIC_ENTITY 's mother a man or a woman ?
+1877	762	the cause of death of TOPIC_ENTITY 's mom ?
+111	noNegativeAnswer	which nationality is TOPIC_ENTITY 's mom ?
+356	684	what does TOPIC_ENTITY 's other half do for a living?
+356	1031 564	what does TOPIC_ENTITY 's husband do ?
+460	1124	the father of TOPIC_ENTITY 's children ?
+456	116 1209 1895 1459 903	the nation of TOPIC_ENTITY 's daughter ?
+111	1196 1459 737	the nationality of parent of TOPIC_ENTITY ?
+302	noNegativeAnswer	what is the race of TOPIC_ENTITY 's spouse ?
+982	458 452 564	what is the hometown of TOPIC_ENTITY 's spouse ?
+903	8 76 762 1546 159	what is TOPIC_ENTITY 's son working on ?
+1890	noNegativeAnswer	the gender of TOPIC_ENTITY 's parent ?
+456	460	what is the nation of offspring of TOPIC_ENTITY ?
+111	1459	what is the TOPIC_ENTITY 's parent 's nationality ?
+159	8 76 762 903 1546	the cause of death of TOPIC_ENTITY 's son ?
+142	1806 1210 1213 180 959 1044 1124 1546	what type of religion does TOPIC_ENTITY 's heir have ?
+1890	1031	the gender of TOPIC_ENTITY 's mom ?
+737	1196 296 485 1890 897	what is the daughter of TOPIC_ENTITY 's dad ?
+1080	1031	what is the TOPIC_ENTITY 's darling 's mom ?
+737	noNegativeAnswer	what is the daughter of parents of TOPIC_ENTITY ?
+1036	302 1080	what is the daughter of TOPIC_ENTITY 's spouse ?
+963	8 762 356	what is the TOPIC_ENTITY 's husband 's cause of death ?
+456	737 1890 111 861 1124	where does TOPIC_ENTITY 's children come from ?
+446	258 165 2 1669 1832	what is the TOPIC_ENTITY 's father 's darling ?
+737	691	what is the son of parent of TOPIC_ENTITY ?
+684	1669	what is the name of the wife of TOPIC_ENTITY 's darling ?
+564	noNegativeAnswer	what is the nationality of TOPIC_ENTITY 's spouse ?
+1877	762	the cause of death of mom of TOPIC_ENTITY ?
+737	1673	what is the name of the daughter of TOPIC_ENTITY 's parent ?
+737	noNegativeAnswer	the daughter of TOPIC_ENTITY 's mom ?
+684	1009 1031 963	what is the TOPIC_ENTITY 's husband 's husband ?
+1832	258 165 2 1669 446	what line of business is TOPIC_ENTITY 's father in ?
+1588	111	the educational institution of parents of TOPIC_ENTITY ?
+1416	noNegativeAnswer	what type of religion does TOPIC_ENTITY 's mom practice ?
+737	1673	the daughter of parent of TOPIC_ENTITY ?
+1416	noNegativeAnswer	what faith does TOPIC_ENTITY 's father practice ?
+111	noNegativeAnswer	what is the nation of TOPIC_ENTITY 's mother ?
+564	noNegativeAnswer	TOPIC_ENTITY 's darling 's nation ?
+1192	165 1669	what is the darling of children of TOPIC_ENTITY ?
+1124	456	what is the TOPIC_ENTITY 's offspring 's sex ?
+737	1673	what is the TOPIC_ENTITY 's mother 's heir ?
+737	861 1326 460 749 897	what is the heir of mother of TOPIC_ENTITY ?
+159	noNegativeAnswer	what is the cause of death of heir of TOPIC_ENTITY ?
+1546	975	what is TOPIC_ENTITY 's child 's ethnicity like ?
+737	1673	what is the TOPIC_ENTITY 's dad 's kid ?
+684	1080	what is the name of the spouse of TOPIC_ENTITY 's husband ?
+737	noNegativeAnswer	the daughter of TOPIC_ENTITY 's parent ?
+1463	noNegativeAnswer	what is the race of TOPIC_ENTITY 's parent ?
+159	noNegativeAnswer	what made the TOPIC_ENTITY 's childrendead ?
+1080	1036 302	the parent of couple of TOPIC_ENTITY ?
+684	1888	what is the darling of TOPIC_ENTITY 's husband ?
+749	8 787 762 622 249 1381 1773 458 118 1895 992 77 1832 1877	what is the place of birth of mom of TOPIC_ENTITY ?
+159	8 76 762 903 1546	what is the TOPIC_ENTITY 's son 's cause of death ?
+1124	296 1459 456	what is the TOPIC_ENTITY 's kid 's gender ?
+564	1031 356	which nationality is TOPIC_ENTITY 's spouse ?
+1832	737	what is the TOPIC_ENTITY 's father 's job ?
+737	1196 1459 111	what is the son of TOPIC_ENTITY 's parent ?
+684	356	TOPIC_ENTITY 's darling 's wife ?
+684	1435	who is the other half of TOPIC_ENTITY 's wife ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's gender ?
+1650	1714 408 507 1875 1283 1628 737 1890	the place of death of TOPIC_ENTITY 's mom ?
+1036	302 1080	what is the daughter of spouse of TOPIC_ENTITY ?
+446	1875 682 1888 737 897	what is the spouse of mom of TOPIC_ENTITY ?
+1877	noNegativeAnswer	why TOPIC_ENTITY 's dad died ?
+302	1031	what is the ethnicity of wife of TOPIC_ENTITY ?
+1296	432 1399 1093 626 861	the place of death of TOPIC_ENTITY 's heir ?
+1463	noNegativeAnswer	the race of parent of TOPIC_ENTITY ?
+1890	904 82 1087 1166 1588	what is the sex of mother of TOPIC_ENTITY ?
+302	noNegativeAnswer	what is TOPIC_ENTITY 's spouse 's race like ?
+1416	737	what religious belief does TOPIC_ENTITY 's parent practice ?
+1080	1031	who is the parents of TOPIC_ENTITY 's wife ?
+903	1773	what does TOPIC_ENTITY 's daughter do for a living?
+111	727 452 118 1057 1877	the nationality of dad of TOPIC_ENTITY ?
+111	1673 1364 1196 1459 737	the nationality of mom of TOPIC_ENTITY ?
+456	1459	the nation of offspring of TOPIC_ENTITY ?
+1588	1273 725 545 904	what is the organization of TOPIC_ENTITY 's dad ?
+1296	344	the place of death of offspring of TOPIC_ENTITY ?
+861	1673	TOPIC_ENTITY 's daughter 's heir ?
+1890	296	the sex of TOPIC_ENTITY 's mother ?
+737	1416	what is the child of parent of TOPIC_ENTITY ?
+684	1009 1031 963	what is the husband of TOPIC_ENTITY 's husband ?
+684	356	what is the TOPIC_ENTITY 's darling 's wife ?
+564	noNegativeAnswer	where does TOPIC_ENTITY 's other half come from ?
+1031	502 1890	what is the gender of TOPIC_ENTITY 's darling ?
+737	861 17	what is the kid of parents of TOPIC_ENTITY ?
+1416	noNegativeAnswer	what religious belief does TOPIC_ENTITY 's parents follow ?
+1296	noNegativeAnswer	what is the place of death of child of TOPIC_ENTITY ?
+861	1673	the heir of TOPIC_ENTITY 's daughter ?
+1031	noNegativeAnswer	the gender of TOPIC_ENTITY 's other half ?
+1489	noNegativeAnswer	what is the TOPIC_ENTITY 's daughter 's location ?
+1192	noNegativeAnswer	what is the couple of kid of TOPIC_ENTITY ?
+861	1124	what is the TOPIC_ENTITY 's children 's heir ?
+1031	noNegativeAnswer	TOPIC_ENTITY 's couple 's sex ?
+456	1124 1296	where does TOPIC_ENTITY 's son come from ?
+302	noNegativeAnswer	what is TOPIC_ENTITY 's couple 's ethnicity about ?
+1296	1124	what city did TOPIC_ENTITY 's son die ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's kid working on ?
+903	2	what line of business is TOPIC_ENTITY 's child in ?
+460	1124	what is the parents of heir of TOPIC_ENTITY ?
+111	841 452	what is the nation of TOPIC_ENTITY 's mother ?
+1031	502	the gender of TOPIC_ENTITY 's couple ?
+1890	noNegativeAnswer	what gender is TOPIC_ENTITY 's dad  ?
+1890	1210 1364 111	the sex of dad of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what is the gender of father of TOPIC_ENTITY ?
+1416	1932 889 1806 419 904 727 1236 118 1588 1057 1877	what religious belief does TOPIC_ENTITY 's father practice ?
+963	458 118 982	the cause of death of TOPIC_ENTITY 's spouse ?
+460	1496	what is the father of TOPIC_ENTITY 's daughter ?
+861	noNegativeAnswer	what is the daughter of TOPIC_ENTITY 's daughter ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's parents 's sex ?
+737	1673	the kid of father of TOPIC_ENTITY ?
+1124	1546	TOPIC_ENTITY 's offspring 's gender ?
+1124	1210 502	what is the TOPIC_ENTITY 's heir 's sex ?
+1588	1273 725 545 904	which organization does TOPIC_ENTITY 's parent work for ?
+737	1196 1459 111	the son of parent of TOPIC_ENTITY ?
+159	1673 1002 419 861 1326	what made the TOPIC_ENTITY 's offspringdead ?
+111	noNegativeAnswer	what is the TOPIC_ENTITY 's parent 's nation ?
+1416	1583 8 1236 1773 189 1250 1806 2 1832	what type of religion does TOPIC_ENTITY 's dad practice ?
+1890	126	what is the gender of parents of TOPIC_ENTITY ?
+1031	1009	is TOPIC_ENTITY 's darling a man or a woman ?
+142	1124	what is the faith of TOPIC_ENTITY 's heir ?
+564	1031 356	where does TOPIC_ENTITY 's spouse come from ?
+1031	302	the gender of TOPIC_ENTITY 's spouse ?
+1124	1210 959 1890	what is the TOPIC_ENTITY 's kid 's gender ?
+1036	noNegativeAnswer	what is the child of wife of TOPIC_ENTITY ?
+159	noNegativeAnswer	TOPIC_ENTITY 's heir 's cause of death ?
+111	1166 1209 1031 564 1890	TOPIC_ENTITY 's parents 's nationality ?
+1890	noNegativeAnswer	what is the sex of parents of TOPIC_ENTITY ?
+1192	1364 1669 456	what is the husband of heir of TOPIC_ENTITY ?
+737	1673	who is the child of TOPIC_ENTITY 's parent ?
+1031	126 258 356	what is the sex of TOPIC_ENTITY 's darling ?
+1890	1283	TOPIC_ENTITY 's mother 's sex ?
+1031	1124	what sex is TOPIC_ENTITY 's husband  ?
+684	1669	the wife of TOPIC_ENTITY 's darling ?
+1463	noNegativeAnswer	the race of parent of TOPIC_ENTITY ?
+1031	1080	what sex is TOPIC_ENTITY 's other half  ?
+737	1832	what is the name of the daughter of TOPIC_ENTITY 's parent ?
+142	1806 1210 1213 180 959 1044 1124 1546	what is the type of religion of TOPIC_ENTITY 's heir ?
+631	1932	what is the educational institution of TOPIC_ENTITY 's husband ?
+1890	noNegativeAnswer	the gender of mom of TOPIC_ENTITY ?
+1463	noNegativeAnswer	what is TOPIC_ENTITY 's parent 's race about ?
+490	1932 1364 456	which institution does TOPIC_ENTITY 's children work for ?
+897	458 1750 749	what is the name of the parents of TOPIC_ENTITY 's father ?
+1416	737	what faith does TOPIC_ENTITY 's dad have ?
+111	1196 1459 737	the nation of mom of TOPIC_ENTITY ?
+737	1673	the son of TOPIC_ENTITY 's father ?
+1031	1124	what is the TOPIC_ENTITY 's couple 's gender ?
+737	noNegativeAnswer	TOPIC_ENTITY 's mom 's child ?
+963	1032 452 118 1425 564	what made the TOPIC_ENTITY 's coupledead ?
+1057	noNegativeAnswer	TOPIC_ENTITY 's mother 's location ?
+356	1124 903 1031	what is TOPIC_ENTITY 's other half working on ?
+564	631 684	the nation of couple of TOPIC_ENTITY ?
+1031	1806 1210 1009	is TOPIC_ENTITY 's husband a man or a woman ?
+111	1364	what is the nation of TOPIC_ENTITY 's parent ?
+1832	8 787 762 622 249 1381 1773 458 118 1895 992 77 749 1877	what line of business is TOPIC_ENTITY 's dad in ?
+1890	noNegativeAnswer	is TOPIC_ENTITY 's dad a man or a woman ?
+1890	1166 1209 1031 564 111	what is the TOPIC_ENTITY 's parent 's sex ?
+159	1283 762 1124	the cause of death of TOPIC_ENTITY 's kid ?
+963	904 118 631	the cause of death of husband of TOPIC_ENTITY ?
+1890	noNegativeAnswer	TOPIC_ENTITY 's parents 's gender ?
+1832	2	what is the work of TOPIC_ENTITY 's father ?
+159	1673 1002 419 861 1326	the cause of death of offspring of TOPIC_ENTITY ?
+159	noNegativeAnswer	what did TOPIC_ENTITY 's children die from ?
+1877	1890	why TOPIC_ENTITY 's dad died ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's child ?
+111	1196 1459 737	what is the TOPIC_ENTITY 's mom 's nation ?
+1009	1031 963 684	what type of religion is TOPIC_ENTITY 's wife ?
+1009	1522	what type of religion is TOPIC_ENTITY 's couple ?
+1890	1673 1210 1770 737 1650	the gender of parent of TOPIC_ENTITY ?
+460	1124	what is the father of TOPIC_ENTITY 's children ?
+1031	861 1124 1196 296 1036	what is the TOPIC_ENTITY 's couple 's gender ?
+1124	1031	what gender is TOPIC_ENTITY 's kid  ?
+1588	1087	which institution does TOPIC_ENTITY 's dad work for ?
+1124	noNegativeAnswer	what sex is TOPIC_ENTITY 's offspring  ?
+490	903	where does TOPIC_ENTITY 's son work ?
+1124	460	what sex is TOPIC_ENTITY 's offspring  ?
+737	1673 1210 1770 1890 1650	what is the name of the son of TOPIC_ENTITY 's parent ?
+1124	408	TOPIC_ENTITY 's offspring 's sex ?
+1031	noNegativeAnswer	is TOPIC_ENTITY 's wife a man or a woman ?
+963	noNegativeAnswer	what killed the TOPIC_ENTITY 's darling ?
+861	1591 709 159	what is the name of the child of TOPIC_ENTITY 's children ?
+1124	1522 126 1488 296 142	what is the TOPIC_ENTITY 's children 's gender ?
+1296	1124 456	where did the kid of TOPIC_ENTITY die ?
+111	841 452	what is the nation of mother of TOPIC_ENTITY ?
+1057	727 452 118 111 1877	please tell me TOPIC_ENTITY 's mother present address ?
+1031	1283 841 82 452 408 779 1210 1364 564	what is the sex of wife of TOPIC_ENTITY ?
+356	1031 564	what is the profession of husband of TOPIC_ENTITY ?
+1890	noNegativeAnswer	the gender of dad of TOPIC_ENTITY ?
+1890	1283 8 1832	what gender is TOPIC_ENTITY 's parents  ?
+1031	1080	the sex of TOPIC_ENTITY 's other half ?
+1124	1806 1210 1213 180 959 1044 142 1546	is TOPIC_ENTITY 's daughter a man or a woman ?
+684	631 564	the couple of TOPIC_ENTITY 's couple ?
+1650	858	what is the place of death of TOPIC_ENTITY 's father ?
+903	2	TOPIC_ENTITY 's offspring 's occupation ?
+1031	1124	the gender of couple of TOPIC_ENTITY ?
+1890	126	TOPIC_ENTITY 's parents 's gender ?
+159	419	how TOPIC_ENTITY 's child died ?
+1546	8 76 762 903 159	what race is TOPIC_ENTITY 's daughter ?
+684	1669	what is the TOPIC_ENTITY 's darling 's wife ?
+142	1522 126 1488 296 1124	what is the TOPIC_ENTITY 's heir 's religion ?
+1877	1686 963	what killed the TOPIC_ENTITY 's father ?
+1416	1806	what is the TOPIC_ENTITY 's mom 's faith ?
+1124	1210 1364 456	the gender of TOPIC_ENTITY 's daughter ?
+737	noNegativeAnswer	who is the child of TOPIC_ENTITY 's parent ?
+356	noNegativeAnswer	what does TOPIC_ENTITY 's couple do for a living?
+1890	noNegativeAnswer	the sex of TOPIC_ENTITY 's parent ?
+737	1714 408 507 1875 1283 1628 1890 1650	what is the TOPIC_ENTITY 's dad 's offspring ?
+737	861 17	the kid of TOPIC_ENTITY 's parents ?
+1832	1283 8 1890	what is the work of TOPIC_ENTITY 's parents ?
+1124	1283 762 159	TOPIC_ENTITY 's children 's gender ?
+456	861 1192	which nationality is TOPIC_ENTITY 's offspring ?
+897	287	who is the grandmom of TOPIC_ENTITY ?
+1124	126	what sex is TOPIC_ENTITY 's kid  ?
+456	1364	what is the TOPIC_ENTITY 's son 's nation ?
+564	631 684	what is the nation of TOPIC_ENTITY 's couple ?
+1416	noNegativeAnswer	what is the type of religion of mom of TOPIC_ENTITY ?
+564	1213 1364 302	where does TOPIC_ENTITY 's spouse come from ?
+749	458 1750 897	where did TOPIC_ENTITY 's mom born ?
+456	1124 1296	what is the nation of TOPIC_ENTITY 's son ?
+861	1296	the child of TOPIC_ENTITY 's offspring ?
+456	159	the nation of TOPIC_ENTITY 's children ?
+861	noNegativeAnswer	the daughter of TOPIC_ENTITY 's daughter ?
+1890	1210	what is the gender of mom of TOPIC_ENTITY ?
+564	1806 1364 1236 452 1009	what is the nationality of wife of TOPIC_ENTITY ?
+903	noNegativeAnswer	the work of kid of TOPIC_ENTITY ?
+564	noNegativeAnswer	what is the nation of TOPIC_ENTITY 's husband ?
+1877	1296 159 1770 419 1348 1350 1650	what is the cause of death of TOPIC_ENTITY 's father ?
+564	1032 452 118 1425 963	what is the nation of TOPIC_ENTITY 's other half ?
+1192	1124	the wife of TOPIC_ENTITY 's heir ?
+456	802	what is the nationality of son of TOPIC_ENTITY ?
+302	noNegativeAnswer	what is the ethnicity of TOPIC_ENTITY 's darling ?
+456	1459	the nationality of TOPIC_ENTITY 's daughter ?
+1080	1496	the parents of TOPIC_ENTITY 's spouse ?
+1009	noNegativeAnswer	the religious belief of other half of TOPIC_ENTITY ?
+490	725	which institution does TOPIC_ENTITY 's child work for ?
+1588	1087	the institution of TOPIC_ENTITY 's dad ?
+1890	1714 408 507 1875 1283 1628 737 1650	what sex is TOPIC_ENTITY 's dad  ?
+1890	1283	what is the sex of TOPIC_ENTITY 's mother ?
+1031	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's darling ?
+1124	1210 502	what is the TOPIC_ENTITY 's offspring 's gender ?
+903	2	what does TOPIC_ENTITY 's offspring do for a living?
+1124	1196 296 861	what is the TOPIC_ENTITY 's kid 's gender ?
+1832	8 787 762 622 249 1381 1773 458 118 1895 992 77 749 1877	the job of dad of TOPIC_ENTITY ?
+1890	noNegativeAnswer	is TOPIC_ENTITY 's mom a man or a woman ?
+1890	296 1459 111	the gender of TOPIC_ENTITY 's mother ?
+1124	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's heir ?
+1031	408	what gender is TOPIC_ENTITY 's other half  ?
+1124	126 802 456	what is the TOPIC_ENTITY 's kid 's gender ?
+1031	1009	TOPIC_ENTITY 's other half 's gender ?
+1031	1009 963 684	what sex is TOPIC_ENTITY 's wife  ?
+749	noNegativeAnswer	what is the place of birth of dad of TOPIC_ENTITY ?
+456	779	which nationality is TOPIC_ENTITY 's children ?
+356	963	what is the work of other half of TOPIC_ENTITY ?
+861	1124	the children of daughter of TOPIC_ENTITY ?
+903	691 1773 861	what is the work of TOPIC_ENTITY 's children ?
+897	861 1326 460 737 749	who is the mother of TOPIC_ENTITY 's parents ?
+460	1124	what is the TOPIC_ENTITY 's child 's dad ?
+1296	1770 1032 637	the place of death of TOPIC_ENTITY 's daughter ?
+963	458 118 982	what is the cause of death of other half of TOPIC_ENTITY ?
+861	456 1192	what is the name of the offspring of TOPIC_ENTITY 's offspring ?
+737	1673	what is the TOPIC_ENTITY 's parent 's daughter ?
+897	1588 1877	who is the granddad of TOPIC_ENTITY ?
+1124	490 460 159	TOPIC_ENTITY 's kid 's gender ?
+903	8 76 762 1546 159	what is TOPIC_ENTITY 's son ?
+1124	1210	TOPIC_ENTITY 's children 's sex ?
+1877	1686 963	why TOPIC_ENTITY 's dad died ?
+1057	1932 889 1806 419 904 727 1236 118 1588 1416 1877	the location of parent of TOPIC_ENTITY ?
+1650	637 485 897	the place of death of TOPIC_ENTITY 's mother ?
+1031	1080	TOPIC_ENTITY 's other half 's sex ?
+737	noNegativeAnswer	what is the offspring of dad of TOPIC_ENTITY ?
+737	noNegativeAnswer	what is the child of TOPIC_ENTITY 's mom ?
+1009	noNegativeAnswer	what religious belief does TOPIC_ENTITY 's other half have ?
+456	1459 485 460	the nationality of child of TOPIC_ENTITY ?
+456	noNegativeAnswer	which nationality is TOPIC_ENTITY 's child ?
+963	1364 419 381 1686 564	the cause of death of TOPIC_ENTITY 's couple ?
+737	691	what is the son of TOPIC_ENTITY 's parent ?
+1031	1425	is TOPIC_ENTITY 's darling a man or a woman ?
+1489	472	please tell me TOPIC_ENTITY 's daughter present address ?
+1036	noNegativeAnswer	the child of TOPIC_ENTITY 's wife ?
+111	1210 1364 1890	the nation of mother of TOPIC_ENTITY ?
+897	637 485 1650	who is the grandparent of TOPIC_ENTITY ?
+456	1124	the nation of child of TOPIC_ENTITY ?
+861	noNegativeAnswer	what is the son of offspring of TOPIC_ENTITY ?
+111	1673 1364 1196 1459 737	what is the nationality of mom of TOPIC_ENTITY ?
+460	1459 485 456	TOPIC_ENTITY 's son 's mother ?
+1124	460	the sex of offspring of TOPIC_ENTITY ?
+111	1364	what is the nation of parent of TOPIC_ENTITY ?
+1832	2	what does TOPIC_ENTITY 's parent do ?
+897	1196 296 485 737 1890	TOPIC_ENTITY 's parents 's parents ?
+490	460 1124 159	where does TOPIC_ENTITY 's kid work for ?
+564	noNegativeAnswer	the nationality of couple of TOPIC_ENTITY ?
+1425	1032 452 118 564 963	what city did TOPIC_ENTITY 's darling die ?
+684	446	what is the name of the darling of TOPIC_ENTITY 's darling ?
+963	8 762 356	TOPIC_ENTITY 's husband 's cause of death ?
+1416	noNegativeAnswer	what religious belief does TOPIC_ENTITY 's mother have ?
+737	1832	the daughter of parent of TOPIC_ENTITY ?
+302	noNegativeAnswer	what is TOPIC_ENTITY 's couple 's ethnicity like ?
+456	1124	what is the TOPIC_ENTITY 's child 's nationality ?
+564	noNegativeAnswer	where does TOPIC_ENTITY 's husband come from ?
+1192	861 456	the other half of daughter of TOPIC_ENTITY ?
+356	1210 2 82 1773 1031	what is the job of TOPIC_ENTITY 's spouse ?
+1031	1283 841 82 452 408 779 1210 1364 564	TOPIC_ENTITY 's wife 's sex ?
+737	1673	what is the child of TOPIC_ENTITY 's parent ?
+1890	1283 8 1832	what is the gender of TOPIC_ENTITY 's parents ?
+1890	noNegativeAnswer	what sex is TOPIC_ENTITY 's dad  ?
+1057	noNegativeAnswer	where is TOPIC_ENTITY 's mother living ?
+1877	727 1773 118 1057 1832	what did TOPIC_ENTITY 's mother die from ?
+631	1932	the educational institution of husband of TOPIC_ENTITY ?
+897	637 485 1650	the parent of parents of TOPIC_ENTITY ?
+460	noNegativeAnswer	what is the dad of TOPIC_ENTITY 's kid ?
+1326	502 626 1085 1124 1296	what is the TOPIC_ENTITY 's children 's place of birth ?
+456	1459 485 460	what is the nation of TOPIC_ENTITY 's son ?
+1009	1522	what is the type of religion of TOPIC_ENTITY 's couple ?
+982	458 118 963	what is TOPIC_ENTITY 's wife 's birthplace ?
+1890	noNegativeAnswer	is TOPIC_ENTITY 's dad a man or a woman ?
+903	116 1209 1895 1459 456	what is the TOPIC_ENTITY 's son 's profession ?
+1890	1673 1210 737	the gender of mother of TOPIC_ENTITY ?
+356	684	the profession of TOPIC_ENTITY 's wife ?
+963	noNegativeAnswer	what did TOPIC_ENTITY 's darling die from ?
+111	296 1459 1890	what is the TOPIC_ENTITY 's parent 's nation ?
+1588	1932 889 1806 419 904 727 1236 118 1057 1416 1877	what is the TOPIC_ENTITY 's dad 's educational institution ?
+1031	1124	what is the TOPIC_ENTITY 's husband 's sex ?
+1877	1932 889 1806 419 904 727 1236 118 1588 1057 1416	what is the TOPIC_ENTITY 's father 's cause of death ?
+1832	noNegativeAnswer	what line of business is TOPIC_ENTITY 's dad in ?
+737	1673	the son of TOPIC_ENTITY 's parent ?
+302	1031	TOPIC_ENTITY 's wife 's ethnicity ?
+737	1196 296 485 1890 897	TOPIC_ENTITY 's dad 's daughter ?
+142	189	the type of religion of TOPIC_ENTITY 's daughter ?
+1546	861 460	the ethnicity of TOPIC_ENTITY 's child ?
+1296	432 1399 1093 626 861	what is the place of death of TOPIC_ENTITY 's heir ?
+1296	1399	the place of death of TOPIC_ENTITY 's offspring ?
+684	1888	what is the darling of husband of TOPIC_ENTITY ?
+1036	noNegativeAnswer	what is the heir of other half of TOPIC_ENTITY ?
+684	1894 866	what is the name of the wife of TOPIC_ENTITY 's couple ?
+1416	1932 889 1806 419 904 727 1236 118 1588 1057 1877	the religion of TOPIC_ENTITY 's father ?
+897	287	the mom of TOPIC_ENTITY 's mom ?
+1588	904 82 1087 1166 1890	the institution of mom of TOPIC_ENTITY ?
+1489	472	TOPIC_ENTITY 's daughter 's location ?
+1031	noNegativeAnswer	is TOPIC_ENTITY 's couple a man or a woman ?
+1877	noNegativeAnswer	what is the reason of TOPIC_ENTITY 's dad's death ?
+159	1283 762 1124	the cause of death of daughter of TOPIC_ENTITY ?
+456	296 1459 1124	TOPIC_ENTITY 's offspring 's nation ?
+111	1588	TOPIC_ENTITY 's parents 's nationality ?
+1832	1283 8 1890	the work of parents of TOPIC_ENTITY ?
+861	noNegativeAnswer	what is the TOPIC_ENTITY 's son 's child ?
+1124	490 460 159	is TOPIC_ENTITY 's kid a man or a woman ?
+564	1283 841 82 452 408 779 1210 1364 1031	what is the nation of husband of TOPIC_ENTITY ?
+861	1124	who is the heir of TOPIC_ENTITY 's children ?
+1036	302 1080	what is the TOPIC_ENTITY 's spouse 's daughter ?
+963	1032 452 118 1425 564	what killed the TOPIC_ENTITY 's couple ?
+564	noNegativeAnswer	TOPIC_ENTITY 's other half 's nationality ?
+903	noNegativeAnswer	what does TOPIC_ENTITY 's children do for a living?
+456	1124	TOPIC_ENTITY 's child 's nation ?
+1036	noNegativeAnswer	who is the heir of TOPIC_ENTITY 's other half ?
+1890	noNegativeAnswer	the gender of father of TOPIC_ENTITY ?
+1832	noNegativeAnswer	what does TOPIC_ENTITY 's dad do for a living?
+456	1932 1364 490	what is the TOPIC_ENTITY 's daughter 's nation ?
+1890	noNegativeAnswer	the sex of TOPIC_ENTITY 's mother ?
+1588	1087	where does TOPIC_ENTITY 's dad work ?
+1890	296	what is the TOPIC_ENTITY 's parents 's sex ?
+1192	165 1669	TOPIC_ENTITY 's children 's darling ?
+564	841	what is the TOPIC_ENTITY 's spouse 's nation ?
+1192	165 1669	what is the name of the couple of TOPIC_ENTITY 's kid ?
+897	1196 296 485 737 1890	what is the parents of parents of TOPIC_ENTITY ?
+684	963	who is the spouse of TOPIC_ENTITY 's husband ?
+1832	737	what is the job of father of TOPIC_ENTITY ?
+737	861 1326 460 749 897	the heir of TOPIC_ENTITY 's mother ?
+111	296 1459 1890	what is the nation of TOPIC_ENTITY 's parent ?
+564	noNegativeAnswer	the nationality of TOPIC_ENTITY 's wife ?
+1031	1210 959 296	what is the gender of TOPIC_ENTITY 's darling ?
+982	noNegativeAnswer	what is the place of birth of wife of TOPIC_ENTITY ?
+1124	1546	what is the gender of offspring of TOPIC_ENTITY ?
+1124	502 626 1085 1296 1326	the sex of TOPIC_ENTITY 's son ?
+456	1364	the nation of son of TOPIC_ENTITY ?
+1890	1210 1364 82 452 111	what is the TOPIC_ENTITY 's mom 's gender ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's kid ?
+1489	noNegativeAnswer	where is TOPIC_ENTITY 's daughter staying ?
+903	1030	the occupation of TOPIC_ENTITY 's heir ?
+963	1009 1031 684	the cause of death of TOPIC_ENTITY 's couple ?
+737	noNegativeAnswer	what is the name of the daughter of TOPIC_ENTITY 's mom ?
+631	1932	what is the organization of other half of TOPIC_ENTITY ?
+1124	1806 1210 1213 180 959 1044 142 1546	the gender of TOPIC_ENTITY 's daughter ?
+1124	126 1210	TOPIC_ENTITY 's children 's sex ?
+460	287	the dad of children of TOPIC_ENTITY ?
+456	1209 111	what is the nation of children of TOPIC_ENTITY ?
+142	1522	what faith is TOPIC_ENTITY 's child ?
+1877	1686 963	what made the TOPIC_ENTITY 's fatherdead ?
+1124	noNegativeAnswer	the gender of daughter of TOPIC_ENTITY ?
+111	noNegativeAnswer	where does TOPIC_ENTITY 's parent come from ?
+1326	1673 1002 419 861 159	the place of birth of child of TOPIC_ENTITY ?
+564	1283 841 82 452 408 779 1210 1364 1031	what is the nation of TOPIC_ENTITY 's husband ?
+1877	1588 897	what did TOPIC_ENTITY 's father die from ?
+1489	noNegativeAnswer	what is the TOPIC_ENTITY 's children 's address ?
+1890	82 296	what is the TOPIC_ENTITY 's parents 's sex ?
+1890	1124 1192 446	what is the sex of dad of TOPIC_ENTITY ?
+631	1932	where does TOPIC_ENTITY 's husband work for ?
+1832	8 841 1773 452 111	what does TOPIC_ENTITY 's parents do ?
+1124	noNegativeAnswer	the gender of heir of TOPIC_ENTITY ?
+159	419	TOPIC_ENTITY 's child 's cause of death ?
+460	1459 485 456	TOPIC_ENTITY 's kid 's father ?
+564	noNegativeAnswer	TOPIC_ENTITY 's wife 's nationality ?
+1296	1770 1032 637	where did TOPIC_ENTITY 's daughter die ?
+1890	1166 1209 1031 564 111	the sex of parent of TOPIC_ENTITY ?
+1588	1273 725 545 904	the organization of dad of TOPIC_ENTITY ?
+111	noNegativeAnswer	what is the TOPIC_ENTITY 's mom 's nationality ?
+903	490	what does TOPIC_ENTITY 's daughter do for a living?
+1416	noNegativeAnswer	what is the TOPIC_ENTITY 's mother 's religious belief ?
+631	564 684	TOPIC_ENTITY 's husband 's organization ?
+737	1588	what is the TOPIC_ENTITY 's mom 's offspring ?
+1832	258	the work of TOPIC_ENTITY 's mother ?
+903	1030 8	TOPIC_ENTITY 's daughter 's work ?
+564	noNegativeAnswer	TOPIC_ENTITY 's husband 's nation ?
+1124	959 1890	what is the sex of TOPIC_ENTITY 's daughter ?
+1296	noNegativeAnswer	the place of death of children of TOPIC_ENTITY ?
+1031	noNegativeAnswer	what is the TOPIC_ENTITY 's husband 's gender ?
+1832	8 841 1773 452 111	TOPIC_ENTITY 's parents 's occupation ?
+737	1196	what is the TOPIC_ENTITY 's mom 's child ?
+1296	502 626 1085 1124 1326	TOPIC_ENTITY 's offspring 's place of death ?
+1877	727 452 118 1057 111	how TOPIC_ENTITY 's dad died ?
+1124	1031	what is the gender of daughter of TOPIC_ENTITY ?
+456	296 1459 1124	what is the nation of TOPIC_ENTITY 's offspring ?
+737	1416	the son of TOPIC_ENTITY 's mom ?
+1124	1326 456	what is the TOPIC_ENTITY 's child 's sex ?
+1124	126	TOPIC_ENTITY 's kid 's sex ?
+737	noNegativeAnswer	what is the heir of parent of TOPIC_ENTITY ?
+903	8 76 762 1546 159	what is TOPIC_ENTITY 's kid ?
+903	noNegativeAnswer	the profession of child of TOPIC_ENTITY ?
+903	8 76 762 1546 159	what does TOPIC_ENTITY 's kid do ?
+1031	1210	what is the sex of TOPIC_ENTITY 's darling ?
+456	1459 485 460	the nationality of TOPIC_ENTITY 's child ?
+456	1459 485 460	which nationality is TOPIC_ENTITY 's son ?
+1080	1496 419 963	TOPIC_ENTITY 's wife 's mother ?
+861	432	who is the heir of TOPIC_ENTITY 's child ?
+1124	142	the sex of TOPIC_ENTITY 's child ?
+737	1196	who is the child of TOPIC_ENTITY 's mom ?
+111	noNegativeAnswer	the nation of parent of TOPIC_ENTITY ?
+749	8 787 762 622 249 1381 1773 458 118 1895 992 77 1832 1877	TOPIC_ENTITY 's mom 's place of birth ?
+1192	165 1669	what is the couple of TOPIC_ENTITY 's kid ?
+456	1209 111	which nationality is TOPIC_ENTITY 's children ?
+1877	727 1773 118 1057 1832	what killed the TOPIC_ENTITY 's mother ?
+1031	1124	what is the gender of TOPIC_ENTITY 's couple ?
+897	458 1750 749	what is the name of the grandparents of TOPIC_ENTITY ?
+111	noNegativeAnswer	the nationality of TOPIC_ENTITY 's mom ?
+737	1673	the son of father of TOPIC_ENTITY ?
+1124	noNegativeAnswer	TOPIC_ENTITY 's kid 's sex ?
+1877	8 787 762 622 249 1381 1773 458 118 1895 992 77 1832 749	what is the TOPIC_ENTITY 's parent 's cause of death ?
+111	1364	where does TOPIC_ENTITY 's mother come from ?
+460	noNegativeAnswer	what is the father of daughter of TOPIC_ENTITY ?
+446	noNegativeAnswer	what is the TOPIC_ENTITY 's mom 's spouse ?
+1890	noNegativeAnswer	what gender is TOPIC_ENTITY 's parent  ?
+1650	1296 159 1770 419 1348 1350 1877	where did the parents of TOPIC_ENTITY die ?
+1080	1496	who is the parents of TOPIC_ENTITY 's spouse ?
+1890	691 82 452 737 111	what is the sex of mother of TOPIC_ENTITY ?
+903	noNegativeAnswer	what is the work of kid of TOPIC_ENTITY ?
+1416	noNegativeAnswer	what is the faith of TOPIC_ENTITY 's father ?
+1031	1210 2 82 1773 356	what is the TOPIC_ENTITY 's darling 's gender ?
+456	1210 1364 1124	the nationality of kid of TOPIC_ENTITY ?
+861	noNegativeAnswer	TOPIC_ENTITY 's children 's children ?
+1546	1124	what is the race of offspring of TOPIC_ENTITY ?
+1124	408	is TOPIC_ENTITY 's offspring a man or a woman ?
+356	1031	what is TOPIC_ENTITY 's wife ?
+1650	1673 1210 1770 737 1890	where did TOPIC_ENTITY 's parents die ?
+1031	1124	the sex of TOPIC_ENTITY 's husband ?
+1031	1124	the sex of TOPIC_ENTITY 's darling ?
+631	82 1773 904 296 1895 1734 1031 356	what is the organization of TOPIC_ENTITY 's spouse ?
+1124	456	what is the sex of TOPIC_ENTITY 's child ?
+963	458 118 982	what killed the TOPIC_ENTITY 's other half ?
+737	1673 1364 1196 1459 111	TOPIC_ENTITY 's mother 's heir ?
+460	noNegativeAnswer	the parent of TOPIC_ENTITY 's son ?
+1890	1210	the gender of TOPIC_ENTITY 's father ?
+1031	noNegativeAnswer	TOPIC_ENTITY 's couple 's gender ?
+1890	1210 82	what is the sex of dad of TOPIC_ENTITY ?
+159	noNegativeAnswer	what caused the TOPIC_ENTITY 's child's death ?
+1890	296	what is the gender of TOPIC_ENTITY 's parents ?
+111	296 1459 1890	where does TOPIC_ENTITY 's parent come from ?
+1650	858	where did the father of TOPIC_ENTITY die ?
+446	1124 1192 1890	what is the husband of TOPIC_ENTITY 's mother ?
+1588	1734	the organization of TOPIC_ENTITY 's father ?
+1124	460	is TOPIC_ENTITY 's heir a man or a woman ?
+1832	727 1773 118 1057 1877	what does TOPIC_ENTITY 's parents do ?
+1080	684	what is the TOPIC_ENTITY 's wife 's father ?
+1057	noNegativeAnswer	TOPIC_ENTITY 's father 's location ?
+1890	82 296	TOPIC_ENTITY 's parents 's sex ?
+1877	1890	what killed the TOPIC_ENTITY 's dad ?
+460	490 1124 159	the parents of child of TOPIC_ENTITY ?
+446	noNegativeAnswer	what is the name of the spouse of TOPIC_ENTITY 's mom ?
+1877	noNegativeAnswer	how TOPIC_ENTITY 's dad died ?
+737	1673	TOPIC_ENTITY 's mother 's child ?
+737	1196 1459 111	what is the name of the offspring of TOPIC_ENTITY 's parent ?
+1124	noNegativeAnswer	what is the gender of child of TOPIC_ENTITY ?
+1425	1032 452 118 564 963	the place of death of TOPIC_ENTITY 's darling ?
+111	noNegativeAnswer	the nation of parent of TOPIC_ENTITY ?
+1031	noNegativeAnswer	the gender of TOPIC_ENTITY 's darling ?
+963	1364 419 381 1686 564	why TOPIC_ENTITY 's couple died ?
+564	381 1209	the nationality of spouse of TOPIC_ENTITY ?
+1832	258	what is TOPIC_ENTITY 's mother ?
+1877	727 452 118 1057 111	what did TOPIC_ENTITY 's dad die from ?
+1009	1522	what is the type of religion of couple of TOPIC_ENTITY ?
+1192	861 456	what is the TOPIC_ENTITY 's daughter 's other half ?
+1463	noNegativeAnswer	what is the TOPIC_ENTITY 's parent 's race ?
+142	1522	what faith does TOPIC_ENTITY 's child have ?
+1124	1210	the sex of children of TOPIC_ENTITY ?
+737	noNegativeAnswer	what is the TOPIC_ENTITY 's mom 's child ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's father 's gender ?
+1832	1583 8 1236 1773 189 1250 1806 2 1416	what line of business is TOPIC_ENTITY 's parents in ?
+1124	1192	what is the sex of TOPIC_ENTITY 's offspring ?
+490	460 1124 159	what is the institution of TOPIC_ENTITY 's kid ?
+1296	1399	TOPIC_ENTITY 's offspring 's place of death ?
+1890	noNegativeAnswer	what sex is TOPIC_ENTITY 's mother  ?
+142	861	what faith is TOPIC_ENTITY 's son ?
+456	1124 1326	what is the nationality of TOPIC_ENTITY 's son ?
+564	noNegativeAnswer	the nationality of TOPIC_ENTITY 's other half ?
+159	noNegativeAnswer	what is the reason of TOPIC_ENTITY 's child's death ?
+1031	noNegativeAnswer	is TOPIC_ENTITY 's other half a man or a woman ?
+490	1932 2 1273 1030 903	where does TOPIC_ENTITY 's son work for ?
+1890	noNegativeAnswer	what sex is TOPIC_ENTITY 's parent  ?
+1296	1770 1032 637	what is the place of death of daughter of TOPIC_ENTITY ?
+1877	1932 889 1806 419 904 727 1236 118 1588 1057 1416	what killed the TOPIC_ENTITY 's father ?
+1890	1673 1210 737	what is the gender of TOPIC_ENTITY 's mother ?
+1296	861	where did the son of TOPIC_ENTITY die ?
+1296	1770	what city did TOPIC_ENTITY 's offspring die ?
+1031	noNegativeAnswer	is TOPIC_ENTITY 's spouse a man or a woman ?
+1296	502 626 1085 1124 1326	what city did TOPIC_ENTITY 's offspring die ?
+564	1806 1364 1236 452 1009	what is the nation of TOPIC_ENTITY 's other half ?
+1080	1036 302	what is the parent of couple of TOPIC_ENTITY ?
+1546	975	what is TOPIC_ENTITY 's child 's ethnicity about ?
+737	noNegativeAnswer	the children of TOPIC_ENTITY 's parents ?
+1124	460	TOPIC_ENTITY 's offspring 's sex ?
+111	noNegativeAnswer	where does TOPIC_ENTITY 's mom come from ?
+1124	1031	what is the TOPIC_ENTITY 's daughter 's gender ?
+737	noNegativeAnswer	the heir of mom of TOPIC_ENTITY ?
+1890	1210	the gender of parents of TOPIC_ENTITY ?
+684	1435	what is the TOPIC_ENTITY 's wife 's other half ?
+903	1932 2 1273 1030 490	TOPIC_ENTITY 's son 's job ?
+1890	1210	what gender is TOPIC_ENTITY 's father  ?
+1296	861	what is the place of death of son of TOPIC_ENTITY ?
+737	noNegativeAnswer	what is the daughter of TOPIC_ENTITY 's mom ?
+684	631 564	what is the couple of TOPIC_ENTITY 's couple ?
+1124	noNegativeAnswer	what sex is TOPIC_ENTITY 's kid  ?
+1877	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's cause of death ?
+861	1591 709 159	who is the grandchild of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what sex is TOPIC_ENTITY 's father  ?
+1296	noNegativeAnswer	TOPIC_ENTITY 's child 's place of death ?
+564	noNegativeAnswer	TOPIC_ENTITY 's wife 's nation ?
+564	1031 356	what is the nationality of spouse of TOPIC_ENTITY ?
+1124	1210 502	the sex of heir of TOPIC_ENTITY ?
+737	1416	the child of TOPIC_ENTITY 's parent ?
+111	1459	what is the nationality of TOPIC_ENTITY 's parent ?
+456	noNegativeAnswer	the nation of child of TOPIC_ENTITY ?
+1057	1932 889 1806 419 904 727 1236 118 1588 1416 1877	TOPIC_ENTITY 's parent 's location ?
+446	1364 1669 111	the wife of dad of TOPIC_ENTITY ?
+1031	1124	TOPIC_ENTITY 's husband 's sex ?
+982	noNegativeAnswer	what is the hometown of TOPIC_ENTITY 's darling ?
+1546	1124	TOPIC_ENTITY 's offspring 's race ?
+737	691 82 452 1890 111	what is the son of TOPIC_ENTITY 's parents ?
+460	noNegativeAnswer	what is the father of TOPIC_ENTITY 's daughter ?
+1031	noNegativeAnswer	what gender is TOPIC_ENTITY 's other half  ?
+1425	1283 1628 1031	what city did TOPIC_ENTITY 's husband die ?
+1124	noNegativeAnswer	what is the gender of kid of TOPIC_ENTITY ?
+1588	904 82 1087 1166 1890	what is the TOPIC_ENTITY 's mom 's institution ?
+861	1124	who is the children of TOPIC_ENTITY 's daughter ?
+963	684	what is the cause of death of darling of TOPIC_ENTITY ?
+564	1364 419 381 1686 963	the nationality of darling of TOPIC_ENTITY ?
+897	1496	what is the mom of TOPIC_ENTITY 's father ?
+456	779	what is the nation of children of TOPIC_ENTITY ?
+1416	737	what religious belief is TOPIC_ENTITY 's parent ?
+1036	1932 1673 1734 1196 631	what is the son of husband of TOPIC_ENTITY ?
+1890	noNegativeAnswer	the sex of TOPIC_ENTITY 's mother ?
+446	1669	TOPIC_ENTITY 's mom 's couple ?
+1031	noNegativeAnswer	the sex of TOPIC_ENTITY 's couple ?
+1080	1496 419 963	what is the mother of TOPIC_ENTITY 's wife ?
+1080	1036 302	TOPIC_ENTITY 's couple 's parent ?
+111	1166 1209 1031 564 1890	what is the nationality of TOPIC_ENTITY 's parents ?
+1890	1124 1192 446	what sex is TOPIC_ENTITY 's dad  ?
+142	189	what type of religion does TOPIC_ENTITY 's daughter have ?
+456	1364 1669 1192	the nationality of TOPIC_ENTITY 's heir ?
+861	1673 1002 419 1326 159	what is the TOPIC_ENTITY 's child 's daughter ?
+1124	noNegativeAnswer	what is the TOPIC_ENTITY 's child 's gender ?
+1124	noNegativeAnswer	TOPIC_ENTITY 's children 's gender ?
+1080	noNegativeAnswer	what is the father of TOPIC_ENTITY 's other half ?
+111	noNegativeAnswer	the nationality of parent of TOPIC_ENTITY ?
+1009	1031 963 684	TOPIC_ENTITY 's wife 's type of religion ?
+460	noNegativeAnswer	what is the parent of son of TOPIC_ENTITY ?
+861	691 1773 903	the son of child of TOPIC_ENTITY ?
+1832	258	what does TOPIC_ENTITY 's mother do ?
+1031	1009 963 684	the sex of wife of TOPIC_ENTITY ?
+1650	1770 1628	what city did TOPIC_ENTITY 's mom die ?
+111	1364	which nationality is TOPIC_ENTITY 's parent ?
+1546	975	the ethnicity of child of TOPIC_ENTITY ?
+684	356	the other half of TOPIC_ENTITY 's other half ?
+903	2	what is the TOPIC_ENTITY 's child 's occupation ?
+903	490	the occupation of TOPIC_ENTITY 's daughter ?
+684	631 564	what is the name of the couple of TOPIC_ENTITY 's couple ?
+1416	1932 889 1806 419 904 727 1236 118 1588 1057 1877	the religious belief of TOPIC_ENTITY 's father ?
+1124	408	the sex of offspring of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what is the sex of offspring of TOPIC_ENTITY ?
+564	noNegativeAnswer	TOPIC_ENTITY 's wife 's nationality ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's kid working on ?
+1124	142	is TOPIC_ENTITY 's child a man or a woman ?
+1124	861	what is the TOPIC_ENTITY 's child 's sex ?
+1416	noNegativeAnswer	the faith of TOPIC_ENTITY 's parent ?
+1031	noNegativeAnswer	what is the gender of husband of TOPIC_ENTITY ?
+1124	861	what is the sex of TOPIC_ENTITY 's child ?
+456	1459	what is the TOPIC_ENTITY 's kid 's nationality ?
+1489	noNegativeAnswer	what is the TOPIC_ENTITY 's daughter 's address ?
+1890	904 82 1087 1166 1588	TOPIC_ENTITY 's mother 's sex ?
+1890	82 296	the sex of parents of TOPIC_ENTITY ?
+111	noNegativeAnswer	TOPIC_ENTITY 's parent 's nation ?
+460	1124	what is the parents of TOPIC_ENTITY 's heir ?
+1296	637	where did TOPIC_ENTITY 's daughter die ?
+737	691 82 452 1890 111	what is the son of parents of TOPIC_ENTITY ?
+631	82 1773 904 296 1895 1734 1031 356	where does TOPIC_ENTITY 's spouse work for ?
+1124	274 296 1489	the gender of TOPIC_ENTITY 's child ?
+460	1124	what is the dad of child of TOPIC_ENTITY ?
+1890	1714 408 507 1875 1283 1628 737 1650	TOPIC_ENTITY 's dad 's sex ?
+903	noNegativeAnswer	what is the work of TOPIC_ENTITY 's kid ?
+897	noNegativeAnswer	what is the mother of parents of TOPIC_ENTITY ?
+1890	296	TOPIC_ENTITY 's mother 's sex ?
+1326	noNegativeAnswer	what is TOPIC_ENTITY 's son 's birthplace ?
+737	1673	TOPIC_ENTITY 's dad 's kid ?
+1890	noNegativeAnswer	TOPIC_ENTITY 's parent 's sex ?
+737	1196 1459 111	what is the son of parent of TOPIC_ENTITY ?
+490	903	where does TOPIC_ENTITY 's son work for ?
+903	1030 8	what does TOPIC_ENTITY 's daughter do ?
+737	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's offspring ?
+1031	1124 903 356	the gender of couple of TOPIC_ENTITY ?
+1124	296	TOPIC_ENTITY 's kid 's gender ?
+1890	1673 1210 737	is TOPIC_ENTITY 's mother a man or a woman ?
+1192	noNegativeAnswer	what is the couple of TOPIC_ENTITY 's kid ?
+1489	472	the location of daughter of TOPIC_ENTITY ?
+963	1032 452 118 1425 564	how TOPIC_ENTITY 's couple died ?
+159	1591 709 861	what did TOPIC_ENTITY 's daughter die from ?
+737	861 1326 460 749 897	TOPIC_ENTITY 's mother 's heir ?
+737	1875 682 1888 897 446	who is the children of TOPIC_ENTITY 's mother ?
+1416	noNegativeAnswer	what is the faith of father of TOPIC_ENTITY ?
+1031	1425	what is the sex of TOPIC_ENTITY 's darling ?
+749	458 1750 897	what is TOPIC_ENTITY 's mom 's birthplace ?
+1036	noNegativeAnswer	what is the TOPIC_ENTITY 's wife 's child ?
+159	noNegativeAnswer	what is the cause of death of TOPIC_ENTITY 's children ?
+1009	1031	what is the religious belief of husband of TOPIC_ENTITY ?
+111	1196 1459 737	where does TOPIC_ENTITY 's mom come from ?
+903	8 76 762 1546 159	what is the job of TOPIC_ENTITY 's son ?
+302	noNegativeAnswer	what is the ethnicity of TOPIC_ENTITY 's couple ?
+1031	noNegativeAnswer	what is the gender of darling of TOPIC_ENTITY ?
+111	1673 1364 1196 1459 737	what is the nationality of TOPIC_ENTITY 's mom ?
+1416	737	what is the TOPIC_ENTITY 's dad 's faith ?
+1890	1210 82	TOPIC_ENTITY 's dad 's sex ?
+1546	975	what is TOPIC_ENTITY 's heir 's race about ?
+861	1546 460	the kid of TOPIC_ENTITY 's offspring ?
+1009	1806 1210 1031	what is the religious belief of spouse of TOPIC_ENTITY ?
+861	1196 296 1124	what is the son of kid of TOPIC_ENTITY ?
+1546	975	TOPIC_ENTITY 's heir 's race ?
+111	841 452	where does TOPIC_ENTITY 's mother come from ?
+1890	1283 8 1832	the gender of TOPIC_ENTITY 's parents ?
+1192	866	what is the darling of TOPIC_ENTITY 's child ?
+1296	861	where did TOPIC_ENTITY 's son die ?
+982	458 118 963	the place of birth of TOPIC_ENTITY 's wife ?
+1832	noNegativeAnswer	what is the occupation of father of TOPIC_ENTITY ?
+897	1875 682 1888 737 446	what is the dad of TOPIC_ENTITY 's mother ?
+490	460 1124 159	the institution of TOPIC_ENTITY 's kid ?
+1890	1210	is TOPIC_ENTITY 's dad a man or a woman ?
+1832	2 1773 356	what does TOPIC_ENTITY 's parent do for a living?
+460	1459 485 456	what is the father of TOPIC_ENTITY 's kid ?
+111	noNegativeAnswer	the nation of TOPIC_ENTITY 's parent ?
+1588	737	what is the TOPIC_ENTITY 's parent 's institution ?
+1124	460	what is the sex of offspring of TOPIC_ENTITY ?
+1425	1031	what is the TOPIC_ENTITY 's husband 's place of death ?
+1192	866	the darling of TOPIC_ENTITY 's child ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's sex ?
+1124	456	what is the sex of TOPIC_ENTITY 's offspring ?
+982	noNegativeAnswer	which city did TOPIC_ENTITY 's darling born ?
+1650	1296 159 1770 419 1348 1350 1877	what is the place of death of TOPIC_ENTITY 's parents ?
+1877	1932 889 1806 419 904 727 1236 118 1588 1057 1416	what did TOPIC_ENTITY 's father die from ?
+111	noNegativeAnswer	what is the nation of mother of TOPIC_ENTITY ?
+1124	noNegativeAnswer	is TOPIC_ENTITY 's heir a man or a woman ?
+1124	1210 1364 456	the gender of daughter of TOPIC_ENTITY ?
+460	noNegativeAnswer	who is the parent of TOPIC_ENTITY 's son ?
+1031	1425	what is the TOPIC_ENTITY 's darling 's gender ?
+356	8 762 963	what is TOPIC_ENTITY 's spouse ?
+903	490	what line of business is TOPIC_ENTITY 's children in ?
+1036	1932 1673 1734 1196 631	what is the name of the son of TOPIC_ENTITY 's husband ?
+1124	861	what is the sex of child of TOPIC_ENTITY ?
+1031	1009	what is the sex of darling of TOPIC_ENTITY ?
+1031	82 1773 904 296 1895 1734 356 631	the sex of darling of TOPIC_ENTITY ?
+456	1459	the nationality of kid of TOPIC_ENTITY ?
+111	1210 1364 82 452 1890	the nationality of TOPIC_ENTITY 's mom ?
+861	142	what is the heir of TOPIC_ENTITY 's daughter ?
+1124	460	what is the gender of TOPIC_ENTITY 's child ?
+456	116 1209 1895 1459 903	what is the TOPIC_ENTITY 's daughter 's nation ?
+982	noNegativeAnswer	where did TOPIC_ENTITY 's wife born ?
+1890	noNegativeAnswer	what is the gender of parents of TOPIC_ENTITY ?
+1124	1210	the gender of daughter of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what is the sex of kid of TOPIC_ENTITY ?
+460	195	what is the TOPIC_ENTITY 's son 's mother ?
+1877	727 452 118 1057 111	the cause of death of dad of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's parents 's gender ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's gender ?
+631	82 1773 904 296 1895 1734 1031 356	the organization of spouse of TOPIC_ENTITY ?
+1650	1673 1210 1770 737 1890	the place of death of parents of TOPIC_ENTITY ?
+1192	1124	the wife of heir of TOPIC_ENTITY ?
+1124	1296	the sex of offspring of TOPIC_ENTITY ?
+564	noNegativeAnswer	what is the nationality of other half of TOPIC_ENTITY ?
+456	1210 1364 1124	where does TOPIC_ENTITY 's kid come from ?
+1124	460	what is the gender of offspring of TOPIC_ENTITY ?
+1588	1273 725 545 904	where does TOPIC_ENTITY 's dad work ?
+456	460	the nation of TOPIC_ENTITY 's offspring ?
+1031	noNegativeAnswer	the gender of spouse of TOPIC_ENTITY ?
+963	noNegativeAnswer	how TOPIC_ENTITY 's darling died ?
+903	1932 2 1273 1030 490	what is TOPIC_ENTITY 's son working on ?
+142	1124	what faith does TOPIC_ENTITY 's heir practice ?
+749	noNegativeAnswer	the place of birth of TOPIC_ENTITY 's dad ?
+1036	1932 1673 1734 1196 631	TOPIC_ENTITY 's husband 's son ?
+564	1032 452 118 1425 963	what is the nation of TOPIC_ENTITY 's wife ?
+460	1459 485 456	what is the TOPIC_ENTITY 's son 's mother ?
+460	noNegativeAnswer	the mom of TOPIC_ENTITY 's daughter ?
+159	1591 709 861	how TOPIC_ENTITY 's daughter died ?
+1009	1806 1364 1236 452 564	the faith of husband of TOPIC_ENTITY ?
+631	1932	which educational institution does TOPIC_ENTITY 's darling work for ?
+142	1124	what faith does TOPIC_ENTITY 's heir have ?
+1832	1583 8 1236 1773 189 1250 1806 2 1416	what does TOPIC_ENTITY 's parents do ?
+564	381 1209	which nationality is TOPIC_ENTITY 's spouse ?
+1890	691 82 452 737 111	the sex of TOPIC_ENTITY 's mother ?
+456	737 1890 111 861 1124	what is the nationality of children of TOPIC_ENTITY ?
+861	1673 1002 419 1326 159	who is the granddaughter of TOPIC_ENTITY ?
+749	861 1326 460 737 897	what is the TOPIC_ENTITY 's mother 's place of birth ?
+564	1032 452 118 1425 963	what is the TOPIC_ENTITY 's wife 's nation ?
+564	458 452 982	what is the TOPIC_ENTITY 's darling 's nationality ?
+564	1210 1364 1031	what is the nationality of darling of TOPIC_ENTITY ?
+111	noNegativeAnswer	what is the nationality of parent of TOPIC_ENTITY ?
+1124	1031	TOPIC_ENTITY 's kid 's gender ?
+963	1496 419 1080	why TOPIC_ENTITY 's other half died ?
+684	446	the darling of TOPIC_ENTITY 's darling ?
+1080	684	who is the father of TOPIC_ENTITY 's wife ?
+1890	1210	what is the sex of TOPIC_ENTITY 's dad ?
+456	737 1890 111 861 1124	the nationality of TOPIC_ENTITY 's children ?
+897	287	what is the name of the mom of TOPIC_ENTITY 's mom ?
+564	381 1209	the nationality of TOPIC_ENTITY 's spouse ?
+142	1522 126 1488 296 1124	what is the religion of heir of TOPIC_ENTITY ?
+1546	1806 1210 1213 180 959 1044 142 1124	what is the TOPIC_ENTITY 's heir 's ethnicity ?
+1890	noNegativeAnswer	the sex of dad of TOPIC_ENTITY ?
+456	1124	what is the nation of TOPIC_ENTITY 's child ?
+737	1588	who is the offspring of TOPIC_ENTITY 's mom ?
+861	1546 460	what is the name of the kid of TOPIC_ENTITY 's offspring ?
+861	1591 709 159	the child of children of TOPIC_ENTITY ?
+1890	1673 1210 1770 737 1650	the gender of TOPIC_ENTITY 's parent ?
+460	noNegativeAnswer	what is the TOPIC_ENTITY 's son 's parent ?
+1124	460	TOPIC_ENTITY 's heir 's gender ?
+737	1673 1210 1890	what is the TOPIC_ENTITY 's parents 's child ?
+356	126 258 1031	TOPIC_ENTITY 's other half 's occupation ?
+737	noNegativeAnswer	what is the child of parent of TOPIC_ENTITY ?
+897	1496	the mom of father of TOPIC_ENTITY ?
+1890	1673 1210 1770 737 1650	what is the gender of parent of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what gender is TOPIC_ENTITY 's parents  ?
+1031	82 1773 356	TOPIC_ENTITY 's other half 's sex ?
+897	861 1326 460 737 749	what is the name of the grandmother of TOPIC_ENTITY ?
+1009	1806 1210 1031	what religious belief does TOPIC_ENTITY 's spouse have ?
+564	1283 841 82 452 408 779 1210 1364 1031	TOPIC_ENTITY 's husband 's nation ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's mother 's gender ?
+456	861 1192	what is the nation of TOPIC_ENTITY 's offspring ?
+1832	8 841 1773 452 111	what is the TOPIC_ENTITY 's parents 's occupation ?
+446	noNegativeAnswer	TOPIC_ENTITY 's mom 's spouse ?
+1057	noNegativeAnswer	the location of TOPIC_ENTITY 's father ?
+1832	2	what is the work of father of TOPIC_ENTITY ?
+1009	1488	what is the TOPIC_ENTITY 's other half 's type of religion ?
+159	1283 762 1124	what made the TOPIC_ENTITY 's kiddead ?
+1877	1296 159 1770 419 1348 1350 1650	what is the cause of death of father of TOPIC_ENTITY ?
+737	noNegativeAnswer	who is the children of TOPIC_ENTITY 's parents ?
+1124	noNegativeAnswer	what sex is TOPIC_ENTITY 's children  ?
+861	1196 296 1124	what is the name of the grandson of TOPIC_ENTITY ?
+460	noNegativeAnswer	who is the parent of TOPIC_ENTITY 's son ?
+111	691 82 452 737 1890	where does TOPIC_ENTITY 's dad come from ?
+1832	727 1773 118 1057 1877	what is the profession of TOPIC_ENTITY 's parents ?
+737	1196 296 485 1890 897	what is the TOPIC_ENTITY 's dad 's daughter ?
+1124	460	the gender of child of TOPIC_ENTITY ?
+1890	1283 1210	what is the sex of parents of TOPIC_ENTITY ?
+564	noNegativeAnswer	what is the nation of TOPIC_ENTITY 's couple ?
+1890	noNegativeAnswer	TOPIC_ENTITY 's parent 's gender ?
+1296	1399	the place of death of offspring of TOPIC_ENTITY ?
+1124	737 1890 111 861 456	what is the TOPIC_ENTITY 's children 's sex ?
+1031	502	what gender is TOPIC_ENTITY 's couple  ?
+1192	1364 1669 456	TOPIC_ENTITY 's heir 's husband ?
+1031	1210	what is the TOPIC_ENTITY 's darling 's sex ?
+1031	1210 2 82 1773 356	TOPIC_ENTITY 's darling 's gender ?
+903	490	what does TOPIC_ENTITY 's children do for a living?
+903	noNegativeAnswer	the work of kid of TOPIC_ENTITY ?
+1463	1213	the ethnicity of TOPIC_ENTITY 's mom ?
+737	noNegativeAnswer	what is the TOPIC_ENTITY 's mom 's heir ?
+356	1031	what is the TOPIC_ENTITY 's wife 's occupation ?
+142	861	what faith does TOPIC_ENTITY 's son practice ?
+456	159	the nation of children of TOPIC_ENTITY ?
+1124	460	is TOPIC_ENTITY 's offspring a man or a woman ?
+564	noNegativeAnswer	the nationality of spouse of TOPIC_ENTITY ?
+1124	861	the sex of child of TOPIC_ENTITY ?
+1877	727 1773 118 1057 1832	why TOPIC_ENTITY 's mother died ?
+1124	1210 502	TOPIC_ENTITY 's offspring 's gender ?
+1031	1124	what is the sex of TOPIC_ENTITY 's darling ?
+861	noNegativeAnswer	what is the name of the granddaughter of TOPIC_ENTITY ?
+861	432	what is the heir of child of TOPIC_ENTITY ?
+1296	344	what is the TOPIC_ENTITY 's offspring 's place of death ?
+111	8 841 1773 452 1832	where does TOPIC_ENTITY 's parent come from ?
+861	noNegativeAnswer	who is the son of TOPIC_ENTITY 's offspring ?
+631	564 684	where does TOPIC_ENTITY 's husband work for ?
+1296	noNegativeAnswer	what is the TOPIC_ENTITY 's children 's place of death ?
+1546	861 460	what is the TOPIC_ENTITY 's child 's ethnicity ?
+1296	noNegativeAnswer	the place of death of TOPIC_ENTITY 's daughter ?
+111	1364	the nationality of TOPIC_ENTITY 's mother ?
+460	1124	TOPIC_ENTITY 's children 's dad ?
+456	126 802 1124	the nation of children of TOPIC_ENTITY ?
+1588	1273 725 545 904	what is the organization of TOPIC_ENTITY 's parent ?
+460	490 1124 159	the parents of TOPIC_ENTITY 's child ?
+1416	noNegativeAnswer	what religious belief does TOPIC_ENTITY 's parents have ?
+111	1210 1364 1890	what is the nation of mother of TOPIC_ENTITY ?
+897	637 485 1650	what is the name of the grandparent of TOPIC_ENTITY ?
+749	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's place of birth ?
+737	noNegativeAnswer	TOPIC_ENTITY 's parents 's daughter ?
+1031	356	TOPIC_ENTITY 's wife 's gender ?
+1890	1210 82	is TOPIC_ENTITY 's dad a man or a woman ?
+111	1364	TOPIC_ENTITY 's father 's nation ?
+1036	noNegativeAnswer	the heir of TOPIC_ENTITY 's other half ?
+1416	noNegativeAnswer	what religious belief does TOPIC_ENTITY 's mother practice ?
+897	1588 1877	what is the dad of TOPIC_ENTITY 's parents ?
+903	116 1209 1895 1459 456	what line of business is TOPIC_ENTITY 's son in ?
+1031	1283 1628 1425	what sex is TOPIC_ENTITY 's darling  ?
+1080	noNegativeAnswer	what is the TOPIC_ENTITY 's other half 's father ?
+1192	1364 1669 456	what is the name of the husband of TOPIC_ENTITY 's heir ?
+1877	1588 897	what caused the TOPIC_ENTITY 's father's death ?
+1031	126 258 356	what is the TOPIC_ENTITY 's darling 's sex ?
+749	8 787 762 622 249 1381 1773 458 118 1895 992 77 1832 1877	the place of birth of mom of TOPIC_ENTITY ?
+1031	1124	the sex of TOPIC_ENTITY 's husband ?
+1124	460	what is the TOPIC_ENTITY 's child 's gender ?
+456	296 1459 1124	what is the nation of offspring of TOPIC_ENTITY ?
+564	841	the nation of spouse of TOPIC_ENTITY ?
+1080	1496 419 963	what is the TOPIC_ENTITY 's wife 's mother ?
+356	82 1773 1031	TOPIC_ENTITY 's husband 's profession ?
+356	1895	what is TOPIC_ENTITY 's wife working on ?
+1832	727 1773 118 1057 1877	what is TOPIC_ENTITY 's parents ?
+737	1591	the daughter of mom of TOPIC_ENTITY ?
+963	8 762 356	what did TOPIC_ENTITY 's husband die from ?
+1031	1283	the gender of TOPIC_ENTITY 's other half ?
+1124	456	TOPIC_ENTITY 's offspring 's sex ?
+1832	1283 8 1890	what does TOPIC_ENTITY 's parents do for a living?
+111	noNegativeAnswer	where does TOPIC_ENTITY 's mom come from ?
+737	1673	who is the heir of TOPIC_ENTITY 's mother ?
+456	1124 1326	which nationality is TOPIC_ENTITY 's son ?
+1832	8 787 762 622 249 1381 1773 458 118 1895 992 77 749 1877	what is TOPIC_ENTITY 's dad working on ?
+1031	noNegativeAnswer	the gender of couple of TOPIC_ENTITY ?
+903	8 76 762 1546 159	what is the TOPIC_ENTITY 's kid 's profession ?
+631	1932 1673 1734 1196 1036	which educational institution does TOPIC_ENTITY 's other half work for ?
+1890	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's dad ?
+1031	1425	is TOPIC_ENTITY 's darling a man or a woman ?
+142	1522 126 1488 296 1124	what religion is TOPIC_ENTITY 's heir ?
+1009	1031	TOPIC_ENTITY 's husband 's religious belief ?
+1031	1124	TOPIC_ENTITY 's husband 's sex ?
+111	1588	where does TOPIC_ENTITY 's parents come from ?
+1009	1488	what religion does TOPIC_ENTITY 's wife have ?
+861	456 1192	what is the TOPIC_ENTITY 's offspring 's offspring ?
+903	noNegativeAnswer	what is the work of TOPIC_ENTITY 's kid ?
+1890	691 82 452 737 111	is TOPIC_ENTITY 's mother a man or a woman ?
+1124	noNegativeAnswer	what is the TOPIC_ENTITY 's kid 's sex ?
+1588	904 82 1087 1166 1890	the institution of TOPIC_ENTITY 's mom ?
+1650	1714 408 507 1875 1283 1628 737 1890	the place of death of mom of TOPIC_ENTITY ?
+737	1673	the son of TOPIC_ENTITY 's father ?
+897	noNegativeAnswer	what is the name of the mother of TOPIC_ENTITY 's parents ?
+111	1210 1364 82 452 1890	which nationality is TOPIC_ENTITY 's mom ?
+737	noNegativeAnswer	what is the heir of mom of TOPIC_ENTITY ?
+564	802 1364	what is the TOPIC_ENTITY 's other half 's nationality ?
+861	432 1399 1093 626 1296	who is the children of TOPIC_ENTITY 's daughter ?
+903	1030	what line of business is TOPIC_ENTITY 's heir in ?
+903	691 1773 861	what is the TOPIC_ENTITY 's children 's work ?
+111	noNegativeAnswer	what is the nation of TOPIC_ENTITY 's mom ?
+1832	2 1773 356	what line of business is TOPIC_ENTITY 's parent in ?
+1031	82 1773 904 296 1895 1734 356 631	what is the sex of TOPIC_ENTITY 's darling ?
+737	1673 1210 1890	what is the child of parents of TOPIC_ENTITY ?
+1031	noNegativeAnswer	what is the TOPIC_ENTITY 's spouse 's sex ?
+1890	noNegativeAnswer	what is the sex of mother of TOPIC_ENTITY ?
+861	456 1192	the offspring of offspring of TOPIC_ENTITY ?
+1321	60	what is the address of couple of TOPIC_ENTITY ?
+963	356	what is the reason of TOPIC_ENTITY 's husband's death ?
+1009	1031 963 684	what type of religion does TOPIC_ENTITY 's wife follow ?
+1890	126	what is the gender of TOPIC_ENTITY 's parents ?
+897	861 1326 460 737 749	the mother of parents of TOPIC_ENTITY ?
+356	963	the work of TOPIC_ENTITY 's other half ?
+861	1673 1002 419 1326 159	the daughter of TOPIC_ENTITY 's child ?
+1326	502 626 1085 1124 1296	the place of birth of TOPIC_ENTITY 's children ?
+1890	1210	the gender of TOPIC_ENTITY 's mom ?
+1416	noNegativeAnswer	what religious belief does TOPIC_ENTITY 's parents practice ?
+1489	noNegativeAnswer	the address of children of TOPIC_ENTITY ?
+631	1932 1673 1734 1196 1036	the educational institution of other half of TOPIC_ENTITY ?
+1489	noNegativeAnswer	the location of daughter of TOPIC_ENTITY ?
+1031	356	is TOPIC_ENTITY 's wife a man or a woman ?
+903	noNegativeAnswer	what does TOPIC_ENTITY 's kid do for a living?
+111	1364	what is the nation of TOPIC_ENTITY 's father ?
+460	noNegativeAnswer	who is the parents of TOPIC_ENTITY 's daughter ?
+1031	1210	TOPIC_ENTITY 's darling 's sex ?
+737	noNegativeAnswer	the heir of parent of TOPIC_ENTITY ?
+631	1932	what is the TOPIC_ENTITY 's darling 's educational institution ?
+159	490 460 1124	what is the TOPIC_ENTITY 's son 's cause of death ?
+1890	noNegativeAnswer	the gender of TOPIC_ENTITY 's mother ?
+460	456	who is the mother of TOPIC_ENTITY 's son ?
+460	195	the mother of TOPIC_ENTITY 's son ?
+159	456	the cause of death of daughter of TOPIC_ENTITY ?
+1031	1283	the gender of TOPIC_ENTITY 's other half ?
+460	861 1546	TOPIC_ENTITY 's child 's father ?
+356	684	TOPIC_ENTITY 's wife 's profession ?
+1031	noNegativeAnswer	what is the TOPIC_ENTITY 's spouse 's gender ?
+1031	82 1773 904 296 1895 1734 356 631	what sex is TOPIC_ENTITY 's darling  ?
+1031	noNegativeAnswer	what is the TOPIC_ENTITY 's wife 's sex ?
+861	1124	what is the children of TOPIC_ENTITY 's daughter ?
+111	1196 1459 737	where does TOPIC_ENTITY 's parent come from ?
+1031	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's wife ?
+1546	8 76 762 903 159	what is the TOPIC_ENTITY 's daughter 's race ?
+737	1416	what is the son of mom of TOPIC_ENTITY ?
+861	432	who is the grandheir of TOPIC_ENTITY ?
+1890	1196 296 485 737 897	TOPIC_ENTITY 's parents 's sex ?
+1124	noNegativeAnswer	what is the TOPIC_ENTITY 's daughter 's gender ?
+684	1888	what is the name of the darling of TOPIC_ENTITY 's husband ?
+1877	1890	what is the cause of death of TOPIC_ENTITY 's dad ?
+1124	460	what gender is TOPIC_ENTITY 's heir  ?
+903	noNegativeAnswer	what is the TOPIC_ENTITY 's kid 's work ?
+903	490	what is TOPIC_ENTITY 's daughter ?
+356	1124 903 1031	what is the occupation of other half of TOPIC_ENTITY ?
+490	1932 2 1273 1030 903	which organization does TOPIC_ENTITY 's son work for ?
+1588	1877 897	where does TOPIC_ENTITY 's mom work for ?
+1124	959 1890	TOPIC_ENTITY 's daughter 's sex ?
+1124	1210	what gender is TOPIC_ENTITY 's daughter  ?
+1425	1031	what is the place of death of TOPIC_ENTITY 's darling ?
+1031	82 1773 356	the sex of other half of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's children ?
+861	691 1773 903	the son of TOPIC_ENTITY 's child ?
+861	691 1773 903	who is the grandson of TOPIC_ENTITY ?
+490	903	what is the institution of son of TOPIC_ENTITY ?
+1650	1673 1210 1770 737 1890	what is the TOPIC_ENTITY 's parents 's place of death ?
+861	1591 709 159	what is the child of children of TOPIC_ENTITY ?
+1124	1296	what is the sex of offspring of TOPIC_ENTITY ?
+1890	1283 1210	is TOPIC_ENTITY 's mother a man or a woman ?
+564	458 452 982	the nationality of darling of TOPIC_ENTITY ?
+460	287	what is the name of the dad of TOPIC_ENTITY 's children ?
+1124	502 626 1085 1296 1326	what is the sex of TOPIC_ENTITY 's son ?
+897	noNegativeAnswer	who is the grandmother of TOPIC_ENTITY ?
+1031	noNegativeAnswer	what gender is TOPIC_ENTITY 's husband  ?
+737	1673	what is the TOPIC_ENTITY 's parent 's son ?
+564	noNegativeAnswer	where does TOPIC_ENTITY 's darling come from ?
+1416	noNegativeAnswer	the faith of parent of TOPIC_ENTITY ?
+684	1894 866	what is the wife of couple of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's parents 's gender ?
+1031	1425	what gender is TOPIC_ENTITY 's darling  ?
+1192	165 1669	what is the TOPIC_ENTITY 's children 's darling ?
+564	noNegativeAnswer	where does TOPIC_ENTITY 's wife come from ?
+1489	noNegativeAnswer	where is TOPIC_ENTITY 's daughter living ?
+1124	502 626 1085 1296 1326	is TOPIC_ENTITY 's son a man or a woman ?
+356	1031 564	TOPIC_ENTITY 's husband 's profession ?
+1890	noNegativeAnswer	is TOPIC_ENTITY 's parents a man or a woman ?
+1890	1877	what sex is TOPIC_ENTITY 's mother  ?
+356	684	what is TOPIC_ENTITY 's other half ?
+1321	889	what is the TOPIC_ENTITY 's other half 's location ?
+159	490 460 1124	TOPIC_ENTITY 's son 's cause of death ?
+861	432 1399 1093 626 1296	what is the children of daughter of TOPIC_ENTITY ?
+460	noNegativeAnswer	the parent of son of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what gender is TOPIC_ENTITY 's dad  ?
+1890	noNegativeAnswer	the gender of TOPIC_ENTITY 's parent ?
+564	1364 419 381 1686 963	what is the nationality of darling of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's mother ?
+1296	noNegativeAnswer	what is the TOPIC_ENTITY 's daughter 's place of death ?
+1031	1283 841 82 452 408 779 1210 1364 564	the sex of TOPIC_ENTITY 's wife ?
+1463	1213	what is the ethnicity of TOPIC_ENTITY 's mom ?
+1124	noNegativeAnswer	the gender of TOPIC_ENTITY 's children ?
+302	1213 1364 564	the race of TOPIC_ENTITY 's darling ?
+159	456	what killed the TOPIC_ENTITY 's daughter ?
+1416	1806	the faith of mom of TOPIC_ENTITY ?
+1890	1877	what is the sex of TOPIC_ENTITY 's mother ?
+903	490	what is the TOPIC_ENTITY 's children 's profession ?
+1588	737	where does TOPIC_ENTITY 's parent work for ?
+1124	1192	the sex of offspring of TOPIC_ENTITY ?
+1890	1714 408 507 1875 1283 1628 737 1650	what is the sex of TOPIC_ENTITY 's dad ?
+1425	1283 1628 1031	the place of death of TOPIC_ENTITY 's husband ?
+737	noNegativeAnswer	who is the offspring of TOPIC_ENTITY 's dad ?
+982	noNegativeAnswer	where did TOPIC_ENTITY 's darling born ?
+1296	637	the place of death of daughter of TOPIC_ENTITY ?
+1080	1031	TOPIC_ENTITY 's wife 's parents ?
+1890	296	the sex of TOPIC_ENTITY 's parents ?
+456	1209 111	what is the nation of TOPIC_ENTITY 's children ?
+1890	1210 1364 111	what is the TOPIC_ENTITY 's dad 's sex ?
+564	1032 452 118 1425 963	the nation of other half of TOPIC_ENTITY ?
+356	82 1773 904 296 1895 1734 1031 631	what does TOPIC_ENTITY 's husband do for a living?
+1296	1124	what is the place of death of son of TOPIC_ENTITY ?
+564	1806 1364 1236 452 1009	what is the TOPIC_ENTITY 's other half 's nation ?
+1124	737 1890 111 861 456	what is the sex of TOPIC_ENTITY 's children ?
+302	1036 1080	the ethnicity of TOPIC_ENTITY 's wife ?
+1296	noNegativeAnswer	TOPIC_ENTITY 's children 's place of death ?
+111	noNegativeAnswer	which nationality is TOPIC_ENTITY 's parent ?
+737	1673	what is the kid of father of TOPIC_ENTITY ?
+1124	456	the sex of child of TOPIC_ENTITY ?
+903	noNegativeAnswer	what is the occupation of heir of TOPIC_ENTITY ?
+1057	727 452 118 111 1877	what is the TOPIC_ENTITY 's mother 's address ?
+1890	1210	TOPIC_ENTITY 's parents 's gender ?
+1296	432 1399 1093 626 861	what is the place of death of heir of TOPIC_ENTITY ?
+1650	1770 1628	TOPIC_ENTITY 's mom 's place of death ?
+1326	noNegativeAnswer	what is the place of birth of son of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's mother ?
+631	564 684	the organization of TOPIC_ENTITY 's husband ?
+1890	noNegativeAnswer	what is the sex of mother of TOPIC_ENTITY ?
+1031	1166 1890	the sex of TOPIC_ENTITY 's husband ?
+564	802 1364	what is the nationality of other half of TOPIC_ENTITY ?
+1124	126 1210	the sex of children of TOPIC_ENTITY ?
+1832	1773 452 111	TOPIC_ENTITY 's mom 's profession ?
+111	1196 1459 737	what is the TOPIC_ENTITY 's parent 's nationality ?
+456	1364	what is the nation of TOPIC_ENTITY 's son ?
+456	1124	which nationality is TOPIC_ENTITY 's child ?
+1031	noNegativeAnswer	the gender of TOPIC_ENTITY 's darling ?
+159	1283 762 1124	what is the reason of TOPIC_ENTITY 's daughter's death ?
+963	458 118 982	what caused the TOPIC_ENTITY 's other half's death ?
+1124	274 296 1489	TOPIC_ENTITY 's child 's gender ?
+1890	noNegativeAnswer	what is the gender of dad of TOPIC_ENTITY ?
+356	noNegativeAnswer	what is TOPIC_ENTITY 's darling working on ?
+1588	1932 889 1806 419 904 727 1236 118 1057 1416 1877	where does TOPIC_ENTITY 's dad work ?
+302	noNegativeAnswer	what is the ethnicity of darling of TOPIC_ENTITY ?
+631	1932 1673 1734 1196 1036	where does TOPIC_ENTITY 's other half work ?
+963	1009 1031 684	what is the TOPIC_ENTITY 's couple 's cause of death ?
+1192	noNegativeAnswer	TOPIC_ENTITY 's kid 's couple ?
+1031	1009	what is the TOPIC_ENTITY 's other half 's gender ?
+142	1522	what faith does TOPIC_ENTITY 's child follow ?
+861	noNegativeAnswer	TOPIC_ENTITY 's offspring 's son ?
+737	1832	who is the daughter of TOPIC_ENTITY 's parent ?
+1031	1009	TOPIC_ENTITY 's darling 's sex ?
+159	419	what is the cause of death of child of TOPIC_ENTITY ?
+1031	408 82	is TOPIC_ENTITY 's wife a man or a woman ?
+1296	344	TOPIC_ENTITY 's offspring 's place of death ?
+1832	258 165 2 1669 446	what is TOPIC_ENTITY 's father ?
+111	727 452 118 1057 1877	TOPIC_ENTITY 's dad 's nationality ?
+111	noNegativeAnswer	what is the TOPIC_ENTITY 's mother 's nation ?
+1890	1210 1364 82 452 111	the gender of mom of TOPIC_ENTITY ?
+1326	noNegativeAnswer	what is the TOPIC_ENTITY 's son 's place of birth ?
+737	1673 1210 1770 1890 1650	the son of TOPIC_ENTITY 's parent ?
+1031	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's couple ?
+684	356	what is the other half of TOPIC_ENTITY 's other half ?
+1031	noNegativeAnswer	what is the sex of wife of TOPIC_ENTITY ?
+456	1210 1364 1124	what is the nationality of TOPIC_ENTITY 's kid ?
+564	noNegativeAnswer	TOPIC_ENTITY 's spouse 's nationality ?
+1124	1522 126 1488 296 142	what is the gender of TOPIC_ENTITY 's children ?
+456	779	the nation of children of TOPIC_ENTITY ?
+737	1673 1210 1770 1890 1650	what is the TOPIC_ENTITY 's parent 's son ?
+1031	502	the gender of couple of TOPIC_ENTITY ?
+1031	1080	the sex of other half of TOPIC_ENTITY ?
+1650	1770 1628	where did TOPIC_ENTITY 's mom die ?
+737	1714 408 507 1875 1283 1628 1890 1650	who is the offspring of TOPIC_ENTITY 's dad ?
+1124	296	is TOPIC_ENTITY 's kid a man or a woman ?
+1036	861 1124 1196 296 1031	what is the name of the heir of TOPIC_ENTITY 's couple ?
+456	1932 1364 490	which nationality is TOPIC_ENTITY 's daughter ?
+861	1296	what is the name of the grandchild of TOPIC_ENTITY ?
+903	116 1209 1895 1459 456	TOPIC_ENTITY 's son 's profession ?
+1296	noNegativeAnswer	where did TOPIC_ENTITY 's daughter die ?
+356	noNegativeAnswer	what is the job of TOPIC_ENTITY 's darling ?
+684	356	what is the wife of darling of TOPIC_ENTITY ?
+1588	1932 889 1806 419 904 727 1236 118 1057 1416 1877	the educational institution of dad of TOPIC_ENTITY ?
+356	126 258 1031	what is the occupation of other half of TOPIC_ENTITY ?
+446	1364 1669 111	what is the wife of dad of TOPIC_ENTITY ?
+1489	274 296 1124	TOPIC_ENTITY 's children 's address ?
+903	noNegativeAnswer	what does TOPIC_ENTITY 's offspring do for a living?
+1890	1124 1192 446	what is the TOPIC_ENTITY 's dad 's sex ?
+1890	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's mom ?
+963	noNegativeAnswer	how TOPIC_ENTITY 's couple died ?
+1124	1031	is TOPIC_ENTITY 's daughter a man or a woman ?
+1124	296 1459 456	what is the gender of kid of TOPIC_ENTITY ?
+456	1124 1326	the nationality of son of TOPIC_ENTITY ?
+1031	1166 1890	the sex of husband of TOPIC_ENTITY ?
+1057	727 452 118 111 1877	what is the address of mother of TOPIC_ENTITY ?
+1890	1196 296 485 737 897	the sex of parents of TOPIC_ENTITY ?
+903	1773	TOPIC_ENTITY 's daughter 's profession ?
+1057	727 1773 118 1832 1877	what is the TOPIC_ENTITY 's parents 's address ?
+1124	861	is TOPIC_ENTITY 's child a man or a woman ?
+460	noNegativeAnswer	TOPIC_ENTITY 's daughter 's parents ?
+1192	165 1669	who is the couple of TOPIC_ENTITY 's kid ?
+982	458 452 564	TOPIC_ENTITY 's spouse 's place of birth ?
+1124	490 460 159	what gender is TOPIC_ENTITY 's kid  ?
+897	1588 1877	TOPIC_ENTITY 's parents 's dad ?
+963	684	TOPIC_ENTITY 's darling 's cause of death ?
+861	432 1399 1093 626 1296	what is the TOPIC_ENTITY 's daughter 's children ?
+1326	1673 1002 419 861 159	which city did TOPIC_ENTITY 's child born ?
+1124	1283 762 159	what is the gender of TOPIC_ENTITY 's children ?
+302	noNegativeAnswer	what is the TOPIC_ENTITY 's darling 's ethnicity ?
+356	116 1895	the job of TOPIC_ENTITY 's spouse ?
+903	2	what is TOPIC_ENTITY 's child working on ?
+564	noNegativeAnswer	TOPIC_ENTITY 's other half 's nationality ?
+564	1213 1364 302	what is the TOPIC_ENTITY 's spouse 's nation ?
+446	1364 1669 111	the wife of TOPIC_ENTITY 's dad ?
+903	1773	what is the profession of daughter of TOPIC_ENTITY ?
+1890	1283	the sex of TOPIC_ENTITY 's mother ?
+111	1364	the nation of father of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's father 's sex ?
+1832	noNegativeAnswer	what is the profession of TOPIC_ENTITY 's dad ?
+737	861 17	what is the kid of TOPIC_ENTITY 's parents ?
+564	802 1364	the nationality of other half of TOPIC_ENTITY ?
+564	noNegativeAnswer	the nation of TOPIC_ENTITY 's couple ?
+1124	126	the sex of TOPIC_ENTITY 's kid ?
+1124	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's kid ?
+1588	737	where does TOPIC_ENTITY 's parent work ?
+1031	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's couple ?
+1124	noNegativeAnswer	TOPIC_ENTITY 's child 's gender ?
+1031	1210 1364 564	TOPIC_ENTITY 's couple 's sex ?
+1890	1210	TOPIC_ENTITY 's mom 's gender ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's dad 's gender ?
+456	1459	what is the nationality of TOPIC_ENTITY 's daughter ?
+1057	1932 889 1806 419 904 727 1236 118 1588 1416 1877	what is the TOPIC_ENTITY 's parent 's location ?
+737	1591	what is the name of the daughter of TOPIC_ENTITY 's mom ?
+1031	1210 959 296	what gender is TOPIC_ENTITY 's darling  ?
+861	noNegativeAnswer	who is the child of TOPIC_ENTITY 's son ?
+1124	126 802 456	is TOPIC_ENTITY 's kid a man or a woman ?
+460	1496	what is the name of the father of TOPIC_ENTITY 's daughter ?
+1890	296	what gender is TOPIC_ENTITY 's parents  ?
+1326	502 626 1085 1124 1296	what is the hometown of TOPIC_ENTITY 's children ?
+903	noNegativeAnswer	what is the profession of TOPIC_ENTITY 's child ?
+1321	60	what is the TOPIC_ENTITY 's couple 's address ?
+460	195	TOPIC_ENTITY 's son 's mother ?
+861	142	what is the TOPIC_ENTITY 's daughter 's heir ?
+737	1673	what is the child of TOPIC_ENTITY 's mother ?
+446	1669	what is the couple of mom of TOPIC_ENTITY ?
+460	490 1124 159	what is the TOPIC_ENTITY 's child 's parents ?
+903	noNegativeAnswer	the occupation of heir of TOPIC_ENTITY ?
+456	126 802 1124	TOPIC_ENTITY 's children 's nation ?
+631	1932	the educational institution of TOPIC_ENTITY 's darling ?
+1890	noNegativeAnswer	the sex of dad of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what sex is TOPIC_ENTITY 's child  ?
+460	1124	what is the name of the dad of TOPIC_ENTITY 's children ?
+460	287	what is the dad of children of TOPIC_ENTITY ?
+1124	126 1210	the sex of TOPIC_ENTITY 's children ?
+631	904 118 963	where does TOPIC_ENTITY 's spouse work for ?
+1296	1770	where did TOPIC_ENTITY 's offspring die ?
+460	861 1546	what is the father of TOPIC_ENTITY 's child ?
+1890	1210	what is the gender of father of TOPIC_ENTITY ?
+1031	noNegativeAnswer	what is the TOPIC_ENTITY 's other half 's gender ?
+356	82 1773 904 296 1895 1734 1031 631	what does TOPIC_ENTITY 's husband do ?
+1124	274 296 1489	the gender of child of TOPIC_ENTITY ?
+490	725	TOPIC_ENTITY 's child 's institution ?
+1080	noNegativeAnswer	TOPIC_ENTITY 's other half 's father ?
+1009	1488	what is the type of religion of other half of TOPIC_ENTITY ?
+737	1714 408 507 1875 1283 1628 1890 1650	TOPIC_ENTITY 's dad 's offspring ?
+460	noNegativeAnswer	what is the TOPIC_ENTITY 's daughter 's parents ?
+460	noNegativeAnswer	the dad of TOPIC_ENTITY 's kid ?
+490	725	where does TOPIC_ENTITY 's child work for ?
+564	841	what is the nation of TOPIC_ENTITY 's spouse ?
+903	noNegativeAnswer	what is TOPIC_ENTITY 's offspring working on ?
+1124	noNegativeAnswer	is TOPIC_ENTITY 's children a man or a woman ?
+1124	460	what is the TOPIC_ENTITY 's offspring 's gender ?
+1890	noNegativeAnswer	is TOPIC_ENTITY 's parent a man or a woman ?
+1009	1031	what is the religious belief of TOPIC_ENTITY 's husband ?
+1009	1488	what religion is TOPIC_ENTITY 's wife ?
+903	noNegativeAnswer	what is the TOPIC_ENTITY 's offspring 's work ?
+1009	1806 1210 1031	what is the religious belief of TOPIC_ENTITY 's spouse ?
+737	1673	what is the son of TOPIC_ENTITY 's father ?
+1124	1031	what is the TOPIC_ENTITY 's kid 's gender ?
+564	1213 1364 302	the nation of TOPIC_ENTITY 's spouse ?
+1031	1283	what is the TOPIC_ENTITY 's other half 's gender ?
+1031	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's spouse ?
+1588	1734	what is the organization of father of TOPIC_ENTITY ?
+456	1459 485 460	the nation of TOPIC_ENTITY 's son ?
+490	1932 2 1273 1030 903	the organization of TOPIC_ENTITY 's son ?
+1080	1031	what is the mom of darling of TOPIC_ENTITY ?
+1326	1124 456	what is the TOPIC_ENTITY 's children 's place of birth ?
+1031	1283 1628 1425	what is the TOPIC_ENTITY 's darling 's sex ?
+456	1459	where does TOPIC_ENTITY 's offspring come from ?
+737	1673	TOPIC_ENTITY 's parent 's child ?
+564	458 452 982	where does TOPIC_ENTITY 's darling come from ?
+1650	1296 159 1770 419 1348 1350 1877	TOPIC_ENTITY 's parents 's place of death ?
+159	1283 762 1124	what did TOPIC_ENTITY 's daughter die from ?
+460	noNegativeAnswer	the father of TOPIC_ENTITY 's daughter ?
+456	noNegativeAnswer	which nationality is TOPIC_ENTITY 's child ?
+1031	408	what is the gender of other half of TOPIC_ENTITY ?
+737	1196 1459 111	the offspring of parent of TOPIC_ENTITY ?
+1890	1166 1209 1031 564 111	TOPIC_ENTITY 's parent 's sex ?
+1124	noNegativeAnswer	what sex is TOPIC_ENTITY 's heir  ?
+737	1673	the child of TOPIC_ENTITY 's mother ?
+1009	1806 1364 1236 452 564	the faith of TOPIC_ENTITY 's husband ?
+737	1673	who is the kid of TOPIC_ENTITY 's dad ?
+1877	1686 963	what is the cause of death of TOPIC_ENTITY 's dad ?
+1124	1326 456	the sex of child of TOPIC_ENTITY ?
+490	1932 1364 456	TOPIC_ENTITY 's children 's institution ?
+861	1296	TOPIC_ENTITY 's offspring 's child ?
+1009	1806 1364 1236 452 564	what faith does TOPIC_ENTITY 's husband follow ?
+1296	637	where did the daughter of TOPIC_ENTITY die ?
+111	1364	what is the nationality of TOPIC_ENTITY 's mother ?
+1057	727 1773 118 1832 1877	the address of parents of TOPIC_ENTITY ?
+356	126 258 1031	what is TOPIC_ENTITY 's other half working on ?
+1890	296 1459 111	what is the gender of TOPIC_ENTITY 's mother ?
+490	1932 1364 456	where does TOPIC_ENTITY 's children work ?
+1124	737 1890 111 861 456	what is the sex of children of TOPIC_ENTITY ?
+963	458 118 982	why TOPIC_ENTITY 's spouse died ?
+1031	356 564	the gender of TOPIC_ENTITY 's darling ?
+1124	296 1459 456	what gender is TOPIC_ENTITY 's kid  ?
+460	noNegativeAnswer	TOPIC_ENTITY 's son 's father ?
+564	noNegativeAnswer	what is the TOPIC_ENTITY 's wife 's nation ?
+1031	1124	what sex is TOPIC_ENTITY 's husband  ?
+861	1196 296 1124	what is the son of TOPIC_ENTITY 's kid ?
+684	1080	what is the TOPIC_ENTITY 's husband 's spouse ?
+1031	302	what gender is TOPIC_ENTITY 's spouse  ?
+456	1459	TOPIC_ENTITY 's offspring 's nation ?
+1124	1326 456	is TOPIC_ENTITY 's child a man or a woman ?
+446	1875 682 1888 737 897	what is the name of the spouse of TOPIC_ENTITY 's mom ?
+982	458 118 963	which city did TOPIC_ENTITY 's wife born ?
+1124	460	what is the TOPIC_ENTITY 's offspring 's sex ?
+1546	8 76 762 903 159	what is TOPIC_ENTITY 's daughter 's race about ?
+564	1032 452 118 1425 963	what is the nation of wife of TOPIC_ENTITY ?
+631	1932	the organization of TOPIC_ENTITY 's other half ?
+1588	1734	what is the TOPIC_ENTITY 's father 's organization ?
+1124	noNegativeAnswer	the sex of TOPIC_ENTITY 's heir ?
+1031	1283	what is the gender of other half of TOPIC_ENTITY ?
+1031	302	is TOPIC_ENTITY 's spouse a man or a woman ?
+1890	296	what sex is TOPIC_ENTITY 's parents  ?
+1031	408 82	what is the sex of TOPIC_ENTITY 's wife ?
+737	noNegativeAnswer	who is the daughter of TOPIC_ENTITY 's mom ?
+749	458 1750 897	which city did TOPIC_ENTITY 's mom born ?
+1192	1124	what is the name of the wife of TOPIC_ENTITY 's heir ?
+111	noNegativeAnswer	what is the TOPIC_ENTITY 's mom 's nation ?
+1124	noNegativeAnswer	the sex of child of TOPIC_ENTITY ?
+446	1875 682 1888 737 897	what is the spouse of TOPIC_ENTITY 's mom ?
+456	1459 485 460	TOPIC_ENTITY 's child 's nationality ?
+1124	noNegativeAnswer	what gender is TOPIC_ENTITY 's daughter  ?
+1124	1210 502	is TOPIC_ENTITY 's offspring a man or a woman ?
+737	noNegativeAnswer	what is the TOPIC_ENTITY 's parents 's children ?
+1009	noNegativeAnswer	the religious belief of TOPIC_ENTITY 's other half ?
+1031	noNegativeAnswer	is TOPIC_ENTITY 's darling a man or a woman ?
+1124	noNegativeAnswer	the sex of TOPIC_ENTITY 's kid ?
+737	noNegativeAnswer	what is the TOPIC_ENTITY 's mom 's heir ?
+1588	1273 725 545 904	the organization of parent of TOPIC_ENTITY ?
+684	1894 866	TOPIC_ENTITY 's couple 's wife ?
+1124	1806 1210 1213 180 959 1044 142 1546	what is the gender of TOPIC_ENTITY 's daughter ?
+1031	noNegativeAnswer	what is the TOPIC_ENTITY 's spouse 's gender ?
+1124	296	what is the gender of TOPIC_ENTITY 's kid ?
+737	noNegativeAnswer	what is the daughter of TOPIC_ENTITY 's parent ?
+982	458 452 564	the place of birth of TOPIC_ENTITY 's spouse ?
+460	1459 485 456	what is the name of the mother of TOPIC_ENTITY 's son ?
+1416	737	what is the faith of TOPIC_ENTITY 's dad ?
+737	691 82 452 1890 111	who is the son of TOPIC_ENTITY 's parents ?
+564	1806 1364 1236 452 1009	TOPIC_ENTITY 's wife 's nationality ?
+1890	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's father ?
+737	noNegativeAnswer	what is the name of the heir of TOPIC_ENTITY 's parent ?
+111	1210 1364 82 452 1890	TOPIC_ENTITY 's mom 's nationality ?
+1296	1124 456	the place of death of TOPIC_ENTITY 's kid ?
+1890	1031	what gender is TOPIC_ENTITY 's mom  ?
+111	1364	where does TOPIC_ENTITY 's parent come from ?
+564	noNegativeAnswer	where does TOPIC_ENTITY 's wife come from ?
+737	1673 1210 1890	the child of TOPIC_ENTITY 's parents ?
+1031	noNegativeAnswer	what is the gender of TOPIC_ENTITY 's husband ?
+1296	1124 456	what is the place of death of TOPIC_ENTITY 's kid ?
+1036	861 1124 1196 296 1031	who is the heir of TOPIC_ENTITY 's couple ?
+111	1166 1209 1031 564 1890	what is the nationality of parents of TOPIC_ENTITY ?
+631	1932	the organization of other half of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what is the TOPIC_ENTITY 's kid 's gender ?
+861	737 1890 111 1124 456	who is the granddaughter of TOPIC_ENTITY ?
+456	802	where does TOPIC_ENTITY 's son come from ?
+1832	737	what does TOPIC_ENTITY 's father do for a living?
+111	1210 1364 1890	the nation of TOPIC_ENTITY 's mother ?
+1031	502 1890	the gender of TOPIC_ENTITY 's darling ?
+1124	noNegativeAnswer	what is the sex of TOPIC_ENTITY 's kid ?
+1124	1210 959 1890	what is the gender of TOPIC_ENTITY 's kid ?
+1124	1296 456	the gender of children of TOPIC_ENTITY ?
+684	1009 1031 963	what is the husband of husband of TOPIC_ENTITY ?
+963	1496 419 1080	how TOPIC_ENTITY 's other half died ?
+903	2	what is the occupation of offspring of TOPIC_ENTITY ?
+1124	noNegativeAnswer	the sex of heir of TOPIC_ENTITY ?
+1124	noNegativeAnswer	TOPIC_ENTITY 's child 's sex ?
+302	1036 1080	what ethnicity is TOPIC_ENTITY 's wife ?
+1890	noNegativeAnswer	what is the TOPIC_ENTITY 's mother 's sex ?
+737	1673	the son of father of TOPIC_ENTITY ?
+1890	noNegativeAnswer	what gender is TOPIC_ENTITY 's mother  ?
+446	1669	what is the couple of TOPIC_ENTITY 's mom ?
+1650	858	the place of death of father of TOPIC_ENTITY ?
+356	1124 903 1031	the occupation of other half of TOPIC_ENTITY ?
+861	737 1890 111 1124 456	who is the daughter of TOPIC_ENTITY 's kid ?
+302	1213 1364 564	what is the race of darling of TOPIC_ENTITY ?
+1080	1496	the parents of spouse of TOPIC_ENTITY ?
+356	noNegativeAnswer	what is the TOPIC_ENTITY 's darling 's job ?
+1588	1877 897	what is the organization of mom of TOPIC_ENTITY ?
+564	noNegativeAnswer	what is the nationality of TOPIC_ENTITY 's wife ?
+1192	861 456	what is the other half of TOPIC_ENTITY 's daughter ?
+737	1673 1364 1196 1459 111	the heir of mother of TOPIC_ENTITY ?
+684	1435	the other half of wife of TOPIC_ENTITY ?
+1124	noNegativeAnswer	what is the TOPIC_ENTITY 's children 's gender ?
+861	1546 460	what is the TOPIC_ENTITY 's offspring 's kid ?
+1416	737	TOPIC_ENTITY 's parent 's religious belief ?
+1890	1210 1364 111	what is the sex of TOPIC_ENTITY 's dad ?
+564	631 684	TOPIC_ENTITY 's couple 's nation ?
+1124	1296	what is the TOPIC_ENTITY 's offspring 's sex ?
+1588	1877 897	what is the TOPIC_ENTITY 's mom 's organization ?
+861	737 1890 111 1124 456	TOPIC_ENTITY 's kid 's daughter ?
+1057	noNegativeAnswer	where is TOPIC_ENTITY 's father living ?
+1890	904 82 1087 1166 1588	what is the sex of TOPIC_ENTITY 's mother ?
+1031	1124	is TOPIC_ENTITY 's darling a man or a woman ?
+356	82 1773 1031	the profession of husband of TOPIC_ENTITY ?
+1321	889	where is TOPIC_ENTITY 's other half staying ?
+1124	noNegativeAnswer	what sex is TOPIC_ENTITY 's kid  ?
+356	1031	what is the occupation of TOPIC_ENTITY 's wife ?
+1425	1031	the place of death of TOPIC_ENTITY 's darling ?
+356	82 1773 904 296 1895 1734 1031 631	what is the job of husband of TOPIC_ENTITY ?
+963	1364 419 381 1686 564	what is the cause of death of TOPIC_ENTITY 's couple ?
+456	1932 1364 490	the nation of TOPIC_ENTITY 's daughter ?
+737	1416	what is the name of the child of TOPIC_ENTITY 's parent ?
+737	noNegativeAnswer	what is the heir of TOPIC_ENTITY 's mom ?
+1124	noNegativeAnswer	TOPIC_ENTITY 's heir 's sex ?
+1124	460	is TOPIC_ENTITY 's offspring a man or a woman ?
+749	861 1326 460 737 897	the place of birth of TOPIC_ENTITY 's mother ?
+1124	noNegativeAnswer	the sex of kid of TOPIC_ENTITY ?
+684	963	what is the name of the spouse of TOPIC_ENTITY 's husband ?
+1124	noNegativeAnswer	the sex of offspring of TOPIC_ENTITY ?
+564	noNegativeAnswer	where does TOPIC_ENTITY 's wife come from ?
+460	861 1546	the father of TOPIC_ENTITY 's child ?
+564	noNegativeAnswer	which nationality is TOPIC_ENTITY 's other half ?
+142	1806 1210 1213 180 959 1044 1124 1546	what type of religion is TOPIC_ENTITY 's heir ?
+111	691 82 452 737 1890	what is the nationality of dad of TOPIC_ENTITY ?

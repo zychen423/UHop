@@ -1,0 +1,365 @@
+73	528 801	 what is the TOPIC_ENTITY 's canonical_version 's canonical_version ?
+7	68 823 135 101 111	 what is the artist of TOPIC_ENTITY 's tracks ?
+7	68 823 135 101 111	 what is the TOPIC_ENTITY 's tracks 's artist ?
+823	68 7 135 101 111	 what is the tracks of TOPIC_ENTITY 's tracks ?
+823	68 7 135 101 111	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+61	794	 what is the gender of TOPIC_ENTITY 's people_born_here ?
+61	794	 what is the TOPIC_ENTITY 's people_born_here 's gender ?
+352	381	 what is the notable_types of TOPIC_ENTITY 's profession ?
+352	381	 what is the TOPIC_ENTITY 's profession 's notable_types ?
+89	431 319 553 813 812 462 399 491	 what is the notable_types of TOPIC_ENTITY 's recording ?
+89	431 319 553 813 812 462 399 491	 what is the TOPIC_ENTITY 's recording 's notable_types ?
+399	431 319 553 813 812 462 491 89	 what is the directed_by of TOPIC_ENTITY 's recording ?
+399	431 319 553 813 812 462 491 89	 what is the TOPIC_ENTITY 's recording 's directed_by ?
+89	431 319 553 813 812 462 399 491	 what is the notable_types of TOPIC_ENTITY 's recording ?
+89	431 319 553 813 812 462 399 491	 what is the TOPIC_ENTITY 's recording 's notable_types ?
+431	319 553 813 812 462 399 491 89	 what is the recording of TOPIC_ENTITY 's recording ?
+431	319 553 813 812 462 399 491 89	 what is the TOPIC_ENTITY 's recording 's recording ?
+468	518	 what is the artist of TOPIC_ENTITY 's genre ?
+468	518	 what is the TOPIC_ENTITY 's genre 's artist ?
+468	518	 what is the artist of TOPIC_ENTITY 's genre ?
+468	518	 what is the TOPIC_ENTITY 's genre 's artist ?
+823	101 68	 what is the tracks of TOPIC_ENTITY 's tracks ?
+823	101 68	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+547	320	 what is the writer of TOPIC_ENTITY 's place_of_birth ?
+547	320	 what is the TOPIC_ENTITY 's place_of_birth 's writer ?
+431	433 26 195 812 491	 what is the recording of TOPIC_ENTITY 's recording ?
+431	433 26 195 812 491	 what is the TOPIC_ENTITY 's recording 's recording ?
+195	431 433 26 812 491	 what is the releases of TOPIC_ENTITY 's recording ?
+195	431 433 26 812 491	 what is the TOPIC_ENTITY 's recording 's releases ?
+824	10 320	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth ?
+824	10 320	 what is the TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+431	553 812 813 491 89	 what is the recording of TOPIC_ENTITY 's recording ?
+431	553 812 813 491 89	 what is the TOPIC_ENTITY 's recording 's recording ?
+89	431 553 812 813 491	 what is the notable_types of TOPIC_ENTITY 's recording ?
+89	431 553 812 813 491	 what is the TOPIC_ENTITY 's recording 's notable_types ?
+89	431 553 812 813 491	 what is the notable_types of TOPIC_ENTITY 's recording ?
+89	431 553 812 813 491	 what is the TOPIC_ENTITY 's recording 's notable_types ?
+608	577	 what is the track of TOPIC_ENTITY 's works_written ?
+608	577	 what is the TOPIC_ENTITY 's works_written 's track ?
+397	418 535 42 341 559 744 461 354 476	 what is the notable_types of TOPIC_ENTITY 's track_list ?
+397	418 535 42 341 559 744 461 354 476	 what is the TOPIC_ENTITY 's track_list 's notable_types ?
+744	418 535 42 341 559 397 461 354 476	 what is the tracks of TOPIC_ENTITY 's track_list ?
+744	418 535 42 341 559 397 461 354 476	 what is the TOPIC_ENTITY 's track_list 's tracks ?
+476	418 535 42 341 559 397 744 461 354	 what is the canonical_version of TOPIC_ENTITY 's track_list ?
+476	418 535 42 341 559 397 744 461 354	 what is the TOPIC_ENTITY 's track_list 's canonical_version ?
+270	232 307	 what is the tracks of TOPIC_ENTITY 's nationality ?
+270	232 307	 what is the TOPIC_ENTITY 's nationality 's tracks ?
+197	232	 what is the contains of TOPIC_ENTITY 's nationality ?
+197	232	 what is the TOPIC_ENTITY 's nationality 's contains ?
+197	232	 what is the contains of TOPIC_ENTITY 's nationality ?
+197	232	 what is the TOPIC_ENTITY 's nationality 's contains ?
+197	232	 what is the contains of TOPIC_ENTITY 's nationality ?
+197	232	 what is the TOPIC_ENTITY 's nationality 's contains ?
+197	232	 what is the contains of TOPIC_ENTITY 's nationality ?
+197	232	 what is the TOPIC_ENTITY 's nationality 's contains ?
+197	232	 what is the contains of TOPIC_ENTITY 's nationality ?
+197	232	 what is the TOPIC_ENTITY 's nationality 's contains ?
+197	232	 what is the contains of TOPIC_ENTITY 's nationality ?
+197	232	 what is the TOPIC_ENTITY 's nationality 's contains ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+815	580	 what is the releases of TOPIC_ENTITY 's label ?
+815	580	 what is the TOPIC_ENTITY 's label 's releases ?
+179	302 688 190 824 320 10	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+179	302 688 190 824 320 10	 what is the TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+824	302 688 190 179 320 10	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth ?
+824	302 688 190 179 320 10	 what is the TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+831	377	 what is the gender of TOPIC_ENTITY 's artist ?
+831	377	 what is the TOPIC_ENTITY 's artist 's gender ?
+186	151 53	 what is the permission of TOPIC_ENTITY 's permission ?
+186	151 53	 what is the TOPIC_ENTITY 's permission 's permission ?
+186	151 53	 what is the permission of TOPIC_ENTITY 's permission ?
+186	151 53	 what is the TOPIC_ENTITY 's permission 's permission ?
+548	872 505 85 163	 what is the release of TOPIC_ENTITY 's track ?
+548	872 505 85 163	 what is the TOPIC_ENTITY 's track 's release ?
+872	548 505 85 163	 what is the recording of TOPIC_ENTITY 's track ?
+872	548 505 85 163	 what is the TOPIC_ENTITY 's track 's recording ?
+163	872 548 505 85	 what is the tracks of TOPIC_ENTITY 's track ?
+163	872 548 505 85	 what is the TOPIC_ENTITY 's track 's tracks ?
+38	252 341	 what is the versions of TOPIC_ENTITY 's track_list ?
+38	252 341	 what is the TOPIC_ENTITY 's track_list 's versions ?
+823	101 68	 what is the tracks of TOPIC_ENTITY 's tracks ?
+823	101 68	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+836	315 79	 what is the recording of TOPIC_ENTITY 's containedby ?
+836	315 79	 what is the TOPIC_ENTITY 's containedby 's recording ?
+358	153	 what is the works of TOPIC_ENTITY 's organism_type ?
+358	153	 what is the TOPIC_ENTITY 's organism_type 's works ?
+358	153	 what is the works of TOPIC_ENTITY 's organism_type ?
+358	153	 what is the TOPIC_ENTITY 's organism_type 's works ?
+358	153	 what is the works of TOPIC_ENTITY 's organism_type ?
+358	153	 what is the TOPIC_ENTITY 's organism_type 's works ?
+358	153	 what is the works of TOPIC_ENTITY 's organism_type ?
+358	153	 what is the TOPIC_ENTITY 's organism_type 's works ?
+851	320	 what is the teams of TOPIC_ENTITY 's place_of_birth ?
+851	320	 what is the TOPIC_ENTITY 's place_of_birth 's teams ?
+851	320	 what is the teams of TOPIC_ENTITY 's place_of_birth ?
+851	320	 what is the TOPIC_ENTITY 's place_of_birth 's teams ?
+733	257 541	 what is the releases of TOPIC_ENTITY 's releases ?
+733	257 541	 what is the TOPIC_ENTITY 's releases 's releases ?
+233	272 503 26	 what is the release of TOPIC_ENTITY 's releases ?
+233	272 503 26	 what is the TOPIC_ENTITY 's releases 's release ?
+476	341 418	 what is the canonical_version of TOPIC_ENTITY 's track_list ?
+476	341 418	 what is the TOPIC_ENTITY 's track_list 's canonical_version ?
+431	812 491	 what is the recording of TOPIC_ENTITY 's recording ?
+431	812 491	 what is the TOPIC_ENTITY 's recording 's recording ?
+15	794	 what is the profession of TOPIC_ENTITY 's people_born_here ?
+15	794	 what is the TOPIC_ENTITY 's people_born_here 's profession ?
+15	794	 what is the profession of TOPIC_ENTITY 's people_born_here ?
+15	794	 what is the TOPIC_ENTITY 's people_born_here 's profession ?
+509	159 9	 what is the tracks of TOPIC_ENTITY 's country ?
+509	159 9	 what is the TOPIC_ENTITY 's country 's tracks ?
+563	551 833	 what is the recording of TOPIC_ENTITY 's track ?
+563	551 833	 what is the TOPIC_ENTITY 's track 's recording ?
+431	812 491	 what is the recording of TOPIC_ENTITY 's recording ?
+431	812 491	 what is the TOPIC_ENTITY 's recording 's recording ?
+431	812 491	 what is the recording of TOPIC_ENTITY 's recording ?
+431	812 491	 what is the TOPIC_ENTITY 's recording 's recording ?
+853	156 848	 what is the recording of TOPIC_ENTITY 's basin_countries ?
+853	156 848	 what is the TOPIC_ENTITY 's basin_countries 's recording ?
+631	159	 what is the teams of TOPIC_ENTITY 's country ?
+631	159	 what is the TOPIC_ENTITY 's country 's teams ?
+631	159	 what is the teams of TOPIC_ENTITY 's country ?
+631	159	 what is the TOPIC_ENTITY 's country 's teams ?
+270	232 307	 what is the tracks of TOPIC_ENTITY 's nationality ?
+270	232 307	 what is the TOPIC_ENTITY 's nationality 's tracks ?
+525	413 71	 what is the place of TOPIC_ENTITY 's place ?
+525	413 71	 what is the TOPIC_ENTITY 's place 's place ?
+576	232	 what is the teams of TOPIC_ENTITY 's nationality ?
+576	232	 what is the TOPIC_ENTITY 's nationality 's teams ?
+576	232	 what is the teams of TOPIC_ENTITY 's nationality ?
+576	232	 what is the TOPIC_ENTITY 's nationality 's teams ?
+392	232 879	 what is the song of TOPIC_ENTITY 's nationality ?
+392	232 879	 what is the TOPIC_ENTITY 's nationality 's song ?
+836	315 79	 what is the recording of TOPIC_ENTITY 's containedby ?
+836	315 79	 what is the TOPIC_ENTITY 's containedby 's recording ?
+431	812 491	 what is the recording of TOPIC_ENTITY 's recording ?
+431	812 491	 what is the TOPIC_ENTITY 's recording 's recording ?
+179	302 688 190 824 320 10	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+179	302 688 190 824 320 10	 what is the TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+824	302 688 190 179 320 10	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth ?
+824	302 688 190 179 320 10	 what is the TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+149	187 660	 what is the award_nominations of TOPIC_ENTITY 's award_nominations ?
+149	187 660	 what is the TOPIC_ENTITY 's award_nominations 's award_nominations ?
+149	187 660	 what is the award_nominations of TOPIC_ENTITY 's award_nominations ?
+149	187 660	 what is the TOPIC_ENTITY 's award_nominations 's award_nominations ?
+149	187 660	 what is the award_nominations of TOPIC_ENTITY 's award_nominations ?
+149	187 660	 what is the TOPIC_ENTITY 's award_nominations 's award_nominations ?
+187	149 660	 what is the parents of TOPIC_ENTITY 's award_nominations ?
+187	149 660	 what is the TOPIC_ENTITY 's award_nominations 's parents ?
+126	612 97 81 483 663 19 877 487 104 107 474 217	 what is the book of TOPIC_ENTITY 's place_of_death 's book ?
+663	612 126 97 81 483 19 877 487 104 107 474 217	 what is the canonical_version of book of TOPIC_ENTITY 's place_of_death ?
+663	612 126 97 81 483 19 877 487 104 107 474 217	 what is the canonical_version of TOPIC_ENTITY 's place_of_death 's book ?
+107	612 126 97 81 483 663 19 877 487 104 474 217	 what is the appears_in_topic_gallery of canonical_version of TOPIC_ENTITY 's place_of_death ?
+107	612 126 97 81 483 663 19 877 487 104 474 217	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_death 's canonical_version ?
+487	612 126 97 81 483 663 19 877 104 107 474 217	 what is the book of canonical_version of TOPIC_ENTITY 's place_of_death ?
+487	612 126 97 81 483 663 19 877 104 107 474 217	 what is the book of TOPIC_ENTITY 's place_of_death 's canonical_version ?
+483	612 126 97 81 663 19 877 487 104 107 474 217	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's place_of_death ?
+483	612 126 97 81 663 19 877 487 104 107 474 217	 what is the canonical_version of TOPIC_ENTITY 's place_of_death 's canonical_version ?
+491	431 812	 what is the recording of recording of TOPIC_ENTITY 's recording ?
+491	431 812	 what is the recording of TOPIC_ENTITY 's recording 's recording ?
+491	431 812	 what is the recording of recording of TOPIC_ENTITY 's recording ?
+491	431 812	 what is the recording of TOPIC_ENTITY 's recording 's recording ?
+754	326 91	 what is the recording of recording of TOPIC_ENTITY 's genre ?
+754	326 91	 what is the recording of TOPIC_ENTITY 's genre 's recording ?
+372	159 693	 what is the recording of recording of TOPIC_ENTITY 's country ?
+372	159 693	 what is the recording of TOPIC_ENTITY 's country 's recording ?
+832	272 628	 what is the recording of recording of TOPIC_ENTITY 's netflix_genres ?
+832	272 628	 what is the recording of TOPIC_ENTITY 's netflix_genres 's recording ?
+791	432 600 323 440 816	 what is the recording of recording of TOPIC_ENTITY 's releases ?
+791	432 600 323 440 816	 what is the recording of TOPIC_ENTITY 's releases 's recording ?
+816	432 600 323 440 791	 what is the notable_types of recording of TOPIC_ENTITY 's releases ?
+816	432 600 323 440 791	 what is the notable_types of TOPIC_ENTITY 's releases 's recording ?
+418	476 341	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's track_list ?
+418	476 341	 what is the canonical_version of TOPIC_ENTITY 's track_list 's canonical_version ?
+307	232 270	 what is the tracks of tracks of TOPIC_ENTITY 's nationality ?
+307	232 270	 what is the tracks of TOPIC_ENTITY 's nationality 's tracks ?
+10	824 320	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+10	824 320	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+754	326 91	 what is the recording of recording of TOPIC_ENTITY 's genre ?
+754	326 91	 what is the recording of TOPIC_ENTITY 's genre 's recording ?
+880	320 124	 what is the tracks of tracks of TOPIC_ENTITY 's place_of_birth ?
+880	320 124	 what is the tracks of TOPIC_ENTITY 's place_of_birth 's tracks ?
+345	336 232	 what is the recording of recording of TOPIC_ENTITY 's nationality ?
+345	336 232	 what is the recording of TOPIC_ENTITY 's nationality 's recording ?
+264	177 872 548 505 649 538 134 439	 what is the artist of recording of TOPIC_ENTITY 's track ?
+264	177 872 548 505 649 538 134 439	 what is the artist of TOPIC_ENTITY 's track 's recording ?
+439	177 872 548 264 505 649 538 134	 what is the recording of recording of TOPIC_ENTITY 's track ?
+439	177 872 548 264 505 649 538 134	 what is the recording of TOPIC_ENTITY 's track 's recording ?
+177	872 548 264 505 649 538 134 439	 what is the release of recording of TOPIC_ENTITY 's track ?
+177	872 548 264 505 649 538 134 439	 what is the release of TOPIC_ENTITY 's track 's recording ?
+177	872 548 264 505 649 538 134 439	 what is the release of recording of TOPIC_ENTITY 's track ?
+177	872 548 264 505 649 538 134 439	 what is the release of TOPIC_ENTITY 's track 's recording ?
+649	177 872 548 264 505 538 134 439	 what is the lyricist of recording of TOPIC_ENTITY 's track ?
+649	177 872 548 264 505 538 134 439	 what is the lyricist of TOPIC_ENTITY 's track 's recording ?
+372	159 693	 what is the recording of recording of TOPIC_ENTITY 's country ?
+372	159 693	 what is the recording of TOPIC_ENTITY 's country 's recording ?
+439	872 505	 what is the recording of recording of TOPIC_ENTITY 's track ?
+439	872 505	 what is the recording of TOPIC_ENTITY 's track 's recording ?
+42	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 44	 what is the tracks of tracks of TOPIC_ENTITY 's track_list ?
+42	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 44	 what is the tracks of TOPIC_ENTITY 's track_list 's tracks ?
+283	772 648 497 705 711 340 341 279 837 285 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the artist of tracks of TOPIC_ENTITY 's track_list ?
+283	772 648 497 705 711 340 341 279 837 285 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the artist of TOPIC_ENTITY 's track_list 's tracks ?
+640	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 325 42 44	 what is the release of tracks of TOPIC_ENTITY 's track_list ?
+640	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 325 42 44	 what is the release of TOPIC_ENTITY 's track_list 's tracks ?
+164	772 648 497 705 711 340 341 279 837 285 283 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the song of tracks of TOPIC_ENTITY 's track_list ?
+164	772 648 497 705 711 340 341 279 837 285 283 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the song of TOPIC_ENTITY 's track_list 's tracks ?
+640	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 325 42 44	 what is the release of tracks of TOPIC_ENTITY 's track_list ?
+640	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 325 42 44	 what is the release of TOPIC_ENTITY 's track_list 's tracks ?
+44	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42	 what is the releases of tracks of TOPIC_ENTITY 's track_list ?
+44	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42	 what is the releases of TOPIC_ENTITY 's track_list 's tracks ?
+837	772 648 497 705 711 340 341 279 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the recording of tracks of TOPIC_ENTITY 's track_list ?
+837	772 648 497 705 711 340 341 279 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the recording of TOPIC_ENTITY 's track_list 's tracks ?
+172	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the genre of release of TOPIC_ENTITY 's track_list ?
+172	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the genre of TOPIC_ENTITY 's track_list 's release ?
+705	772 648 497 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the track of release of TOPIC_ENTITY 's track_list ?
+705	772 648 497 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the track of TOPIC_ENTITY 's track_list 's release ?
+772	648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the album_content_type of release of TOPIC_ENTITY 's track_list ?
+772	648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the album_content_type of TOPIC_ENTITY 's track_list 's release ?
+705	772 648 497 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the track of release of TOPIC_ENTITY 's track_list ?
+705	772 648 497 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the track of TOPIC_ENTITY 's track_list 's release ?
+711	772 648 497 705 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release_type of release of TOPIC_ENTITY 's track_list ?
+711	772 648 497 705 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release_type of TOPIC_ENTITY 's track_list 's release ?
+182	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 244 472 744 869 417 753 589 640 325 42 44	 what is the tracks of song of TOPIC_ENTITY 's track_list ?
+182	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 244 472 744 869 417 753 589 640 325 42 44	 what is the tracks of TOPIC_ENTITY 's track_list 's song ?
+417	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 753 589 640 325 42 44	 what is the artist of song of TOPIC_ENTITY 's track_list ?
+417	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 753 589 640 325 42 44	 what is the artist of TOPIC_ENTITY 's track_list 's song ?
+285	772 648 497 705 711 340 341 279 837 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of song of TOPIC_ENTITY 's track_list ?
+285	772 648 497 705 711 340 341 279 837 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of TOPIC_ENTITY 's track_list 's song ?
+869	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 417 753 589 640 325 42 44	 what is the song of song of TOPIC_ENTITY 's track_list ?
+869	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 417 753 589 640 325 42 44	 what is the song of TOPIC_ENTITY 's track_list 's song ?
+285	772 648 497 705 711 340 341 279 837 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of song of TOPIC_ENTITY 's track_list ?
+285	772 648 497 705 711 340 341 279 837 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of TOPIC_ENTITY 's track_list 's song ?
+69	772 648 497 705 711 340 341 279 837 285 283 164 291 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the releases of song of TOPIC_ENTITY 's track_list ?
+69	772 648 497 705 711 340 341 279 837 285 283 164 291 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the releases of TOPIC_ENTITY 's track_list 's song ?
+325	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 42 44	 what is the recording of song of TOPIC_ENTITY 's track_list ?
+325	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 42 44	 what is the recording of TOPIC_ENTITY 's track_list 's song ?
+236	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 182 244 472 744 869 417 753 589 640 325 42 44	 what is the tracks of recording of TOPIC_ENTITY 's track_list ?
+236	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 182 244 472 744 869 417 753 589 640 325 42 44	 what is the tracks of TOPIC_ENTITY 's track_list 's recording ?
+497	772 648 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the artist of recording of TOPIC_ENTITY 's track_list ?
+497	772 648 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the artist of TOPIC_ENTITY 's track_list 's recording ?
+279	772 648 497 705 711 340 341 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of recording of TOPIC_ENTITY 's track_list ?
+279	772 648 497 705 711 340 341 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of TOPIC_ENTITY 's track_list 's recording ?
+75	772 648 497 705 711 340 341 279 837 285 283 164 291 69 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the song of recording of TOPIC_ENTITY 's track_list ?
+75	772 648 497 705 711 340 341 279 837 285 283 164 291 69 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the song of TOPIC_ENTITY 's track_list 's recording ?
+279	772 648 497 705 711 340 341 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of recording of TOPIC_ENTITY 's track_list ?
+279	772 648 497 705 711 340 341 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the release of TOPIC_ENTITY 's track_list 's recording ?
+472	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 744 869 417 753 589 640 325 42 44	 what is the releases of recording of TOPIC_ENTITY 's track_list ?
+472	772 648 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 744 869 417 753 589 640 325 42 44	 what is the releases of TOPIC_ENTITY 's track_list 's recording ?
+648	772 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the recording of recording of TOPIC_ENTITY 's track_list ?
+648	772 497 705 711 340 341 279 837 285 283 164 291 69 75 172 236 182 244 472 744 869 417 753 589 640 325 42 44	 what is the recording of TOPIC_ENTITY 's track_list 's recording ?
+367	147 227	 what is the recordings of recordings of TOPIC_ENTITY 's recordings ?
+367	147 227	 what is the recordings of TOPIC_ENTITY 's recordings 's recordings ?
+750	321 474	 what is the tracks of tracks of TOPIC_ENTITY 's place_of_death ?
+750	321 474	 what is the tracks of TOPIC_ENTITY 's place_of_death 's tracks ?
+491	431 812	 what is the recording of recording of TOPIC_ENTITY 's recording ?
+491	431 812	 what is the recording of TOPIC_ENTITY 's recording 's recording ?
+880	320 124	 what is the tracks of tracks of TOPIC_ENTITY 's place_of_birth ?
+880	320 124	 what is the tracks of TOPIC_ENTITY 's place_of_birth 's tracks ?
+648	341 753	 what is the recording of recording of TOPIC_ENTITY 's track_list ?
+648	341 753	 what is the recording of TOPIC_ENTITY 's track_list 's recording ?
+832	272 628	 what is the recording of recording of TOPIC_ENTITY 's netflix_genres ?
+832	272 628	 what is the recording of TOPIC_ENTITY 's netflix_genres 's recording ?
+5	518 393 468	 what is the recording of recording of TOPIC_ENTITY 's genre ?
+5	518 393 468	 what is the recording of TOPIC_ENTITY 's genre 's recording ?
+801	73 528	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's canonical_version ?
+801	73 528	 what is the canonical_version of TOPIC_ENTITY 's canonical_version 's canonical_version ?
+111	68 823 7 135 101	 what is the artist of tracks of TOPIC_ENTITY 's tracks ?
+111	68 823 7 135 101	 what is the artist of TOPIC_ENTITY 's tracks 's tracks ?
+101	68 823 7 135 111	 what is the tracks of tracks of TOPIC_ENTITY 's tracks ?
+101	68 823 7 135 111	 what is the tracks of TOPIC_ENTITY 's tracks 's tracks ?
+553	431 319 813 812 462 399 491 89	 what is the notable_types of recording of TOPIC_ENTITY 's recording ?
+553	431 319 813 812 462 399 491 89	 what is the notable_types of TOPIC_ENTITY 's recording 's recording ?
+462	431 319 553 813 812 399 491 89	 what is the directed_by of recording of TOPIC_ENTITY 's recording ?
+462	431 319 553 813 812 399 491 89	 what is the directed_by of TOPIC_ENTITY 's recording 's recording ?
+553	431 319 813 812 462 399 491 89	 what is the notable_types of recording of TOPIC_ENTITY 's recording ?
+553	431 319 813 812 462 399 491 89	 what is the notable_types of TOPIC_ENTITY 's recording 's recording ?
+491	431 319 553 813 812 462 399 89	 what is the recording of recording of TOPIC_ENTITY 's recording ?
+491	431 319 553 813 812 462 399 89	 what is the recording of TOPIC_ENTITY 's recording 's recording ?
+101	823 68	 what is the tracks of tracks of TOPIC_ENTITY 's tracks ?
+101	823 68	 what is the tracks of TOPIC_ENTITY 's tracks 's tracks ?
+565	430 329	 what is the primary_release of primary_release of TOPIC_ENTITY 's primary_release ?
+565	430 329	 what is the primary_release of TOPIC_ENTITY 's primary_release 's primary_release ?
+10	824 320	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+10	824 320	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+491	431 553 812 813 89	 what is the recording of recording of TOPIC_ENTITY 's recording ?
+491	431 553 812 813 89	 what is the recording of TOPIC_ENTITY 's recording 's recording ?
+553	431 812 813 491 89	 what is the notable_types of recording of TOPIC_ENTITY 's recording ?
+553	431 812 813 491 89	 what is the notable_types of TOPIC_ENTITY 's recording 's recording ?
+553	431 812 813 491 89	 what is the notable_types of recording of TOPIC_ENTITY 's recording ?
+553	431 812 813 491 89	 what is the notable_types of TOPIC_ENTITY 's recording 's recording ?
+562	148 320	 what is the recording of recording of TOPIC_ENTITY 's place_of_birth ?
+562	148 320	 what is the recording of TOPIC_ENTITY 's place_of_birth 's recording ?
+559	418 535 42 341 744 397 461 354 476	 what is the notable_types of tracks of TOPIC_ENTITY 's track_list ?
+559	418 535 42 341 744 397 461 354 476	 what is the notable_types of TOPIC_ENTITY 's track_list 's tracks ?
+42	418 535 341 559 744 397 461 354 476	 what is the tracks of tracks of TOPIC_ENTITY 's track_list ?
+42	418 535 341 559 744 397 461 354 476	 what is the tracks of TOPIC_ENTITY 's track_list 's tracks ?
+354	418 535 42 341 559 744 397 461 476	 what is the canonical_version of tracks of TOPIC_ENTITY 's track_list ?
+354	418 535 42 341 559 744 397 461 476	 what is the canonical_version of TOPIC_ENTITY 's track_list 's tracks ?
+461	418 535 42 341 559 744 397 354 476	 what is the notable_types of canonical_version of TOPIC_ENTITY 's track_list ?
+461	418 535 42 341 559 744 397 354 476	 what is the notable_types of TOPIC_ENTITY 's track_list 's canonical_version ?
+535	418 42 341 559 744 397 461 354 476	 what is the tracks of canonical_version of TOPIC_ENTITY 's track_list ?
+535	418 42 341 559 744 397 461 354 476	 what is the tracks of TOPIC_ENTITY 's track_list 's canonical_version ?
+418	535 42 341 559 744 397 461 354 476	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's track_list ?
+418	535 42 341 559 744 397 461 354 476	 what is the canonical_version of TOPIC_ENTITY 's track_list 's canonical_version ?
+307	232 270	 what is the tracks of tracks of TOPIC_ENTITY 's nationality ?
+307	232 270	 what is the tracks of TOPIC_ENTITY 's nationality 's tracks ?
+72	306 835	 what is the versions of versions of TOPIC_ENTITY 's versions ?
+72	306 835	 what is the versions of TOPIC_ENTITY 's versions 's versions ?
+335	408 223	 what is the campuses of campuses of TOPIC_ENTITY 's campuses ?
+335	408 223	 what is the campuses of TOPIC_ENTITY 's campuses 's campuses ?
+190	302 688 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+190	302 688 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+626	302 190 688 179 222 466 824 320 214 84 10 506	 what is the book of appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+626	302 190 688 179 222 466 824 320 214 84 10 506	 what is the book of TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+302	190 688 179 222 466 626 824 320 214 84 10 506	 what is the canonical_version of appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+302	190 688 179 222 466 626 824 320 214 84 10 506	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+222	302 190 688 179 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of book of TOPIC_ENTITY 's place_of_birth ?
+222	302 190 688 179 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth 's book ?
+84	302 190 688 179 222 466 626 824 320 214 10 506	 what is the book of book of TOPIC_ENTITY 's place_of_birth ?
+84	302 190 688 179 222 466 626 824 320 214 10 506	 what is the book of TOPIC_ENTITY 's place_of_birth 's book ?
+214	302 190 688 179 222 466 626 824 320 84 10 506	 what is the canonical_version of book of TOPIC_ENTITY 's place_of_birth ?
+214	302 190 688 179 222 466 626 824 320 84 10 506	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's book ?
+688	302 190 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+688	302 190 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+506	302 190 688 179 222 466 626 824 320 214 84 10	 what is the book of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+506	302 190 688 179 222 466 626 824 320 214 84 10	 what is the book of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+10	302 190 688 179 222 466 626 824 320 214 84 506	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+10	302 190 688 179 222 466 626 824 320 214 84 506	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+190	302 688 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+190	302 688 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+626	302 190 688 179 222 466 824 320 214 84 10 506	 what is the book of appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+626	302 190 688 179 222 466 824 320 214 84 10 506	 what is the book of TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+302	190 688 179 222 466 626 824 320 214 84 10 506	 what is the canonical_version of appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth ?
+302	190 688 179 222 466 626 824 320 214 84 10 506	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+222	302 190 688 179 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of book of TOPIC_ENTITY 's place_of_birth ?
+222	302 190 688 179 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth 's book ?
+84	302 190 688 179 222 466 626 824 320 214 10 506	 what is the book of book of TOPIC_ENTITY 's place_of_birth ?
+84	302 190 688 179 222 466 626 824 320 214 10 506	 what is the book of TOPIC_ENTITY 's place_of_birth 's book ?
+214	302 190 688 179 222 466 626 824 320 84 10 506	 what is the canonical_version of book of TOPIC_ENTITY 's place_of_birth ?
+214	302 190 688 179 222 466 626 824 320 84 10 506	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's book ?
+688	302 190 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+688	302 190 179 222 466 626 824 320 214 84 10 506	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+506	302 190 688 179 222 466 626 824 320 214 84 10	 what is the book of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+506	302 190 688 179 222 466 626 824 320 214 84 10	 what is the book of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+10	302 190 688 179 222 466 626 824 320 214 84 506	 what is the canonical_version of canonical_version of TOPIC_ENTITY 's place_of_birth ?
+10	302 190 688 179 222 466 626 824 320 214 84 506	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth 's canonical_version ?
+672	377 831	 what is the subject_of of gender of TOPIC_ENTITY 's artist ?
+672	377 831	 what is the subject_of of TOPIC_ENTITY 's artist 's gender ?
+53	151 186	 what is the permission of permission of TOPIC_ENTITY 's permission ?
+53	151 186	 what is the permission of TOPIC_ENTITY 's permission 's permission ?
+53	151 186	 what is the permission of permission of TOPIC_ENTITY 's permission ?
+53	151 186	 what is the permission of TOPIC_ENTITY 's permission 's permission ?
+85	872 548 505 134 163	 what is the tracks of tracks of TOPIC_ENTITY 's track ?
+85	872 548 505 134 163	 what is the tracks of TOPIC_ENTITY 's track 's tracks ?
+332	820 252 753 648 436 341 397 343 38	 what is the notable_types of versions of TOPIC_ENTITY 's track_list ?

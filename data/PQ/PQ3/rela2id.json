@@ -1,1 +1,1 @@
-{"PADDING": 0, "<unk>": 1, "ethnicity": 2, "children": 3, "institution": 4, "place_of_death": 5, "location": 6, "spouse": 7, "religion": 8, "gender": 9, "place_of_birth": 10, "cause_of_death": 11, "nationality": 12, "parents": 13, "profession": 14}
+{"PADDING": 0, "<unk>": 1, "institution": 2, "cause_of_death": 3, "gender": 4, "religion": 5, "nationality": 6, "children": 7, "place_of_birth": 8, "spouse": 9, "location": 10, "profession": 11, "ethnicity": 12, "parents": 13, "place_of_death": 14}

@@ -1,0 +1,140 @@
+414	1700 550	 what is the people_born_here of TOPIC_ENTITY 's containedby ?
+865	1745 1131 639 1051 85 1655 1747 531 1371 285 184	 what is the notable_types of TOPIC_ENTITY 's recording ?
+661	1523 909 617	 what is the TOPIC_ENTITY 's country 's recording ?
+661	1523	 what is the recording of TOPIC_ENTITY 's country ?
+539	90	 what is the games of TOPIC_ENTITY 's platform ?
+17	1739	 what is the place of TOPIC_ENTITY 's place ?
+448	493	 what is the TOPIC_ENTITY 's organism_type 's works ?
+414	1700 550	 what is the TOPIC_ENTITY 's containedby 's people_born_here ?
+448	493	 what is the TOPIC_ENTITY 's organism_type 's works ?
+899	322	 what is the teams of TOPIC_ENTITY 's nationality ?
+1135	892	 what is the TOPIC_ENTITY 's track 's label ?
+1769	1345	 what is the TOPIC_ENTITY 's athletes 's olympic_games_contested ?
+1662	322	 what is the recording of TOPIC_ENTITY 's nationality ?
+1731	576	 what is the TOPIC_ENTITY 's genre 's artist ?
+1167	1411	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+1129	519	 what is the TOPIC_ENTITY 's art_genre 's album ?
+1342	1192	 what is the TOPIC_ENTITY 's track 's release ?
+1167	1411	 what is the tracks of TOPIC_ENTITY 's tracks ?
+767	1715 1245	 what is the containedby of TOPIC_ENTITY 's pertains_to ?
+243	81	 what is the canonical_version of TOPIC_ENTITY 's place_of_birth ?
+414	1700 550	 what is the people_born_here of TOPIC_ENTITY 's containedby ?
+1167	1411	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+750	1411 1131 1167 1590 531	 what is the recording of TOPIC_ENTITY 's tracks ?
+1283	576 1731	 what is the recording of TOPIC_ENTITY 's genre ?
+1365	476	 what is the tracks of TOPIC_ENTITY 's region ?
+899	322	 what is the TOPIC_ENTITY 's nationality 's teams ?
+670	918 824 1131 1519 142 1315 1173 1193 940 602 531	 what is the TOPIC_ENTITY 's recording 's releases ?
+1418	347	 what is the canonical_version of TOPIC_ENTITY 's origin ?
+1270	574	 what is the notable_types of TOPIC_ENTITY 's profession ?
+235	268 1411 729 1343 1189 331 1167 1572 843 777 1630	 what is the TOPIC_ENTITY 's tracks 's recordings ?
+263	1192	 what is the TOPIC_ENTITY 's track 's releases ?
+529	1739 639 17 45 184	 what is the notable_types of TOPIC_ENTITY 's place ?
+478	1165 927	 what is the TOPIC_ENTITY 's place_of_death 's appears_in_topic_gallery ?
+1731	576	 what is the TOPIC_ENTITY 's genre 's artist ?
+584	463	 what is the releases of TOPIC_ENTITY 's art_forms ?
+602	918 1131 1519 1315 531	 what is the release of TOPIC_ENTITY 's recording ?
+1432	1027	 what is the TOPIC_ENTITY 's label 's releases ?
+1586	1499 1521	 what is the recording of TOPIC_ENTITY 's colors ?
+1244	296	 what is the award_nominations of TOPIC_ENTITY 's award_nominations ?
+1285	268 729 57 639 918 1343 331 680 1050 1752 843 1630 581 234 1377 1763 368 1025 336 959 935 1666 184 1539 135 1121 1236 281 1519	 what is the recordings of TOPIC_ENTITY 's appears_in_topic_gallery ?
+998	878 1577	 what is the recording of TOPIC_ENTITY 's track_list ?
+414	1700 550	 what is the people_born_here of TOPIC_ENTITY 's containedby ?
+1577	878	 what is the TOPIC_ENTITY 's track_list 's tracks ?
+368	57	 what is the TOPIC_ENTITY 's appears_in_topic_gallery 's appears_in_topic_gallery ?
+376	1523	 what is the teams of TOPIC_ENTITY 's country ?
+281	268 729 57 639 918 1343 331 680 1050 1752 843 1630 581 234 1377 1285 1763 368 1025 336 959 935 1666 184 1539 135 1121 1236 1519	 what is the TOPIC_ENTITY 's release 's notable_types ?
+531	1131	 what is the TOPIC_ENTITY 's recording 's recording ?
+899	322	 what is the teams of TOPIC_ENTITY 's nationality ?
+1579	322	 what is the TOPIC_ENTITY 's nationality 's contains ?
+965	615	 what is the versions of TOPIC_ENTITY 's versions ?
+1167	471 918 1411 1131 1170 1452 1643 782 881 1519 124 1315 86 1438 750 851 602 1590 531	 what is the tracks of TOPIC_ENTITY 's tracks ?
+531	1131	 what is the recording of TOPIC_ENTITY 's recording ?
+899	322	 what is the teams of TOPIC_ENTITY 's nationality ?
+414	1700 550	 what is the TOPIC_ENTITY 's containedby 's people_born_here ?
+414	1700 550	 what is the people_born_here of TOPIC_ENTITY 's containedby ?
+539	90	 what is the games of TOPIC_ENTITY 's platform ?
+414	1700 550	 what is the people_born_here of TOPIC_ENTITY 's containedby ?
+1226	1128	 what is the label of TOPIC_ENTITY 's lyricist ?
+750	471 918 1411 1131 1170 1452 1643 782 881 1519 124 1315 86 1438 1167 851 602 1590 531	 what is the TOPIC_ENTITY 's tracks 's recording ?
+1283	576	 what is the TOPIC_ENTITY 's genre 's recording ?
+401	73	 what is the TOPIC_ENTITY 's written_by 's profession ?
+899	322	 what is the teams of TOPIC_ENTITY 's nationality ?
+953	878	 what is the release of TOPIC_ENTITY 's track_list ?
+1323	322	 what is the tracks of TOPIC_ENTITY 's nationality ?
+1086	130 57 1717 1212 368	 what is the TOPIC_ENTITY 's appears_in_topic_gallery 's canonical_version ?
+750	1411 1131 1167 1590 531	 what is the TOPIC_ENTITY 's tracks 's recording ?
+414	1700 550	 what is the people_born_here of TOPIC_ENTITY 's containedby ?
+672	81 243	 what is the TOPIC_ENTITY 's place_of_birth 's appears_in_topic_gallery ?
+531	1131	 what is the TOPIC_ENTITY 's recording 's recording ?
+1167	1411	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+795	1165	 what is the TOPIC_ENTITY 's place_of_death 's releases ?
+1579	322	 what is the contains of TOPIC_ENTITY 's nationality ?
+148	57	 what is the recording of TOPIC_ENTITY 's appears_in_topic_gallery ?
+1270	574	 what is the TOPIC_ENTITY 's profession 's notable_types ?
+1579	322	 what is the contains of TOPIC_ENTITY 's nationality ?
+1646	163	 what is the recording of TOPIC_ENTITY 's netflix_genres ?
+1648	1411 378 1167 601 900	 what is the TOPIC_ENTITY 's tracks 's releases ?
+767	1715 1245	 what is the containedby of TOPIC_ENTITY 's pertains_to ?
+539	90	 what is the games of TOPIC_ENTITY 's platform ?
+1001	660 1131 1299 1619 531	 what is the TOPIC_ENTITY 's versions 's recording ?
+376	1523	 what is the TOPIC_ENTITY 's country 's teams ?
+414	1700 550	 what is the TOPIC_ENTITY 's containedby 's people_born_here ?
+1270	574	 what is the TOPIC_ENTITY 's profession 's notable_types ?
+157	892 589	 what is the TOPIC_ENTITY 's track 's release ?
+448	493	 what is the works of TOPIC_ENTITY 's organism_type ?
+1245	1715 767	 what is the TOPIC_ENTITY 's pertains_to 's track_performances ?
+253	878 937	 what is the author of TOPIC_ENTITY 's track_list ?
+1530	643	 what is the gender of TOPIC_ENTITY 's artist ?
+531	1131	 what is the recording of TOPIC_ENTITY 's recording ?
+1167	1411	 what is the TOPIC_ENTITY 's tracks 's tracks ?
+899	322	 what is the teams of TOPIC_ENTITY 's nationality ?
+259	892 754	 what is the tracks of TOPIC_ENTITY 's track ?
+1363	878	 what is the TOPIC_ENTITY 's track_list 's versions ?
+531	1131	 what is the TOPIC_ENTITY 's recording 's recording ?
+448	493	 what is the TOPIC_ENTITY 's organism_type 's works ?
+531	1131	 what is the TOPIC_ENTITY 's recording 's recording ?
+1731	576	 what is the artist of TOPIC_ENTITY 's genre ?
+315	322	 what is the artist of TOPIC_ENTITY 's nationality ?
+1763	268 729 57 639 918 1343 331 680 1050 1752 843 1630 581 234 1377 1285 368 1025 336 959 935 1666 184 1539 135 1121 1236 281 1519	 what is the artist of TOPIC_ENTITY 's appears_in_topic_gallery ?
+899	322	 what is the teams of TOPIC_ENTITY 's nationality ?
+531	1131	 what is the recording of TOPIC_ENTITY 's recording ?
+1438	471 918 1411 1131 1170 1452 1643 782 881 1519 124 1315 86 1167 750 851 602 1590 531	 what is the release of TOPIC_ENTITY 's tracks ?
+1551	660 1411 1299 227 1167	 what is the TOPIC_ENTITY 's versions 's tracks ?
+1641	743	 what is the teams of TOPIC_ENTITY 's country ?
+531	918 824 1131 1519 142 1315 1173 1193 940 602 670	 what is the TOPIC_ENTITY 's recording 's recording ?
+1675	878 1577 1710	 what is the recordings of TOPIC_ENTITY 's track_list ?
+984	878	 what is the track_list of TOPIC_ENTITY 's track_list ?
+953	878 1675 1710 1338 937	 what is the release of TOPIC_ENTITY 's track_list ?
+1777	154	 what is the next_episode of TOPIC_ENTITY 's governing_officials ?
+750	1411 1131 1167 1590 531	 what is the recording of TOPIC_ENTITY 's tracks ?
+1193	918 824 1131 1519 142 1315 1173 940 602 670 531	 what is the releases of TOPIC_ENTITY 's releases ?
+367	1639	 what is the TOPIC_ENTITY 's primary_release 's primary_release ?
+80	1229 1026	 what is the active_moiety_of_drug of TOPIC_ENTITY 's active_moiety_of_drug 's active_moiety_of_drug ?
+381	471 918 1131 729 1170 1452 782 1702 881 1519 1315 1121 851 602 531 120 11 1377 1781 1630 1755 1597 577 189 859 1394 1778 446 156 1631 1540 221 535 569 1448 1354 1591 441 1399 619 1405 904 1014 1779 659 447 262 1790 236 326 756 147 1074 1018 1654 1197 1180 1473 553 260 946 662 1738 648 1267 442 1185 151 434 879 458 113 812 828 1431 1720 20 435 272 527 1508 1094 712	 what is the release of TOPIC_ENTITY 's song 's song ?
+662	1411 1131 729 378 1167 750 1572 1648 1590 531 120 167 777 1781 1630 1145 601 248 202 900 282 875 1760 1567 1407 969 199 1005 412 925 374 1612 501 93 858 1304 1457 992 761 1264 1472 1738 1689 1584 442 1185 1681 390 506 469 726 237 1614 1637 82 1219 435 272 872 691 1094 712 356 665 256 279 1463 1406 677 830 1556 214 728 1420 275 1635 780 1772 966 709 1742 207 1571	 what is the recording of recording of TOPIC_ENTITY 's recording ?
+1092	1523 330	 what is the song of song of TOPIC_ENTITY 's country ?
+825	660 1131 639 1299 1001 1762 1619 531 865 440 285 184 962 212 337 1545 864 504 702 1287 1541 320 175 1179 662 866 1605 1453 1035 876 1040 392 873 1337 1314 261 1249 403	 what is the notable_types of TOPIC_ENTITY 's versions 's versions ?
+1018	729 378 471 1411 1131 918 1630 1145 11 777 1781 1377 202 900 640 601 248 573 1702 1030 1170 1643 782 1452 1572 1648 86 1167 750 1438 120 167 851 1590 531 602 1121 1694 881 124 1315 1519 712 356 527 691 1094 1508 279 1463 257 665 256 1217 458 1175 151 465 879 434 1637 82 1275 237 1614 887 272 872 1720 1219 435 20 1431 352 113 632 828 812 1772 966 200 1635 780 7 207 1571 455 709 1742 814 1113 590 1578 723 982 354 830 1556 1033 1406 677 174 1420 275 431 214 728 1496 1522 745 1684 1352 240 1503 1448 511 221 12 569 535 30 521 534 318 1016 570 577 217 1755 152 1597 381 815 635 554 1325 838 170 1540 1028 446 877 1631 156 1778 1569 189 423 1394 859 374 1612 629 412 925 1625 858 1304 1466 501 93 1481 552 28 1504 730 1339 1621 1760 1567 1564 282 875 772 199 1005 832 1407 969 994 1736 606 816 185 950 868 1185 1681 648 1584 442 1267 469 726 560 390 506 565 1654 1366 147 1547 1074 761 1264 132 1457 992 437 1738 1689 260 1472 662 946 553 1062 1197 919 1473 1180 756 87 1790 1055 326 236 1140 492 1320 779 673 714 1399 1321 1354 63 441 1591 1247 252 563 1445 1435 1227 262 720 1779 921 447 659 1014 413 619 1047 904 1405	 what is the recording of TOPIC_ENTITY 's recording 's song ?
+1522	378 573 745	 what is the artist of TOPIC_ENTITY 's releases 's release ?
+435	729 1781	 what is the recording of recording of TOPIC_ENTITY 's artist ?
+1065	483 321 1307 853 671 516 168 1449 339 1308 695 645 753	 what is the edited_by of TOPIC_ENTITY 's split_to 's split_to ?
+1735	56 130 57 683 1069 1101 1766 1717 1212 797 1086 368 687 228 846 58 1362 1114 800 171 338 1370 1246 1492 438 1543 38 1511 166 1161 523 774 485 21 1484 1298 499 1783	 what is the canonical_version of TOPIC_ENTITY 's appears_in_topic_gallery 's appears_in_topic_gallery ?
+1542	878 1675 1710 1338 937 953 1127 1107 1349 641 987 146 819 651 1679 417 1426 538 474 196 1505 751 788 424 139 801 1451 197 1668 546	 what is the artist of release of TOPIC_ENTITY 's track_list ?
+282	1411 1131 1167 750 1590 531 875 1407 969 1457 992 1472 662	 what is the tracks of TOPIC_ENTITY 's tracks 's tracks ?
+1280	729 378 471 1411 1131 918 1630 1145 11 777 1781 1377 202 900 640 601 248 573 1702 1030 1170 1643 782 1452 1572 1648 86 1167 750 1438 120 167 851 1590 531 602 1121 1694 881 124 1315 1519 1282 497 353 72 831 1602 759 44 636 1220 112 307 1751 1312 1402 23 1054 420 1674 591 1360 586 1032 1089 646 1137 305 669 583 1344 371 295 1482 789 1491 1148 1692 1061 1387 1218 216 715 1330 533 874 1100 624 1211 1549 364 1056 96 1187 738 697 41 530 508 399 418 1163 409 370 963 621 149 342 1647 1538 799 999 1301 600 1517 890 1164 1615 1623 333 689 1076 813 841 245 1368 781 1580 1455 1644 195 1634 1490 983 1369 223 1697 1195 863 47 329 642 1792 922 605 1262 283 1081 258 181 731 845 1384 582 224 867 24 1241 1628 1408 911 558 65 389 1357 907 297 1533 1284 246 1660 1557 1687 920 1393 692 1023 1430 842 588 936 160 934 384	 what is the release_type of release of TOPIC_ENTITY 's song ?
+366	1106 930 121 494 1462 358	 what is the album of artist of TOPIC_ENTITY 's album ?
+507	1523 909 247 375 735 270 906 1194 1761 266 502 182 1750	 what is the country of album of TOPIC_ENTITY 's album ?
+282	1411 1131 1167 750 1590 531 875 1407 969 1457 992 1472 662	 what is the tracks of tracks of TOPIC_ENTITY 's tracks ?
+790	471 639 1170 760 1122 184 1755 1478 415 763 1607 15 403	 what is the notable_types of TOPIC_ENTITY 's song 's song ?
+1738	1131 729 531 120 1781 1630 662 442 1185 435 272 1094 712	 what is the artist of recording of TOPIC_ENTITY 's recording ?
+14	163 1022	 what is the tracks of tracks of TOPIC_ENTITY 's netflix_genres ?
+1288	268 729 57 639 918 1343 331 680 1050 1752 843 1630 581 234 1377 1285 1763 368 1025 336 959 935 1666 184 1539 135 1121 1236 281 1519 694 225 1115 870 1351 1461 308 713 1771 325 769 1045 912 488 655 286 1097 1132 1487 1386 1576 1518 1622 902 1232 98 1172 1015 1764 1673 712 884 933 1508 1240 1693 844 31 1053 1324 1650 97 929 1698 768 1431 1274 1707 812 111 1063 1677 1031 849 1008 834 1593 1550 1620 291 1598 1783 1331 1600 1560 880 1334 839 340 1150 771 1136 1526 1770 634 778 1691 956 954 850 1019 1221 652 1376 1670 60 898 67 1442 739 1346 561 403 808 620 459 650 997 896 393 1120 1454 716 525 1093 756 1696 284 236 972 1699 611 1415 1483 1474 1272 732 91 787 758 1014 1183 54 1405	 what is the appears_in_topic_gallery of TOPIC_ENTITY 's recordings 's recordings ?
+499	56 130 57 683 1069 1101 1766 1717 1212 797 1086 368 687 228 846 58 1362 1114 800 171 338 1370 1246 1492 438 1543 38 1511 166 1161 523 774 485 21 1484 1298 1735 1783	 what is the book of appears_in_topic_gallery of TOPIC_ENTITY 's appears_in_topic_gallery ?
+1553	268 1411 729 1343 1189 331 235 1167 1572 843 777 1630 694 1052 225 1690 1297 1351 607 1461 836 653 1181 852 282 1760 1663 412 374 1232 568 98 1058 237 1637 1673 691 712	 what is the recordings of TOPIC_ENTITY 's recordings 's tracks ?
+946	471 918 1131 729 1170 1452 782 1702 881 1519 1315 1121 851 602 531 120 11 1377 1781 1630 1755 381 1597 577 189 859 1394 1778 446 156 1631 1540 221 535 569 1448 1354 1591 441 1399 619 1405 904 1014 1779 659 447 262 1790 236 326 756 147 1074 1018 1654 1197 1180 1473 553 260 662 1738 648 1267 442 1185 151 434 879 458 113 812 828 1431 1720 20 435 272 527 1508 1094 712	 what is the release of recording of TOPIC_ENTITY 's recording ?
+1408	729 378 471 1411 1131 918 1630 1145 11 777 1781 1377 202 900 640 601 248 573 1702 1030 1170 1643 782 1452 1572 1648 86 1167 750 1438 120 167 851 1590 531 602 1121 1694 881 124 1315 1519 1282 497 353 72 831 1602 759 44 636 1220 112 307 1751 1312 1402 23 1054 420 1674 591 1360 586 1032 1089 646 1137 305 669 583 1344 371 295 1482 789 1491 1148 1692 1061 1387 1218 216 715 1330 533 874 1100 624 1211 1549 364 1056 96 1187 738 697 41 530 508 399 418 1163 409 370 963 621 149 342 1647 1538 1280 799 999 1301 600 1517 890 1164 1615 1623 333 689 1076 813 841 245 1368 781 1580 1455 1644 195 1634 1490 983 1369 223 1697 1195 863 47 329 642 1792 922 605 1262 283 1081 258 181 731 845 1384 582 224 867 24 1241 1628 911 558 65 389 1357 907 297 1533 1284 246 1660 1557 1687 920 1393 692 1023 1430 842 588 936 160 934 384	 what is the track of TOPIC_ENTITY 's recording 's release ?
+1127	878 1675 1710 1338 937 953 1107 1349 641 987 146 819 651 1679 417 1426 538 474 196 1505 751 788 424 139 801 1451 1542 197 1668 546	 what is the recordings of TOPIC_ENTITY 's track_list 's recordings ?
+196	878 1675 1710 1338 937 953 1127 1107 1349 641 987 146 819 651 1679 417 1426 538 474 1505 751 788 424 139 801 1451 1542 197 1668 546	 what is the notable_types of appears_in_topic_gallery of TOPIC_ENTITY 's track_list ?
+730	729 378 471 1411 1131 918 1630 1145 11 777 1781 1377 202 900 640 601 248 573 1702 1030 1170 1643 782 1452 1572 1648 86 1167 750 1438 120 167 851 1590 531 602 1121 1694 881 124 1315 1519 712 356 527 691 1094 1508 279 1463 257 665 256 1217 458 1175 151 465 879 434 1637 82 1275 237 1614 887 272 872 1720 1219 435 20 1431 352 113 632 828 812 1772 966 200 1635 780 7 207 1571 455 709 1742 814 1113 590 1578 723 982 354 830 1556 1033 1406 677 174 1420 275 431 214 728 1496 1522 745 1684 1352 240 1503 1448 511 221 12 569 535 30 521 534 318 1016 570 577 217 1755 152 1597 381 815 635 554 1325 838 170 1540 1028 446 877 1631 156 1778 1569 189 423 1394 859 374 1612 629 412 925 1625 858 1304 1466 501 93 1481 552 28 1504 1339 1621 1760 1567 1564 282 875 772 199 1005 832 1407 969 994 1736 606 816 185 950 868 1185 1681 648 1584 442 1267 469 726 560 390 506 565 1654 1366 147 1547 1018 1074 761 1264 132 1457 992 437 1738 1689 260 1472 662 946 553 1062 1197 919 1473 1180 756 87 1790 1055 326 236 1140 492 1320 779 673 714 1399 1321 1354 63 441 1591 1247 252 563 1445 1435 1227 262 720 1779 921 447 659 1014 413 619 1047 904 1405	 what is the tracks of song of TOPIC_ENTITY 's tracks ?
+1397	1488 1111	 what is the educational_institution of educational_institution of TOPIC_ENTITY 's educational_institution ?
