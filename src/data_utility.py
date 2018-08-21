@@ -22,6 +22,11 @@ PATH['pql'] = '../data/PQ/PQL'
 PATH['pql1'] = '../data/PQ/PQL1'
 PATH['pql2'] = '../data/PQ/PQL2'
 PATH['pql3'] = '../data/PQ/PQL3m'
+PATH['grid2_4'] = '../data/grid-world/problem_16_4_2'
+PATH['grid4_6'] = '../data/grid-world/problem_16_6_4'
+PATH['grid6_8'] = '../data/grid-world/problem_16_8_6'
+PATH['grid8_10'] = '../data/grid-world/problem_16_10_8/'
+
 
 from itertools import accumulate
 
@@ -62,8 +67,8 @@ class PerQuestionDataset(Dataset):
         for step in step_list:
             new_step = []
             for t in step:
-                num_rela = self._numericalize_str(t[1] + t[0], rela2id, ['.'])
-                num_rela_text = self._numericalize_str(t[1] + t[0], word2id, ['.', '_'])
+                num_rela = self._numericalize_str(('.'.join(t[1]+[t[0]])), rela2id, ['.'])
+                num_rela_text = self._numericalize_str(('.'.join(t[1]+[t[0]])), word2id, ['.', '_'])
                 new_step.append((num_rela, num_rela_text, t[2]))
             new_step_list.append(new_step)
         return index, ques, new_step_list

@@ -30,10 +30,10 @@ def log_result(num, ques, relas, rela_texts, scores, acc, path, word2id, rela2id
 
 def find_save_dir(model_name):
     counter = 0
-    save_dir = f'../save_model2/{model_name}_{counter}'
+    save_dir = f'../save_model/{model_name}_{counter}'
     while os.path.exists(save_dir):
         counter += 1
-        save_dir = f'../save_model2/{model_name}_{counter}'
+        save_dir = f'../save_model/{model_name}_{counter}'
     os.mkdir(save_dir)
     print(f'save_dir is {save_dir}')
     return save_dir
