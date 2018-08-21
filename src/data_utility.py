@@ -9,6 +9,7 @@ from functools import reduce
 from itertools import accumulate
 import random
 import numpy as np
+import path_finder
 
 PATH = {}
 PATH['wq'] = '../data/WQ/main_exp'
@@ -21,7 +22,7 @@ PATH['pq3'] = '../data/PQ/PQ3'
 PATH['pql'] = '../data/PQ/PQL'
 PATH['pql1'] = '../data/PQ/PQL1'
 PATH['pql2'] = '../data/PQ/PQL2'
-PATH['pql3'] = '../data/PQ/PQL3m'
+PATH['pql3'] = '../data/PQ/PQL3'
 
 from itertools import accumulate
 
@@ -46,7 +47,13 @@ class PerQuestionDataset(Dataset):
         self.data_objs = self._get_data(args, mode, word2id, rela2id)
     def _get_data(self, args, mode, word2id, rela2id):
         data_objs = []
-        with open(f'{PATH[args.dataset]}/{mode}_data.txt', 'r') as f:
+        baseline_path, UHop_path = path_finder.path_finder()
+        wpq_path = path_finder.WPQ_PATH()
+        if 'wpq' in args.dataset:
+            file_path = wpq_path.data[args.dataset]
+        else:
+            file_path = PATH[args.dataset]
+        with open(f'{file_path}/{mode}_data.txt', 'r') as f:
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')
                 data = json.loads(line)
@@ -62,8 +69,9 @@ class PerQuestionDataset(Dataset):
         for step in step_list:
             new_step = []
             for t in step:
-                num_rela = self._numericalize_str(t[1] + t[0], rela2id, ['.'])
-                num_rela_text = self._numericalize_str(t[1] + t[0], word2id, ['.', '_'])
+#                print('.'.join(t[1]+[t[0]]))
+                num_rela = self._numericalize_str('.'.join(t[1]+[t[0]]), rela2id, ['.'])
+                num_rela_text = self._numericalize_str('.'.join(t[1]+[t[0]]), word2id, ['.', '_'])
                 new_step.append((num_rela, num_rela_text, t[2]))
             new_step_list.append(new_step)
         return index, ques, new_step_list

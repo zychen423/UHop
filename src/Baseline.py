@@ -60,6 +60,8 @@ class Baseline():
                 if len(candidates) == 0:
                     total_acc += 1; acc_count += 1; loss_count += 1
                     continue
+                if len(candidates) > self.args.neg_sample:
+                    candidates = random.sample(candidates, self.args.neg_sample)
                 relas = [ans[0]] + [x[0] for x in candidates]
                 maxlen = max([len(x) for x in relas])
                 relas = self._padding(relas, maxlen, 'prepend', self.rela_token2id['PADDING'])

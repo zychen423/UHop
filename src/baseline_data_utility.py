@@ -8,10 +8,18 @@ from functools import reduce
 from itertools import accumulate
 import random
 import numpy as np
+import path_finder
 
 PATH = {}
 PATH['wq'] = '../data/baseline/KBQA_RE_data/webqsp_relations/WebQSP.RE.MODE.with_boundary.withpool.dlnlp.txt'
 PATH['sq'] = '../data/baseline/KBQA_RE_data/sq_relations/MODE.replace_ne.withpool'
+PATH['pq1'] = '../data/PQ/baseline/PQ1/MODE_data.txt'
+PATH['pq2'] = '../data/PQ/baseline/PQ2/MODE_data.txt'
+PATH['pq3'] = '../data/PQ/baseline/PQ3/MODE_data.txt'
+PATH['pql1'] = '../data/PQ/baseline/PQL1/MODE_data.txt'
+PATH['pql2'] = '../data/PQ/baseline/PQL2/MODE_data.txt'
+PATH['pql3'] = '../data/PQ/baseline/PQL3/MODE_data.txt'
+
 def quick_collate(batch):
     return batch[0]
 
@@ -34,7 +42,16 @@ class PerQuestionDataset(Dataset):
     def _get_data(self, args, mode, word2id, rela2id, rela_token2id):
         data_objs = []
         id2rela = {v: k for k, v in rela2id.items()}
-        with open(PATH[args.dataset].replace('MODE', mode), 'r') as f:
+        baseline_path, UHop_path = path_finder.path_finder()
+        wpq_path = path_finder.WPQ_PATH()
+        if 'wpq' in args.dataset:
+            file_path = wpq_path.baseline[args.dataset]
+        elif 'pq' in args.dataset:
+            file_path = baseline_path.data(args.dataset)
+        else:
+            file_path = PATH[args.dataset]
+        print(file_path)
+        with open(file_path.replace('MODE', mode), 'r') as f:
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')
                 anses, candidates, question = line.strip().split('\t')
@@ -46,6 +63,7 @@ class PerQuestionDataset(Dataset):
                     ans = id2rela[int(ans)]
                     data = self._numericalize((i, ques, ans, candidates), word2id, rela_token2id)
                     data_objs.append(data)
+        print(len(data_objs))
         return data_objs
     def _numericalize(self, data, word2id, rela2id):
         index, ques, ans, candidates = data[0], data[1], data[2], data[3]
