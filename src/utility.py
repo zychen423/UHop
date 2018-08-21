@@ -43,8 +43,8 @@ def save_model(model, path):
     torch.save(model.state_dict(), path)
     print(f'save model at {path}')
 
-def save_model_with_result(model, loss, acc, rc, td, path):
-    path = os.path.join(path, f'model_{loss:.4f}_{acc:.4f}_{rc:.2f}_{td:.2f}.pth')
+def save_model_with_result(model, loss, acc, rc, td, td_rc, path):
+    path = os.path.join(path, f'model_{loss:.4f}_{acc:.4f}_{rc:.2f}_{td:.2f}_{td_rc:.2f}.pth')
     torch.save(model.state_dict(), path)
     print(f'save model at {path}')
 

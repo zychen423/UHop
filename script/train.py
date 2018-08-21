@@ -1,12 +1,13 @@
 from sklearn.model_selection import ParameterGrid
 import subprocess
 import os
+import random
 
 param_dict = {
         # Traing Setting:
         '--model': ['HR_BiLSTM'], 
-        '--dataset': ['pq2'], 
-        '--framework': ['UHop'], 
+        '--dataset': ['wpq6'],# 'pqm8'], 
+        '--framework': ['UHop'],# 'baseline'], 
         '--train': [' '],  
         #'--train1test2': [True],
         '--stop_when_err': [True],  
@@ -16,8 +17,8 @@ param_dict = {
         '--epoch_num': [1000], 
         '--emb_size': [300], 
         '--hidden_size': [100, 150], 
-        '--dropout_rate': [0.0, 0.3, 0.5],#0.2, 0.3, 0.4], 
-        '--learning_rate': [0.1], 
+        '--dropout_rate': [0.0],# 0.5],#0.2, 0.3, 0.4], 
+        '--learning_rate': [0.00005, 0.0001, 0.001],# 0.1], 
         '--optimizer': ['rmsprop'], 
         '--neg_sample': [1024], 
         '--l2_norm': [0.0],#0.0, 0.00000001, 0.000000001], 
@@ -31,6 +32,7 @@ process_str = 'python3.6 main.py'
 ################################ NEED TO CONFIGURE ABOVE ####################################################
 
 possible_param_list = list(ParameterGrid(param_dict))
+random.shuffle(possible_param_list)
 #print(possible_param_list)
 print(f'There will be {len(possible_param_list)} runs')
 for i, param in enumerate(possible_param_list):
