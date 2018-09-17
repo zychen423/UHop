@@ -20,6 +20,10 @@ for i in [1,2,3]:
 for i in range(11):
     PATH[f'wpq{i}'] = f'../data/PQ/exp3/UHop/{i}'
 PATH['exp4'] = '../data/PQ/exp4'
+PATH['grid2_4'] = '../data/grid-world/problem_16_4_2'
+PATH['grid4_6'] = '../data/grid-world/problem_16_6_4'
+PATH['grid6_8'] = '../data/grid-world/problem_16_8_6'
+PATH['grid8_10'] = '../data/grid-world/problem_16_10_8/'
 
 from itertools import accumulate
 
@@ -62,9 +66,14 @@ class PerQuestionDataset(Dataset):
         for step in step_list:
             new_step = []
             for t in step:
+<<<<<<< HEAD
+                num_rela = self._numericalize_str(('.'.join(t[1]+[t[0]])), rela2id, ['.'])
+                num_rela_text = self._numericalize_str(('.'.join(t[1]+[t[0]])), word2id, ['.', '_'])
+=======
 #                print('.'.join(t[1]+[t[0]]))
                 num_rela = self._numericalize_str('.'.join(t[1]+[t[0]]), rela2id, ['.'])
                 num_rela_text = self._numericalize_str('.'.join(t[1]+[t[0]]), word2id, ['.', '_'])
+>>>>>>> 2ec45e79e67491a00f7e95197f869d2aae8af4be
                 new_step.append((num_rela, num_rela_text, t[2]))
             new_step_list.append(new_step)
         return index, ques, new_step_list
