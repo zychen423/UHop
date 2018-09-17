@@ -42,14 +42,6 @@ class PerQuestionDataset(Dataset):
     def _get_data(self, args, mode, word2id, rela2id, rela_token2id):
         data_objs = []
         id2rela = {v: k for k, v in rela2id.items()}
-#        baseline_path, UHop_path = path_finder.path_finder()
-#        wpq_path = path_finder.WPQ_PATH()
-#        if 'wpq' in args.dataset:
-#            file_path = wpq_path.baseline[args.dataset]
-#        el
-#        if 'pq' in args.dataset and 'w' not in args.dataset:
-#            file_path = baseline_path.data(args.dataset)
-#        else:
         file_path = PATH[args.dataset]
         print(file_path)
         with open(file_path.replace('MODE', mode), 'r') as f:
@@ -58,11 +50,9 @@ class PerQuestionDataset(Dataset):
                 anses, candidates, question = line.strip().split('\t')
                 # modify because of 'noNegativeAnswer' in sq data
                 candidates = [x for x in candidates.split() if x not in anses.split() and x!='noNegativeAnswer']
-                #candidates = [id2rela[int(x)].replace('..', '.') for x in candidates.split() if x not in anses.split() and x!='noNegativeAnswer']
                 # modify for "#head_entity#" label in sq dataset
                 ques = question.replace('$ARG1', '').replace('$ARG2', '').replace('<e>', 'TOPIC_ENTITY').replace('#head_entity#', 'TOPIC_ENTITY').strip()
                 for ans in anses.split():
-                    #ans = id2rela[int(ans)].replace('..', '.')
                     data = self._numericalize((i, ques, ans, candidates), word2id, rela_token2id)
                     data_objs.append(data)
                 if i==0:
