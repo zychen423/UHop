@@ -33,6 +33,12 @@ parser.add_argument('--show_result', action='store', type=bool, default=False)
 parser.add_argument('--train_embedding', action='store', type=bool, default=False)
 parser.add_argument('--log_result', action='store', type=bool, default=False)
 parser.add_argument('--dataset', action='store', type=str) #sq, wq, wq_train1_test2
+parser.add_argument('--saved_dir', action='store', type=str, default='saved_model')
+parser.add_argument('--hop_weight', action='store', type=float, default=2)
+parser.add_argument('--task_weight', action='store', type=float, default=2)
+parser.add_argument('--acc_weight', action='store', type=float, default=0.2)
+parser.add_argument('--step_every_step', action='store_false') #shoud be modified after window0/4
+parser.add_argument('--change_ques', action='store_true')
 
 args = parser.parse_args()
 print(f'args: {args}')
@@ -40,9 +46,12 @@ print(f'args: {args}')
 import_model_str = 'from model.{} import Model as Model'.format(args.model)
 exec(import_model_str)
 if args.train == True:
-    args.path = utility.find_save_dir(args.model) if args.path == None else args.path
-with open(os.path.join(args.path, 'args.txt'), 'w') as f:
-    json.dump(vars(args), f, indent=4, ensure_ascii=False)
+    args.path = utility.find_save_dir(args.saved_dir, args.model) if args.path == None else args.path
+    with open(os.path.join(args.path, 'args.txt'), 'w') as f:
+        json.dump(vars(args), f, indent=4, ensure_ascii=False)
+
+#baseline_path, UHop_path = path_finder.path_finder()
+#wpq_path = path_finder.WPQ_PATH()
 
 args.Model = Model
 if args.framework == 'baseline':
@@ -56,6 +65,22 @@ if args.framework == 'baseline':
             rela2id = json.load(f)
         with open('../data/SQ/rela2id.json', 'r') as f:
             rela_token2id =json.load(f)
+    elif args.dataset.lower() == 'exp4':
+        with open('../data/PQ/exp4/rela2id.json', 'r') as f:
+            rela_token2id = json.load(f)
+        with open('../data/PQ/exp4/concat_rela2id.json', 'r') as f:
+            rela2id = json.load(f)
+#    elif 'wpq' in args.dataset.lower():
+#        with open(wpq_path.concat_rela2id, 'r') as f:
+#            rela2id = json.load(f)
+#        with open('../data/PQ/exp3/baseline/rela2id.json', 'r') as f:
+        #with open(wpq_path.rela2id, 'r') as f:
+#            rela_token2id = json.load(f)
+#    elif 'pq' in args.dataset.lower():
+#        with open(baseline_path.concat_rela2id(args.dataset.lower()), 'r') as f:
+#            rela2id = json.load(f)
+#        with open(baseline_path.rela2id(args.dataset.lower()), 'r') as f:
+#            rela_token2id =json.load(f)
     else:
         raise ValueError('Unknown dataset')
 elif args.framework == 'UHop':
@@ -68,6 +93,12 @@ elif args.framework == 'UHop':
     elif args.dataset.lower() == 'wq_train1test2':
         with open('../data/WQ/train1test2_exp/rela2id.json', 'r') as f:
             rela2id =json.load(f)
+    elif args.dataset.lower() == 'exp4':
+        with open('../data/PQ/exp4/rela2id.json', 'r') as f:
+            rela2id = json.load(f)
+    elif 'wpq' in args.dataset.lower():
+        with open('../data/PQ/exp3/UHop/rela2id.json', 'r') as f:
+            rela2id = json.load(f)
     elif args.dataset.lower() == 'pq':
         with open('../data/PQ/PQ/rela2id.json', 'r') as f:
             rela2id =json.load(f)
@@ -90,7 +121,7 @@ elif args.framework == 'UHop':
         with open('../data/PQ/PQL2/rela2id.json', 'r') as f:
             rela2id =json.load(f)
     elif args.dataset.lower() == 'pql3':
-        with open('../data/PQ/PQL3m/rela2id.json', 'r') as f:
+        with open('../data/PQ/PQL3/rela2id.json', 'r') as f:
             rela2id =json.load(f)
     else:
         raise ValueError('Unknown dataset.')
@@ -115,18 +146,26 @@ if args.framework == 'UHop':
     model = Model(args).cuda()
     if args.train == True:
         uhop.train(model)
-        model, loss, acc, rc, td = uhop.eval(model=None, mode='test', dataset=None, path=args.path)
-        utility.save_model_with_result(model, loss, acc, rc, td, args.path)
+        model, loss, acc, rc, td, output, scores = uhop.eval(model=None, mode='test', dataset=None)
+        #utility.save_model_with_result(model, loss, acc, rc, td, args.path)
+        with open(f'{args.path}/prediction.txt', 'w') as f:
+            f.write(output)
+        with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
+            json.dump(scores, f)
     if args.test == True:
-        uhop.eval(model=None, mode='test', dataset=None)
+        _, _, acc, _, _, outupt, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
+        with open(f'{args.path}/prediction.txt', 'w') as f:
+            f.write(outupt)
+        with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
+            json.dump(scores, f)
 elif args.framework == 'baseline':
     baseline = Baseline(args, word2id, rela2id, rela_token2id)
     model = Model(args).cuda()
     if args.train == True:
         baseline.train(model)
         model, loss, acc = baseline.eval(model=None, mode='test', dataset=None)
-        utility.save_model_with_result(model, loss, acc, args.path)
+        #utility.save_model_with_result(model, loss, acc, 0, 0, 0, args.path)
     if args.test == True:
-        baseline.eval(model=None, mode='test', dataset=None)
+        baseline.eval(model=None, mode='test', dataset=None, path=args.path)
     
 

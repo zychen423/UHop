@@ -28,12 +28,12 @@ def log_result(num, ques, relas, rela_texts, scores, acc, path, word2id, rela2id
                     f.write(str(s.data.cpu().numpy())+'\n') 
         f.write('\n====================================\n')
 
-def find_save_dir(model_name):
+def find_save_dir(parent_dir, model_name):
     counter = 0
-    save_dir = f'../exp4/{model_name}_{counter}'
+    save_dir = f'../{parent_dir}/{model_name}_{counter}'
     while os.path.exists(save_dir):
         counter += 1
-        save_dir = f'../exp4/{model_name}_{counter}'
+        save_dir = f'../{parent_dir}/{model_name}_{counter}'
     os.mkdir(save_dir)
     print(f'save_dir is {save_dir}')
     return save_dir

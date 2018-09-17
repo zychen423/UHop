@@ -9,20 +9,17 @@ from functools import reduce
 from itertools import accumulate
 import random
 import numpy as np
-import path_finder
 
 PATH = {}
 PATH['wq'] = '../data/WQ/main_exp'
 PATH['wq_train1test2'] = '../data/WQ/train1test2_exp'
 PATH['sq'] = '../data/SQ'
-PATH['pq'] = '../data/PQ/PQ'
-PATH['pq1'] = '../data/PQ/PQ1'
-PATH['pq2'] = '../data/PQ/PQ2'
-PATH['pq3'] = '../data/PQ/PQ3'
-PATH['pql'] = '../data/PQ/PQL'
-PATH['pql1'] = '../data/PQ/PQL1'
-PATH['pql2'] = '../data/PQ/PQL2'
-PATH['pql3'] = '../data/PQ/PQL3'
+for i in [1,2,3]:
+    PATH[f'pq{i}'] = f'../data/PQ/PQ{i}'
+    PATH[f'pql{i}'] = f'../data/PQ/PQL{i}'
+for i in range(11):
+    PATH[f'wpq{i}'] = f'../data/PQ/exp3/UHop/{i}'
+PATH['exp4'] = '../data/PQ/exp4'
 
 from itertools import accumulate
 
@@ -47,12 +44,8 @@ class PerQuestionDataset(Dataset):
         self.data_objs = self._get_data(args, mode, word2id, rela2id)
     def _get_data(self, args, mode, word2id, rela2id):
         data_objs = []
-        baseline_path, UHop_path = path_finder.path_finder()
-        wpq_path = path_finder.WPQ_PATH()
-        if 'wpq' in args.dataset:
-            file_path = wpq_path.data[args.dataset]
-        else:
-            file_path = PATH[args.dataset]
+        file_path = PATH[args.dataset]
+        print(file_path)
         with open(f'{file_path}/{mode}_data.txt', 'r') as f:
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')

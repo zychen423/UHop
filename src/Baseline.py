@@ -10,6 +10,7 @@ from utility import save_model, load_model, log_result
 import random
 from datetime import datetime
 from baseline_data_utility import PerQuestionDataset, random_split, quick_collate
+import json
 
 class Baseline():
     def __init__(self, args, word2id, rela2id, rela_token2id):
@@ -17,6 +18,7 @@ class Baseline():
         self.args = args
         self.word2id = word2id
         self.rela2id = rela2id
+        self.id2rela = {v:k for k,v in rela_token2id.items()}
         self.rela_token2id = rela_token2id
     def get_optimizer(self, model):
         if self.args.optimizer == 'adam':
@@ -97,7 +99,7 @@ class Baseline():
         return model, total_loss / loss_count, total_acc / acc_count
             
 
-    def eval(self, model, mode, dataset):
+    def eval(self, model, mode, dataset, path=None):
         '''
         For test and validation
         mode: valid | test
@@ -117,6 +119,7 @@ class Baseline():
                 total_acc += 1; acc_count += 1; loss_count += 1
                 continue
             relas = [ans[0]] + [x[0] for x in candidates]
+            rev_rela = [[self.id2rela[r] for r in rela] for rela in relas]
             maxlen = max([len(x) for x in relas])
             relas = self._padding(relas, maxlen, 'prepend', self.rela2id['PADDING'])
             rela_texts = [ans[1]] + [x[1] for x in candidates]
@@ -134,6 +137,15 @@ class Baseline():
             ones = torch.ones(len(neg_scores)).cuda()
             loss = self.loss_function(pos_scores, neg_scores, ones)
             acc = 1 if all([x > y for x, y in zip(pos_scores, neg_scores)]) else 0
+            if path:
+                rela_score=list(zip(scores.detach().cpu().numpy().tolist()[:], rev_rela[:]))
+                rela_score=sorted(rela_score, key=lambda x:x[0], reverse=True)
+                output1 = json.dumps(rela_score) if acc else ''
+                output2 = '' if acc else json.dumps(rela_score)
+                with open(path+'/correct.txt', 'a+') as f:
+                    f.write(f'{output1}\n')
+                with open(path+'/wrong.txt', 'a+') as f:
+                    f.write(f'{output2}\n')
             if self.args.log_result == True and self.args.test == True:
                 print(f'\rlogging {num}/{len(datas)}', end='')
                 log_result(num, ques, relas, rela_texts, scores, acc, self.args.path, self.word2id, self.rela_token2id)
