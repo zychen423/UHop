@@ -146,7 +146,7 @@ if args.framework == 'UHop':
     model = Model(args).cuda()
     if args.train == True:
         uhop.train(model)
-        model, loss, acc, rc, td, output, scores = uhop.eval(model=None, mode='test', dataset=None)
+        model, loss, acc, rc, td, output, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
         #utility.save_model_with_result(model, loss, acc, rc, td, args.path)
         with open(f'{args.path}/prediction.txt', 'w') as f:
             f.write(output)
