@@ -54,10 +54,10 @@ class PerQuestionDataset(Dataset):
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')
                 data = json.loads(line)
-                data = self._numericalize(data, word2id, rela2id)
+                data = self._numericalize(data, word2id, rela2id, args.change_ques)
                 data_objs.append(data)
         return data_objs
-    def _numericalize(self, data, word2id, rela2id):
+    def _numericalize(self, data, word2id, rela2id, change_ques):
         index, ques, step_list = data[0], data[1], data[2]
         ques = self._numericalize_str(ques, word2id, [' '])
         if len(ques) < 5:
@@ -66,15 +66,17 @@ class PerQuestionDataset(Dataset):
         for step in step_list:
             new_step = []
             for t in step:
-<<<<<<< HEAD
-                num_rela = self._numericalize_str(('.'.join(t[1]+[t[0]])), rela2id, ['.'])
-                num_rela_text = self._numericalize_str(('.'.join(t[1]+[t[0]])), word2id, ['.', '_'])
-=======
 #                print('.'.join(t[1]+[t[0]]))
-                num_rela = self._numericalize_str('.'.join(t[1]+[t[0]]), rela2id, ['.'])
-                num_rela_text = self._numericalize_str('.'.join(t[1]+[t[0]]), word2id, ['.', '_'])
->>>>>>> 2ec45e79e67491a00f7e95197f869d2aae8af4be
-                new_step.append((num_rela, num_rela_text, t[2]))
+                if change_ques:
+                    num_rela = self._numericalize_str(t[0], rela2id, ['.'])
+                    num_rela_text = self._numericalize_str(t[0], word2id, ['.', '_'])
+                    num_prev = self._numericalize_str('.'.join(t[1]), rela2id, ['.'])
+                    num_prev_text = self._numericalize_str('.'.join(t[1]), word2id, ['.', '_'])
+                    new_step.append((num_rela, num_rela_text, num_prev, num_prev_text, t[2]))
+                else:
+                    num_rela = self._numericalize_str('.'.join(t[1]+[t[0]]), rela2id, ['.'])
+                    num_rela_text = self._numericalize_str('.'.join(t[1]+[t[0]]), word2id, ['.', '_'])
+                    new_step.append((num_rela, num_rela_text, t[2]))
             new_step_list.append(new_step)
         return index, ques, new_step_list
     def _numericalize_str(self, string, map2id, dilemeter):

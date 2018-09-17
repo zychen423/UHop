@@ -6,24 +6,31 @@ import random
 param_dict = {
         # Traing Setting:
         '--model': ['HR_BiLSTM'], 
-        '--dataset': ['wpq6'],# 'pqm8'], 
+        '--dataset': ['wq'],# 'pqm8'], 
         '--framework': ['UHop'],# 'baseline'], 
         '--train': [' '],  
         #'--train1test2': [True],
-        '--stop_when_err': [True],  
-        '--earlystop_tolerance': [20], 
+        '--earlystop_tolerance': [20],
+
+        '--saved_dir':['change_ques'],
+        '--stop_when_err': [''],    # comment to use weighted loss 
+        '--step_every_step' : [''], # comment to step only once in each question
+        '--change_ques' : [''],     # comment to keep same question representation in each hop
         
         # HyperParameter:
         '--epoch_num': [1000], 
         '--emb_size': [300], 
         '--hidden_size': [100, 150], 
-        '--dropout_rate': [0.0],# 0.5],#0.2, 0.3, 0.4], 
-        '--learning_rate': [0.00005, 0.0001, 0.001],# 0.1], 
-        '--optimizer': ['rmsprop'], 
+        '--dropout_rate': [0, 0.2, 0.4],# 0.5],#0.2, 0.3, 0.4], 
+        '--learning_rate': [0.1],# 0.1], 
+        '--optimizer': ['adadelta'], 
         '--neg_sample': [1024], 
-        '--l2_norm': [0.0],#0.0, 0.00000001, 0.000000001], 
-        '--margin': [0.1, 0.3, 0.5, 0.7, 1.0], 
+        '--l2_norm': [0.0],# 0.00000001, 0.000000001], 
+        '--margin': [0.1, 0.3, 0.5, 0.7, 1.0],# 0.7, 1.0],
         #'--train_embedding': [True], 
+#        '--hop_weight': [0.5, 0.8, 1, 1.25, 2],
+#        '--task_weight': [0.5, 0.8, 1, 1.25, 2],
+#        '--acc_weight': [1.0, 0.1, 0.25, 0.5]
         }
 
 os.chdir('../src/')

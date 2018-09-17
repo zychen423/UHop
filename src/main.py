@@ -26,7 +26,6 @@ parser.add_argument('--optimizer', action='store', type=str, default='adam')
 parser.add_argument('--l2_norm', action='store', type=float, default=0.0)
 parser.add_argument('--earlystop_tolerance', action='store', type=int, default=10)
 parser.add_argument('--margin', action='store', type=float, default=0.5)
-parser.add_argument('--stop_when_err', action='store', type=bool, default=False)
 parser.add_argument('--train_step_1_only', action='store', type=bool, default=False)
 parser.add_argument('--train_rela_choose_only', action='store', type=bool, default=False)
 parser.add_argument('--show_result', action='store', type=bool, default=False)
@@ -34,10 +33,11 @@ parser.add_argument('--train_embedding', action='store', type=bool, default=Fals
 parser.add_argument('--log_result', action='store', type=bool, default=False)
 parser.add_argument('--dataset', action='store', type=str) #sq, wq, wq_train1_test2
 parser.add_argument('--saved_dir', action='store', type=str, default='saved_model')
-parser.add_argument('--hop_weight', action='store', type=float, default=2)
-parser.add_argument('--task_weight', action='store', type=float, default=2)
-parser.add_argument('--acc_weight', action='store', type=float, default=0.2)
-parser.add_argument('--step_every_step', action='store_false') #shoud be modified after window0/4
+parser.add_argument('--hop_weight', action='store', type=float, default=1)
+parser.add_argument('--task_weight', action='store', type=float, default=1)
+parser.add_argument('--acc_weight', action='store', type=float, default=1)
+parser.add_argument('--stop_when_err', action='store_true')
+parser.add_argument('--step_every_step', action='store_true')
 parser.add_argument('--change_ques', action='store_true')
 
 args = parser.parse_args()
