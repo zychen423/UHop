@@ -2,9 +2,9 @@ import os
 import sys
 import json
 
-result_dir = '../../weighted_wq/'
-model_name = sys.argv[1]
-requirements = sys.argv[2:]
+result_dir = f'../../{sys.argv[1]}/'
+model_name = sys.argv[2]
+requirements = sys.argv[3:]
 
 index = 0
 result_list = []

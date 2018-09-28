@@ -39,6 +39,7 @@ parser.add_argument('--acc_weight', action='store', type=float, default=1)
 parser.add_argument('--stop_when_err', action='store_true')
 parser.add_argument('--step_every_step', action='store_true')
 parser.add_argument('--change_ques', action='store_true')
+parser.add_argument('--reduce_method', action='store', type=str, default='dense')
 
 args = parser.parse_args()
 print(f'args: {args}')

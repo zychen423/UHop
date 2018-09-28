@@ -5,17 +5,18 @@ import random
 
 param_dict = {
         # Traing Setting:
-        '--model': ['HR_BiLSTM'], 
+        '--model': ['ABWIM'], 
         '--dataset': ['wq'],# 'pqm8'], 
         '--framework': ['UHop'],# 'baseline'], 
         '--train': [' '],  
         #'--train1test2': [True],
         '--earlystop_tolerance': [20],
 
-        '--saved_dir':['change_ques'],
+        '--saved_dir':['exp2'],
         '--stop_when_err': [''],    # comment to use weighted loss 
-        '--step_every_step' : [''], # comment to step only once in each question
-        '--change_ques' : [''],     # comment to keep same question representation in each hop
+#        '--step_every_step' : [''], # comment to step only once in each question
+#        '--change_ques' : [''],     # comment to keep same question representation in each hop
+#        '--reduce_method' : ['dense_relu'], # bilstm or dense, for abwim_plus
         
         # HyperParameter:
         '--epoch_num': [1000], 
@@ -28,9 +29,9 @@ param_dict = {
         '--l2_norm': [0.0],# 0.00000001, 0.000000001], 
         '--margin': [0.1, 0.3, 0.5, 0.7, 1.0],# 0.7, 1.0],
         #'--train_embedding': [True], 
-#        '--hop_weight': [0.5, 0.8, 1, 1.25, 2],
-#        '--task_weight': [0.5, 0.8, 1, 1.25, 2],
-#        '--acc_weight': [1.0, 0.1, 0.25, 0.5]
+#        '--hop_weight': [1.25],#0.5, 0.8, 1, 1.25, 2],
+#        '--task_weight': [1.25],#0.5, 0.8, 1, 1.25, 2],
+#        '--acc_weight': [0.1]#, 0.1, 0.25, 0.5]
         }
 
 os.chdir('../src/')

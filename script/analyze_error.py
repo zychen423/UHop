@@ -17,7 +17,7 @@ U_PATH=[('wqab2', '262'), ('wqab', '999'), ('pq2hr', '127'), ('pq2ab', '127'), (
             ('pql2ab', '92'), ('pql1hr', '159'), ('pql1ab', '160'), ('pql3hr', '95'),
             ('pql3ab', '204'), ('exp4hr', '438'), ('exp4ab', '346')]
 
-U_PATH=[('wqab', '350')]
+U_PATH=[('wqab', '1073')]#, ('wqab1', '629'), ('wqab2', '286'), ('wqab3', '541')]
 
 DATA_PATH = '../data/PQ/WPQL/1'
 
@@ -32,6 +32,12 @@ def read_lines(filepath):
 
 def label_UHop(line, hop):
     label_dict = LABEL_DICT1 if hop==1 else (LABEL_DICT2 if hop==2 else LABEL_DICT3)
+    labels = line.split('\t')
+    if len(labels)>1 and (labels[-2]=='<Terminate>' or labels[-2]=='<T>'):
+        labels = labels[:-1]
+    if ' '.join(labels) not in label_dict:
+        print(line)
+    return label_dict[' '.join(labels)]
     return label_dict[line.replace('\t', ' ')]
     labels = []
     for label in line.split('\t'):
@@ -71,7 +77,7 @@ def analysis_uhop(info):
         label1, label2 = [], []
         with open('/home/lance5/UHop/data/WQ/main_exp/test_data.txt', 'r') as f:
             gold=f.read().splitlines()
-            print(len(gold), len(uhop))
+            #print(len(gold), len(uhop))
             for g, u in zip(gold, uhop):
                 hop = len(json.loads(g)[2])
                 if hop==2:
@@ -109,19 +115,19 @@ def main():
     df = DataFrame(data=model_counts, index=model_index, columns=LABEL_LIST).round(2)
     df.to_csv('main.csv')
 
-    with open('/home/lance5/UHop/data/PQ/PQL2/test_data.txt') as f:
-        gold = f.read().splitlines()
-        for l, g in zip(labels['wqab'][0], gold):
-            if l == '1RC':
-                print(g.split('"')[1])
-
     print(f'{df}\n\ncomparison between {KEY1} and {KEY2}:\n')
     compare(labels[KEY1][0], labels[KEY2][0])
 
 #    print((labels['wqhr'][0]+labels['wqhr'][1]).count('OK')/len(labels['wqhr'][0]+labels['wqhr'][1]))
-    print((labels['wqab'][0]+labels['wqab'][1]).count('OK')/len(labels['wqab'][0]+labels['wqab'][1]))
+#    print((labels['wqab'][0]+labels['wqab'][1]).count('OK')/len(labels['wqab'][0]+labels['wqab'][1]))
+    print(total_acc(labels['wqab']))
+    print(total_acc(labels['wqab1']))
+    print(total_acc(labels['wqab2']))
 
     return
+
+def total_acc(label):
+    return (label[0]+label[1]).count('OK')/len(label[0]+label[1])
 
 def compare(labels1, labels2):
     label2id = {l:i for i,l in enumerate(LABEL_LIST)}

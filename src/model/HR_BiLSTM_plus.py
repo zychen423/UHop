@@ -25,6 +25,7 @@ class Model(nn.Module):
         self.args = args
         self.cos = nn.CosineSimilarity(dim=1)
         self.tanh = nn.Tanh()
+        self.linear = nn.Linear(args.hidden_size*2, args.hidden_size*2, bias=True)
         return
 
     def forward(self, *inputs):
@@ -80,6 +81,7 @@ class Model(nn.Module):
             prev_rela_h = F.avg_pool1d(prev_rela_hs, kernel_size=prev_rela_hs.shape[2], stride=None)
             prev_rela_h = prev_rela_h.squeeze(2)
             ques_h = ques_h-prev_rela_h
+            ques_h = self.linear(ques_h)
 
         output = self.cos(ques_h, rela_h)
         return output
