@@ -62,6 +62,7 @@ class PerQuestionDataset(Dataset):
         ques = self._numericalize_str(ques, word2id, [' '])
         if len(ques) < 5:
             ques = [word2id['PADDING']] * (5-len(ques)) + ques
+        ques_pos = [i for i in range(len(ques))]
         new_step_list = []
         for step in step_list:
             new_step = []
@@ -76,9 +77,10 @@ class PerQuestionDataset(Dataset):
                 else:
                     num_rela = self._numericalize_str('.'.join(t[1]+[t[0]]), rela2id, ['.'])
                     num_rela_text = self._numericalize_str('.'.join(t[1]+[t[0]]), word2id, ['.', '_'])
-                    new_step.append((num_rela, num_rela_text, t[2]))
+                    rela_pos = [i+1 for i, _ in enumerate(num_rela+num_rela_text)]
+                    new_step.append((num_rela, num_rela_text, rela_pos, t[2]))
             new_step_list.append(new_step)
-        return index, ques, new_step_list
+        return index, ques, new_step_list, ques_pos
     def _numericalize_str(self, string, map2id, dilemeter):
         #print('original str:', string)
         if len(dilemeter) == 2:

@@ -5,6 +5,7 @@ from Baseline import Baseline
 import utility
 import json
 import numpy as np
+import torch
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', action='store', type=str, default=None) # HR-BiLSTM, ABWIM, MVM
@@ -163,8 +164,9 @@ elif args.framework == 'baseline':
     baseline = Baseline(args, word2id, rela2id, rela_token2id)
     model = Model(args).cuda()
     if args.train == True:
-        baseline.train(model)
-        model, loss, acc = baseline.eval(model=None, mode='test', dataset=None)
+        with torch.autograd.profiler.profile() as prof:
+            baseline.train(model)
+            model, loss, acc = baseline.eval(model=None, mode='test', dataset=None)
         #utility.save_model_with_result(model, loss, acc, 0, 0, 0, args.path)
     if args.test == True:
         baseline.eval(model=None, mode='test', dataset=None, path=args.path)

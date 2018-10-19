@@ -9,6 +9,7 @@ from torch.optim import lr_scheduler
 from utility import save_model, load_model 
 import random
 from datetime import datetime
+import json
 
 total_rank = 0
 rank_count = 0
@@ -38,15 +39,34 @@ class UHop():
                     lr=self.args.learning_rate, weight_decay=self.args.l2_norm)
         return optimizer
 
-    def _padding(self, lists, maxlen, type, padding):
-        new_lists = []
-        for list in lists:
+    def _padding(self, lists, position, maxlen, type, padding):
+        new_lists, new_position = [], []
+        for list, pos in zip(lists, position):
             if type == 'prepend':
                 new_list = [padding] * (maxlen - len(list)) + list
+                new_pos = [0] * (maxlen - len(list)) + pos
             elif type == 'append':
                 new_list = list + [padding] * (maxlen - len(list))
+                new_pos = pos + [0] * (maxlen - len(list))
             new_lists.append(new_list)
-        return new_lists
+            new_position.append(new_pos)
+        return new_lists, new_position
+
+    def _pad_rela(self, pos_rela, neg_rela, pos_text, neg_text, pos_pos, neg_pos):
+        maxlen = max([len(x) for x in pos_rela+neg_rela])
+        pos_rela, pos_pos = self._padding(pos_rela, pos_pos, maxlen, 
+                                                'append', self.rela2id['PADDING'])
+        neg_rela, neg_pos = self._padding(neg_rela, neg_pos, maxlen, 
+                                                'append', self.rela2id['PADDING'])
+        maxlen = max([len(x) for x in pos_text+neg_text])
+        pos_text, pos_pos = self._padding(pos_text, pos_pos, maxlen,
+                                                'prepend', self.word2id['PADDING'])
+        neg_text, neg_pos = self._padding(neg_text, neg_pos, maxlen,
+                                                'prepend', self.word2id['PADDING'])
+        relas = torch.LongTensor(pos_rela+neg_rela).cuda()
+        rela_text = torch.LongTensor(pos_text+neg_text).cuda()
+        rela_pos = torch.LongTensor(pos_pos+neg_pos).cuda()
+        return relas, rela_text, rela_pos
 
     def _loss_weight(self, current_len, total_len, acc, task):
         hop_weight = self.args.hop_weight**(current_len)
@@ -58,7 +78,7 @@ class UHop():
         #acc_weight = self.args.acc_weight if acc==1 else 1
         #return hop_weight * task_weight * acc_weight
 
-    def _single_step_rela_choose(self, model, ques, tuples, path=False):
+    def _single_step_rela_choose(self, model, ques, tuples, ques_pos):
         pos_tuples = [t for t in tuples if t[-1] == 1]
         neg_tuples = [t for t in tuples if t[-1] == 0]
         if len(pos_tuples) == 0 or len(neg_tuples) == 0:
@@ -67,41 +87,27 @@ class UHop():
             print('mutiple positive tuples!')
         if len(neg_tuples) > self.args.neg_sample:
             neg_tuples = neg_tuples[:self.args.neg_sample]
-        #print(pos_tuples)
+
         if not self.args.change_ques:
-            pos_rela, pos_rela_text, _ = zip(*pos_tuples)
-            neg_rela, neg_rela_text, _ = zip(*neg_tuples)
+            pos_rela, pos_rela_text, pos_rela_pos, _ = zip(*pos_tuples)
+            neg_rela, neg_rela_text, neg_rela_pos, _ = zip(*neg_tuples)
         else:
             pos_rela, pos_rela_text, pos_prev, pos_prev_text, _ = zip(*pos_tuples)
             neg_rela, neg_rela_text, neg_prev, neg_prev_text, _ = zip(*neg_tuples)
         rev_rela = [[self.id2rela[r] for r in rela] for rela in pos_rela+neg_rela]
 
-        # MAYBE WRITE A FUNCTION TO CREATE PADDED TENSOR ?
-        maxlen = max([len(x) for x in pos_rela+neg_rela])
-        pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
-        #print(pos_rela)
-        neg_rela = self._padding(neg_rela, maxlen, 'prepend', self.rela2id['PADDING'])
-        maxlen = max([len(x) for x in pos_rela_text+neg_rela_text])
-        pos_rela_text = self._padding(pos_rela_text, maxlen, 'prepend', self.word2id['PADDING'])
-        #print(pos_rela_text)
-        neg_rela_text = self._padding(neg_rela_text, maxlen, 'prepend', self.word2id['PADDING'])
         ques = torch.LongTensor([ques]*(len(pos_rela)+len(neg_rela))).cuda()
-        relas = torch.LongTensor(pos_rela+neg_rela).cuda()
-        rela_texts = torch.LongTensor(pos_rela_text+neg_rela_text).cuda()
+        ques_pos = torch.LongTensor([ques_pos]*(len(pos_rela)+len(neg_rela))).cuda()
+        relas, rela_texts, rela_pos = self._pad_rela(pos_rela, neg_rela, 
+                            pos_rela_text, neg_rela_text, pos_rela_pos, neg_rela_pos)
 
         # deal with previous relations separately
         if self.args.change_ques:
-            maxlen = max([len(x) for x in pos_prev+neg_prev])
-            pos_prev = self._padding(pos_prev, maxlen, 'prepend', self.rela2id['PADDING'])
-            neg_prev = self._padding(neg_prev, maxlen, 'prepend', self.rela2id['PADDING'])
-            maxlen = max([len(x) for x in pos_prev_text+neg_prev_text])
-            pos_prev_text=self._padding(pos_prev_text, maxlen, 'prepend', self.word2id['PADDING'])
-            neg_prev_text=self._padding(neg_prev_text, maxlen, 'prepend', self.word2id['PADDING'])
-            prevs = torch.LongTensor(pos_prev+neg_prev).cuda()
-            prev_texts = torch.LongTensor(pos_prev_text+neg_prev_text).cuda()
+            prevs, prev_texts, prev_pos = self._pad_rela(pos_prev, neg_prev, 
+                            pos_prev_text, neg_prev_text, pos_prev_pos, neg_prev_pos)
 
         if not self.args.change_ques:
-            scores = model(ques, rela_texts, relas)
+            scores = model(ques, rela_texts, relas, ques_pos, rela_pos)
         else:
             scores = model(ques, rela_texts, relas, prev_texts, prevs, maxlen)
         pos_scores = scores[0].repeat(len(scores)-1)
@@ -130,7 +136,7 @@ class UHop():
         '''
         return loss, acc, rela_score
 
-    def _termination_decision(self, model, ques, tuples, next_tuples, movement, path=False):
+    def _termination_decision(self, model, ques, tuples, next_tuples, ques_pos, movement):
         if movement == 'continue':
             pos_tuples = [t for t in next_tuples if t[-1] == 1]
             neg_tuples = [t for t in tuples if t[-1] == 1]
@@ -146,35 +152,25 @@ class UHop():
         if len(neg_tuples) > self.args.neg_sample:
             neg_tuples = neg_tuples[:self.args.neg_sample]
         if not self.args.change_ques:
-            pos_rela, pos_rela_text, _ = zip(*pos_tuples)
-            neg_rela, neg_rela_text, _ = zip(*neg_tuples)
+            pos_rela, pos_rela_text, pos_rela_pos, _ = zip(*pos_tuples)
+            neg_rela, neg_rela_text, neg_rela_pos, _ = zip(*neg_tuples)
         else:
             pos_rela, pos_rela_text, pos_prev, pos_prev_text, _ = zip(*pos_tuples)
             neg_rela, neg_rela_text, neg_prev, neg_prev_text, _ = zip(*neg_tuples)
+
         rev_rela = [[self.id2rela[r] for r in rela] for rela in pos_rela+neg_rela]
 
-        maxlen = max([len(x) for x in pos_rela+neg_rela])
-        pos_rela = self._padding(pos_rela, maxlen, 'prepend', self.rela2id['PADDING'])
-        neg_rela = self._padding(neg_rela, maxlen, 'prepend', self.rela2id['PADDING'])
-        maxlen = max([len(x) for x in pos_rela_text+neg_rela_text])
-        pos_rela_text = self._padding(pos_rela_text, maxlen, 'prepend', self.word2id['PADDING'])
-        neg_rela_text = self._padding(neg_rela_text, maxlen, 'prepend', self.word2id['PADDING'])
         ques = torch.LongTensor([ques]*(len(pos_rela)+len(neg_rela))).cuda()
-        relas = torch.LongTensor(pos_rela+neg_rela).cuda()
-        rela_texts = torch.LongTensor(pos_rela_text+neg_rela_text).cuda()
+        ques_pos = torch.LongTensor([ques_pos]*(len(pos_rela)+len(neg_rela))).cuda()
+        relas, rela_texts, rela_pos = self._pad_rela(pos_rela, neg_rela, 
+                            pos_rela_text, neg_rela_text, pos_rela_pos, neg_rela_pos)
 
         if self.args.change_ques:
-            maxlen = max([len(x) for x in pos_prev+neg_prev])
-            pos_prev = self._padding(pos_prev, maxlen, 'prepend', self.rela2id['PADDING'])
-            neg_prev = self._padding(neg_prev, maxlen, 'prepend', self.rela2id['PADDING'])
-            maxlen = max([len(x) for x in pos_prev_text+neg_prev_text])
-            pos_prev_text=self._padding(pos_prev_text, maxlen, 'prepend', self.word2id['PADDING'])
-            neg_prev_text=self._padding(neg_prev_text, maxlen, 'prepend', self.word2id['PADDING'])
-            prevs = torch.LongTensor(pos_prev+neg_prev).cuda()
-            prev_texts = torch.LongTensor(pos_prev_text+neg_prev_text).cuda()
+            prevs, prev_texts, prev_pos = self._pad_rela(pos_prev, neg_prev, 
+                            pos_prev_text, neg_prev_text, pos_prev_pos, neg_prev_pos)
 
         if not self.args.change_ques:
-            scores = model(ques, rela_texts, relas)
+            scores = model(ques, rela_texts, relas, ques_pos, rela_pos)
         else:
             scores = model(ques, rela_texts, relas, prev_texts, prevs, maxlen)
         rela_score=list(zip(scores.detach().cpu().numpy().tolist()[:], rev_rela[:]))
@@ -212,14 +208,14 @@ class UHop():
             model = model.train().cuda()
             total_loss, total_acc, total_rc_acc, total_td_acc = 0.0, 0.0, 0.0, 0.0
             loss_count, acc_count, rc_count, td_count = 0, 0, 0, 0
-            for trained_num, (_, ques, step_list) in enumerate(datas):
+            for trained_num, (_, ques, step_list, ques_pos) in enumerate(datas):
                 loss = torch.tensor(0, dtype=torch.float, requires_grad=True).cuda()
                 acc_list = []
                 optimizer.zero_grad();model.zero_grad()
                 for i in range(len(step_list)-1):
                     if self.args.step_every_step:
                         optimizer.zero_grad();model.zero_grad(); 
-                    step_loss, acc, _ = self._single_step_rela_choose(model, ques, step_list[i])
+                    step_loss, acc, _ = self._single_step_rela_choose(model, ques, step_list[i], ques_pos)
                     if not self.args.stop_when_err :
                         step_loss *= self._loss_weight(i, len(step_list)-2, acc, 'RC')
                     if step_loss != 0:
@@ -238,7 +234,7 @@ class UHop():
                         # do continue
                         if self.args.step_every_step:
                             optimizer.zero_grad();model.zero_grad(); 
-                        step_loss, acc, _ = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'continue')
+                        step_loss, acc, _ = self._termination_decision(model, ques, step_list[i], step_list[i+1], ques_pos, 'continue')
                         if not self.args.stop_when_err :
                             step_loss *= self._loss_weight(i, len(step_list)-2, acc, 'TD')
                         if step_loss != 0:
@@ -251,7 +247,7 @@ class UHop():
                             loss_count += 1
                         acc_list.append(acc)
                         total_td_acc += acc; td_count += 1
-                step_loss, acc, _ = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'terminate')
+                step_loss, acc, _ = self._termination_decision(model, ques, step_list[i], step_list[i+1], ques_pos, 'terminate')
                 if step_loss != 0:
                     if self.args.step_every_step:
                         step_loss.backward(); optimizer.step()
@@ -267,7 +263,7 @@ class UHop():
                 acc = 1 if all([x == 1 for x in acc_list]) else 0
                 total_acc += acc; acc_count += 1
                 print(f'\r{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Epoch {epoch} {trained_num}/{len(datas)} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f} RC_Acc:{total_rc_acc/rc_count:.2f} TD_Acc:{total_td_acc/td_count:.2f}', end='')
-            _, valid_loss, valid_acc, _, _, _, _ = self.eval(model, 'valid', valid_dataset)
+            _, valid_loss, valid_acc, _, _, _, score_debug = self.eval(model, 'valid', valid_dataset)
             if valid_loss < min_valid_metric:
                 min_valid_metric = valid_loss
                 earlystop_counter = 0
@@ -296,11 +292,11 @@ class UHop():
                 pin_memory=False, collate_fn=quick_collate)
         total_loss, total_acc, total_rc_acc, total_td_acc = 0.0, 0.0, 0.0, 0.0
         loss_count, acc_count, rc_count, td_count = 0, 0, 0, 0
-        for num, (_, ques, step_list) in enumerate(datas):
+        for num, (_, ques, step_list, ques_pos) in enumerate(datas):
             labels, scores = [], []
             acc_list, rc_list = [], []
             for i in range(len(step_list)-1):
-                loss, acc, rc_s = self._single_step_rela_choose(model, ques, step_list[i])
+                loss, acc, rc_s = self._single_step_rela_choose(model, ques, step_list[i], ques_pos)
                 labels.append('<CR>' if acc else '<WR>')
                 scores.append(rc_s)
                 acc_list.append(acc)
@@ -314,7 +310,7 @@ class UHop():
                     break
                 if i + 2 < len(step_list):
                     # do continue
-                    loss, acc, td_s = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'continue')
+                    loss, acc, td_s = self._termination_decision(model, ques, step_list[i], step_list[i+1], ques_pos, 'continue')
                     acc_list.append(acc)
                     if output_result and all(acc_list[:-1]):
                         labels.append(('<C>' if acc else '<T>'))
@@ -324,7 +320,7 @@ class UHop():
                     else:
                         loss_count += 1
                         total_td_acc += acc; td_count += 1
-            loss, acc, td_s = self._termination_decision(model, ques, step_list[i], step_list[i+1], 'terminate')
+            loss, acc, td_s = self._termination_decision(model, ques, step_list[i], step_list[i+1], ques_pos, 'terminate')
             acc_list.append(acc)
             if output_result and all(acc_list[:-1]):
                 labels.append('<T>' if acc else '<C>')
