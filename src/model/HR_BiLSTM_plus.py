@@ -25,11 +25,33 @@ class Model(nn.Module):
         self.args = args
         self.cos = nn.CosineSimilarity(dim=1)
         self.tanh = nn.Tanh()
-        self.linear = nn.Linear(args.hidden_size*2, args.hidden_size*2, bias=True)
+        self.linear = nn.Linear(args.hidden_size*4, args.hidden_size*2, bias=True)
+        self.method = args.reduce_method
         return
 
+    def reduce_prev(self, prev_rela_text_x, prev_rela_x, ques_hidden_state, ques_h):
+        prev_rela_text_x = th.transpose(prev_rela_text_x, 0, 1)
+        prev_rela_x = th.transpose(prev_rela_x, 0, 1)
+        prev_rela_text_x = self.word_embedding(prev_rela_text_x)
+        prev_rela_x = self.rela_embedding(prev_rela_x)
+        prev_rela_text_x = self.dropout(prev_rela_text_x)
+        prev_rela_x = self.dropout(prev_rela_x)
+        prev_rela_hs, hidden_state = self.encode(prev_rela_x, ques_hidden_state)
+        prev_rela_text_hs, hidden_state = self.encode(prev_rela_text_x, hidden_state)
+        prev_rela_hs = th.cat([prev_rela_hs, prev_rela_text_hs], 0)
+        prev_rela_hs = prev_rela_hs.permute(1, 2, 0)
+        prev_rela_h = F.avg_pool1d(prev_rela_hs, kernel_size=prev_rela_hs.shape[2], stride=None)
+        prev_rela_h = prev_rela_h.squeeze(2)
+        if self.method == "dense":
+            return self.linear(th.cat((ques_h, prev_rela_h), dim=-1))
+        elif self.method == "scaled_sub":
+            prev_rela_h = prev_rela_h/math.sqrt(prev_rela_h.shape[1])
+        ques_h = ques_h-prev_rela_h
+        #ques_h = self.linear(ques_h)
+        return ques_h
+
     def forward(self, *inputs):
-        ques_x, rela_text_x, rela_x, prev_rela_text_x, prev_rela_x, prev_len = inputs[0], inputs[1], inputs[2], inputs[3], inputs[4], inputs[5]
+        ques_x, rela_text_x, rela_x, prev_rela_text_x, prev_rela_x = inputs[0], inputs[1], inputs[2], inputs[3], inputs[4]
         ques_x = th.transpose(ques_x, 0, 1)
         rela_text_x = th.transpose(rela_text_x, 0, 1)
         rela_x = th.transpose(rela_x, 0, 1)
@@ -67,21 +89,9 @@ class Model(nn.Module):
         ques_h = ques_h.squeeze(2)
         rela_h = rela_h.squeeze(2)
 
-        if prev_len>0:
-            prev_rela_text_x = th.transpose(prev_rela_text_x, 0, 1)
-            prev_rela_x = th.transpose(prev_rela_x, 0, 1)
-            prev_rela_text_x = self.word_embedding(prev_rela_text_x)
-            prev_rela_x = self.rela_embedding(prev_rela_x)
-            prev_rela_text_x = self.dropout(prev_rela_text_x)
-            prev_rela_x = self.dropout(prev_rela_x)
-            prev_rela_hs, hidden_state = self.encode(prev_rela_x, ques_hidden_state)
-            prev_rela_text_hs, hidden_state = self.encode(prev_rela_text_x, hidden_state)
-            prev_rela_hs = th.cat([prev_rela_hs, prev_rela_text_hs], 0)
-            prev_rela_hs = prev_rela_hs.permute(1, 2, 0)
-            prev_rela_h = F.avg_pool1d(prev_rela_hs, kernel_size=prev_rela_hs.shape[2], stride=None)
-            prev_rela_h = prev_rela_h.squeeze(2)
-            ques_h = ques_h-prev_rela_h
-            ques_h = self.linear(ques_h)
+        if prev_rela_x.shape[0]>0:
+            ques_h = self.reduce_prev(prev_rela_text_x, prev_rela_x, ques_hidden_state, ques_h)
+
 
         output = self.cos(ques_h, rela_h)
         return output

@@ -41,15 +41,16 @@ class UHop():
 
     def _padding(self, lists, position, maxlen, type, padding):
         new_lists, new_position = [], []
-        for list, pos in zip(lists, position):
+        #for list, pos in zip(lists, position):
+        for list in lists:
             if type == 'prepend':
                 new_list = [padding] * (maxlen - len(list)) + list
-                new_pos = [0] * (maxlen - len(list)) + pos
+        #        new_pos = [0] * (maxlen - len(list)) + pos
             elif type == 'append':
                 new_list = list + [padding] * (maxlen - len(list))
-                new_pos = pos + [0] * (maxlen - len(list))
+        #        new_pos = pos + [0] * (maxlen - len(list))
             new_lists.append(new_list)
-            new_position.append(new_pos)
+        #    new_position.append(new_pos)
         return new_lists, new_position
 
     def _pad_rela(self, pos_rela, neg_rela, pos_text, neg_text, pos_pos, neg_pos):
@@ -92,8 +93,8 @@ class UHop():
             pos_rela, pos_rela_text, pos_rela_pos, _ = zip(*pos_tuples)
             neg_rela, neg_rela_text, neg_rela_pos, _ = zip(*neg_tuples)
         else:
-            pos_rela, pos_rela_text, pos_prev, pos_prev_text, _ = zip(*pos_tuples)
-            neg_rela, neg_rela_text, neg_prev, neg_prev_text, _ = zip(*neg_tuples)
+            pos_rela, pos_rela_text, pos_rela_pos, pos_prev, pos_prev_text, _ = zip(*pos_tuples)
+            neg_rela, neg_rela_text, neg_rela_pos, neg_prev, neg_prev_text, _ = zip(*neg_tuples)
         rev_rela = [[self.id2rela[r] for r in rela] for rela in pos_rela+neg_rela]
 
         ques = torch.LongTensor([ques]*(len(pos_rela)+len(neg_rela))).cuda()
@@ -104,12 +105,12 @@ class UHop():
         # deal with previous relations separately
         if self.args.change_ques:
             prevs, prev_texts, prev_pos = self._pad_rela(pos_prev, neg_prev, 
-                            pos_prev_text, neg_prev_text, pos_prev_pos, neg_prev_pos)
+                            pos_prev_text, neg_prev_text, [],[])#pos_prev_pos, neg_prev_pos)
 
         if not self.args.change_ques:
             scores = model(ques, rela_texts, relas, ques_pos, rela_pos)
         else:
-            scores = model(ques, rela_texts, relas, prev_texts, prevs, maxlen)
+            scores = model(ques, rela_texts, relas, prev_texts, prevs)#maxlen)
         pos_scores = scores[0].repeat(len(scores)-1)
         neg_scores = scores[1:]
         ones = torch.ones(len(neg_scores)).cuda()
@@ -155,8 +156,8 @@ class UHop():
             pos_rela, pos_rela_text, pos_rela_pos, _ = zip(*pos_tuples)
             neg_rela, neg_rela_text, neg_rela_pos, _ = zip(*neg_tuples)
         else:
-            pos_rela, pos_rela_text, pos_prev, pos_prev_text, _ = zip(*pos_tuples)
-            neg_rela, neg_rela_text, neg_prev, neg_prev_text, _ = zip(*neg_tuples)
+            pos_rela, pos_rela_text, pos_rela_pos, pos_prev, pos_prev_text, _ = zip(*pos_tuples)
+            neg_rela, neg_rela_text, neg_rela_pos, neg_prev, neg_prev_text, _ = zip(*neg_tuples)
 
         rev_rela = [[self.id2rela[r] for r in rela] for rela in pos_rela+neg_rela]
 
@@ -167,12 +168,12 @@ class UHop():
 
         if self.args.change_ques:
             prevs, prev_texts, prev_pos = self._pad_rela(pos_prev, neg_prev, 
-                            pos_prev_text, neg_prev_text, pos_prev_pos, neg_prev_pos)
+                            pos_prev_text, neg_prev_text, [], [])#pos_prev_pos, neg_prev_pos)
 
         if not self.args.change_ques:
             scores = model(ques, rela_texts, relas, ques_pos, rela_pos)
         else:
-            scores = model(ques, rela_texts, relas, prev_texts, prevs, maxlen)
+            scores = model(ques, rela_texts, relas, prev_texts, prevs)
         rela_score=list(zip(scores.detach().cpu().numpy().tolist()[:], rev_rela[:]))
         '''
         for q, r, t, s in zip(ques, relas, rela_texts, scores):
@@ -212,9 +213,10 @@ class UHop():
                 loss = torch.tensor(0, dtype=torch.float, requires_grad=True).cuda()
                 acc_list = []
                 optimizer.zero_grad();model.zero_grad()
+                step_count = 0
                 for i in range(len(step_list)-1):
                     if self.args.step_every_step:
-                        optimizer.zero_grad();model.zero_grad(); 
+                        optimizer.zero_grad();model.zero_grad();
                     step_loss, acc, _ = self._single_step_rela_choose(model, ques, step_list[i], ques_pos)
                     if not self.args.stop_when_err :
                         step_loss *= self._loss_weight(i, len(step_list)-2, acc, 'RC')
@@ -222,6 +224,7 @@ class UHop():
                         if 'args.step_every_step':
                             step_loss.backward(); optimizer.step()
                         else:
+                            step_count += 1
                             loss += step_loss
                         total_loss += step_loss.data; loss_count += 1
                     else:
@@ -241,6 +244,7 @@ class UHop():
                             if self.args.step_every_step:
                                 step_loss.backward(); optimizer.step()
                             else:
+                                step_count += 1
                                 loss += step_loss
                             total_loss += step_loss.data; loss_count += 1
                         else:
@@ -252,11 +256,13 @@ class UHop():
                     if self.args.step_every_step:
                         step_loss.backward(); optimizer.step()
                     else:
+                        step_count += 1
                         loss += step_loss
                     total_loss += step_loss.data; loss_count += 1
                 else:
                     loss_count += 1
                 if not self.args.step_every_step:
+                    loss /= (step_count if step_count>0 else 1)
                     loss.backward(); optimizer.step()
                 acc_list.append(acc)
                 total_td_acc += acc; td_count += 1

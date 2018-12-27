@@ -38,11 +38,11 @@ temp=[]
 for result in result_list:
     test_acc, args = result[1], result[2]
     hidden_size, margin, learning_rate, dropout = args['hidden_size'], args['margin'], args['learning_rate'], args['dropout_rate']
-    hop_w, task_w, acc_w = args['hop_weight'], args['task_weight'], args['acc_weight']
+    hop_w, task_w, acc_w = args['hop_weight'], args['task_weight'], args['acc_weight']#, args['reduce_method']
     #hidden_size, margin, learning_rate = result[5][0], result[5][3], result[5][4]
     #dropout = result[5][1]
     print(f'acc={test_acc:.4f} (hidden={hidden_size}, margin={margin}, learning_rate={learning_rate}, dropout_rate={dropout}, weight={(hop_w, task_w, acc_w)}) \
-    {result[0].replace(result_dir,"")}')
+    {result[0].replace(result_dir,"")}')#, {method}')
     #print(f'acc={test_acc:.4f}, loss={test_loss:.4f}, rc={rc:.2f}, td={td:.2f} (hidden={hidden_size}, margin={margin}, learning_rate={learning_rate:5}, dropout_rate={dropout}) {result[0].replace(result_dir,"")}')
     temp.append(result[0].replace(result_dir,""))
 #print(' '.join(temp))

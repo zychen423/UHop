@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame
 
-KEY1, KEY2 = sys.argv[1], sys.argv[2]
+KEY1, KEY2 = 'GG', 'GG'#sys.argv[1], sys.argv[2]
 
 #U_PATH = [('pq2hr', '127'), ('pq3hr', '82'), ('pq1hr', '79'), 
 #            ('pql2hr', '144'), ('pql3hr', '95'), ('pql1hr', '159'),
@@ -12,18 +12,18 @@ KEY1, KEY2 = sys.argv[1], sys.argv[2]
 #            ('pql2ab', '92'), ('pql3ab', '204'), ('pql1ab', '160'),
 #            ('wqhr', '289'), ('wqab', '119'), ('exp4hr', '438'), ('exp4ab', '346')]
 
-U_PATH=[('wqab2', '262'), ('wqab', '999'), ('pq2hr', '127'), ('pq2ab', '127'), ('pq1hr', '79'),
-            ('pq1ab', '89'), ('pq3hr', '82'), ('pq3ab', '162'), ('pql2hr', '144'),
-            ('pql2ab', '92'), ('pql1hr', '159'), ('pql1ab', '160'), ('pql3hr', '95'),
-            ('pql3ab', '204'), ('exp4hr', '438'), ('exp4ab', '346')]
+U_PATH=[('wqhr', ''), ('wqab', ''), ('pq2hr', '425'), ('pq2ab', '728'), ('pq1hr', '330'),
+            ('pq1ab', '831'), ('pq3hr', '478'), ('pq3ab', '758'), ('pql2hr', '517'),
+            ('pql2ab', '712'), ('pql1hr', '567'), ('pql1ab', '595'), ('pql3hr', '344'),
+            ('pql3ab', '779')]#, ('exp4hr', '438'), ('exp4ab', '346')]
 
-U_PATH=[('wqab', '1073')]#, ('wqab1', '629'), ('wqab2', '286'), ('wqab3', '541')]
+#U_PATH=[('wqab', '1073')]#, ('wqab1', '629'), ('wqab2', '286'), ('wqab3', '541')]
 
 DATA_PATH = '../data/PQ/WPQL/1'
 
 LABEL_DICT1 = {'<WR>':'1RC', '<CR> <C>':'1TD', '<CR> <T>':'OK'}
 LABEL_DICT2 = {'<WR>':'1RC', '<CR> <T>':'1TD', '<CR> <C> <WR>':'2RC', '<CR> <C> <CR> <C>':'2TD', '<CR> <C> <CR> <T>':'OK', '<CR> <C>':'OK'}
-LABEL_DICT3 = {'<WR>':'1RC', '<CR> <T>':'1TD', '<CR> <C> <WR>':'2RC', '<CR> <C> <CR> <T>':'2TD', '<CR> <C> <CR> <C> <WR>':'3RC', '<CR> <C> <CR> <C> <CR> <C>':'3TD', '<CR> <C> <CR> <C> <CR> <T>':'OK'}
+LABEL_DICT3 = {'<WR>':'1RC', '<CR> <T>':'1TD', '<CR> <C> <WR>':'2RC', '<CR> <C> <CR> <T>':'2TD', '<CR> <C> <CR> <C> <WR>':'3RC', '<CR> <C> <CR> <C> <CR> <C>':'3TD', '<CR> <C> <CR> <C> <CR> <T>':'OK', '<CR> <C> <WR> <CR>':'2RC'}
 LABEL_LIST = ['1RC', '1TD', '2RC', '2TD', '3RC', '3TD', 'OK']
 
 def read_lines(filepath):
@@ -32,6 +32,7 @@ def read_lines(filepath):
 
 def label_UHop(line, hop):
     label_dict = LABEL_DICT1 if hop==1 else (LABEL_DICT2 if hop==2 else LABEL_DICT3)
+    line = line if '<WR>' not in line else (line.split('<WR>')[0]+'<WR>')
     labels = line.split('\t')
     if len(labels)>1 and (labels[-2]=='<Terminate>' or labels[-2]=='<T>'):
         labels = labels[:-1]
@@ -89,8 +90,8 @@ def analysis_uhop(info):
     return labels
 
 def full(path):
-    model = 'HR_BiLSTM' if 'hr' in path[0] else 'ABWIM'
-    return f'/home/lance5/UHop/weighted_wq/{model}_{path[1]}', path[0]
+    model = 'HR_BiLSTM_plus' if 'hr' in path[0] else 'ABWIM_plus'
+    return f'/home/lance5/UHop/softmax/{model}_{path[1]}', path[0]
 
 def acc(label):
     return label.count('OK')/len(label)
@@ -116,7 +117,9 @@ def main():
     df.to_csv('main.csv')
 
     print(f'{df}\n\ncomparison between {KEY1} and {KEY2}:\n')
-    compare(labels[KEY1][0], labels[KEY2][0])
+    with open('/home/lance5/UHop/script/pql3label.txt', 'r') as f:
+        nodq = f.read().splitlines()
+    compare(labels['pql3hr'][0], nodq)#labels[KEY2][0])
 
 #    print((labels['wqhr'][0]+labels['wqhr'][1]).count('OK')/len(labels['wqhr'][0]+labels['wqhr'][1]))
 #    print((labels['wqab'][0]+labels['wqab'][1]).count('OK')/len(labels['wqab'][0]+labels['wqab'][1]))

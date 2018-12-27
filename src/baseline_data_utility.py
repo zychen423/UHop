@@ -10,14 +10,14 @@ import random
 import numpy as np
 
 PATH = {}
-PATH['wq'] = '../data/baseline/KBQA_RE_data/webqsp_relations/WebQSP.RE.MODE.with_boundary.withpool.dlnlp.txt'
+PATH['wq'] = '../data/baseline/KBQA_RE_data/webqsp_relations/id_version/MODE_data.txt'
+#PATH['wq'] = '../data/baseline/KBQA_RE_data/webqsp_relations/WebQSP.RE.MODE.with_boundary.withpool.dlnlp.txt'
 PATH['sq'] = '../data/baseline/KBQA_RE_data/sq_relations/MODE.replace_ne.withpool'
 for i in [1,2,3]:
     PATH[f'pq{i}'] = f'../data/PQ/PQ{i}'
     PATH[f'pql{i}'] = f'../data/PQ/PQL{i}'
 for i in range(11):
     PATH[f'wpq{i}'] = f'../data/PQ/exp3/baseline/{i}/MODE_data.txt'
-#    PATH[f'wpq{i}'] = f'../data/PQ/WPQL/baseline/{i}/MODE_data.txt'
 PATH['exp4'] = '../data/PQ/exp4/baseline/MODE_data.txt'
 
 def quick_collate(batch):

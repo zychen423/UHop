@@ -3,8 +3,7 @@ import torch.nn.functional as F
 from torch import nn
 import numpy as np
 import math
-from transformer0 import Transformer0
-from model.transformer1 import Transformer
+from model.transformer import Transformer
 
 class Model(nn.Module):
     def __init__(self, args):
@@ -32,8 +31,7 @@ class Model(nn.Module):
         self.sigmoid = nn.Sigmoid()
         self.linear = nn.Linear(args.num_filters, 1, bias=False)
 
-        self.transformer = Transformer0(args.emb_size, args.hidden_size*2)
-        self.transformer2 = Transformer(
+        self.transformer = Transformer(
             n_src_vocab=args.rela_vocab_size+args.word_embedding.shape[0], len_max_seq=100,
             d_word_vec=args.emb_size, d_model=args.hidden_size*2, d_inner=512, n_layers=6, 
             n_head=4, d_k=args.hidden_size//2, d_v=args.hidden_size//2, dropout=args.dropout_rate)
@@ -41,10 +39,6 @@ class Model(nn.Module):
     def forward(self, *inputs):
         question, word_relation, rela_relation = inputs[0], inputs[1], inputs[2]
         ques_pos, rela_pos = inputs[3], inputs[4]
-#transpose for bilstm (batch_first=False)
-        #question = torch.transpose(question, 0, 1)
-        #rela_relation = torch.transpose(rela_relation, 0, 1)
-        #word_relation = torch.transpose(word_relation, 0, 1)
 
         ques_embedding = self.word_embedding(question)
         ques_embedding = self.dropout(ques_embedding)
@@ -53,29 +47,12 @@ class Model(nn.Module):
         word_embedding = self.word_embedding(word_relation)
         word_embedding = self.dropout(word_embedding)
 
-#        self.bilstm.flatten_parameters()
-        #question_out, _ = self.bilstm(question)
-        #question_out = question_out.permute(1,2,0)
-        #question_out = self.dropout(question_out)
-
-        #word_relation_out, word_relation_hidden = self.bilstm(word_relation)
-        #rela_relation_out, _ = self.bilstm(rela_relation, word_relation_hidden)
-        #word_relation_out = self.dropout(word_relation_out)
-        #rela_relation_out = self.dropout(rela_relation_out)
-        #relation = torch.cat([rela_relation_out, word_relation_out], 0)
-
-       # relation = relation.permute(1,0,2)
-
-        # attention layer
-        #energy_tmp = energy.view(energy.shape[0], energy.shape[1]*energy.shape[2])
-        #alpha = F.softmax(energy_tmp, dim=-1)
-        #alpha = alpha.view(energy.shape[0], energy.shape[1], energy.shape[2])
-        question_out = self.transformer2(question, ques_embedding, ques_pos)
+        question_out = self.transformer(question, ques_embedding, ques_pos)
         question_out = torch.transpose(question_out, 1, 2)
 
         embedding = torch.cat([word_embedding, rela_embedding], 1)
         relation = torch.cat([word_relation, rela_relation], 1)
-        relation = self.transformer2(relation, embedding, rela_pos)
+        relation = self.transformer(relation, embedding, rela_pos)
 
         energy = torch.matmul(relation, self.W)
         energy = torch.matmul(energy, question_out)

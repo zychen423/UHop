@@ -7,6 +7,8 @@ import json
 import numpy as np
 import torch
 
+torch.manual_seed(1126)
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', action='store', type=str, default=None) # HR-BiLSTM, ABWIM, MVM
 parser.add_argument('--framework', action='store', type=str, default='UHop') # UHop, baseline
@@ -40,6 +42,7 @@ parser.add_argument('--acc_weight', action='store', type=float, default=1)
 parser.add_argument('--stop_when_err', action='store_true')
 parser.add_argument('--step_every_step', action='store_true')
 parser.add_argument('--change_ques', action='store_true')
+parser.add_argument('--only_one_hop', action='store_true')
 parser.add_argument('--reduce_method', action='store', type=str, default='dense')
 
 args = parser.parse_args()

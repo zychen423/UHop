@@ -1,127 +1,53 @@
 import json
 import os, errno
-import random
+import itertools
 
-class PQ_Parser():
-    def __init__(self, file_name, kb_name, hop_num):
-        # read and split file 
-        with open(file_name, 'r') as f:
-            raw_data = [line.split('\t') for line in f.read().splitlines()]
-        with open(kb_name, 'r') as f:
-            kb = [line.split('\t') for line in f.read().splitlines()]
-        self.kb = kb
-        # extract candidates
-        self.data = []
-        self.rela = []
-        for idx, data in enumerate(raw_data):
-            path = data[2].split('#<end>')[0].split('#')
-            steplist = []
-            prev_step = []
-            for i in range(0,hop_num*2,2):
-                relas = list(set([k[1] for k in kb if k[0] == path[i]]))
-                cands = [[self._format(rela), prev_step[:], int(len(path)>i+1 and rela==path[i+1])] for rela in relas]
-                steplist.append(cands)
-                if len(path)>i+1:
-                    prev_step.append(self._format(path[i+1]))
-#                for k in kb:
-#                    if k[0] == path[i]:
-#                        step = [self._format(k[1]), [], int(len(path)>i+1 and k[1]==path[i+1])]
-#                        if not(len(path)>i+1 and k[2]!=path[i+2] and k[1]==path[i+1]):
-#                            steplist[i//2].append(step)
-            self.rela.append(sum([self._format(path[i]).split('.') for i in range(1,len(path),2)],[]))
-            self.data.append([idx, data[0].replace(path[0],'TOPIC_ENTITY'), steplist])
-        self.hop = hop_num
+from pq_reader import PQ_Reader
+from wq_reader import WQ_Reader
+from utility import *
 
-    def merge(self, parser2):
-        self.data += parser2.data
-        random.shuffle(self.data, random.random)
-        print(len(self.data))
-
-    def dump(self, dir_name):
-        self._check_dir(dir_name)
-        # split data into 8:1:1 and dump
-        a, b = int(len(self.data)*0.8), int(len(self.data)*0.9)
-        print(a, b-a, len(self.data)-b)
-        self._write(self.data[:a], dir_name+'/train_data.txt') 
-        self._write(self.data[a:b], dir_name+'/valid_data.txt') 
-        self._write(self.data[b:], dir_name+'/test_data.txt')
-        self._rela2id(self.rela[:a], dir_name+'/rela2id.json')
-
-    def dump2(self, dir_name, mode):
-        self._check_dir(dir_name)
-        if mode=='test':
-            print(len(self.data))
-            self._write(self.data, dir_name+'/test_data.txt')
-        else:
-            a = int(len(self.data)*0.9)
-            print(a, len(self.data)-a)
-            self._write(self.data[:a], dir_name+'/train_data.txt')
-            self._write(self.data[a:], dir_name+'/valid_data.txt')
-            self._rela2id(self.rela[:a], dir_name+'/rela2id.json')
-   
-    def _format(self, rela):
-        if rela[:2]=='__':
-            rela = rela[2:]
-        return rela.replace('__','.')
-
-    def _write(self, data, output_name):
-        with open(output_name, 'w') as f:
-            for line in data:
-                json.dump(line, f, ensure_ascii=False)
-                f.write('\n')
-
-    def _rela2id(self, relations, rela_name):
-        rela = ["PADDING", "<unk>"] + list(set([i for j in relations for i in j]))
-        rela = dict([(r,idx) for idx, r in enumerate(rela)])
-        with open(rela_name, 'w') as f:
-            json.dump(rela, f, ensure_ascii=False)
-                
-    def _check_dir(self, dir_name):
-        try:
-            os.makedirs(dir_name)
-        except OSError as e:
-            if e.errno != errno.EEXIST:
-                raise
-
-    def all_rela(self):
-        return list(set([i for j in self.rela for i in j]))
-
-    def count_rela(self):
-        return list(set([k[1] for k in self.kb]))
-
-    def count_candidate(self):
-        counts = [[len(d[2][i]) for d in self.data] for i in range(self.hop)]
-        return [[step.count(i) for i in range(max(step))] for step in counts]
+WQ_DATA = ['/home/zychen/project/UHop/script/preprocess/data/WQ/train_data.txt', 
+                '/home/zychen/project/UHop/script/preprocess/data/WQ/test_data.txt']
+WQ_BASELINE = ['../WQ2/train_data1.txt','../WQ2/test_data1.txt']
+WQ_RELA2ID = '../WQ2/rela2id.json'
+WQ_CONCAT_RELA2ID = '../WQ2/concat_rela2id.json'
 
 def main():
-    print('dumping PQ2...')
-    pq_2h = PQ_Parser('PQ-2H.txt', '2H-kb.txt', 3)
-    print(pq_2h.count_candidate())
-    pq_2h.dump('PQ2')
-    pq_2h.dump2('PQ', 'train')
-    print('dumping PQ3...')
-    pq_3h = PQ_Parser('PQ-3H.txt', '3H-kb.txt', 4)
-    print(pq_3h.count_candidate())
-    pq_3h.dump('PQ3')
-    pq_3h.dump2('PQ', 'test')
-    print(len(list(set(pq_2h.all_rela()+pq_3h.all_rela()))))
-    print(len(list(set(pq_2h.count_rela()+pq_3h.count_rela()))))
-    pq_2h.merge(pq_3h)
-    pq_2h.dump('PQ1')
-    print('dumping PQL2...')
-    pql_2h = PQ_Parser('PQL-2H.txt', 'PQL2-KB.txt', 3)
-    print(pql_2h.count_candidate())
-    pql_2h.dump('PQL2')
-    pql_2h.dump2('PQL', 'train')
-    print('dumping PQL3...')
-    pql_3hm = PQ_Parser('PQL-3H_more.txt', 'PQL3-KB.txt', 4)
-    print(pql_3hm.count_candidate())
-    pql_3hm.dump('PQL3m')
-    pql_3hm.dump2('PQL', 'test')
-    print(len(list(set(pql_2h.all_rela()+pql_3hm.all_rela()))))
-    print(len(list(set(pql_2h.count_rela()+pql_3hm.count_rela()))))
-    pql_2h.merge(pql_3hm)
-    pql_2h.dump('PQL1')
+    # exp2 dataset - PQ
+ #   pq_2h = PQ_Reader('PQ-2H.txt', '2H-kb.txt', 3)
+ #   pq_3h = PQ_Reader('PQ-3H.txt', '3H-kb.txt', 4)
+#    pq_2h.std_dump('PQ2')
+#    pq_3h.std_dump('PQ3')
+#    pq_2h.std_dump('baseline/PQ2', baseline=True)
+#    pq_3h.std_dump('baseline/PQ3', baseline=True)
+#    pq_2h.merge_dump(pq_3h, 'PQ1')
+#    pq_2h.merge_dump(pq_3h, 'baseline/PQ1', baseline=True)
+
+    # exp2 dataset - PQL
+    pql_2h = PQ_Reader('PQL-2H.txt', 'PQL2-KB.txt', 3)
+    pql_3h = PQ_Reader('PQL-3H_more.txt', 'PQL3-KB.txt', 4)
+    #pql_2h._rela2id(pql_2h.concat_rela, 'pql2gg.json')
+    #pql_3h._rela2id(pql_3h.concat_rela, 'pql3gg.json')
+    #return
+#    pql_2h.std_dump('PQL2')
+#    pql_3h.std_dump('PQL3')
+#    pql_2h.std_dump('baseline/PQL2', baseline=True)
+#    pql_3h.std_dump('baseline/PQL3', baseline=True)
+#    pql_2h.merge_dump(pql_3h, 'PQL1')
+#    pql_2h.merge_dump(pql_3h, 'baseline/PQL1', baseline=True)
+
+    # exp3 dataset
+    wq = WQ_Reader(WQ_DATA, WQ_BASELINE, WQ_RELA2ID, WQ_CONCAT_RELA2ID)
+    wq.WPQ_maker(pql_2h, pql_3h, 'WPQLt2/')
+#    return
+    # exp4 dataset
+#    exp4_rela, exp4_concat_rela = pql_2h.rela+pql_3h.rela, pql_2h.concat_rela+pql_3h.concat_rela
+#    pql_2h._rela2id(exp4_rela, 'exp4/rela2id.json')
+#    exp4_concat_rela2id = pql_2h._rela2id(exp4_concat_rela, 'exp4/concat_rela2id.json')
+#    pql_2h.dump_exp4('exp4', exp4_concat_rela2id, train_mode=False)
+#    pql_3h.dump_exp4('exp4', exp4_concat_rela2id, train_mode=True)
+#    pql_2h.dump_exp4('exp4/baseline', exp4_concat_rela2id, train_mode=False, baseline=True)
+#    pql_3h.dump_exp4('exp4/baseline', exp4_concat_rela2id, train_mode=True, baseline=True)
 
 if __name__ == "__main__":
     main()

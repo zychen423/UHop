@@ -54,17 +54,17 @@ class PerQuestionDataset(Dataset):
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')
                 data = json.loads(line)
-                data = self._numericalize(data, word2id, rela2id, args.change_ques)
+                data = self._numericalize(data, word2id, rela2id, args.change_ques, args.only_one_hop)
                 data_objs.append(data)
         return data_objs
-    def _numericalize(self, data, word2id, rela2id, change_ques):
+    def _numericalize(self, data, word2id, rela2id, change_ques, only_one_hop):
         index, ques, step_list = data[0], data[1], data[2]
         ques = self._numericalize_str(ques, word2id, [' '])
         if len(ques) < 5:
             ques = [word2id['PADDING']] * (5-len(ques)) + ques
         ques_pos = [i for i in range(len(ques))]
         new_step_list = []
-        for step in step_list:
+        for step in (step_list[:1]+[[]] if only_one_hop else step_list):
             new_step = []
             for t in step:
 #                print('.'.join(t[1]+[t[0]]))
@@ -73,7 +73,8 @@ class PerQuestionDataset(Dataset):
                     num_rela_text = self._numericalize_str(t[0], word2id, ['.', '_'])
                     num_prev = self._numericalize_str('.'.join(t[1]), rela2id, ['.'])
                     num_prev_text = self._numericalize_str('.'.join(t[1]), word2id, ['.', '_'])
-                    new_step.append((num_rela, num_rela_text, num_prev, num_prev_text, t[2]))
+                    rela_pos = [i+1 for i, _ in enumerate(num_rela+num_rela_text)]
+                    new_step.append((num_rela, num_rela_text, rela_pos,num_prev, num_prev_text, t[2]))
                 else:
                     num_rela = self._numericalize_str('.'.join(t[1]+[t[0]]), rela2id, ['.'])
                     num_rela_text = self._numericalize_str('.'.join(t[1]+[t[0]]), word2id, ['.', '_'])

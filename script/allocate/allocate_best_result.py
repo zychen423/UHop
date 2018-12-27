@@ -2,9 +2,9 @@ import subprocess
 import pandas as pd
 from pandas import DataFrame
 
-FRAMEWORK = ['baseline', 'UHop']
+FRAMEWORK = [ 'UHop']
 MODEL = ['HR_BiLSTM', 'ABWIM']
-DATASET = ['wpq0']
+DATASET = ['pq2', 'pq3', 'pq1', 'pql2', 'pql3', 'pql1', 'wq', 'exp4']
 
 process_str = 'python3.6 best_result.py'
 
@@ -14,10 +14,10 @@ for framework in FRAMEWORK:
     for model in MODEL:
         result = []
         for dataset in DATASET:
-            run_str = process_str+f' {model} framework {framework} dataset {dataset} neg_sample 1024'
+            run_str = process_str+f' {model} framework {framework} dataset {dataset} neg_sample 1024 optimizer rmsprop' #acc_weight 0.4/1.0
             process = subprocess.run(run_str.split(), encoding='UTF-8', stdout=subprocess.PIPE)
             acc = process.stdout.split(' ')[0].replace('acc=', '')[:-1]
-            acc = '    X' if acc=='' else 100*float(acc)
+            acc = '    X' if acc=='' else float(acc)
             #acc = process.stdout.split(' ')[-1].split('_')[-1][:-1]
             result.append(acc)
         results.append(result)
