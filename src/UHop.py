@@ -53,6 +53,19 @@ class UHop():
         #    new_position.append(new_pos)
         return new_lists, new_position
 
+    def _padding_for_bert(self, seqs, maxlen, pad_type):
+        padded_seqs, atten_mask = [], []
+        for seq in seqs:
+            if pad_type == 'prepend':
+                padded_seq = [padding] * (maxlen - len(seq)) + seq
+                mask = [0]*(maxlen-len(seq)) + [1]*len(seq)
+            elif pad_type == 'append':
+                padded_seq = seq + [padding] * (maxlen - len(seq))
+                mask = [1]*len(seq) + [0]*(maxlen-len(seq))
+            padded_seqs.append(padded_seq)
+            atten_mask.append(mask)
+        return padded_seqs, atten_mask
+
     def _pad_rela(self, pos_rela, neg_rela, pos_text, neg_text, pos_pos, neg_pos):
         maxlen = max([len(x) for x in pos_rela+neg_rela])
         pos_rela, pos_pos = self._padding(pos_rela, pos_pos, maxlen, 
@@ -106,7 +119,7 @@ class UHop():
         if self.args.change_ques:
             prevs, prev_texts, prev_pos = self._pad_rela(pos_prev, neg_prev, 
                             pos_prev_text, neg_prev_text, [],[])#pos_prev_pos, neg_prev_pos)
-
+		
         if not self.args.change_ques:
             scores = model(ques, rela_texts, relas, ques_pos, rela_pos)
         else:
@@ -146,12 +159,14 @@ class UHop():
             neg_tuples = [t for t in next_tuples if t[-1] == 0]
         else:
             raise ValueError(f'Unknown movement:{movement} in UHop._termination_decision')
+
         if len(pos_tuples) == 0 or len(neg_tuples) == 0:
             return 0, 1, 'noNegativeInTD'
         if len(pos_tuples) > 1:
             print('mutiple positive tuples!')
         if len(neg_tuples) > self.args.neg_sample:
             neg_tuples = neg_tuples[:self.args.neg_sample]
+	
         if not self.args.change_ques:
             pos_rela, pos_rela_text, pos_rela_pos, _ = zip(*pos_tuples)
             neg_rela, neg_rela_text, neg_rela_pos, _ = zip(*neg_tuples)
@@ -221,7 +236,7 @@ class UHop():
                     if not self.args.stop_when_err :
                         step_loss *= self._loss_weight(i, len(step_list)-2, acc, 'RC')
                     if step_loss != 0:
-                        if 'args.step_every_step':
+                        if self.args.step_every_step:
                             step_loss.backward(); optimizer.step()
                         else:
                             step_count += 1

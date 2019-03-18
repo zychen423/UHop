@@ -9,6 +9,7 @@ from functools import reduce
 from itertools import accumulate
 import random
 import numpy as np
+from pytorch_pretrained_bert import BertTokenizer
 
 PATH = {}
 PATH['wq'] = '../data/WQ/main_exp'
@@ -45,6 +46,7 @@ class Subset(Dataset):
 class PerQuestionDataset(Dataset):
     def __init__(self, args, mode, word2id, rela2id):
         super(PerQuestionDataset, self).__init__()
+        self.bert_tokenizer = BertTokenizer.from_pretrained(args.pretrained_bert)#bert-base-uncased")
         self.data_objs = self._get_data(args, mode, word2id, rela2id)
     def _get_data(self, args, mode, word2id, rela2id):
         data_objs = []
@@ -54,20 +56,35 @@ class PerQuestionDataset(Dataset):
             for i, line in enumerate(f):
                 print(f'\rreading line {i}', end='')
                 data = json.loads(line)
-                data = self._numericalize(data, word2id, rela2id, args.change_ques, args.only_one_hop)
+                data = self._numericalize(data, word2id, rela2id, args.change_ques, args.only_one_hop, args.q_representation)
                 data_objs.append(data)
         return data_objs
-    def _numericalize(self, data, word2id, rela2id, change_ques, only_one_hop):
+    def _bert_tokenization(self, rela):
+        rela = ' '.join(rela)
+        rela = self.bert_tokenizer.tokenize(rela)
+        rela = self.bert_tokenizer.convert_tokens_to_ids(rela)
+        return rela
+    def _numericalize(self, data, word2id, rela2id, change_ques, only_one_hop, q_representation):
         index, ques, step_list = data[0], data[1], data[2]
-        ques = self._numericalize_str(ques, word2id, [' '])
-        if len(ques) < 5:
-            ques = [word2id['PADDING']] * (5-len(ques)) + ques
+        if q_representation == "bert":
+            ques = ques.split(' ')
+            ques = self._bert_tokenization(ques)
+            if len(ques) < 5:
+                mask = [1]*len(ques) + [0]*(5-len(ques))
+                ques = ques + [0]*(5-len(ques))
+                question = (ques, mask)
+            else:
+                mask = [1]*len(ques)
+                question = (ques, mask)
+        else:
+            ques = self._numericalize_str(ques, word2id, [' '])
+            if len(ques) < 5:
+                ques = [word2id['PADDING']] * (5-len(ques)) + ques
         ques_pos = [i for i in range(len(ques))]
         new_step_list = []
         for step in (step_list[:1]+[[]] if only_one_hop else step_list):
             new_step = []
             for t in step:
-#                print('.'.join(t[1]+[t[0]]))
                 if change_ques:
                     num_rela = self._numericalize_str(t[0], rela2id, ['.'])
                     num_rela_text = self._numericalize_str(t[0], word2id, ['.', '_'])
@@ -81,7 +98,7 @@ class PerQuestionDataset(Dataset):
                     rela_pos = [i+1 for i, _ in enumerate(num_rela+num_rela_text)]
                     new_step.append((num_rela, num_rela_text, rela_pos, t[2]))
             new_step_list.append(new_step)
-        return index, ques, new_step_list, ques_pos
+        return index, question, new_step_list, ques_pos
     def _numericalize_str(self, string, map2id, dilemeter):
         #print('original str:', string)
         if len(dilemeter) == 2:

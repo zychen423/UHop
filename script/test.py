@@ -9,7 +9,7 @@ dir_name = sys.argv[1:]
 
 for dir in dir_name:
 
-	path=f'../weighted_wq/{dir}'
+	path=f'../{dir}'
 
 	with open(f'{path}/args.txt', 'r') as f:
 		model_info = json.load(f)
@@ -18,6 +18,7 @@ for dir in dir_name:
 	dataset = model_info['dataset']
 	framework = model_info['framework']
 	hidden = model_info['hidden_size']
+	margin = model_info['margin']
 
 	print(f'{framework}_{model_name}_{dataset}  (from {path}, hidden_size={hidden})')
 
@@ -35,7 +36,8 @@ for dir in dir_name:
 			# HyperParameter:
 			'--epoch_num': [1000], 
 			'--emb_size': [300], 
-			'--hidden_size': [hidden]
+			'--hidden_size': [hidden],
+			'--margin': [margin]
 			}
 
 	os.chdir('../src/')

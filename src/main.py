@@ -1,7 +1,9 @@
 import argparse
 import os
 from UHop import UHop
+from BERT_UHop import BERT_UHop
 from Baseline import Baseline
+from Framework import Framework
 import utility
 import json
 import numpy as np
@@ -41,9 +43,11 @@ parser.add_argument('--task_weight', action='store', type=float, default=1)
 parser.add_argument('--acc_weight', action='store', type=float, default=1)
 parser.add_argument('--stop_when_err', action='store_true')
 parser.add_argument('--step_every_step', action='store_true')
-parser.add_argument('--change_ques', action='store_true')
+parser.add_argument('--dynamic', action='store', type=str, default='flatten')
 parser.add_argument('--only_one_hop', action='store_true')
 parser.add_argument('--reduce_method', action='store', type=str, default='dense')
+parser.add_argument('--pretrained_bert', action='store', type=str, default='bert-base-multilingual-cased')
+parser.add_argument('--q_representation', action='store', type=str, default='lstm')
 
 args = parser.parse_args()
 print(f'args: {args}')
@@ -81,11 +85,11 @@ if args.framework == 'baseline':
 #        with open('../data/PQ/exp3/baseline/rela2id.json', 'r') as f:
         #with open(wpq_path.rela2id, 'r') as f:
 #            rela_token2id = json.load(f)
-#    elif 'pq' in args.dataset.lower():
-#        with open(baseline_path.concat_rela2id(args.dataset.lower()), 'r') as f:
-#            rela2id = json.load(f)
-#        with open(baseline_path.rela2id(args.dataset.lower()), 'r') as f:
-#            rela_token2id =json.load(f)
+    elif 'pq' in args.dataset.lower():
+        with open(f'../data/PQ/baseline/{args.dataset.upper()}/concat_rela2id.json', 'r') as f:
+            rela2id = json.load(f)
+        with open(f'../data/PQ/baseline/{args.dataset.upper()}/rela2id.json', 'r') as f:
+            rela_token2id =json.load(f)
     else:
         raise ValueError('Unknown dataset')
 elif args.framework == 'UHop':
@@ -146,32 +150,45 @@ if args.framework == 'baseline':
     args.rela_vocab_size = len(rela_token2id)
 
 # Should introduce UHop here!
+
 if args.framework == 'UHop':
-    uhop = UHop(args, word2id, rela2id, args.dataset.lower())
+
+#    if args.model == "BERT":
+#        uhop = BERT_UHop(args, word2id, rela2id, args.dataset.lower())
+#        model = Model(args).cuda()
+#        model_children = [child for child in model.children()]
+#        for param in model_children[0].parameters():
+#            param.requires_grad = False
+#    else:
+#        uhop = UHop(args, word2id, rela2id, args.dataset.lower())
+#        model = Model(args).cuda()
+     
+    uhop = Framework(args, word2id, rela2id)
     model = Model(args).cuda()
     if args.train == True:
-        uhop.train(model)
-        model, loss, acc, rc, td, output, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
+        model = uhop.train(model)
+        loss, acc, scores, labels = uhop.evaluate(model=None, mode='test', dataset=None, output_result=True)
+        #model, loss, acc, rc, td, output, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
         #utility.save_model_with_result(model, loss, acc, rc, td, args.path)
-        with open(f'{args.path}/prediction.txt', 'w') as f:
-            f.write(output)
-        with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
-            json.dump(scores, f)
+        #with open(f'{args.path}/prediction.txt', 'w') as f:
+        #    f.write(output)
+        #with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
+        #    json.dump(scores, f)
     if args.test == True:
-        _, _, acc, _, _, outupt, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
-        with open(f'{args.path}/prediction.txt', 'w') as f:
-            f.write(outupt)
-        with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
-            json.dump(scores, f)
+        loss, acc, scores, labels = uhop.evaluate(model=None, mode='test', dataset=None, output_result=True)
+        #_, _, acc, _, _, outupt, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
+        #with open(f'{args.path}/prediction.txt', 'w') as f:
+        #    f.write(outupt)
+        #with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
+        #    json.dump(scores, f)
 elif args.framework == 'baseline':
-    baseline = Baseline(args, word2id, rela2id, rela_token2id)
+    #baseline = Baseline(args, word2id, rela2id, rela_token2id)
+    baseline = Framework(args, word2id, rela_token2id)
     model = Model(args).cuda()
     if args.train == True:
-        with torch.autograd.profiler.profile() as prof:
-            baseline.train(model)
-            model, loss, acc = baseline.eval(model=None, mode='test', dataset=None)
+        model = baseline.train(model)
+        baseline.evaluate(model=None, mode='test', dataset=None)
         #utility.save_model_with_result(model, loss, acc, 0, 0, 0, args.path)
     if args.test == True:
-        baseline.eval(model=None, mode='test', dataset=None, path=args.path)
-    
+        baseline.evaluate(model=None, mode='test', dataset=None)
 
