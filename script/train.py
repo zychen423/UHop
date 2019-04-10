@@ -5,30 +5,30 @@ import random
 
 param_dict = {
         # Traing Setting:
-        '--model': ['ABWIM_plus'],# 'HR_BiLSTM_plus'], 
-        '--dataset': ['pql3'],# 'pqm8'], 
-        '--framework': ['UHop'],# 'baseline'], 
+        '--model': ['ABWIM_plus'],      #'HR_BiLSTM_plus'/'ABWIM_plus'
+        '--dataset': ['wq'],            # dataset_name
+        '--framework': ['UHop'],    #'baseline'/'UHop'
         '--train': [' '],  
         #'--train1test2': [True],
         '--earlystop_tolerance': [20],
 
-        '--saved_dir':['bert'],
-#        '--stop_when_err': [''],    # comment to use weighted loss 
-#        '--step_every_step' : [''], # comment to step only once in each question
-        '--dynamic' : ['flatten'],     # none/flatten/recurrent
-        '--reduce_method' : ['dense'], # bilstm or dense, for abwim_plus
-#        '--only_one_hop' : [''], # uncomment for one-hop-only training/testing
+        '--saved_dir':['camera_ready'],
+#        '--stop_when_err': [''],       # comment to use weighted loss 
+#        '--step_every_step' : [''],    # comment to step only once in each question
+        '--dynamic' : ['recurrent'],         # none/flatten/recurrent
+        '--reduce_method' : ['dense'],  # bilstm or dense, for abwim_plus
+#        '--only_one_hop' : [''],       # uncomment for one-hop-only training/testing
         
         # HyperParameter:
         '--epoch_num': [1000], 
         '--emb_size': [300], 
-        '--hidden_size': [150],
-        '--dropout_rate': [0.2],
-        '--learning_rate': [0.0001],# 0.01, 0.001],
+        '--hidden_size': [150, 100],
+        '--dropout_rate': [0, 0.2, 0.4],
+        '--learning_rate': [0.001, 0.0001, 0.00001],
         '--optimizer': ['rmsprop'], 
         '--neg_sample': [1024], 
         '--l2_norm': [0.0],# 0.00000001, 0.000000001], 
-        '--margin': [0.1],
+        '--margin': [0.1, 0.3, 0.5, 0.7, 1.0],
         #'--train_embedding': [True], 
         '--hop_weight': [1],#0.8, 1, 1.25],
         '--task_weight': [1],

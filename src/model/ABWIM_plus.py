@@ -3,7 +3,6 @@ import torch.nn.functional as F
 from torch import nn
 import numpy as np
 import math
-from pytorch_pretrained_bert import BertModel
 
 class Model(nn.Module):
     def __init__(self, args):
@@ -20,17 +19,16 @@ class Model(nn.Module):
                               bidirectional=True, batch_first=False, dropout=args.dropout_rate)
         self.dropout = nn.Dropout(args.dropout_rate)
         # Attention
-        q_hidden_size = 768 if args.q_representation == "bert" else args.hidden_size*2
-        W = torch.empty(args.hidden_size*2, q_hidden_size)
+        W = torch.empty(args.hidden_size*2, args.hidden_size*2)
         nn.init.xavier_normal_(W)
         self.W = nn.Parameter(W)
-        W2 = torch.empty(args.hidden_size*2, q_hidden_size)
+        W2 = torch.empty(args.hidden_size*2, args.hidden_size*2)
         nn.init.xavier_normal_(W2)
         self.W2 = nn.Parameter(W2)
         # CNN layer
-        self.cnn_1 = nn.Conv1d(q_hidden_size+args.hidden_size*2, args.num_filters, 1)
-        self.cnn_2 = nn.Conv1d(q_hidden_size+args.hidden_size*2, args.num_filters, 3)
-        self.cnn_3 = nn.Conv1d(q_hidden_size+args.hidden_size*2, args.num_filters, 5)
+        self.cnn_1 = nn.Conv1d(args.hidden_size*4, args.num_filters, 1)
+        self.cnn_2 = nn.Conv1d(args.hidden_size*4, args.num_filters, 3)
+        self.cnn_3 = nn.Conv1d(args.hidden_size*4, args.num_filters, 5)
         self.activation = nn.ReLU()
         self.linear = nn.Linear(args.num_filters, 1, bias=False)
         self.linear2 = nn.Linear(args.hidden_size*2, args.hidden_size*2, bias=True)
@@ -38,10 +36,6 @@ class Model(nn.Module):
                                 bidirectional=True, batch_first=True, dropout=args.dropout_rate)
         self.method = args.reduce_method
         self.prev_linear = nn.Linear(args.emb_size, args.hidden_size*2)
-        #self.bert = BertModel.from_pretrained(args.pretrained_bert, cache_dir="../../.pretrained_bert")
-        #for param in self.bert.parameters():
-        #    param.requires_grad = False
-        self.q_representation = args.q_representation
 
     def reduce_prev(self, rela_previous, word_previous, question_out):
         atten_previous = self.abwim_atten(question_out, word_previous, rela_previous)
@@ -87,20 +81,14 @@ class Model(nn.Module):
     def forward(self, *inputs):
         question, word_relation, rela_relation = inputs[0], inputs[1], inputs[2]
         word_previous, rela_previous = inputs[3], inputs[4]
-        if(self.q_representation=="bert"):
-            question, ques_mask = torch.chunk(question, 2, dim=1)
-            question = torch.squeeze(question, 1)
-            ques_mask = torch.squeeze(ques_mask, 1)
-            ques_segment = torch.zeros_like(question, dtype=torch.long)
-            question, pooled_question = self.bert(question, ques_segment, ques_mask, output_all_encoded_layers=False)
-            question_out = torch.transpose(question, 1, 2)
-        else:
-            question = torch.transpose(question, 0, 1)
-            question = self.word_embedding(question)
-            question = self.dropout(question)
-            question_out, _ = self.bilstm(question)
-            question_out = question_out.permute(1,2,0)
-            question_out = self.dropout(question_out)
+
+        question = torch.transpose(question, 0, 1)
+        question = self.word_embedding(question)
+        question = self.dropout(question)
+        question_out, _ = self.bilstm(question)
+        question_out = question_out.permute(1,2,0)
+        question_out = self.dropout(question_out)
+
 #        self.bilstm.flatten_parameters()
         for word_prev, rela_prev in zip(word_previous, rela_previous):
             if rela_prev.shape[0]>0:

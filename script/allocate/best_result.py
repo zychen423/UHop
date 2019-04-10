@@ -2,7 +2,7 @@ import os
 import sys
 import json
 
-result_dir = '../../softmax/'
+result_dir = '../../camera_ready/'
 model_name = sys.argv[1]
 requirements = sys.argv[2:]
 
@@ -27,7 +27,7 @@ for model_dir_name in [x for x in save_model_files if x.startswith(model_name)]:
             for i in range(0, len(requirements), 2):
                 key = requirements[i]
                 value = requirements[i+1]
-                if str(args[key]) != str(value):
+                if key not in args or str(args[key]) != str(value):
                     break
             else:
                 result_list.append((save_model_dir, test_acc, [args['hidden_size'], args['dropout_rate'], args['l2_norm'], args['margin'], args['learning_rate']], args['dataset']))

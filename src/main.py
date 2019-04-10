@@ -187,7 +187,7 @@ elif args.framework == 'baseline':
     model = Model(args).cuda()
     if args.train == True:
         model = baseline.train(model)
-        baseline.evaluate(model=None, mode='test', dataset=None)
+        baseline.evaluate(model=None, mode='test', dataset=None, output_result=True)
         #utility.save_model_with_result(model, loss, acc, 0, 0, 0, args.path)
     if args.test == True:
         baseline.evaluate(model=None, mode='test', dataset=None)
