@@ -5,12 +5,11 @@ This is the code for our UHop [paper](https://arxiv.org/abs/1904.01246). For now
 ## Getting Started
 
 To train this code:
-'''shell
+```shell
 git clone https://github.com/zychen423/UHop.git
 cd UHop/script
 CUDA_VISIBLE_DEVICES=0 python3.6 train.py
-
-'''
+```
 
 ### Prerequisites
 
