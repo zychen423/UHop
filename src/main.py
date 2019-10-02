@@ -1,7 +1,6 @@
 import argparse
 import os
 from UHop import UHop
-from BERT_UHop import BERT_UHop
 from Baseline import Baseline
 from Framework import Framework
 import utility
@@ -79,12 +78,6 @@ if args.framework == 'baseline':
             rela_token2id = json.load(f)
         with open('../data/PQ/exp4/concat_rela2id.json', 'r') as f:
             rela2id = json.load(f)
-#    elif 'wpq' in args.dataset.lower():
-#        with open(wpq_path.concat_rela2id, 'r') as f:
-#            rela2id = json.load(f)
-#        with open('../data/PQ/exp3/baseline/rela2id.json', 'r') as f:
-        #with open(wpq_path.rela2id, 'r') as f:
-#            rela_token2id = json.load(f)
     elif 'pq' in args.dataset.lower():
         with open(f'../data/PQ/baseline/{args.dataset.upper()}/concat_rela2id.json', 'r') as f:
             rela2id = json.load(f)
@@ -152,43 +145,19 @@ if args.framework == 'baseline':
 # Should introduce UHop here!
 
 if args.framework == 'UHop':
-
-#    if args.model == "BERT":
-#        uhop = BERT_UHop(args, word2id, rela2id, args.dataset.lower())
-#        model = Model(args).cuda()
-#        model_children = [child for child in model.children()]
-#        for param in model_children[0].parameters():
-#            param.requires_grad = False
-#    else:
-#        uhop = UHop(args, word2id, rela2id, args.dataset.lower())
-#        model = Model(args).cuda()
-     
     uhop = Framework(args, word2id, rela2id)
     model = Model(args).cuda()
     if args.train == True:
         model = uhop.train(model)
         loss, acc, scores, labels = uhop.evaluate(model=None, mode='test', dataset=None, output_result=True)
-        #model, loss, acc, rc, td, output, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
-        #utility.save_model_with_result(model, loss, acc, rc, td, args.path)
-        #with open(f'{args.path}/prediction.txt', 'w') as f:
-        #    f.write(output)
-        #with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
-        #    json.dump(scores, f)
     if args.test == True:
         loss, acc, scores, labels = uhop.evaluate(model=None, mode='test', dataset=None, output_result=True)
-        #_, _, acc, _, _, outupt, scores = uhop.eval(model=None, mode='test', dataset=None, output_result=True)
-        #with open(f'{args.path}/prediction.txt', 'w') as f:
-        #    f.write(outupt)
-        #with open(f'{args.path}/scores_{100*acc:.2f}.json', 'w') as f:
-        #    json.dump(scores, f)
+
 elif args.framework == 'baseline':
-    #baseline = Baseline(args, word2id, rela2id, rela_token2id)
     baseline = Framework(args, word2id, rela_token2id)
     model = Model(args).cuda()
     if args.train == True:
         model = baseline.train(model)
         baseline.evaluate(model=None, mode='test', dataset=None, output_result=True)
-        #utility.save_model_with_result(model, loss, acc, 0, 0, 0, args.path)
     if args.test == True:
         baseline.evaluate(model=None, mode='test', dataset=None)
-

@@ -183,18 +183,6 @@ class Framework():
         loss, acc, rela_score = self._single_UHop_step(model, ques, pos_tuples, neg_tuples)
         return loss, acc, rela_score
 
-#TODO
-    '''
-    def _beam(self, model, data, mode):
-        index, ques, candidates = data # candidates = {key_as_rela:[(rela, rela_text, prev, prev_text, key, 1/0)]}
-        beam = [(0, '')] # beam = [(score, key2candidates)]
-        for i in range(len(gold_rela)):
-            # expand beam
-            for chosen_rela in beam:
-                next_score = chosen_rela[0] + 
-                next_scores.append(next_score)
-    '''
-
     def _execute_UHop(self, model, data, mode):
         index, ques, step_list = data
         loss = torch.tensor(0, dtype=torch.float, requires_grad=True).cuda()
