@@ -8,11 +8,15 @@ To train and evaluate this code:
 ```shell
 git clone https://github.com/zychen423/UHop.git
 cd UHop
+wget http://doraemon.iis.sinica.edu.tw/UHop/UHop_data.zip
+unzip UHop_data.zip
 mkdir saved_model
 conda install --yes --file requirements.txt
 cd ./script
 CUDA_VISIBLE_DEVICES=0 python3.6 train.py
 ```
+
+Then you can use scripts in script/allocate to get best result from parameter search
 
 ### Prerequisites
 
