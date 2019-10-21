@@ -11,7 +11,6 @@ cd UHop
 wget http://doraemon.iis.sinica.edu.tw/UHop/UHop_data.zip
 unzip UHop_data.zip
 mkdir saved_model
-conda install --yes --file requirements.txt
 cd ./script
 CUDA_VISIBLE_DEVICES=0 python3.6 train.py
 ```
@@ -22,7 +21,8 @@ Then you can use scripts in script/allocate to get best result from parameter se
 
 The environment we use is listed:
 
-conda and python >= 3.6
+python >= 3.6
+pytorch 1.3
 
 
 ## License
