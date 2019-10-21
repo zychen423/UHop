@@ -9,7 +9,6 @@ from functools import reduce
 from itertools import accumulate
 import random
 import numpy as np
-from pytorch_pretrained_bert import BertTokenizer
 
 U_PATH, B_PATH = {}, {}
 U_PATH['wq'] = '../data/WQ/main_exp'
@@ -55,7 +54,6 @@ class Subset(Dataset):
 class PerQuestionDataset(Dataset):
     def __init__(self, args, mode, word2id, rela2id):
         super(PerQuestionDataset, self).__init__()
-        self.bert_tokenizer = BertTokenizer.from_pretrained(args.pretrained_bert)
         self.data_objs = self._get_data(args, mode, word2id, rela2id)
     def _get_data(self, args, mode, word2id, rela2id):
         data_objs = []

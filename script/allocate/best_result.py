@@ -2,7 +2,7 @@ import os
 import sys
 import json
 
-result_dir = '../../camera_ready/'
+result_dir = '../../saved_model/'
 model_name = sys.argv[1]
 requirements = sys.argv[2:]
 

@@ -4,7 +4,6 @@ from torch import nn
 from torch.autograd import Variable
 import numpy as np
 import math
-from pytorch_pretrained_bert import BertModel
 
 
 
@@ -28,9 +27,6 @@ class Model(nn.Module):
         self.tanh = nn.Tanh()
         self.linear = nn.Linear(args.hidden_size*4, args.hidden_size*2, bias=True)
         self.method = args.reduce_method
-        self.bert = BertModel.from_pretrained(args.pretrained_bert, cache_dir="../../.pretrained_bert")
-        for param in self.bert.parameters():
-            param.requires_grad = False
         self.q_representation = args.q_representation
         print(self.q_representation)
 

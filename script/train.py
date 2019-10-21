@@ -5,14 +5,14 @@ import random
 
 param_dict = {
         # Traing Setting:
-        '--model': ['ABWIM_plus'],      #'HR_BiLSTM_plus'/'ABWIM_plus'
+        '--model': ['ABWIM_plus', 'HR_BiLSTM_plus'],      #'HR_BiLSTM_plus'/'ABWIM_plus'
         '--dataset': ['wq'],            # dataset_name
         '--framework': ['UHop'],    #'baseline'/'UHop'
         '--train': [' '],  
         #'--train1test2': [True],
         '--earlystop_tolerance': [20],
 
-        '--saved_dir':['camera_ready'],
+        '--saved_dir':['saved_model'],
 #        '--stop_when_err': [''],       # comment to use weighted loss 
 #        '--step_every_step' : [''],    # comment to step only once in each question
         '--dynamic' : ['recurrent'],         # none/flatten/recurrent
@@ -20,25 +20,25 @@ param_dict = {
 #        '--only_one_hop' : [''],       # uncomment for one-hop-only training/testing
         
         # HyperParameter:
-        '--epoch_num': [1000], 
+        '--epoch_num': [200], 
         '--emb_size': [300], 
         '--hidden_size': [150, 100],
         '--dropout_rate': [0, 0.2, 0.4],
         '--learning_rate': [0.001, 0.0001, 0.00001],
-        '--optimizer': ['rmsprop'], 
+        '--optimizer': ['rmsprop', 'adadelta'], 
         '--neg_sample': [1024], 
         '--l2_norm': [0.0],# 0.00000001, 0.000000001], 
         '--margin': [0.1, 0.3, 0.5, 0.7, 1.0],
         #'--train_embedding': [True], 
-        '--hop_weight': [1],#0.8, 1, 1.25],
+        '--hop_weight': [1, 0.8, 1, 1.25],
         '--task_weight': [1],
-        '--acc_weight': [1],# 0.25, 0.5, 1]
-        '--pretrained_bert': ['bert-base-uncased'],#'bert-base-uncased' or 'bert-base-multilingual-cased'
+        '--acc_weight': [1, 0.25, 0.5, 1], 
+        #'--pretrained_bert': ['bert-base-uncased'],#'bert-base-uncased' or 'bert-base-multilingual-cased'
         '--q_representation': ['lstm']
         }
 
 os.chdir('../src/')
-process_str = 'python3.6 main.py'
+process_str = 'python3 main.py'
 
 ################################ NEED TO CONFIGURE ABOVE ####################################################
 

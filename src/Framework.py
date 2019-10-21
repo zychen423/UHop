@@ -10,7 +10,6 @@ from utility import save_model, load_model
 import random
 from datetime import datetime
 import json
-from pytorch_pretrained_bert import BertTokenizer
 
 total_rank = 0
 rank_count = 0
@@ -23,7 +22,6 @@ class Framework():
         self.word2id = word2id
         self.rela2id = rela2id
         self.id2rela = {v:k for k,v in rela2id.items()}
-        self.tokenizer = BertTokenizer.from_pretrained(args.pretrained_bert)
         self.framework = args.framework
 
     def _set_optimizer(self, model):
