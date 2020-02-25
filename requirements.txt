@@ -1,6 +1,6 @@
 backports.functools-lru-cache==1.5
 backports.weakref==1.0rc1
-bleach==1.5.0
+bleach==3.1.1
 certifi==2019.9.11
 cffi==1.12.3
 cheroot==6.5.4
