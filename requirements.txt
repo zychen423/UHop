@@ -1,6 +1,6 @@
 backports.functools-lru-cache==1.5
 backports.weakref==1.0rc1
-bleach==3.1.2
+bleach>=3.1.4
 certifi==2019.9.11
 cffi==1.12.3
 cheroot==6.5.4
@@ -21,7 +21,7 @@ neovim==0.3.1
 numpy==1.17.2
 olefile==0.46
 openpyxl==2.6.3
-Pillow==6.2.0
+Pillow>=7.1.0
 portend==2.3
 pycparser==2.19
 pyenchant==1.6.11
