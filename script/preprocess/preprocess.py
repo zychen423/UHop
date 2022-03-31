@@ -30,10 +30,7 @@ def load_relation_list(mode):
     return have_rela_list
 
 def filter_relation(rela):
-    if rela in have_rela_list:
-        return True
-    else:
-        return False
+    return rela in have_rela_list
 
 @lru_cache(maxsize=128)
 def query_kb(mid):
@@ -48,27 +45,23 @@ def query_kb(mid):
 
 def get_next_topic_mid_list(mid, gold_rela):
     relas, mids = query_kb(mid)
-    tails = set()
-    for rela, mid in zip(relas, mids):
-        if rela == gold_rela:
-            tails.add(mid)
+    tails = {mid for rela, mid in zip(relas, mids) if rela == gold_rela}
     return list(tails)
 
 def preprocess_SQ(data_path, data_type=''):
     total_line = 0
     with open(data_path, 'r') as f:
-        for o_id, line in enumerate(f):
+        for _ in f:
             total_line += 1
     with open(data_path, 'r') as f:
+        topic_entity_name = None
         for o_id, line in enumerate(f):
             print(f'reading data {o_id}/{total_line}')
-            data_list_by_question = []
             # remain a version question is not substitute by <e>
             raw_topic_mid, raw_gold_rela, raw_ans_mid, question = line.strip().split('\t')
             #print(question)
             topic_entity_mid = '.'.join(raw_topic_mid.split('/')[-2:])
-            
-            topic_entity_name = None
+
             topic_entity_mention = None
             rela_list = [raw_gold_rela.replace('www.freebase.com/', '').replace('/', '.')]
             #print('rela list is', rela_list)
@@ -84,11 +77,11 @@ def preprocess_SQ(data_path, data_type=''):
             # recursion, now_mid may be multiple, since the extracted
             # gold relation may lead to multiple entity node.
             now_mid_list = [topic_entity_mid]
-            if rela_list == None or rela_list == 'null':
+            if rela_list is None or rela_list == 'null':
                 input('there is no gold rela at', o_id)
                 continue
             for i, gold_rela_at_len in enumerate(rela_list):
-                print('at relation len {}'.format(i))
+                print(f'at relation len {i}')
                 # gold_rela_at_len is the len^th gold relation
                 candid_list = []
                 for j, mid in enumerate(now_mid_list):
@@ -108,13 +101,14 @@ def preprocess_SQ(data_path, data_type=''):
                         else:
                             label = 0
                         t = (candid_rela, rela_list[:i], label)
-                        if str(t) in seen_tuple:
+                        if (
+                            str(t) in seen_tuple
+                            or str(t) not in seen_tuple
+                            and filter_relation(candid_rela) != True
+                        ):
                             continue
-                        elif filter_relation(candid_rela) == True:
-                            candid_list.append(t)
-                            seen_tuple.append(str(t))
-                        else:
-                            continue
+                        candid_list.append(t)
+                        seen_tuple.append(str(t))
                     if gold_count == 0:
                         candid_list.append((gold_rela_at_len, rela_list[:i], 1))
 
@@ -132,27 +126,23 @@ def preprocess_SQ(data_path, data_type=''):
             # relation extraction. this is going to be compared with len ==
             # 2 relation extraction score.
             candid_list = []
+            label = 0
             #print('at final step')
             for j, mid in enumerate(now_mid_list):
                 print(f'\r{j}/{len(now_mid_list)}', end='')
                 candid_relas = query_relas(mid)
                 seen_rela = []
-                label = 0
                 for candid_rela in candid_relas:
                     if candid_rela in seen_rela:
                         continue
                     seen_rela.append(candid_rela)
                     t = (candid_rela, rela_list, label)
-                    if filter_relation(candid_rela) == True:
-                        candid_list.append(t)
-                        seen_tuple.append(t)
-                    elif t in seen_tuple:
+                    if filter_relation(candid_rela) != True:
                         continue
-                    else:
-                        continue
-
+                    candid_list.append(t)
+                    seen_tuple.append(t)
             q_obj[2].append(candid_list)
-            data_list_by_question.append(q_obj)
+            data_list_by_question = [q_obj]
             with open('./tmp/{}.json', 'w') as f:
                 json.dump(data_list_by_question, f)
                 data_list_by_question = []
@@ -188,7 +178,7 @@ def preprocess_WQ(data_path):
                 # recursion, now_mid may be multiple, since the extracted
                 # gold relation may lead to multiple entity node.
                 now_mid_list = [topic_entity_mid]
-                if rela_list == None:
+                if rela_list is None:
                     #input('there is no gold rela at', o_id)
                     print('there is no gold rela')
                     write_flag = 0
@@ -216,13 +206,14 @@ def preprocess_WQ(data_path):
                                 if candid_rela in correct_relas:
                                     continue
                             t = (candid_rela, rela_list[:i], label)
-                            if str(t) in seen_tuple:
+                            if (
+                                str(t) in seen_tuple
+                                or str(t) not in seen_tuple
+                                and filter_relation(candid_rela) != True
+                            ):
                                 continue
-                            elif filter_relation(candid_rela) == True:
-                                candid_list.append(t)
-                                seen_tuple.add(str(t))
-                            else:
-                                continue
+                            candid_list.append(t)
+                            seen_tuple.add(str(t))
                     if gold_count == 0:
                         print('add gold ad-hoc')
                         candid_list.append((gold_rela_at_len, rela_list[:i], 1))
@@ -238,24 +229,24 @@ def preprocess_WQ(data_path):
                 # relation extraction. this is going to be compared with len ==
                 # 2 relation extraction score.
                 candid_list = []
+                label = 0
                 for j, mid in enumerate(now_mid_list):
                     print(f'\r{datetime.now()} reading data {o_id}/{obj_len} parse:{p_i} last/{len(rela_list)} {j}/{len(now_mid_list)}                ', end='')
                     candid_relas, tails = query_kb(mid)
                     seen_rela = set()
-                    label = 0
                     for candid_rela in candid_relas:
                         if candid_rela in seen_rela:
                             continue
                         seen_rela.add(candid_rela)
                         t = (candid_rela, rela_list, label)
-                        if str(t) in seen_tuple:
+                        if (
+                            str(t) in seen_tuple
+                            or str(t) not in seen_tuple
+                            and filter_relation(candid_rela) != True
+                        ):
                             continue
-                        elif filter_relation(candid_rela) == True:
-                            candid_list.append(t)
-                            seen_tuple.add(str(t))
-                        else:
-                            continue
-
+                        candid_list.append(t)
+                        seen_tuple.add(str(t))
                 q_obj[2].append(candid_list)
                 data_list_by_question.append(q_obj)
             if write_flag == 1:
@@ -297,7 +288,7 @@ if __name__ == '__main__':
     else:
         raise ValueError('./tmp dir exist, please remove it first to prevent error.')
 
-    if args.mode == 'wq' or args.mode == 'wq_train1test2':
+    if args.mode in ['wq', 'wq_train1test2']:
         have_rela_list = load_relation_list('wq')
         preprocess_WQ(f'/home/zychen/dataset/KBQA/WebQuestion/WebQSP/data/WebQSP.{args.type}.json')
     elif args.mode == 'sq':

@@ -32,7 +32,7 @@ for dir in dir_name:
 			'--stop_when_err': [''],  
 			'--earlystop_tolerance': [20],
 			'--path' : [path],
-			
+
 			# HyperParameter:
 			'--epoch_num': [1000], 
 			'--emb_size': [300], 
@@ -42,11 +42,10 @@ for dir in dir_name:
 
 	os.chdir('../src/')
 	process_str = 'python3.6 main.py'
-
 ################################ NEED TO CONFIGURE ABOVE ####################################################
 
 	possible_param_list = list(ParameterGrid(param_dict))
-	for i, param in enumerate(possible_param_list):
+	for param in possible_param_list:
 		# param is a dict
 		run_str = process_str
 		for arg, arg_val in param.items():

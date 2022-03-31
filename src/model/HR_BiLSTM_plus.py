@@ -78,11 +78,10 @@ class Model(nn.Module):
 
         rela_h = self.rela_encoding(rela_text_x, rela_x, ques_hidden_state, ques_h)
 
-        output = self.cos(ques_h, rela_h)
-        return output
+        return self.cos(ques_h, rela_h)
 
     def encode(self, input, hidden_state=None, return_sequence=True):
-        if hidden_state==None:
+        if hidden_state is None:
             outputs, (h_output, c_output) = self.rnn(input)
         else:
             h_0, c_0 = hidden_state

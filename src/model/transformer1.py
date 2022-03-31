@@ -118,6 +118,4 @@ class Transformer(nn.Module):
     '''
     def forward(self, src_seq, src_emb, src_pos):
 
-        enc_output  = self.encoder(src_seq, src_emb, src_pos)
-
-        return enc_output
+        return self.encoder(src_seq, src_emb, src_pos)

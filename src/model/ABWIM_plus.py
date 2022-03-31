@@ -88,7 +88,6 @@ class Model(nn.Module):
         question_out, _ = self.bilstm(question)
         question_out = question_out.permute(1,2,0)
         question_out = self.dropout(question_out)
-
 #        self.bilstm.flatten_parameters()
         for word_prev, rela_prev in zip(word_previous, rela_previous):
             if rela_prev.shape[0]>0:
@@ -109,5 +108,4 @@ class Model(nn.Module):
         h3 = self.dropout(h3)
         h = torch.cat((h1, h2, h3),2)
         h = torch.max(h, 2)[0]
-        score = self.linear(h).squeeze()
-        return score
+        return self.linear(h).squeeze()

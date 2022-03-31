@@ -51,10 +51,15 @@ parser.add_argument('--q_representation', action='store', type=str, default='lst
 args = parser.parse_args()
 print(f'args: {args}')
 
-import_model_str = 'from model.{} import Model as Model'.format(args.model)
+import_model_str = f'from model.{args.model} import Model as Model'
 exec(import_model_str)
 if args.train == True:
-    args.path = utility.find_save_dir(args.saved_dir, args.model) if args.path == None else args.path
+    args.path = (
+        utility.find_save_dir(args.saved_dir, args.model)
+        if args.path is None
+        else args.path
+    )
+
     with open(os.path.join(args.path, 'args.txt'), 'w') as f:
         json.dump(vars(args), f, indent=4, ensure_ascii=False)
 
@@ -86,10 +91,10 @@ if args.framework == 'baseline':
     else:
         raise ValueError('Unknown dataset')
 elif args.framework == 'UHop':
-    if args.dataset == 'wq' or args.dataset == 'WQ':
+    if args.dataset in ['wq', 'WQ']:
         with open('../data/WQ/main_exp/rela2id.json', 'r') as f:
             rela2id =json.load(f)
-    elif args.dataset == 'sq' or args.dataset == 'SQ':
+    elif args.dataset in ['sq', 'SQ']:
         with open('../data/SQ/rela2id.json', 'r') as f:
             rela2id =json.load(f)
     elif args.dataset.lower() == 'wq_train1test2':
@@ -131,20 +136,14 @@ elif args.framework == 'UHop':
 #print(rela2id)
 #print(rela2id['scientist'])
 #exit()
-word2id_path = '../data/glove.300d.word2id.json' if args.emb_size == 300 else '../data/glove.50d.word2id.json' 
+word2id_path = '../data/glove.300d.word2id.json' if args.emb_size == 300 else '../data/glove.50d.word2id.json'
 word_emb_path = '../data/glove.300d.word_emb.npy' if args.emb_size == 300 else '../data/glove.50d.word_emb.npy'
 with open(word2id_path, 'r') as f:
     word2id = json.load(f)
 word_emb = np.load(word_emb_path)
 args.word_embedding = word_emb
-if args.framework == 'UHop': 
-    args.rela_vocab_size = len(rela2id)
-if args.framework == 'baseline':
-    args.rela_vocab_size = len(rela_token2id)
-
-# Should introduce UHop here!
-
 if args.framework == 'UHop':
+    args.rela_vocab_size = len(rela2id)
     uhop = Framework(args, word2id, rela2id)
     model = Model(args).cuda()
     if args.train == True:
@@ -154,6 +153,8 @@ if args.framework == 'UHop':
         loss, acc, scores, labels = uhop.evaluate(model=None, mode='test', dataset=None, output_result=True)
 
 elif args.framework == 'baseline':
+    args.rela_vocab_size = len(rela_token2id)
+
     baseline = Framework(args, word2id, rela_token2id)
     model = Model(args).cuda()
     if args.train == True:

@@ -34,25 +34,7 @@ def label_UHop(line, hop):
     label_dict = LABEL_DICT1 if hop==1 else (LABEL_DICT2 if hop==2 else LABEL_DICT3)
     line = line if '<WR>' not in line else (line.split('<WR>')[0]+'<WR>')
     labels = line.split('\t')
-    if len(labels)>1 and (labels[-2]=='<Terminate>' or labels[-2]=='<T>'):
-        labels = labels[:-1]
-    if ' '.join(labels) not in label_dict:
-        print(line)
-    return label_dict[' '.join(labels)]
-    return label_dict[line.replace('\t', ' ')]
-    labels = []
-    for label in line.split('\t'):
-        if label == '':
-            labels.append('<CR>')
-        elif label == '<C>':
-            labels.append('<C>')
-        elif label == '<T>':
-            labels.append('<T>')
-            break
-        else:
-            labels.append('<WR>')
-            break
-    if len(labels)>1 and (labels[-2]=='<Terminate>' or labels[-2]=='<T>'):
+    if len(labels) > 1 and labels[-2] in ['<Terminate>', '<T>']:
         labels = labels[:-1]
     if ' '.join(labels) not in label_dict:
         print(line)
@@ -97,10 +79,10 @@ def acc(label):
     return label.count('OK')/len(label)
 
 def main():
-    labels = {}
-    for path in U_PATH:
-        if path[1] != '':
-            labels[path[0]] = analysis_uhop(full(path))
+    labels = {
+        path[0]: analysis_uhop(full(path)) for path in U_PATH if path[1] != ''
+    }
+
     label_list = list(labels.items())
 #    label_list = sorted(list(labels.items()), key=lambda x:x[0])
 
@@ -120,7 +102,6 @@ def main():
     with open('/home/lance5/UHop/script/pql3label.txt', 'r') as f:
         nodq = f.read().splitlines()
     compare(labels['pql3hr'][0], nodq)#labels[KEY2][0])
-
 #    print((labels['wqhr'][0]+labels['wqhr'][1]).count('OK')/len(labels['wqhr'][0]+labels['wqhr'][1]))
 #    print((labels['wqab'][0]+labels['wqab'][1]).count('OK')/len(labels['wqab'][0]+labels['wqab'][1]))
     print(total_acc(labels['wqab']))
