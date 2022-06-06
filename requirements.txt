@@ -9,7 +9,7 @@ easydict==1.9
 et-xmlfile==1.0.1
 greenlet==0.4.15
 hanziconv==0.3.2
-html5lib==0.9999999
+html5lib==0.99999999
 jaraco.functools==2.0
 jdcal==1.4.1
 jieba==0.38
