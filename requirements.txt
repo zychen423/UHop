@@ -13,7 +13,7 @@ html5lib==0.99999999
 jaraco.functools==2.0
 jdcal==1.4.1
 jieba==0.38
-joblib==0.13.2
+joblib==1.2.0
 mkl-fft==1.0.14
 mkl-random==1.1.0
 mkl-service==2.3.0
