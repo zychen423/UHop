@@ -1,7 +1,7 @@
 backports.functools-lru-cache==1.5
 backports.weakref==1.0rc1
 bleach>=3.1.4
-certifi==2019.9.11
+certifi==2022.12.7
 cffi==1.12.3
 cheroot==6.5.4
 CherryPy==18.1.0
