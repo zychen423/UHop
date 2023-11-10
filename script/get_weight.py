@@ -74,8 +74,7 @@ def extract_relas(tuples):
     return pos_relas, neg_relas
 
 def to_variable(l):
-    v = Variable(th.from_numpy(np.array(l))).cuda()
-    return v
+    return Variable(th.from_numpy(np.array(l))).cuda()
 
 import sys
 model_path = sys.argv[1]
@@ -104,7 +103,7 @@ datas = data_utility.load_test_data()
 for index, (i, ques_text, step_list) in enumerate(datas):
     if index != 337:
         continue
-    for rela_len in range(0, len(step_list)-1):
+    for rela_len in range(len(step_list)-1):
         try:
             print('\r', index, end='')
             pos_relas, neg_relas = extract_relas(step_list[rela_len])

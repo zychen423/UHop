@@ -41,7 +41,7 @@ class Framework():
         neg_scores = scores[1:]
         ones = torch.ones(len(neg_scores)).cuda()
         loss = self.loss_function(pos_scores, neg_scores, ones)
-        acc = 1 if all([x > y for x, y in zip(pos_scores, neg_scores)]) else 0
+        acc = 1 if all(x > y for x, y in zip(pos_scores, neg_scores)) else 0
         return loss, acc
 
     def _loss_weight(self, current_len, total_len, acc, task):
@@ -63,7 +63,7 @@ class Framework():
                 mask.append([0]*(maxlen-len(seq)) + [1]*len(seq))
                 if start_position != None:
                     position.append([0]*(maxlen-len(seq)) + [i+start_position for i in range(len(seq))])
-        if start_position == None:
+        if start_position is None:
             return torch.LongTensor(pad_seq).cuda(), torch.LongTensor(mask).cuda()
         return torch.LongTensor(pad_seq).cuda(), torch.LongTensor(mask).cuda(), torch.LongTensor(position).cuda()
 
@@ -81,29 +81,29 @@ class Framework():
             # concat all previous and relation
             pos_relas = [sum(prev+[rela], []) for prev, rela in zip(pos_prev, pos_rela)]
             neg_relas = [sum(prev+[rela], []) for prev, rela in zip(neg_prev, neg_rela)]
-            maxlen = max([len(rela) for rela in pos_relas+neg_relas])
+            maxlen = max(len(rela) for rela in pos_relas+neg_relas)
             relas, _ = self._padding_cuda(pos_relas+neg_relas, maxlen, 'append', self.rela2id['PADDING'])
             pos_relas_text = [sum(prev+[rela], []) for prev, rela in zip(pos_prev_text, pos_rela_text)]
             neg_relas_text = [sum(prev+[rela], []) for prev, rela in zip(neg_prev_text, neg_rela_text)]
-            maxlen = max([len(rela) for rela in pos_relas_text+neg_relas_text])
+            maxlen = max(len(rela) for rela in pos_relas_text+neg_relas_text)
             relas_text, _ = self._padding_cuda(pos_relas_text+neg_relas_text, maxlen, 'append', self.word2id['PADDING'])
             prevs, prevs_text = [], []
         else:
-            maxlen = max([len(rela) for rela in pos_rela+neg_rela])
+            maxlen = max(len(rela) for rela in pos_rela+neg_rela)
             relas, _ = self._padding_cuda(pos_rela+neg_rela, maxlen, 'append', self.rela2id['PADDING'])
-            maxlen = max([len(rela) for rela in pos_rela_text+neg_rela_text])
+            maxlen = max(len(rela) for rela in pos_rela_text+neg_rela_text)
             relas_text, _ = self._padding_cuda(pos_rela_text+neg_rela_text, maxlen, 'append', self.word2id['PADDING'])
             if self.args.dynamic == 'flatten':
                 # concat all previous
                 prevs = [sum(prev, []) for prev in pos_prev+neg_prev]
-                maxlen = max([len(prev) for prev in prevs])
+                maxlen = max(len(prev) for prev in prevs)
                 if maxlen > 0:
                     prevs, _ = self._padding_cuda(prevs, maxlen, 'append', self.rela2id['PADDING'])
                     prevs = [prevs]
                 else:
                     prevs = []
                 prevs_text = [sum(prev, []) for prev in pos_prev+neg_prev]
-                maxlen = max([len(prev) for prev in prevs_text])
+                maxlen = max(len(prev) for prev in prevs_text)
                 if maxlen > 0:
                     prevs_text, _ = self._padding_cuda(prevs_text, maxlen, 'append', self.word2id['PADDING'])
                     prevs_text = [prevs_text]
@@ -111,12 +111,30 @@ class Framework():
                     prevs_text = []
             elif self.args.dynamic == 'recurrent':
                 # make every candidates have same steps of previous
-                maxlen = max([len(prev) for prev in pos_prev+neg_prev])
+                maxlen = max(len(prev) for prev in pos_prev+neg_prev)
                 prevs = [prev+[[]]*(maxlen-len(prev)) for prev in pos_prev+neg_prev]
                 prevs_text = [prev+[[]]*(maxlen-len(prev)) for prev in pos_prev_text+neg_prev_text]
                 # pad every previous respectively
-                prevs = [self._padding_cuda(prev, max([len(p) for p in prev]), 'append', self.rela2id['PADDING'])[0] for prev in zip(*prevs)]
-                prevs_text = [self._padding_cuda(prev, max([len(p) for p in prev]), 'append', self.word2id['PADDING'])[0] for prev in zip(*prevs_text)]
+                prevs = [
+                    self._padding_cuda(
+                        prev,
+                        max(len(p) for p in prev),
+                        'append',
+                        self.rela2id['PADDING'],
+                    )[0]
+                    for prev in zip(*prevs)
+                ]
+
+                prevs_text = [
+                    self._padding_cuda(
+                        prev,
+                        max(len(p) for p in prev),
+                        'append',
+                        self.word2id['PADDING'],
+                    )[0]
+                    for prev in zip(*prevs_text)
+                ]
+
         score = model(ques, relas_text, relas, prevs_text, prevs)
         loss, acc = self._eval_metric(score)
         # readible format for score of all candidates : [(score, [token1, token2 ... ]) ... ]
@@ -131,7 +149,7 @@ class Framework():
             neg_tuples = [t for t in tuples if t[-1] == 1] + [t for t in nex_tuples if t[-1] == 0]
         elif movement == 'terminate':
             pos_tuples = [t for t in tuples if t[-1] == 1]
-            neg_tuples = [t for t in next_tuples]
+            neg_tuples = list(next_tuples)
         else:
             raise ValueError(f'Unknown movement:{movement} in UHop._single_hop_rela_choose')
         # special case
@@ -150,7 +168,7 @@ class Framework():
         pos_tuples = [t for t in tuples if t[-1] == 1]
         neg_tuples = [t for t in tuples if t[-1] == 0]
         # special case
-        if len(pos_tuples) == 0 or len(neg_tuples) == 0:
+        if not pos_tuples or not neg_tuples:
             return 0, 1, 'noNegativeInRC'
         if len(pos_tuples) > 1:
             print('mutiple positive tuples!')
@@ -227,7 +245,7 @@ class Framework():
             if self.args.stop_when_err and acc != 1:
                 break
         # last TD : terminate
-        if (not self.args.stop_when_err) or all([x==1 for x in acc_list]):
+        if not self.args.stop_when_err or all(x == 1 for x in acc_list):
             step_loss, acc, score = self._termination_decision(model, ques, step_list[-2], step_list[-1], 'terminate')
             if step_loss != 0:
                 step_loss *= self._loss_weight(i, len(step_list)-2, acc, 'TD')
@@ -242,7 +260,7 @@ class Framework():
             labels.append('<T>' if acc else '<C>')
             scores.append(score)
         # step if not step_every_step
-        acc = 1 if all([x==1 for x in acc_list]) else 0
+        acc = 1 if all(x==1 for x in acc_list) else 0
         if mode == 'train' and not self.args.step_every_step:
             loss /= (step_count if step_count > 0 else 1)
             loss.backward(); self.optimizer.step()
@@ -251,7 +269,7 @@ class Framework():
     def train(self, model):
         # prepare dataset
         dataset = PerQuestionDataset(self.args, 'train', self.word2id, self.rela2id)
-        if self.args.dataset.lower() == 'wq' or self.args.dataset.lower() == 'wq_train1test2':
+        if self.args.dataset.lower() in ['wq', 'wq_train1test2']:
             train_dataset, valid_dataset = random_split(dataset, 0.9, 0.1)
         else:
             train_dataset = dataset
@@ -261,29 +279,35 @@ class Framework():
         self._set_optimizer(model)
         earlystop_counter, min_valid_metric = 0, 100
         # training
-        for epoch in range(0, self.args.epoch_num):
+        for epoch in range(self.args.epoch_num):
             model = model.train().cuda()
             total_loss, total_acc = 0.0, 0.0
             loss_count, acc_count = 0, 0
             total_rc_acc, total_td_acc = 0.0, 0.0
             rc_count, td_count = 0, 0
             for trained_num, data in enumerate(datas):
+                acc_count += 1
                 if self.args.framework == 'baseline':
                     # baseline is equivalent to single step relation choose
                     index, ques, tuples = data
-                    self.optimizer.zero_grad(); model.zero_grad(); 
+                    self.optimizer.zero_grad()
+                    model.zero_grad();
                     loss, acc, score = self._single_step_rela_choose(model, ques, tuples)
                     if loss != 0:
                         loss.backward(); self.optimizer.step()
-                    total_loss += (loss.data if loss!=0 else 0); loss_count += 1
-                    total_acc += acc; acc_count += 1
+                    total_loss += (loss.data if loss!=0 else 0)
+                    loss_count += 1
+                    total_acc += acc
                     print(f'\r{self.args.framework}_{self.args.model}({self.args.dynamic}) {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Epoch {epoch} {trained_num}/{len(datas)} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f}', end='')
                 else:
                     model, loss, acc, score, label, rc_acc, td_acc = self._execute_UHop(model, data, 'train')
-                    total_loss += loss[0].data; loss_count += loss[1]
-                    total_acc += acc; acc_count += 1
-                    total_rc_acc += rc_acc[0]; rc_count += rc_acc[1]
-                    total_td_acc += td_acc[0]; td_count += td_acc[1]
+                    total_loss += loss[0].data
+                    loss_count += loss[1]
+                    total_acc += acc
+                    total_rc_acc += rc_acc[0]
+                    rc_count += rc_acc[1]
+                    total_td_acc += td_acc[0]
+                    td_count += td_acc[1]
                     print(f'\r{self.args.framework}_{self.args.model}({self.args.dynamic}) {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Epoch {epoch} {trained_num}/{len(datas)} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f} RC_Acc:{total_rc_acc/rc_count:.2f} TD_Acc:{total_td_acc/td_count:.2f}', end='')
             # validation for examing if early stop
             valid_loss, valid_acc, valid_score, _ = self.evaluate(model, 'valid', valid_dataset)
@@ -298,11 +322,11 @@ class Framework():
         return model
 
     def evaluate(self, model, mode, dataset, output_result=False):
-        if model == None:
+        if model is None:
             model = self.args.Model(self.args).cuda()
             model = load_model(model, self.args.path)
         model = model.eval().cuda()
-        if dataset == None:
+        if dataset is None:
             dataset = PerQuestionDataset(self.args, mode, self.word2id, self.rela2id)
         datas = DataLoader(dataset=dataset, batch_size=1, shuffle=False, num_workers=12, 
                 pin_memory=False, collate_fn=quick_collate)
@@ -317,16 +341,22 @@ class Framework():
                     # baseline is equivalent to single step relation choose
                     index, ques, tuples = data
                     loss, acc, score = self._single_step_rela_choose(model, ques, tuples)
-                    total_loss += (loss.data if loss!=0 else 0); loss_count += 1
-                    total_acc += acc; acc_count += 1
+                    total_loss += (loss.data if loss!=0 else 0)
+                    loss_count += 1
+                    total_acc += acc
                     labels.append('<O>' if acc else '<X>')
                 else:
                     model, loss, acc, score, label, rc_acc, td_acc = self._execute_UHop(model, data, mode)
-                    total_loss += loss[0].data; loss_count += loss[1]
-                    total_acc += acc; acc_count += 1; acc_list.append(acc)
-                    total_rc_acc += rc_acc[0]; rc_count += rc_acc[1]
-                    total_td_acc += td_acc[0]; td_count += td_acc[1]
+                    total_loss += loss[0].data
+                    loss_count += loss[1]
+                    total_acc += acc
+                    acc_list.append(acc)
+                    total_rc_acc += rc_acc[0]
+                    rc_count += rc_acc[1]
+                    total_td_acc += td_acc[0]
+                    td_count += td_acc[1]
                     labels.append(label)
+                acc_count += 1
                 scores.append(score)
         if self.args.framework == 'baseline':
             print(f' Eval {num} Loss:{total_loss/loss_count:.5f} Acc:{total_acc/acc_count:.4f}', end='')

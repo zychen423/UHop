@@ -15,18 +15,16 @@ def check_if_type(types_list):
     for types in types_list:
         for type in types:
             type_count[type] += 1
-    for type, count in type_count.items():
-        if count >= 500*0.95:
-            return type
-    return 'no_type'
+    return next(
+        (type for type, count in type_count.items() if count >= 500 * 0.95),
+        'no_type',
+    )
 
 def query_relas(mid):
     r = requests.get(f'http://140.109.19.67:7705/kb_query?mid={mid}')
     text = r.text.replace('<pre>', '').replace('</pre>', '')
-    #print(text)
-    relas = list(set([x.split('\t')[0] for x in text.split('\n') ]))
     #print(relas)
-    return relas
+    return list({x.split('\t')[0] for x in text.split('\n')})
 
 def get_next_topic_mid_list(mid, rela):
     if not mid.startswith('m.') and not mid.startswith('g.'):
@@ -36,7 +34,14 @@ def get_next_topic_mid_list(mid, rela):
     print(mid, rela)
     text = r.text.replace('<pre>', '').replace('</pre>', '')
     #print(text.split('\n'))
-    mids = list(set([x.split('\t')[1] for x in text.split('\n') if x.split('\t')[0] == rela ]))
+    mids = list(
+        {
+            x.split('\t')[1]
+            for x in text.split('\n')
+            if x.split('\t')[0] == rela
+        }
+    )
+
     print(mids)
     return mids
 

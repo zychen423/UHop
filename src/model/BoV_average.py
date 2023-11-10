@@ -12,10 +12,7 @@ class Model(nn.Module):
         super(Model, self).__init__()
         self.word_embedding = nn.Embedding(args.word_embedding.shape[0], args.word_embedding.shape[1])
         self.word_embedding.weight = nn.Parameter(torch.from_numpy(args.word_embedding).float())
-        if args.train_embedding == True:
-            self.word_embedding.weight.requires_grad = True
-        else:
-            self.word_embedding.weight.requires_grad = False
+        self.word_embedding.weight.requires_grad = args.train_embedding == True
         self.rela_embedding = nn.Embedding(args.rela_vocab_size, args.word_embedding.shape[1])
         nn.init.xavier_normal(self.rela_embedding.weight)
         self.dropout = nn.Dropout(args.dropout_rate)
@@ -29,7 +26,7 @@ class Model(nn.Module):
         rela_text_x = torch.transpose(rela_text_x, 0, 1)
         rela_x = torch.transpose(rela_x, 0, 1)
 
-       
+
         #print(ques_x)
         #print(rela_text_x)
         #print(rela_x)
@@ -44,8 +41,7 @@ class Model(nn.Module):
         rela_text = torch.mean(rela_text_x, 0)
         rela_x = torch.mean(rela_x, 0)
         rela = rela_text + rela_x
-        score = self.cos(ques, rela)
-        return score
+        return self.cos(ques, rela)
 
 
 
